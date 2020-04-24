@@ -1,6 +1,6 @@
 # COVID-19-Management-Information
 
-The data provide past data for the daily updates provided at: https://www.gov.scot/publications/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/
+The data provide past data for the daily updates published at: https://www.gov.scot/publications/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/
 
 Data include: 
 
