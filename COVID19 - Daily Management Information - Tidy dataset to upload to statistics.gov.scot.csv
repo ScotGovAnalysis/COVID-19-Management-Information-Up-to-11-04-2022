@@ -39,6 +39,7 @@ S92000003,2020-04-22,Count,Calls - NHS24 111,3061,Calls - NHS24 111
 S92000003,2020-04-23,Count,Calls - NHS24 111,3009,Calls - NHS24 111
 S92000003,2020-04-24,Count,Calls - NHS24 111,3206,Calls - NHS24 111
 S92000003,2020-04-25,Count,Calls - NHS24 111,7368,Calls - NHS24 111
+S92000003,2020-04-26,Count,Calls - NHS24 111,6729,Calls - NHS24 111
 S92000003,2020-03-17,Count,Calls - Coronavirus helpline,6772,Calls - Coronavirus helpline
 S92000003,2020-03-18,Count,Calls - Coronavirus helpline,4930,Calls - Coronavirus helpline
 S92000003,2020-03-19,Count,Calls - Coronavirus helpline,3271,Calls - Coronavirus helpline
@@ -79,6 +80,7 @@ S92000003,2020-04-22,Count,Calls - Coronavirus helpline,420,Calls - Coronavirus 
 S92000003,2020-04-23,Count,Calls - Coronavirus helpline,364,Calls - Coronavirus helpline
 S92000003,2020-04-24,Count,Calls - Coronavirus helpline,385,Calls - Coronavirus helpline
 S92000003,2020-04-25,Count,Calls - Coronavirus helpline,158,Calls - Coronavirus helpline
+S92000003,2020-04-26,Count,Calls - Coronavirus helpline,140,Calls - Coronavirus helpline
 S92000003,2020-03-27,Count,COVID-19 patients in ICU - Confirmed,62,COVID-19 patients in ICU - Confirmed
 S92000003,2020-03-28,Count,COVID-19 patients in ICU - Confirmed,74,COVID-19 patients in ICU - Confirmed
 S92000003,2020-03-29,Count,COVID-19 patients in ICU - Confirmed,85,COVID-19 patients in ICU - Confirmed
@@ -110,6 +112,7 @@ S92000003,2020-04-23,Count,COVID-19 patients in ICU - Confirmed,136,COVID-19 pat
 S92000003,2020-04-24,Count,COVID-19 patients in ICU - Confirmed,136,COVID-19 patients in ICU - Confirmed
 S92000003,2020-04-25,Count,COVID-19 patients in ICU - Confirmed,131,COVID-19 patients in ICU - Confirmed
 S92000003,2020-04-26,Count,COVID-19 patients in ICU - Confirmed,126,COVID-19 patients in ICU - Confirmed
+S92000003,2020-04-27,Count,COVID-19 patients in ICU - Confirmed,121,COVID-19 patients in ICU - Confirmed
 S92000003,2020-03-27,Count,COVID-19 patients in ICU - Suspected,10,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-28,Count,COVID-19 patients in ICU - Suspected,7,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-29,Count,COVID-19 patients in ICU - Suspected,10,COVID-19 patients in ICU - Suspected
@@ -141,6 +144,7 @@ S92000003,2020-04-23,Count,COVID-19 patients in ICU - Suspected,12,COVID-19 pati
 S92000003,2020-04-24,Count,COVID-19 patients in ICU - Suspected,5,COVID-19 patients in ICU - Suspected
 S92000003,2020-04-25,Count,COVID-19 patients in ICU - Suspected,9,COVID-19 patients in ICU - Suspected
 S92000003,2020-04-26,Count,COVID-19 patients in ICU - Suspected,7,COVID-19 patients in ICU - Suspected
+S92000003,2020-04-27,Count,COVID-19 patients in ICU - Suspected,13,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-18,Count,COVID-19 patients in ICU - Total,6,COVID-19 patients in ICU - Total
 S92000003,2020-03-19,Count,COVID-19 patients in ICU - Total,11,COVID-19 patients in ICU - Total
 S92000003,2020-03-20,Count,COVID-19 patients in ICU - Total,16,COVID-19 patients in ICU - Total
@@ -181,6 +185,7 @@ S92000003,2020-04-23,Count,COVID-19 patients in ICU - Total,148,COVID-19 patient
 S92000003,2020-04-24,Count,COVID-19 patients in ICU - Total,141,COVID-19 patients in ICU - Total
 S92000003,2020-04-25,Count,COVID-19 patients in ICU - Total,140,COVID-19 patients in ICU - Total
 S92000003,2020-04-26,Count,COVID-19 patients in ICU - Total,133,COVID-19 patients in ICU - Total
+S92000003,2020-04-27,Count,COVID-19 patients in ICU - Total,134,COVID-19 patients in ICU - Total
 S92000003,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,404,COVID-19 patients in hospital - Confirmed
 S92000003,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,511,COVID-19 patients in hospital - Confirmed
 S92000003,2020-03-29,Count,COVID-19 patients in hospital - Confirmed,565,COVID-19 patients in hospital - Confirmed
@@ -212,6 +217,7 @@ S92000003,2020-04-23,Count,COVID-19 patients in hospital - Confirmed,1423,COVID-
 S92000003,2020-04-24,Count,COVID-19 patients in hospital - Confirmed,1383,COVID-19 patients in hospital - Confirmed
 S92000003,2020-04-25,Count,COVID-19 patients in hospital - Confirmed,1385,COVID-19 patients in hospital - Confirmed
 S92000003,2020-04-26,Count,COVID-19 patients in hospital - Confirmed,1382,COVID-19 patients in hospital - Confirmed
+S92000003,2020-04-27,Count,COVID-19 patients in hospital - Confirmed,1387,COVID-19 patients in hospital - Confirmed
 S92000003,2020-03-27,Count,COVID-19 patients in hospital - Suspected,268,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-28,Count,COVID-19 patients in hospital - Suspected,271,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-29,Count,COVID-19 patients in hospital - Suspected,294,COVID-19 patients in hospital - Suspected
@@ -243,6 +249,7 @@ S92000003,2020-04-23,Count,COVID-19 patients in hospital - Suspected,325,COVID-1
 S92000003,2020-04-24,Count,COVID-19 patients in hospital - Suspected,327,COVID-19 patients in hospital - Suspected
 S92000003,2020-04-25,Count,COVID-19 patients in hospital - Suspected,363,COVID-19 patients in hospital - Suspected
 S92000003,2020-04-26,Count,COVID-19 patients in hospital - Suspected,353,COVID-19 patients in hospital - Suspected
+S92000003,2020-04-27,Count,COVID-19 patients in hospital - Suspected,375,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-18,Count,COVID-19 patients in hospital - Total,149,COVID-19 patients in hospital - Total
 S92000003,2020-03-19,Count,COVID-19 patients in hospital - Total,213,COVID-19 patients in hospital - Total
 S92000003,2020-03-20,Count,COVID-19 patients in hospital - Total,247,COVID-19 patients in hospital - Total
@@ -283,6 +290,7 @@ S92000003,2020-04-23,Count,COVID-19 patients in hospital - Total,1748,COVID-19 p
 S92000003,2020-04-24,Count,COVID-19 patients in hospital - Total,1710,COVID-19 patients in hospital - Total
 S92000003,2020-04-25,Count,COVID-19 patients in hospital - Total,1748,COVID-19 patients in hospital - Total
 S92000003,2020-04-26,Count,COVID-19 patients in hospital - Total,1735,COVID-19 patients in hospital - Total
+S92000003,2020-04-27,Count,COVID-19 patients in hospital - Total,1762,COVID-19 patients in hospital - Total
 S92000003,2020-03-18,Count,Ambulance attendances - Total,1525,Ambulance attendances - Total
 S92000003,2020-03-19,Count,Ambulance attendances - Total,1567,Ambulance attendances - Total
 S92000003,2020-03-20,Count,Ambulance attendances - Total,1580,Ambulance attendances - Total
@@ -322,6 +330,7 @@ S92000003,2020-04-22,Count,Ambulance attendances - Total,1389,Ambulance attendan
 S92000003,2020-04-23,Count,Ambulance attendances - Total,1489,Ambulance attendances - Total
 S92000003,2020-04-24,Count,Ambulance attendances - Total,1507,Ambulance attendances - Total
 S92000003,2020-04-25,Count,Ambulance attendances - Total,1571,Ambulance attendances - Total
+S92000003,2020-04-26,Count,Ambulance attendances - Total,1548,Ambulance attendances - Total
 S92000003,2020-03-18,Count,Ambulance attendances - COVID-19 suspected,286,Ambulance attendances - COVID-19 suspected
 S92000003,2020-03-19,Count,Ambulance attendances - COVID-19 suspected,338,Ambulance attendances - COVID-19 suspected
 S92000003,2020-03-20,Count,Ambulance attendances - COVID-19 suspected,356,Ambulance attendances - COVID-19 suspected
@@ -361,6 +370,7 @@ S92000003,2020-04-22,Count,Ambulance attendances - COVID-19 suspected,307,Ambula
 S92000003,2020-04-23,Count,Ambulance attendances - COVID-19 suspected,327,Ambulance attendances - COVID-19 suspected
 S92000003,2020-04-24,Count,Ambulance attendances - COVID-19 suspected,338,Ambulance attendances - COVID-19 suspected
 S92000003,2020-04-25,Count,Ambulance attendances - COVID-19 suspected,351,Ambulance attendances - COVID-19 suspected
+S92000003,2020-04-26,Count,Ambulance attendances - COVID-19 suspected,306,Ambulance attendances - COVID-19 suspected
 S92000003,2020-03-18,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,176,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-03-19,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,202,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-03-20,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,218,Ambulance attendances - COVID-19 suspected patients taken to hospital
@@ -400,6 +410,7 @@ S92000003,2020-04-22,Count,Ambulance attendances - COVID-19 suspected patients t
 S92000003,2020-04-23,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,205,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-04-24,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,214,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-04-25,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,208,Ambulance attendances - COVID-19 suspected patients taken to hospital
+S92000003,2020-04-26,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,193,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-03-04,Count,Delayed discharges,1612,Delayed discharges
 S92000003,2020-03-09,Count,Delayed discharges,1533,Delayed discharges
 S92000003,2020-03-10,Count,Delayed discharges,1553,Delayed discharges
@@ -435,6 +446,7 @@ S92000003,2020-04-20,Count,Delayed discharges,619,Delayed discharges
 S92000003,2020-04-21,Count,Delayed discharges,587,Delayed discharges
 S92000003,2020-04-22,Count,Delayed discharges,610,Delayed discharges
 S92000003,2020-04-23,Count,Delayed discharges,600,Delayed discharges
+S92000003,2020-04-24,Count,Delayed discharges,582,Delayed discharges
 S92000003,2020-03-02,Count,Cumulative people tested for COVID-19 - Negative,814,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-03,Count,Cumulative people tested for COVID-19 - Negative,914,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-04,Count,Cumulative people tested for COVID-19 - Negative,1043,Cumulative people tested for COVID-19 - Negative
@@ -491,6 +503,7 @@ S92000003,2020-04-23,Count,Cumulative people tested for COVID-19 - Negative,3539
 S92000003,2020-04-24,Count,Cumulative people tested for COVID-19 - Negative,36392,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-04-25,Count,Cumulative people tested for COVID-19 - Negative,37698,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-04-26,Count,Cumulative people tested for COVID-19 - Negative,38833,Cumulative people tested for COVID-19 - Negative
+S92000003,2020-04-27,Count,Cumulative people tested for COVID-19 - Negative,39733,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-02,Count,Cumulative people tested for COVID-19 - Positive,1,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-03,Count,Cumulative people tested for COVID-19 - Positive,1,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-04,Count,Cumulative people tested for COVID-19 - Positive,3,Cumulative people tested for COVID-19 - Positive
@@ -547,6 +560,7 @@ S92000003,2020-04-23,Count,Cumulative people tested for COVID-19 - Positive,9409
 S92000003,2020-04-24,Count,Cumulative people tested for COVID-19 - Positive,9697,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-04-25,Count,Cumulative people tested for COVID-19 - Positive,10051,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-04-26,Count,Cumulative people tested for COVID-19 - Positive,10324,Cumulative people tested for COVID-19 - Positive
+S92000003,2020-04-27,Count,Cumulative people tested for COVID-19 - Positive,10521,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-02,Count,Cumulative people tested for COVID-19 - Total,815,Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-03,Count,Cumulative people tested for COVID-19 - Total,915,Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-04,Count,Cumulative people tested for COVID-19 - Total,1046,Cumulative people tested for COVID-19 - Total
@@ -603,6 +617,7 @@ S92000003,2020-04-23,Count,Cumulative people tested for COVID-19 - Total,44799,C
 S92000003,2020-04-24,Count,Cumulative people tested for COVID-19 - Total,46089,Cumulative people tested for COVID-19 - Total
 S92000003,2020-04-25,Count,Cumulative people tested for COVID-19 - Total,47749,Cumulative people tested for COVID-19 - Total
 S92000003,2020-04-26,Count,Cumulative people tested for COVID-19 - Total,49157,Cumulative people tested for COVID-19 - Total
+S92000003,2020-04-27,Count,Cumulative people tested for COVID-19 - Total,50294,Cumulative people tested for COVID-19 - Total
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4354,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4378,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4403,NHS workforce COVID-19 absences - Nursing and midwifery staff
@@ -628,6 +643,7 @@ S92000003,2020-04-22,Count,NHS workforce COVID-19 absences - Nursing and midwife
 S92000003,2020-04-23,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,3496,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-24,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,3530,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-25,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,3185,NHS workforce COVID-19 absences - Nursing and midwifery staff
+S92000003,2020-04-26,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,3202,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Medical and dental staff,467,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Medical and dental staff,435,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Medical and dental staff,399,NHS workforce COVID-19 absences - Medical and dental staff
@@ -653,6 +669,7 @@ S92000003,2020-04-22,Count,NHS workforce COVID-19 absences - Medical and dental 
 S92000003,2020-04-23,Count,NHS workforce COVID-19 absences - Medical and dental staff,237,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-24,Count,NHS workforce COVID-19 absences - Medical and dental staff,233,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-25,Count,NHS workforce COVID-19 absences - Medical and dental staff,212,NHS workforce COVID-19 absences - Medical and dental staff
+S92000003,2020-04-26,Count,NHS workforce COVID-19 absences - Medical and dental staff,210,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Other staff,4898,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Other staff,5578,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Other staff,5699,NHS workforce COVID-19 absences - Other staff
@@ -678,6 +695,7 @@ S92000003,2020-04-22,Count,NHS workforce COVID-19 absences - Other staff,3680,NH
 S92000003,2020-04-23,Count,NHS workforce COVID-19 absences - Other staff,3834,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-24,Count,NHS workforce COVID-19 absences - Other staff,3913,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-25,Count,NHS workforce COVID-19 absences - Other staff,3665,NHS workforce COVID-19 absences - Other staff
+S92000003,2020-04-26,Count,NHS workforce COVID-19 absences - Other staff,3792,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - All staff,9719,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - All staff,10391,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - All staff,10501,NHS workforce COVID-19 absences - All staff
@@ -703,6 +721,7 @@ S92000003,2020-04-22,Count,NHS workforce COVID-19 absences - All staff,7347,NHS 
 S92000003,2020-04-23,Count,NHS workforce COVID-19 absences - All staff,7567,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-24,Count,NHS workforce COVID-19 absences - All staff,7676,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-25,Count,NHS workforce COVID-19 absences - All staff,7062,NHS workforce COVID-19 absences - All staff
+S92000003,2020-04-26,Count,NHS workforce COVID-19 absences - All staff,7204,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-11,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,406,Care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-04-12,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,408,Care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-04-13,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,414,Care homes - Cumulative number that have reported a suspected COVID-19 case
@@ -718,6 +737,7 @@ S92000003,2020-04-22,Count,Care homes - Cumulative number that have reported a s
 S92000003,2020-04-23,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,516,Care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-04-24,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,526,Care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-04-25,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,529,Care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-26,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,530,Care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-04-11,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,37,Care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-12,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,38,Care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-13,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,38,Care homes - Proportion that have reported a suspected COVID-19 case
@@ -733,6 +753,7 @@ S92000003,2020-04-22,Ratio,Care homes - Proportion that have reported a suspecte
 S92000003,2020-04-23,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,48,Care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-24,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,49,Care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-25,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,49,Care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-26,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,49,Care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-11,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,202,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-12,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,204,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-13,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,214,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
@@ -748,6 +769,7 @@ S92000003,2020-04-22,Count,Care homes - Cumulative number that have reported mor
 S92000003,2020-04-23,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,332,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-24,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,342,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-25,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,345,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-26,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,345,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-21,Count,Care homes - Number with current suspected COVID-19 cases,384,Care homes - Number with current suspected COVID-19 cases
 S92000003,2020-04-21,Ratio,Care homes - Proportion with current suspected COVID-19 cases,35,Care homes - Proportion with current suspected COVID-19 cases
 S92000003,2020-04-11,Count,Care homes - Cumulative number of suspected COVID-19 cases,1095,Care homes - Cumulative number of suspected COVID-19 cases
@@ -765,6 +787,7 @@ S92000003,2020-04-22,Count,Care homes - Cumulative number of suspected COVID-19 
 S92000003,2020-04-23,Count,Care homes - Cumulative number of suspected COVID-19 cases,2445,Care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-24,Count,Care homes - Cumulative number of suspected COVID-19 cases,2621,Care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-25,Count,Care homes - Cumulative number of suspected COVID-19 cases,2690,Care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-26,Count,Care homes - Cumulative number of suspected COVID-19 cases,2731,Care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-11,Count,Care homes - Daily number of new suspected COVID-19 cases,35,Care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-04-12,Count,Care homes - Daily number of new suspected COVID-19 cases,29,Care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-04-13,Count,Care homes - Daily number of new suspected COVID-19 cases,85,Care homes - Daily number of new suspected COVID-19 cases
@@ -780,6 +803,7 @@ S92000003,2020-04-22,Count,Care homes - Daily number of new suspected COVID-19 c
 S92000003,2020-04-23,Count,Care homes - Daily number of new suspected COVID-19 cases,152,Care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-04-24,Count,Care homes - Daily number of new suspected COVID-19 cases,176,Care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-04-25,Count,Care homes - Daily number of new suspected COVID-19 cases,69,Care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-26,Count,Care homes - Daily number of new suspected COVID-19 cases,41,Care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-03-14,Count,Number of COVID-19 confirmed deaths registered to date,1,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-03-15,Count,Number of COVID-19 confirmed deaths registered to date,1,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-03-16,Count,Number of COVID-19 confirmed deaths registered to date,1,Number of COVID-19 confirmed deaths registered to date
@@ -824,3 +848,4 @@ S92000003,2020-04-23,Count,Number of COVID-19 confirmed deaths registered to dat
 S92000003,2020-04-24,Count,Number of COVID-19 confirmed deaths registered to date,1184,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-04-25,Count,Number of COVID-19 confirmed deaths registered to date,1231,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-04-26,Count,Number of COVID-19 confirmed deaths registered to date,1249,Number of COVID-19 confirmed deaths registered to date
+S92000003,2020-04-27,Count,Number of COVID-19 confirmed deaths registered to date,1262,Number of COVID-19 confirmed deaths registered to date
