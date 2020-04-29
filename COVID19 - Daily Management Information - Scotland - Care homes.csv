@@ -1,4 +1,4 @@
-Date,Care homes - Cumulative number that have reported a suspected COVID-19 case,Care homes - Proportion that have reported a suspected COVID-19 case,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,Care homes - Number with current suspected COVID-19 cases,Care homes - Proportion with current suspected COVID-19 cases,Care homes - Cumulative number of suspected COVID-19 cases,Care homes - Daily number of new suspected COVID-19 cases
+Date,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,Adult care homes - Proportion that have reported a suspected COVID-19 case,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,Adult care homes - Number with current suspected COVID-19 cases,Adult care homes - Proportion with current suspected COVID-19 cases,Adult care homes - Cumulative number of suspected COVID-19 cases,Adult care homes - Daily number of new suspected COVID-19 cases
 2020-04-11,406,37,202,NA,NA,1095,35
 2020-04-12,408,38,204,NA,NA,1124,29
 2020-04-13,414,38,214,NA,NA,1209,85
@@ -16,3 +16,4 @@ Date,Care homes - Cumulative number that have reported a suspected COVID-19 case
 2020-04-25,529,49,345,NA,NA,2690,69
 2020-04-26,530,49,345,NA,NA,2731,41
 2020-04-27,538,50,354,NA,NA,2935,204
+2020-04-28,547,51,360,429,40,3095,160

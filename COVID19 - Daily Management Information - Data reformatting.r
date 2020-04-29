@@ -46,8 +46,8 @@ HB_table1 <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-16]
 HB_table2 <- read_excel(tf2, "Table 2 - ICU patients", skip = 2)[, -17]
 HB_table3 <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -17]
 
-unlink(tf1)
-unlink(tf2)
+#unlink(tf1)
+#unlink(tf2)
 
 # Renaming variables -----------------------------------------------------------
 SC_table1 <- SC_table1 %>%
@@ -84,16 +84,23 @@ SC_table6 <- SC_table6 %>%
   na.omit
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table7 <- SC_table7 %>%
-  rename("Care homes - Cumulative number that have reported a suspected COVID-19 case" = "Cumulative number of care homes that have reported a suspected COVID-19 case",
-         "Care homes - Proportion that have reported a suspected COVID-19 case" = "Proportion of all adult care homes that have reported a suspected COVID-19 case",
-         "Care homes - Cumulative number that have reported more than one suspected COVID-19 case" = "Cumulative number of care homes that have reported more than one case of suspected COVID-19",
-         "Care homes - Number with current suspected COVID-19 cases" = "Number of care homes with current case of suspected COVID-19",
-         "Care homes - Proportion with current suspected COVID-19 cases" = "Proportion of all adult care homes with current case of suspected COVID-19",
-         "Care homes - Cumulative number of suspected COVID-19 cases" = "Cumulative number of suspected COVID-19 cases in care homes",
-         "Care homes - Daily number of new suspected COVID-19 cases" = "Daily number of new suspected COVID-19 cases in care homes") %>%
-  mutate(`Care homes - Proportion that have reported a suspected COVID-19 case` = 100*`Care homes - Proportion that have reported a suspected COVID-19 case`,
-         `Care homes - Proportion with current suspected COVID-19 cases` = 100*as.numeric(`Care homes - Proportion with current suspected COVID-19 cases`),
-         `Care homes - Number with current suspected COVID-19 cases` = as.numeric(`Care homes - Number with current suspected COVID-19 cases`))
+  rename("Adult care homes - Cumulative number that have reported a suspected COVID-19 case" 
+           = "Cumulative number of adult care homes that have reported a suspected COVID-19 case",
+         "Adult care homes - Proportion that have reported a suspected COVID-19 case"        
+           = "Proportion of all adult care homes that have reported a suspected COVID-19 case",
+         "Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case" 
+           = "Cumulative number of adult care homes that have reported more than one case of suspected COVID-19",
+         "Adult care homes - Number with current suspected COVID-19 cases" 
+           = "Number of adult care homes with current case of suspected COVID-19",
+         "Adult care homes - Proportion with current suspected COVID-19 cases" 
+           = "Proportion of all adult care homes with current case of suspected COVID-19",
+         "Adult care homes - Cumulative number of suspected COVID-19 cases" 
+           = "Cumulative number of suspected COVID-19 cases in adult care homes",
+         "Adult care homes - Daily number of new suspected COVID-19 cases" 
+           = "Daily number of new suspected COVID-19 cases in adult care homes") %>%
+  mutate(`Adult care homes - Proportion that have reported a suspected COVID-19 case` = 100*`Adult care homes - Proportion that have reported a suspected COVID-19 case`,
+         `Adult care homes - Proportion with current suspected COVID-19 cases` = 100*as.numeric(`Adult care homes - Proportion with current suspected COVID-19 cases`),
+         `Adult care homes - Number with current suspected COVID-19 cases` = as.numeric(`Adult care homes - Number with current suspected COVID-19 cases`))
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table1 <- HB_table1 %>%
   rename_at(vars(starts_with("NHS")), list(~ str_remove(., "NHS ")))
@@ -140,13 +147,13 @@ tidy_SC_table7 <- SC_table7 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = Variable,
          Measurement = recode(Measurement,
-                              "Care homes - Cumulative number that have reported a suspected COVID-19 case" = "Count",
-                              "Care homes - Proportion that have reported a suspected COVID-19 case" = "Ratio",
-                              "Care homes - Cumulative number that have reported more than one suspected COVID-19 case" = "Count",
-                              "Care homes - Number with current suspected COVID-19 cases" = "Count",
-                              "Care homes - Proportion with current suspected COVID-19 cases" = "Ratio",
-                              "Care homes - Cumulative number of suspected COVID-19 cases" = "Count",
-                              "Care homes - Daily number of new suspected COVID-19 cases" = "Count"))
+                              "Adult care homes - Cumulative number that have reported a suspected COVID-19 case" = "Count",
+                              "Adult care homes - Proportion that have reported a suspected COVID-19 case" = "Ratio",
+                              "Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case" = "Count",
+                              "Adult care homes - Number with current suspected COVID-19 cases" = "Count",
+                              "Adult care homes - Proportion with current suspected COVID-19 cases" = "Ratio",
+                              "Adult care homes - Cumulative number of suspected COVID-19 cases" = "Count",
+                              "Adult care homes - Daily number of new suspected COVID-19 cases" = "Count"))
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_SC_table8 <- SC_table8 %>%
   gather(key = "Variable", value = "Value", -Date) %>%

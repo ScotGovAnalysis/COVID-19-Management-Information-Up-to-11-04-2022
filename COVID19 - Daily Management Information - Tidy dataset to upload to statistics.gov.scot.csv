@@ -41,6 +41,7 @@ S92000003,2020-04-24,Count,Calls - NHS24 111,3206,Calls - NHS24 111
 S92000003,2020-04-25,Count,Calls - NHS24 111,7368,Calls - NHS24 111
 S92000003,2020-04-26,Count,Calls - NHS24 111,6729,Calls - NHS24 111
 S92000003,2020-04-27,Count,Calls - NHS24 111,3460,Calls - NHS24 111
+S92000003,2020-04-28,Count,Calls - NHS24 111,3288,Calls - NHS24 111
 S92000003,2020-03-17,Count,Calls - Coronavirus helpline,6772,Calls - Coronavirus helpline
 S92000003,2020-03-18,Count,Calls - Coronavirus helpline,4930,Calls - Coronavirus helpline
 S92000003,2020-03-19,Count,Calls - Coronavirus helpline,3271,Calls - Coronavirus helpline
@@ -83,6 +84,7 @@ S92000003,2020-04-24,Count,Calls - Coronavirus helpline,385,Calls - Coronavirus 
 S92000003,2020-04-25,Count,Calls - Coronavirus helpline,158,Calls - Coronavirus helpline
 S92000003,2020-04-26,Count,Calls - Coronavirus helpline,140,Calls - Coronavirus helpline
 S92000003,2020-04-27,Count,Calls - Coronavirus helpline,495,Calls - Coronavirus helpline
+S92000003,2020-04-28,Count,Calls - Coronavirus helpline,440,Calls - Coronavirus helpline
 S92000003,2020-03-27,Count,COVID-19 patients in ICU - Confirmed,62,COVID-19 patients in ICU - Confirmed
 S92000003,2020-03-28,Count,COVID-19 patients in ICU - Confirmed,74,COVID-19 patients in ICU - Confirmed
 S92000003,2020-03-29,Count,COVID-19 patients in ICU - Confirmed,85,COVID-19 patients in ICU - Confirmed
@@ -116,6 +118,7 @@ S92000003,2020-04-25,Count,COVID-19 patients in ICU - Confirmed,131,COVID-19 pat
 S92000003,2020-04-26,Count,COVID-19 patients in ICU - Confirmed,126,COVID-19 patients in ICU - Confirmed
 S92000003,2020-04-27,Count,COVID-19 patients in ICU - Confirmed,121,COVID-19 patients in ICU - Confirmed
 S92000003,2020-04-28,Count,COVID-19 patients in ICU - Confirmed,114,COVID-19 patients in ICU - Confirmed
+S92000003,2020-04-29,Count,COVID-19 patients in ICU - Confirmed,103,COVID-19 patients in ICU - Confirmed
 S92000003,2020-03-27,Count,COVID-19 patients in ICU - Suspected,10,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-28,Count,COVID-19 patients in ICU - Suspected,7,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-29,Count,COVID-19 patients in ICU - Suspected,10,COVID-19 patients in ICU - Suspected
@@ -149,6 +152,7 @@ S92000003,2020-04-25,Count,COVID-19 patients in ICU - Suspected,9,COVID-19 patie
 S92000003,2020-04-26,Count,COVID-19 patients in ICU - Suspected,7,COVID-19 patients in ICU - Suspected
 S92000003,2020-04-27,Count,COVID-19 patients in ICU - Suspected,13,COVID-19 patients in ICU - Suspected
 S92000003,2020-04-28,Count,COVID-19 patients in ICU - Suspected,12,COVID-19 patients in ICU - Suspected
+S92000003,2020-04-29,Count,COVID-19 patients in ICU - Suspected,11,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-18,Count,COVID-19 patients in ICU - Total,6,COVID-19 patients in ICU - Total
 S92000003,2020-03-19,Count,COVID-19 patients in ICU - Total,11,COVID-19 patients in ICU - Total
 S92000003,2020-03-20,Count,COVID-19 patients in ICU - Total,16,COVID-19 patients in ICU - Total
@@ -191,6 +195,7 @@ S92000003,2020-04-25,Count,COVID-19 patients in ICU - Total,140,COVID-19 patient
 S92000003,2020-04-26,Count,COVID-19 patients in ICU - Total,133,COVID-19 patients in ICU - Total
 S92000003,2020-04-27,Count,COVID-19 patients in ICU - Total,134,COVID-19 patients in ICU - Total
 S92000003,2020-04-28,Count,COVID-19 patients in ICU - Total,126,COVID-19 patients in ICU - Total
+S92000003,2020-04-29,Count,COVID-19 patients in ICU - Total,114,COVID-19 patients in ICU - Total
 S92000003,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,404,COVID-19 patients in hospital - Confirmed
 S92000003,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,511,COVID-19 patients in hospital - Confirmed
 S92000003,2020-03-29,Count,COVID-19 patients in hospital - Confirmed,565,COVID-19 patients in hospital - Confirmed
@@ -224,6 +229,7 @@ S92000003,2020-04-25,Count,COVID-19 patients in hospital - Confirmed,1385,COVID-
 S92000003,2020-04-26,Count,COVID-19 patients in hospital - Confirmed,1382,COVID-19 patients in hospital - Confirmed
 S92000003,2020-04-27,Count,COVID-19 patients in hospital - Confirmed,1387,COVID-19 patients in hospital - Confirmed
 S92000003,2020-04-28,Count,COVID-19 patients in hospital - Confirmed,1359,COVID-19 patients in hospital - Confirmed
+S92000003,2020-04-29,Count,COVID-19 patients in hospital - Confirmed,1363,COVID-19 patients in hospital - Confirmed
 S92000003,2020-03-27,Count,COVID-19 patients in hospital - Suspected,268,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-28,Count,COVID-19 patients in hospital - Suspected,271,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-29,Count,COVID-19 patients in hospital - Suspected,294,COVID-19 patients in hospital - Suspected
@@ -257,6 +263,7 @@ S92000003,2020-04-25,Count,COVID-19 patients in hospital - Suspected,363,COVID-1
 S92000003,2020-04-26,Count,COVID-19 patients in hospital - Suspected,353,COVID-19 patients in hospital - Suspected
 S92000003,2020-04-27,Count,COVID-19 patients in hospital - Suspected,375,COVID-19 patients in hospital - Suspected
 S92000003,2020-04-28,Count,COVID-19 patients in hospital - Suspected,395,COVID-19 patients in hospital - Suspected
+S92000003,2020-04-29,Count,COVID-19 patients in hospital - Suspected,364,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-18,Count,COVID-19 patients in hospital - Total,149,COVID-19 patients in hospital - Total
 S92000003,2020-03-19,Count,COVID-19 patients in hospital - Total,213,COVID-19 patients in hospital - Total
 S92000003,2020-03-20,Count,COVID-19 patients in hospital - Total,247,COVID-19 patients in hospital - Total
@@ -299,6 +306,7 @@ S92000003,2020-04-25,Count,COVID-19 patients in hospital - Total,1748,COVID-19 p
 S92000003,2020-04-26,Count,COVID-19 patients in hospital - Total,1735,COVID-19 patients in hospital - Total
 S92000003,2020-04-27,Count,COVID-19 patients in hospital - Total,1762,COVID-19 patients in hospital - Total
 S92000003,2020-04-28,Count,COVID-19 patients in hospital - Total,1754,COVID-19 patients in hospital - Total
+S92000003,2020-04-29,Count,COVID-19 patients in hospital - Total,1727,COVID-19 patients in hospital - Total
 S92000003,2020-03-18,Count,Ambulance attendances - Total,1525,Ambulance attendances - Total
 S92000003,2020-03-19,Count,Ambulance attendances - Total,1567,Ambulance attendances - Total
 S92000003,2020-03-20,Count,Ambulance attendances - Total,1580,Ambulance attendances - Total
@@ -340,6 +348,7 @@ S92000003,2020-04-24,Count,Ambulance attendances - Total,1507,Ambulance attendan
 S92000003,2020-04-25,Count,Ambulance attendances - Total,1571,Ambulance attendances - Total
 S92000003,2020-04-26,Count,Ambulance attendances - Total,1548,Ambulance attendances - Total
 S92000003,2020-04-27,Count,Ambulance attendances - Total,1531,Ambulance attendances - Total
+S92000003,2020-04-28,Count,Ambulance attendances - Total,1548,Ambulance attendances - Total
 S92000003,2020-03-18,Count,Ambulance attendances - COVID-19 suspected,286,Ambulance attendances - COVID-19 suspected
 S92000003,2020-03-19,Count,Ambulance attendances - COVID-19 suspected,338,Ambulance attendances - COVID-19 suspected
 S92000003,2020-03-20,Count,Ambulance attendances - COVID-19 suspected,356,Ambulance attendances - COVID-19 suspected
@@ -381,6 +390,7 @@ S92000003,2020-04-24,Count,Ambulance attendances - COVID-19 suspected,338,Ambula
 S92000003,2020-04-25,Count,Ambulance attendances - COVID-19 suspected,351,Ambulance attendances - COVID-19 suspected
 S92000003,2020-04-26,Count,Ambulance attendances - COVID-19 suspected,306,Ambulance attendances - COVID-19 suspected
 S92000003,2020-04-27,Count,Ambulance attendances - COVID-19 suspected,343,Ambulance attendances - COVID-19 suspected
+S92000003,2020-04-28,Count,Ambulance attendances - COVID-19 suspected,332,Ambulance attendances - COVID-19 suspected
 S92000003,2020-03-18,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,176,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-03-19,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,202,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-03-20,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,218,Ambulance attendances - COVID-19 suspected patients taken to hospital
@@ -422,6 +432,7 @@ S92000003,2020-04-24,Count,Ambulance attendances - COVID-19 suspected patients t
 S92000003,2020-04-25,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,208,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-04-26,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,193,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-04-27,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,225,Ambulance attendances - COVID-19 suspected patients taken to hospital
+S92000003,2020-04-28,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,218,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-03-04,Count,Delayed discharges,1612,Delayed discharges
 S92000003,2020-03-09,Count,Delayed discharges,1533,Delayed discharges
 S92000003,2020-03-10,Count,Delayed discharges,1553,Delayed discharges
@@ -459,6 +470,7 @@ S92000003,2020-04-22,Count,Delayed discharges,610,Delayed discharges
 S92000003,2020-04-23,Count,Delayed discharges,600,Delayed discharges
 S92000003,2020-04-24,Count,Delayed discharges,582,Delayed discharges
 S92000003,2020-04-27,Count,Delayed discharges,580,Delayed discharges
+S92000003,2020-04-28,Count,Delayed discharges,591,Delayed discharges
 S92000003,2020-03-02,Count,Cumulative people tested for COVID-19 - Negative,814,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-03,Count,Cumulative people tested for COVID-19 - Negative,914,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-04,Count,Cumulative people tested for COVID-19 - Negative,1043,Cumulative people tested for COVID-19 - Negative
@@ -517,6 +529,7 @@ S92000003,2020-04-25,Count,Cumulative people tested for COVID-19 - Negative,3769
 S92000003,2020-04-26,Count,Cumulative people tested for COVID-19 - Negative,38833,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-04-27,Count,Cumulative people tested for COVID-19 - Negative,39733,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-04-28,Count,Cumulative people tested for COVID-19 - Negative,40728,Cumulative people tested for COVID-19 - Negative
+S92000003,2020-04-29,Count,Cumulative people tested for COVID-19 - Negative,42048,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-02,Count,Cumulative people tested for COVID-19 - Positive,1,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-03,Count,Cumulative people tested for COVID-19 - Positive,1,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-04,Count,Cumulative people tested for COVID-19 - Positive,3,Cumulative people tested for COVID-19 - Positive
@@ -575,6 +588,7 @@ S92000003,2020-04-25,Count,Cumulative people tested for COVID-19 - Positive,1005
 S92000003,2020-04-26,Count,Cumulative people tested for COVID-19 - Positive,10324,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-04-27,Count,Cumulative people tested for COVID-19 - Positive,10521,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-04-28,Count,Cumulative people tested for COVID-19 - Positive,10721,Cumulative people tested for COVID-19 - Positive
+S92000003,2020-04-29,Count,Cumulative people tested for COVID-19 - Positive,11034,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-02,Count,Cumulative people tested for COVID-19 - Total,815,Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-03,Count,Cumulative people tested for COVID-19 - Total,915,Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-04,Count,Cumulative people tested for COVID-19 - Total,1046,Cumulative people tested for COVID-19 - Total
@@ -633,6 +647,7 @@ S92000003,2020-04-25,Count,Cumulative people tested for COVID-19 - Total,47749,C
 S92000003,2020-04-26,Count,Cumulative people tested for COVID-19 - Total,49157,Cumulative people tested for COVID-19 - Total
 S92000003,2020-04-27,Count,Cumulative people tested for COVID-19 - Total,50294,Cumulative people tested for COVID-19 - Total
 S92000003,2020-04-28,Count,Cumulative people tested for COVID-19 - Total,51499,Cumulative people tested for COVID-19 - Total
+S92000003,2020-04-29,Count,Cumulative people tested for COVID-19 - Total,53082,Cumulative people tested for COVID-19 - Total
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4354,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4378,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4403,NHS workforce COVID-19 absences - Nursing and midwifery staff
@@ -660,6 +675,7 @@ S92000003,2020-04-24,Count,NHS workforce COVID-19 absences - Nursing and midwife
 S92000003,2020-04-25,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,3185,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-26,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,3202,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-27,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,3217,NHS workforce COVID-19 absences - Nursing and midwifery staff
+S92000003,2020-04-28,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,3263,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Medical and dental staff,467,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Medical and dental staff,435,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Medical and dental staff,399,NHS workforce COVID-19 absences - Medical and dental staff
@@ -687,6 +703,7 @@ S92000003,2020-04-24,Count,NHS workforce COVID-19 absences - Medical and dental 
 S92000003,2020-04-25,Count,NHS workforce COVID-19 absences - Medical and dental staff,212,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-26,Count,NHS workforce COVID-19 absences - Medical and dental staff,210,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-27,Count,NHS workforce COVID-19 absences - Medical and dental staff,193,NHS workforce COVID-19 absences - Medical and dental staff
+S92000003,2020-04-28,Count,NHS workforce COVID-19 absences - Medical and dental staff,210,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Other staff,4898,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Other staff,5578,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Other staff,5699,NHS workforce COVID-19 absences - Other staff
@@ -714,6 +731,7 @@ S92000003,2020-04-24,Count,NHS workforce COVID-19 absences - Other staff,3913,NH
 S92000003,2020-04-25,Count,NHS workforce COVID-19 absences - Other staff,3665,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-26,Count,NHS workforce COVID-19 absences - Other staff,3792,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-27,Count,NHS workforce COVID-19 absences - Other staff,3364,NHS workforce COVID-19 absences - Other staff
+S92000003,2020-04-28,Count,NHS workforce COVID-19 absences - Other staff,3540,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - All staff,9719,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - All staff,10391,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - All staff,10501,NHS workforce COVID-19 absences - All staff
@@ -741,93 +759,101 @@ S92000003,2020-04-24,Count,NHS workforce COVID-19 absences - All staff,7676,NHS 
 S92000003,2020-04-25,Count,NHS workforce COVID-19 absences - All staff,7062,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-26,Count,NHS workforce COVID-19 absences - All staff,7204,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-27,Count,NHS workforce COVID-19 absences - All staff,6774,NHS workforce COVID-19 absences - All staff
-S92000003,2020-04-11,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,406,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-12,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,408,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-13,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,414,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-14,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,433,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-15,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,444,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-16,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,456,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-17,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,459,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-18,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,462,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-19,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,462,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-20,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,475,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-21,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,495,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-22,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,506,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-23,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,516,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-24,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,526,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-25,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,529,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-26,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,530,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-27,Count,Care homes - Cumulative number that have reported a suspected COVID-19 case,538,Care homes - Cumulative number that have reported a suspected COVID-19 case
-S92000003,2020-04-11,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,37,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-12,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,38,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-13,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,38,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-14,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,40,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-15,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,41,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-16,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,42,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-17,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,42,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-18,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,43,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-19,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,43,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-20,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,44,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-21,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,46,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-22,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,47,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-23,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,48,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-24,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,49,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-25,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,49,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-26,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,49,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-27,Ratio,Care homes - Proportion that have reported a suspected COVID-19 case,50,Care homes - Proportion that have reported a suspected COVID-19 case
-S92000003,2020-04-11,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,202,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-12,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,204,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-13,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,214,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-14,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,225,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-15,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,239,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-16,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,251,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-17,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,267,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-18,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,269,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-19,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,272,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-20,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,286,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-21,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,308,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-22,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,318,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-23,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,332,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-24,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,342,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-25,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,345,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-26,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,345,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-27,Count,Care homes - Cumulative number that have reported more than one suspected COVID-19 case,354,Care homes - Cumulative number that have reported more than one suspected COVID-19 case
-S92000003,2020-04-21,Count,Care homes - Number with current suspected COVID-19 cases,384,Care homes - Number with current suspected COVID-19 cases
-S92000003,2020-04-21,Ratio,Care homes - Proportion with current suspected COVID-19 cases,35,Care homes - Proportion with current suspected COVID-19 cases
-S92000003,2020-04-11,Count,Care homes - Cumulative number of suspected COVID-19 cases,1095,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-12,Count,Care homes - Cumulative number of suspected COVID-19 cases,1124,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-13,Count,Care homes - Cumulative number of suspected COVID-19 cases,1209,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-14,Count,Care homes - Cumulative number of suspected COVID-19 cases,1295,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-15,Count,Care homes - Cumulative number of suspected COVID-19 cases,1398,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-16,Count,Care homes - Cumulative number of suspected COVID-19 cases,1498,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-17,Count,Care homes - Cumulative number of suspected COVID-19 cases,1621,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-18,Count,Care homes - Cumulative number of suspected COVID-19 cases,1663,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-19,Count,Care homes - Cumulative number of suspected COVID-19 cases,1677,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-20,Count,Care homes - Cumulative number of suspected COVID-19 cases,1873,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-21,Count,Care homes - Cumulative number of suspected COVID-19 cases,2085,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-22,Count,Care homes - Cumulative number of suspected COVID-19 cases,2293,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-23,Count,Care homes - Cumulative number of suspected COVID-19 cases,2445,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-24,Count,Care homes - Cumulative number of suspected COVID-19 cases,2621,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-25,Count,Care homes - Cumulative number of suspected COVID-19 cases,2690,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-26,Count,Care homes - Cumulative number of suspected COVID-19 cases,2731,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-27,Count,Care homes - Cumulative number of suspected COVID-19 cases,2935,Care homes - Cumulative number of suspected COVID-19 cases
-S92000003,2020-04-11,Count,Care homes - Daily number of new suspected COVID-19 cases,35,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-12,Count,Care homes - Daily number of new suspected COVID-19 cases,29,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-13,Count,Care homes - Daily number of new suspected COVID-19 cases,85,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-14,Count,Care homes - Daily number of new suspected COVID-19 cases,86,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-15,Count,Care homes - Daily number of new suspected COVID-19 cases,103,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-16,Count,Care homes - Daily number of new suspected COVID-19 cases,100,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-17,Count,Care homes - Daily number of new suspected COVID-19 cases,123,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-18,Count,Care homes - Daily number of new suspected COVID-19 cases,42,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-19,Count,Care homes - Daily number of new suspected COVID-19 cases,14,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-20,Count,Care homes - Daily number of new suspected COVID-19 cases,196,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-21,Count,Care homes - Daily number of new suspected COVID-19 cases,212,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-22,Count,Care homes - Daily number of new suspected COVID-19 cases,208,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-23,Count,Care homes - Daily number of new suspected COVID-19 cases,152,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-24,Count,Care homes - Daily number of new suspected COVID-19 cases,176,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-25,Count,Care homes - Daily number of new suspected COVID-19 cases,69,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-26,Count,Care homes - Daily number of new suspected COVID-19 cases,41,Care homes - Daily number of new suspected COVID-19 cases
-S92000003,2020-04-27,Count,Care homes - Daily number of new suspected COVID-19 cases,204,Care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-28,Count,NHS workforce COVID-19 absences - All staff,7013,NHS workforce COVID-19 absences - All staff
+S92000003,2020-04-11,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,406,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-12,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,408,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-13,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,414,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-14,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,433,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-15,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,444,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-16,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,456,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-17,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,459,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-18,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,462,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-19,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,462,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-20,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,475,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-21,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,495,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-22,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,506,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-23,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,516,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-24,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,526,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-25,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,529,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-26,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,530,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-27,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,538,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-28,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,547,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-04-11,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,37,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-12,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,38,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-13,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,38,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-14,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,40,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-15,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,41,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-16,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,42,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-17,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,42,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-18,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,43,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-19,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,43,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-20,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,44,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-21,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,46,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-22,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,47,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-23,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,48,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-24,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,49,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-25,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,49,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-26,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,49,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-27,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,50,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-28,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,51,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-04-11,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,202,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-12,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,204,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-13,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,214,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-14,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,225,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-15,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,239,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-16,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,251,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-17,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,267,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-18,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,269,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-19,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,272,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-20,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,286,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-21,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,308,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-22,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,318,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-23,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,332,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-24,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,342,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-25,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,345,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-26,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,345,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-27,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,354,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-28,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,360,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-04-21,Count,Adult care homes - Number with current suspected COVID-19 cases,384,Adult care homes - Number with current suspected COVID-19 cases
+S92000003,2020-04-28,Count,Adult care homes - Number with current suspected COVID-19 cases,429,Adult care homes - Number with current suspected COVID-19 cases
+S92000003,2020-04-21,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,35,Adult care homes - Proportion with current suspected COVID-19 cases
+S92000003,2020-04-28,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,40,Adult care homes - Proportion with current suspected COVID-19 cases
+S92000003,2020-04-11,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1095,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-12,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1124,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-13,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1209,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-14,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1295,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-15,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1398,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-16,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1498,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-17,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1621,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-18,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1663,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-19,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1677,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-20,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1873,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-21,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,2085,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-22,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,2293,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-23,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,2445,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-24,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,2621,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-25,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,2690,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-26,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,2731,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-27,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,2935,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-28,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,3095,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-04-11,Count,Adult care homes - Daily number of new suspected COVID-19 cases,35,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-12,Count,Adult care homes - Daily number of new suspected COVID-19 cases,29,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-13,Count,Adult care homes - Daily number of new suspected COVID-19 cases,85,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-14,Count,Adult care homes - Daily number of new suspected COVID-19 cases,86,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-15,Count,Adult care homes - Daily number of new suspected COVID-19 cases,103,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-16,Count,Adult care homes - Daily number of new suspected COVID-19 cases,100,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-17,Count,Adult care homes - Daily number of new suspected COVID-19 cases,123,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-18,Count,Adult care homes - Daily number of new suspected COVID-19 cases,42,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-19,Count,Adult care homes - Daily number of new suspected COVID-19 cases,14,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-20,Count,Adult care homes - Daily number of new suspected COVID-19 cases,196,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-21,Count,Adult care homes - Daily number of new suspected COVID-19 cases,212,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-22,Count,Adult care homes - Daily number of new suspected COVID-19 cases,208,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-23,Count,Adult care homes - Daily number of new suspected COVID-19 cases,152,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-24,Count,Adult care homes - Daily number of new suspected COVID-19 cases,176,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-25,Count,Adult care homes - Daily number of new suspected COVID-19 cases,69,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-26,Count,Adult care homes - Daily number of new suspected COVID-19 cases,41,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-27,Count,Adult care homes - Daily number of new suspected COVID-19 cases,204,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-04-28,Count,Adult care homes - Daily number of new suspected COVID-19 cases,160,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-03-14,Count,Number of COVID-19 confirmed deaths registered to date,1,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-03-15,Count,Number of COVID-19 confirmed deaths registered to date,1,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-03-16,Count,Number of COVID-19 confirmed deaths registered to date,1,Number of COVID-19 confirmed deaths registered to date
@@ -874,3 +900,4 @@ S92000003,2020-04-25,Count,Number of COVID-19 confirmed deaths registered to dat
 S92000003,2020-04-26,Count,Number of COVID-19 confirmed deaths registered to date,1249,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-04-27,Count,Number of COVID-19 confirmed deaths registered to date,1262,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-04-28,Count,Number of COVID-19 confirmed deaths registered to date,1332,Number of COVID-19 confirmed deaths registered to date
+S92000003,2020-04-29,Count,Number of COVID-19 confirmed deaths registered to date,1415,Number of COVID-19 confirmed deaths registered to date
