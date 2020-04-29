@@ -79,7 +79,7 @@ It should be noted that testing capacity tends to be lower at weekends, and on p
 
 The data are provided each day by NHS National Services Scotland on behalf of 21 NHS Boards, and by the Scottish Ambulance Service separately. It covers hospitals and community health services, and excludes those working in general practice. Accuracy and completeness are dependent on frontline services and administrators inputting absence data into the NHS Scotland national time and attendance system (SSTS). The figures cover all staff recorded as absent on the system, irrespective of whether they were due to be at work on that particular day. Recording processes vary between Boards and service areas. In particular, the timing of absence recording will vary, and some absences may not be recorded timeously. We will consider whether it is necessary to update the data for previous days where there is a material change in the reported absence due to a delay in recording. We foresee that services will come under increasing pressure and therefore data will be monitored closely. If necessary, publishing of staff absence data may need to be amended or delayed.
 
--- Care homes --
+-- Adult care homes --
 
 Care Inspectorate are notified of suspected COVID-19 cases by service providers.
 
