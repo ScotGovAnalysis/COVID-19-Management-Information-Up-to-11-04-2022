@@ -131,6 +131,9 @@ SC_table7 <- raw_SC_table7 %>%
          `Adult care homes - Proportion with current suspected COVID-19 cases` = 100*as.numeric(`Adult care homes - Proportion with current suspected COVID-19 cases`),
          `Adult care homes - Number with current suspected COVID-19 cases` = as.numeric(`Adult care homes - Number with current suspected COVID-19 cases`))
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+SC_table8 <- raw_SC_table8
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table1 <- raw_HB_table1 %>%
   rename_at(vars(starts_with("NHS")), list(~ str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))
@@ -254,10 +257,16 @@ whole_output_dataset <- bind_rows(SC_output_dataset,
                                   HB_output_dataset) %>%
   na.omit
 
+
+whole_output_dataset_9999999 <- whole_output_dataset %>%
+  mutate(Value = str_replace(Value, '\\*', "9999999"))
+
 # [7] Saving final dataset as .csv ---------------------------------------------
 
 # to upload to statistics.gov.scot
 write.csv(whole_output_dataset, "./COVID19 - Daily Management Information - Tidy dataset to upload to statistics.gov.scot.csv", quote = FALSE, row.names = F)  
+write.csv(whole_output_dataset_9999999, "./COVID19 - Daily Management Information - Tidy dataset to upload to statistics.gov.scot_9999999.csv", quote = FALSE, row.names = F)  
+
 
 # to upload to GitHub
 write.csv(SC_table1, "./COVID19 - Daily Management Information - Scotland - Calls.csv", quote = FALSE, row.names = F)
