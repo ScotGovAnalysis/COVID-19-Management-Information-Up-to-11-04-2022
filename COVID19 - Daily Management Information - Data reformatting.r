@@ -65,9 +65,9 @@ excel_sheets(tf2)
 raw_SC_table1 <- read_excel(tf1, "Table 1 - NHS 24", skip = 2)
 raw_SC_table2 <- read_excel(tf1, "Table 2 - Hospital Care", skip = 2)[-1, ]
 raw_SC_table3 <- read_excel(tf1, "Table 3 - Ambulance", skip = 2)
-raw_SC_table4 <- read_excel(tf1, "Table 4 - Delayed Discharge", skip = 2)
+raw_SC_table4 <- read_excel(tf1, "Table 4 - Delayed Discharges", skip = 2)
 raw_SC_table5 <- read_excel(tf1, "Table 5 - Testing", skip = 2)[-1, ]
-raw_SC_table6 <- read_excel(tf1, "Table 6 - Workforce", skip = 2)
+raw_SC_table6 <- read_excel(tf1, "Table 6 - Workforce", skip = 1)
 raw_SC_table7 <- read_excel(tf1, "Table 7 - Care Homes", skip = 2)[, -c(5,8)]
 raw_SC_table8 <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
 
