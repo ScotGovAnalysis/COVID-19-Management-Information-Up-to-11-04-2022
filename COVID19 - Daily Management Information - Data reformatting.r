@@ -39,8 +39,8 @@ HB_codes <- tribble(
 # [2a] Reading original files from website --------------------------------------
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-280420.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-050520.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B050520.xlsx"
  
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -58,12 +58,12 @@ excel_sheets(tf2)
 # Modify to use your own folder and file names
 #
 #path <- "C:/Users/Victoria/Downloads/" 
-#tf1 <- paste0(path, "Trends+in+daily+COVID-19+data+300420.xlsx")
-#tf2 <- paste0(path, "COVID-19+data+by+NHS+Board-300420-1.xlsx")
+#tf1 <- paste0(path, "Trends+in+daily+COVID-19+data+050520.xlsx")
+#tf2 <- paste0(path, "COVID-19+data+by+NHS+Board-050520.xlsx")
 
 # [3] Saving individual tables -------------------------------------------------
 raw_SC_table1 <- read_excel(tf1, "Table 1 - NHS 24", skip = 2)
-raw_SC_table2 <- read_excel(tf1, "Table 2 - Hospital Care", skip = 2)[-1, ]
+raw_SC_table2 <- read_excel(tf1, "Table 2 - Hospital Care", skip = 3)
 raw_SC_table3 <- read_excel(tf1, "Table 3 - Ambulance", skip = 2)
 raw_SC_table4 <- read_excel(tf1, "Table 4 - Delayed Discharges", skip = 2)
 raw_SC_table5 <- read_excel(tf1, "Table 5 - Testing", skip = 2)[-1, ]
@@ -73,7 +73,9 @@ raw_SC_table8 <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
 
 raw_HB_table1 <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-16]
 raw_HB_table2 <- read_excel(tf2, "Table 2 - ICU patients", skip = 2)[, -17]
-raw_HB_table3 <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -17]
+raw_HB_table3a <- read_excel(tf2, "Table 3a - Hospital Confirmed", skip = 2)[, -17]
+raw_HB_table3b <- read_excel(tf2, "Table 3b- Hospital Suspected", skip = 2)[, -17]
+
 
 #unlink(tf1)
 #unlink(tf2)
@@ -83,13 +85,16 @@ SC_table1 <- raw_SC_table1 %>%
   rename("Calls - NHS24 111" = "NHS24 111 Calls",
          "Calls - Coronavirus helpline" = "Coronavirus Helpline Calls")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-SC_table2 <- raw_SC_table2 %>%
-  rename("COVID-19 patients in ICU - Confirmed" = "(i) COVID-19 patients in ICU\r\n or combined ICU/HDU", 
-         "COVID-19 patients in ICU - Suspected" = "...3", 
-         "COVID-19 patients in ICU - Total" = "...4",                  
-         "COVID-19 patients in hospital - Confirmed" = "(ii) COVID-19 patients in hospital (including those in ICU)",
-         "COVID-19 patients in hospital - Suspected" = "...6",
-         "COVID-19 patients in hospital - Total" = "...7")
+SC_table2 <- raw_SC_table2
+# Renaming variables in this table the old way because different package versions
+# create different default names for variables
+names(SC_table2) <- c("Date",
+                      "COVID-19 patients in ICU - Confirmed",
+                      "COVID-19 patients in ICU - Suspected",
+                      "COVID-19 patients in ICU - Total",
+                      "COVID-19 patients in hospital - Confirmed",
+                      "COVID-19 patients in hospital - Suspected",
+                      "COVID-19 patients in hospital - Total")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table3 <- raw_SC_table3 %>%
   rename("Ambulance attendances - Total" = "Number of attendances",                                  
@@ -99,11 +104,15 @@ SC_table3 <- raw_SC_table3 %>%
 SC_table4 <- raw_SC_table4 %>%
   rename("Delayed discharges" = "Number of delayed discharges")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-SC_table5 <- raw_SC_table5 %>%
-  rename("Date" = "Date notified",
-         "Cumulative people tested for COVID-19 - Negative" = "Cumulative people tested for COVID-19",
-         "Cumulative people tested for COVID-19 - Positive" = "...3",
-         "Cumulative people tested for COVID-19 - Total" = "...4" )
+SC_table5 <- raw_SC_table5 #%>%
+  # rename("Date" = "Date notified",
+  #        "Cumulative people tested for COVID-19 - Negative" = "Cumulative people tested for COVID-19",
+  #        "Cumulative people tested for COVID-19 - Positive" = "...3",
+  #        "Cumulative people tested for COVID-19 - Total" = "...4" )
+names(SC_table5) <- c("Date",
+                      "Cumulative people tested for COVID-19 - Negative",
+                      "Cumulative people tested for COVID-19 - Positive",
+                      "Cumulative people tested for COVID-19 - Total")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table6 <- raw_SC_table6 %>%
   rename("NHS workforce COVID-19 absences - Nursing and midwifery staff" = "Nursing and midwifery absences",
@@ -145,13 +154,18 @@ HB_table2 <- raw_HB_table2 %>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden")))
   
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-HB_table3 <- raw_HB_table3 %>%
+HB_table3a <- raw_HB_table3a %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden")))
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+HB_table3b <- raw_HB_table3b %>%
+  rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
+  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden")))
 
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 
 # [5] Creating tidy datasets from each table -----------------------------------
@@ -210,9 +224,14 @@ tidy_HB_table2 <- HB_table2 %>%
   mutate(Units = "COVID-19 patients in ICU - Total")
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-tidy_HB_table3 <- HB_table3 %>%
+tidy_HB_table3a <- HB_table3a %>%
   gather(key = HBname, value = "Value", -Date) %>%
-  mutate(Units = "COVID-19 patients in hospital - Total")
+  mutate(Units = "COVID-19 patients in hospital - Confirmed")
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+tidy_HB_table3b <- HB_table3b %>%
+  gather(key = HBname, value = "Value", -Date) %>%
+  mutate(Units = "COVID-19 patients in hospital - Suspected")
 
 
 # [6] Binding tidy datasets together -------------------------------------------
@@ -239,7 +258,8 @@ SC_output_dataset <- bind_rows(tidy_SC_table1,
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_output_dataset <- bind_rows(tidy_HB_table1,
                                tidy_HB_table2,
-                               tidy_HB_table3) %>%
+                               tidy_HB_table3a,
+                               tidy_HB_table3b) %>%
   # Creating required variables
   left_join(HB_codes, by = c("HBname" = "HB2014Name")) %>%
   mutate(Measurement = "Count",
@@ -280,7 +300,8 @@ write.csv(SC_table8, "./COVID19 - Daily Management Information - Scotland - Deat
 
 write.csv(HB_table1, "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
 write.csv(HB_table2, "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients.csv", quote = FALSE, row.names = F)
-write.csv(HB_table3, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients.csv", quote = FALSE, row.names = F)
+write.csv(HB_table3a, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed.csv", quote = FALSE, row.names = F)
+write.csv(HB_table3b, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients.csv - Suspected.csv", quote = FALSE, row.names = F)
 
 
 # Bits of code used in previous versions ---------------------------------------
