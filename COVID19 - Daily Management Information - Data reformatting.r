@@ -4,7 +4,7 @@
 #           statistics.gov.scot and github.com/DataScienceScotland
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Date created - 17/04/2020
-# Last updated - 01/04/2020
+# Last updated - 06/05/2020
 # ------------------------------------------------------------------------------
 
 
@@ -39,8 +39,8 @@ HB_codes <- tribble(
 # [2a] Reading original files from website --------------------------------------
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-050520.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B050520.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B060520.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B060520.xlsx"
  
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -145,7 +145,9 @@ SC_table8 <- raw_SC_table8
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table1 <- raw_HB_table1 %>%
   rename_at(vars(starts_with("NHS")), list(~ str_remove(., "NHS "))) %>%
-  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))
+  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
+  replace_na("N/A")
+
   
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table2 <- raw_HB_table2 %>%
