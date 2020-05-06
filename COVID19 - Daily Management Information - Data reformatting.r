@@ -145,9 +145,7 @@ SC_table8 <- raw_SC_table8
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table1 <- raw_HB_table1 %>%
   rename_at(vars(starts_with("NHS")), list(~ str_remove(., "NHS "))) %>%
-  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
-  replace_na("N/A")
-
+  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) 
   
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table2 <- raw_HB_table2 %>%
@@ -159,13 +157,15 @@ HB_table2 <- raw_HB_table2 %>%
 HB_table3a <- raw_HB_table3a %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
-  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden")))
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) #%>%
+  #replace_na(list("N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A"))
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table3b <- raw_HB_table3b %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
-  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden")))
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) #%>%
+  #replace_na(list("N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A"))
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
@@ -303,7 +303,7 @@ write.csv(SC_table8, "./COVID19 - Daily Management Information - Scotland - Deat
 write.csv(HB_table1, "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
 write.csv(HB_table2, "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients.csv", quote = FALSE, row.names = F)
 write.csv(HB_table3a, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed.csv", quote = FALSE, row.names = F)
-write.csv(HB_table3b, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients.csv - Suspected.csv", quote = FALSE, row.names = F)
+write.csv(HB_table3b, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patientS - Suspected.csv", quote = FALSE, row.names = F)
 
 
 # Bits of code used in previous versions ---------------------------------------
