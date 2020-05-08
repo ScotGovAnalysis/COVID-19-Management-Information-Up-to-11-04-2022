@@ -4,7 +4,7 @@
 #           statistics.gov.scot and github.com/DataScienceScotland
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Date created - 17/04/2020
-# Last updated - 07/05/2020
+# Last updated - 08/05/2020
 # ------------------------------------------------------------------------------
 
 
@@ -39,8 +39,8 @@ HB_codes <- tribble(
 # [2a] Reading original files from website --------------------------------------
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B070520.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B070520.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard.xlsx"
  
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -145,26 +145,30 @@ SC_table8 <- raw_SC_table8
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table1 <- raw_HB_table1 %>%
   rename_at(vars(starts_with("NHS")), list(~ str_remove(., "NHS "))) %>%
-  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) 
+  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
+  mutate(Date = as.Date(Date, origin = "1899-12-30"))
   
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table2 <- raw_HB_table2 %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
-  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden")))
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
+  mutate(Date = as.Date(Date, origin = "1899-12-30"))
   
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table3a <- raw_HB_table3a %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
-  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) #%>%
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
+  mutate(Date = as.Date(Date, origin = "1899-12-30"))#%>%
   #replace_na(list("N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A"))
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table3b <- raw_HB_table3b %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
-  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) #%>%
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
+  mutate(Date = as.Date(Date, origin = "1899-12-30"))#%>%
   #replace_na(list("N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A"))
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
