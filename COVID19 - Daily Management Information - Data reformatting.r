@@ -304,7 +304,7 @@ write.csv(SC_table8, "./COVID19 - Daily Management Information - Scotland - Deat
 write.csv(HB_table1, "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
 write.csv(HB_table2, "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients.csv", quote = FALSE, row.names = F)
 write.csv(HB_table3a, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed.csv", quote = FALSE, row.names = F)
-write.csv(HB_table3b, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patientS - Suspected.csv", quote = FALSE, row.names = F)
+write.csv(HB_table3b, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Suspected.csv", quote = FALSE, row.names = F)
 
 
 # Bits of code used in previous versions ---------------------------------------
