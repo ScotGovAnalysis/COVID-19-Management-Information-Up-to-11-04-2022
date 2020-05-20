@@ -113,7 +113,9 @@ SC_table5 <- raw_SC_table5 #%>%
 names(SC_table5) <- c("Date",
                       "Cumulative people tested for COVID-19 - Negative",
                       "Cumulative people tested for COVID-19 - Positive",
-                      "Cumulative people tested for COVID-19 - Total")
+                      "Cumulative people tested for COVID-19 - Total",
+                      "Total number of COVID-19 tests carried out - Daily",
+                      "Total number of COVID-19 tests carried out - Cumulative")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table6 <- raw_SC_table6 %>%
   rename("NHS workforce COVID-19 absences - Nursing and midwifery staff" = "Nursing and midwifery absences",
