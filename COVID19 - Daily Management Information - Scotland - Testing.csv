@@ -1,4 +1,4 @@
-Date,Cumulative people tested for COVID-19 - Negative,Cumulative people tested for COVID-19 - Positive,Cumulative people tested for COVID-19 - Total,NA,NA
+Date,Cumulative people tested for COVID-19 - Negative,Cumulative people tested for COVID-19 - Positive,Cumulative people tested for COVID-19 - Total,Total number of COVID-19 tests carried out - Daily,Total number of COVID-19 tests carried out - Cumulative
 2020-03-02,814,1,815,NA,NA
 2020-03-03,914,1,915,NA,NA
 2020-03-04,1043,3,1046,NA,NA
@@ -79,3 +79,4 @@ Date,Cumulative people tested for COVID-19 - Negative,Cumulative people tested f
 2020-05-18,74346,14594,88940,2317,124682
 2020-05-19,75766,14655,90421,2854,127536
 2020-05-20,77843,14751,92594,3699,131235
+2020-05-21,80317,14856,95173,4090,135325
