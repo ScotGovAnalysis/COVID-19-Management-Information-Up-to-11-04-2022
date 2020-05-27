@@ -69,6 +69,7 @@ S92000003,2020-05-22,Count,Calls - NHS24 111,3055,Calls - NHS24 111
 S92000003,2020-05-23,Count,Calls - NHS24 111,7122,Calls - NHS24 111
 S92000003,2020-05-24,Count,Calls - NHS24 111,6862,Calls - NHS24 111
 S92000003,2020-05-25,Count,Calls - NHS24 111,3168,Calls - NHS24 111
+S92000003,2020-05-26,Count,Calls - NHS24 111,2876,Calls - NHS24 111
 S92000003,2020-03-17,Count,Calls - Coronavirus helpline,6772,Calls - Coronavirus helpline
 S92000003,2020-03-18,Count,Calls - Coronavirus helpline,4930,Calls - Coronavirus helpline
 S92000003,2020-03-19,Count,Calls - Coronavirus helpline,3271,Calls - Coronavirus helpline
@@ -139,6 +140,7 @@ S92000003,2020-05-22,Count,Calls - Coronavirus helpline,232,Calls - Coronavirus 
 S92000003,2020-05-23,Count,Calls - Coronavirus helpline,89,Calls - Coronavirus helpline
 S92000003,2020-05-24,Count,Calls - Coronavirus helpline,106,Calls - Coronavirus helpline
 S92000003,2020-05-25,Count,Calls - Coronavirus helpline,214,Calls - Coronavirus helpline
+S92000003,2020-05-26,Count,Calls - Coronavirus helpline,248,Calls - Coronavirus helpline
 S92000003,2020-03-27,Count,COVID-19 patients in ICU - Confirmed,62,COVID-19 patients in ICU - Confirmed
 S92000003,2020-03-28,Count,COVID-19 patients in ICU - Confirmed,74,COVID-19 patients in ICU - Confirmed
 S92000003,2020-03-29,Count,COVID-19 patients in ICU - Confirmed,85,COVID-19 patients in ICU - Confirmed
@@ -199,7 +201,8 @@ S92000003,2020-05-22,Count,COVID-19 patients in ICU - Confirmed,38,COVID-19 pati
 S92000003,2020-05-23,Count,COVID-19 patients in ICU - Confirmed,36,COVID-19 patients in ICU - Confirmed
 S92000003,2020-05-24,Count,COVID-19 patients in ICU - Confirmed,33,COVID-19 patients in ICU - Confirmed
 S92000003,2020-05-25,Count,COVID-19 patients in ICU - Confirmed,29,COVID-19 patients in ICU - Confirmed
-S92000003,2020-05-26,Count,COVID-19 patients in ICU - Confirmed,28,COVID-19 patients in ICU - Confirmed
+S92000003,2020-05-26,Count,COVID-19 patients in ICU - Confirmed,27,COVID-19 patients in ICU - Confirmed
+S92000003,2020-05-27,Count,COVID-19 patients in ICU - Confirmed,28,COVID-19 patients in ICU - Confirmed
 S92000003,2020-03-27,Count,COVID-19 patients in ICU - Suspected,10,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-28,Count,COVID-19 patients in ICU - Suspected,7,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-29,Count,COVID-19 patients in ICU - Suspected,10,COVID-19 patients in ICU - Suspected
@@ -261,6 +264,7 @@ S92000003,2020-05-23,Count,COVID-19 patients in ICU - Suspected,14,COVID-19 pati
 S92000003,2020-05-24,Count,COVID-19 patients in ICU - Suspected,11,COVID-19 patients in ICU - Suspected
 S92000003,2020-05-25,Count,COVID-19 patients in ICU - Suspected,11,COVID-19 patients in ICU - Suspected
 S92000003,2020-05-26,Count,COVID-19 patients in ICU - Suspected,8,COVID-19 patients in ICU - Suspected
+S92000003,2020-05-27,Count,COVID-19 patients in ICU - Suspected,10,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-18,Count,COVID-19 patients in ICU - Total,6,COVID-19 patients in ICU - Total
 S92000003,2020-03-19,Count,COVID-19 patients in ICU - Total,11,COVID-19 patients in ICU - Total
 S92000003,2020-03-20,Count,COVID-19 patients in ICU - Total,16,COVID-19 patients in ICU - Total
@@ -330,7 +334,8 @@ S92000003,2020-05-22,Count,COVID-19 patients in ICU - Total,50,COVID-19 patients
 S92000003,2020-05-23,Count,COVID-19 patients in ICU - Total,50,COVID-19 patients in ICU - Total
 S92000003,2020-05-24,Count,COVID-19 patients in ICU - Total,44,COVID-19 patients in ICU - Total
 S92000003,2020-05-25,Count,COVID-19 patients in ICU - Total,40,COVID-19 patients in ICU - Total
-S92000003,2020-05-26,Count,COVID-19 patients in ICU - Total,36,COVID-19 patients in ICU - Total
+S92000003,2020-05-26,Count,COVID-19 patients in ICU - Total,35,COVID-19 patients in ICU - Total
+S92000003,2020-05-27,Count,COVID-19 patients in ICU - Total,38,COVID-19 patients in ICU - Total
 S92000003,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,404,COVID-19 patients in hospital - Confirmed
 S92000003,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,511,COVID-19 patients in hospital - Confirmed
 S92000003,2020-03-29,Count,COVID-19 patients in hospital - Confirmed,565,COVID-19 patients in hospital - Confirmed
@@ -392,6 +397,7 @@ S92000003,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,841,COVID-1
 S92000003,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,845,COVID-19 patients in hospital - Confirmed
 S92000003,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,849,COVID-19 patients in hospital - Confirmed
 S92000003,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,833,COVID-19 patients in hospital - Confirmed
+S92000003,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,810,COVID-19 patients in hospital - Confirmed
 S92000003,2020-03-27,Count,COVID-19 patients in hospital - Suspected,268,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-28,Count,COVID-19 patients in hospital - Suspected,271,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-29,Count,COVID-19 patients in hospital - Suspected,294,COVID-19 patients in hospital - Suspected
@@ -453,6 +459,7 @@ S92000003,2020-05-23,Count,COVID-19 patients in hospital - Suspected,464,COVID-1
 S92000003,2020-05-24,Count,COVID-19 patients in hospital - Suspected,484,COVID-19 patients in hospital - Suspected
 S92000003,2020-05-25,Count,COVID-19 patients in hospital - Suspected,420,COVID-19 patients in hospital - Suspected
 S92000003,2020-05-26,Count,COVID-19 patients in hospital - Suspected,367,COVID-19 patients in hospital - Suspected
+S92000003,2020-05-27,Count,COVID-19 patients in hospital - Suspected,437,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-18,Count,COVID-19 patients in hospital - Total,149,COVID-19 patients in hospital - Total
 S92000003,2020-03-19,Count,COVID-19 patients in hospital - Total,213,COVID-19 patients in hospital - Total
 S92000003,2020-03-20,Count,COVID-19 patients in hospital - Total,247,COVID-19 patients in hospital - Total
@@ -523,6 +530,7 @@ S92000003,2020-05-23,Count,COVID-19 patients in hospital - Total,1305,COVID-19 p
 S92000003,2020-05-24,Count,COVID-19 patients in hospital - Total,1329,COVID-19 patients in hospital - Total
 S92000003,2020-05-25,Count,COVID-19 patients in hospital - Total,1269,COVID-19 patients in hospital - Total
 S92000003,2020-05-26,Count,COVID-19 patients in hospital - Total,1200,COVID-19 patients in hospital - Total
+S92000003,2020-05-27,Count,COVID-19 patients in hospital - Total,1247,COVID-19 patients in hospital - Total
 S92000003,2020-03-18,Count,Ambulance attendances - Total,1538,Ambulance attendances - Total
 S92000003,2020-03-19,Count,Ambulance attendances - Total,1572,Ambulance attendances - Total
 S92000003,2020-03-20,Count,Ambulance attendances - Total,1593,Ambulance attendances - Total
@@ -591,7 +599,8 @@ S92000003,2020-05-21,Count,Ambulance attendances - Total,1624,Ambulance attendan
 S92000003,2020-05-22,Count,Ambulance attendances - Total,1612,Ambulance attendances - Total
 S92000003,2020-05-23,Count,Ambulance attendances - Total,1441,Ambulance attendances - Total
 S92000003,2020-05-24,Count,Ambulance attendances - Total,1521,Ambulance attendances - Total
-S92000003,2020-05-25,Count,Ambulance attendances - Total,1575,Ambulance attendances - Total
+S92000003,2020-05-25,Count,Ambulance attendances - Total,1577,Ambulance attendances - Total
+S92000003,2020-05-26,Count,Ambulance attendances - Total,1604,Ambulance attendances - Total
 S92000003,2020-03-18,Count,Ambulance attendances - COVID-19 suspected,292,Ambulance attendances - COVID-19 suspected
 S92000003,2020-03-19,Count,Ambulance attendances - COVID-19 suspected,339,Ambulance attendances - COVID-19 suspected
 S92000003,2020-03-20,Count,Ambulance attendances - COVID-19 suspected,360,Ambulance attendances - COVID-19 suspected
@@ -661,6 +670,7 @@ S92000003,2020-05-22,Count,Ambulance attendances - COVID-19 suspected,271,Ambula
 S92000003,2020-05-23,Count,Ambulance attendances - COVID-19 suspected,268,Ambulance attendances - COVID-19 suspected
 S92000003,2020-05-24,Count,Ambulance attendances - COVID-19 suspected,255,Ambulance attendances - COVID-19 suspected
 S92000003,2020-05-25,Count,Ambulance attendances - COVID-19 suspected,265,Ambulance attendances - COVID-19 suspected
+S92000003,2020-05-26,Count,Ambulance attendances - COVID-19 suspected,241,Ambulance attendances - COVID-19 suspected
 S92000003,2020-03-18,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,180,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-03-19,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,203,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-03-20,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,222,Ambulance attendances - COVID-19 suspected patients taken to hospital
@@ -730,6 +740,7 @@ S92000003,2020-05-22,Count,Ambulance attendances - COVID-19 suspected patients t
 S92000003,2020-05-23,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,175,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-05-24,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,155,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-05-25,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,180,Ambulance attendances - COVID-19 suspected patients taken to hospital
+S92000003,2020-05-26,Count,Ambulance attendances - COVID-19 suspected patients taken to hospital,149,Ambulance attendances - COVID-19 suspected patients taken to hospital
 S92000003,2020-03-04,Count,Delayed discharges,1612,Delayed discharges
 S92000003,2020-03-09,Count,Delayed discharges,1533,Delayed discharges
 S92000003,2020-03-10,Count,Delayed discharges,1553,Delayed discharges
@@ -787,6 +798,7 @@ S92000003,2020-05-20,Count,Delayed discharges,659,Delayed discharges
 S92000003,2020-05-21,Count,Delayed discharges,680,Delayed discharges
 S92000003,2020-05-22,Count,Delayed discharges,697,Delayed discharges
 S92000003,2020-05-25,Count,Delayed discharges,704,Delayed discharges
+S92000003,2020-05-26,Count,Delayed discharges,700,Delayed discharges
 S92000003,2020-03-02,Count,Cumulative people tested for COVID-19 - Negative,814,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-03,Count,Cumulative people tested for COVID-19 - Negative,914,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-04,Count,Cumulative people tested for COVID-19 - Negative,1043,Cumulative people tested for COVID-19 - Negative
@@ -873,6 +885,7 @@ S92000003,2020-05-23,Count,Cumulative people tested for COVID-19 - Negative,8489
 S92000003,2020-05-24,Count,Cumulative people tested for COVID-19 - Negative,86612,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-05-25,Count,Cumulative people tested for COVID-19 - Negative,88352,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-05-26,Count,Cumulative people tested for COVID-19 - Negative,89695,Cumulative people tested for COVID-19 - Negative
+S92000003,2020-05-27,Count,Cumulative people tested for COVID-19 - Negative,91744,Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-02,Count,Cumulative people tested for COVID-19 - Positive,1,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-03,Count,Cumulative people tested for COVID-19 - Positive,1,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-04,Count,Cumulative people tested for COVID-19 - Positive,3,Cumulative people tested for COVID-19 - Positive
@@ -959,6 +972,7 @@ S92000003,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,1504
 S92000003,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,15101,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,15156,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,15185,Cumulative people tested for COVID-19 - Positive
+S92000003,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,15240,Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-02,Count,Cumulative people tested for COVID-19 - Total,815,Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-03,Count,Cumulative people tested for COVID-19 - Total,915,Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-04,Count,Cumulative people tested for COVID-19 - Total,1046,Cumulative people tested for COVID-19 - Total
@@ -1045,6 +1059,7 @@ S92000003,2020-05-23,Count,Cumulative people tested for COVID-19 - Total,99932,C
 S92000003,2020-05-24,Count,Cumulative people tested for COVID-19 - Total,101713,Cumulative people tested for COVID-19 - Total
 S92000003,2020-05-25,Count,Cumulative people tested for COVID-19 - Total,103508,Cumulative people tested for COVID-19 - Total
 S92000003,2020-05-26,Count,Cumulative people tested for COVID-19 - Total,104880,Cumulative people tested for COVID-19 - Total
+S92000003,2020-05-27,Count,Cumulative people tested for COVID-19 - Total,106984,Cumulative people tested for COVID-19 - Total
 S92000003,2020-04-01,Count,Total number of COVID-19 tests carried out by NHS Labs - Daily,1710,Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-04-02,Count,Total number of COVID-19 tests carried out by NHS Labs - Daily,1118,Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-04-03,Count,Total number of COVID-19 tests carried out by NHS Labs - Daily,1526,Total number of COVID-19 tests carried out by NHS Labs - Daily
@@ -1101,6 +1116,7 @@ S92000003,2020-05-23,Count,Total number of COVID-19 tests carried out by NHS Lab
 S92000003,2020-05-24,Count,Total number of COVID-19 tests carried out by NHS Labs - Daily,2886,Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-05-25,Count,Total number of COVID-19 tests carried out by NHS Labs - Daily,3401,Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-05-26,Count,Total number of COVID-19 tests carried out by NHS Labs - Daily,2977,Total number of COVID-19 tests carried out by NHS Labs - Daily
+S92000003,2020-05-27,Count,Total number of COVID-19 tests carried out by NHS Labs - Daily,3750,Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-04-01,Count,Total number of COVID-19 tests carried out by NHS Labs - Cumulative,23324,Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-04-02,Count,Total number of COVID-19 tests carried out by NHS Labs - Cumulative,24442,Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-04-03,Count,Total number of COVID-19 tests carried out by NHS Labs - Cumulative,25968,Total number of COVID-19 tests carried out by NHS Labs - Cumulative
@@ -1157,6 +1173,7 @@ S92000003,2020-05-23,Count,Total number of COVID-19 tests carried out by NHS Lab
 S92000003,2020-05-24,Count,Total number of COVID-19 tests carried out by NHS Labs - Cumulative,145824,Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-05-25,Count,Total number of COVID-19 tests carried out by NHS Labs - Cumulative,149225,Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-05-26,Count,Total number of COVID-19 tests carried out by NHS Labs - Cumulative,152202,Total number of COVID-19 tests carried out by NHS Labs - Cumulative
+S92000003,2020-05-27,Count,Total number of COVID-19 tests carried out by NHS Labs - Cumulative,155952,Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-04-06,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,42,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-04-07,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,124,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-04-08,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,154,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
@@ -1208,6 +1225,7 @@ S92000003,2020-05-23,Count,Total number of COVID-19 tests carried out by Regiona
 S92000003,2020-05-24,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,1225,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-05-25,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,1341,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-05-26,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,1448,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
+S92000003,2020-05-27,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,1428,Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-04-06,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,42,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-04-07,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,166,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-04-08,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,320,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
@@ -1259,6 +1277,7 @@ S92000003,2020-05-23,Count,Total number of COVID-19 tests carried out by Regiona
 S92000003,2020-05-24,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,50470,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-05-25,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,51811,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-05-26,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,53259,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
+S92000003,2020-05-27,Count,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,54687,Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4354,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4378,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4403,NHS workforce COVID-19 absences - Nursing and midwifery staff
@@ -1314,6 +1333,7 @@ S92000003,2020-05-22,Count,NHS workforce COVID-19 absences - Nursing and midwife
 S92000003,2020-05-23,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,2907,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-05-24,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,2932,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-05-25,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,2669,NHS workforce COVID-19 absences - Nursing and midwifery staff
+S92000003,2020-05-26,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,2735,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Medical and dental staff,467,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Medical and dental staff,435,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Medical and dental staff,399,NHS workforce COVID-19 absences - Medical and dental staff
@@ -1369,6 +1389,7 @@ S92000003,2020-05-22,Count,NHS workforce COVID-19 absences - Medical and dental 
 S92000003,2020-05-23,Count,NHS workforce COVID-19 absences - Medical and dental staff,171,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-05-24,Count,NHS workforce COVID-19 absences - Medical and dental staff,168,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-05-25,Count,NHS workforce COVID-19 absences - Medical and dental staff,149,NHS workforce COVID-19 absences - Medical and dental staff
+S92000003,2020-05-26,Count,NHS workforce COVID-19 absences - Medical and dental staff,149,NHS workforce COVID-19 absences - Medical and dental staff
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Other staff,4898,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Other staff,5578,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Other staff,5699,NHS workforce COVID-19 absences - Other staff
@@ -1424,6 +1445,7 @@ S92000003,2020-05-22,Count,NHS workforce COVID-19 absences - Other staff,3216,NH
 S92000003,2020-05-23,Count,NHS workforce COVID-19 absences - Other staff,2978,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-05-24,Count,NHS workforce COVID-19 absences - Other staff,2987,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-05-25,Count,NHS workforce COVID-19 absences - Other staff,2899,NHS workforce COVID-19 absences - Other staff
+S92000003,2020-05-26,Count,NHS workforce COVID-19 absences - Other staff,2989,NHS workforce COVID-19 absences - Other staff
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - All staff,9719,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - All staff,10391,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - All staff,10501,NHS workforce COVID-19 absences - All staff
@@ -1479,6 +1501,7 @@ S92000003,2020-05-22,Count,NHS workforce COVID-19 absences - All staff,6411,NHS 
 S92000003,2020-05-23,Count,NHS workforce COVID-19 absences - All staff,6056,NHS workforce COVID-19 absences - All staff
 S92000003,2020-05-24,Count,NHS workforce COVID-19 absences - All staff,6087,NHS workforce COVID-19 absences - All staff
 S92000003,2020-05-25,Count,NHS workforce COVID-19 absences - All staff,5717,NHS workforce COVID-19 absences - All staff
+S92000003,2020-05-26,Count,NHS workforce COVID-19 absences - All staff,5873,NHS workforce COVID-19 absences - All staff
 S92000003,2020-04-11,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,406,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-04-12,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,408,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-04-13,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,414,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
@@ -1524,6 +1547,7 @@ S92000003,2020-05-22,Count,Adult care homes - Cumulative number that have report
 S92000003,2020-05-23,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,655,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-05-24,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,655,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-05-25,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,658,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-05-26,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,662,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-04-11,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,37,Adult care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-12,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,38,Adult care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-13,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,38,Adult care homes - Proportion that have reported a suspected COVID-19 case
@@ -1569,6 +1593,7 @@ S92000003,2020-05-22,Ratio,Adult care homes - Proportion that have reported a su
 S92000003,2020-05-23,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,60,Adult care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-05-24,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,60,Adult care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-05-25,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,61,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-05-26,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,61,Adult care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-11,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,202,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-12,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,204,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-13,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,214,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
@@ -1614,6 +1639,7 @@ S92000003,2020-05-22,Count,Adult care homes - Cumulative number that have report
 S92000003,2020-05-23,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,482,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-05-24,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,482,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-05-25,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,487,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-05-26,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,490,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-21,Count,Adult care homes - Number with current suspected COVID-19 cases,384,Adult care homes - Number with current suspected COVID-19 cases
 S92000003,2020-04-28,Count,Adult care homes - Number with current suspected COVID-19 cases,429,Adult care homes - Number with current suspected COVID-19 cases
 S92000003,2020-05-05,Count,Adult care homes - Number with current suspected COVID-19 cases,453,Adult care homes - Number with current suspected COVID-19 cases
@@ -1635,6 +1661,7 @@ S92000003,2020-05-22,Count,Adult care homes - Number with current suspected COVI
 S92000003,2020-05-23,Count,Adult care homes - Number with current suspected COVID-19 cases,485,Adult care homes - Number with current suspected COVID-19 cases
 S92000003,2020-05-24,Count,Adult care homes - Number with current suspected COVID-19 cases,486,Adult care homes - Number with current suspected COVID-19 cases
 S92000003,2020-05-25,Count,Adult care homes - Number with current suspected COVID-19 cases,485,Adult care homes - Number with current suspected COVID-19 cases
+S92000003,2020-05-26,Count,Adult care homes - Number with current suspected COVID-19 cases,477,Adult care homes - Number with current suspected COVID-19 cases
 S92000003,2020-04-21,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,35,Adult care homes - Proportion with current suspected COVID-19 cases
 S92000003,2020-04-28,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,40,Adult care homes - Proportion with current suspected COVID-19 cases
 S92000003,2020-05-05,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,42,Adult care homes - Proportion with current suspected COVID-19 cases
@@ -1656,6 +1683,7 @@ S92000003,2020-05-22,Ratio,Adult care homes - Proportion with current suspected 
 S92000003,2020-05-23,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,45,Adult care homes - Proportion with current suspected COVID-19 cases
 S92000003,2020-05-24,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,45,Adult care homes - Proportion with current suspected COVID-19 cases
 S92000003,2020-05-25,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,45,Adult care homes - Proportion with current suspected COVID-19 cases
+S92000003,2020-05-26,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,44,Adult care homes - Proportion with current suspected COVID-19 cases
 S92000003,2020-04-11,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1095,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-12,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1124,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-13,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1209,Adult care homes - Cumulative number of suspected COVID-19 cases
@@ -1701,6 +1729,7 @@ S92000003,2020-05-22,Count,Adult care homes - Cumulative number of suspected COV
 S92000003,2020-05-23,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,5635,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-05-24,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,5652,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-05-25,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,5759,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-05-26,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,5819,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-11,Count,Adult care homes - Daily number of new suspected COVID-19 cases,35,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-04-12,Count,Adult care homes - Daily number of new suspected COVID-19 cases,29,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-04-13,Count,Adult care homes - Daily number of new suspected COVID-19 cases,85,Adult care homes - Daily number of new suspected COVID-19 cases
@@ -1746,6 +1775,7 @@ S92000003,2020-05-22,Count,Adult care homes - Daily number of new suspected COVI
 S92000003,2020-05-23,Count,Adult care homes - Daily number of new suspected COVID-19 cases,42,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-05-24,Count,Adult care homes - Daily number of new suspected COVID-19 cases,17,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-05-25,Count,Adult care homes - Daily number of new suspected COVID-19 cases,107,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-05-26,Count,Adult care homes - Daily number of new suspected COVID-19 cases,60,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-04-21,Count,Adult care homes - Number of staff reported as absent,3732,Adult care homes - Number of staff reported as absent
 S92000003,2020-04-28,Count,Adult care homes - Number of staff reported as absent,4163,Adult care homes - Number of staff reported as absent
 S92000003,2020-05-05,Count,Adult care homes - Number of staff reported as absent,3672,Adult care homes - Number of staff reported as absent
@@ -1845,6 +1875,7 @@ S92000003,2020-05-23,Count,Number of COVID-19 confirmed deaths registered to dat
 S92000003,2020-05-24,Count,Number of COVID-19 confirmed deaths registered to date,2270,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-05-25,Count,Number of COVID-19 confirmed deaths registered to date,2273,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-05-26,Count,Number of COVID-19 confirmed deaths registered to date,2291,Number of COVID-19 confirmed deaths registered to date
+S92000003,2020-05-27,Count,Number of COVID-19 confirmed deaths registered to date,2304,Number of COVID-19 confirmed deaths registered to date
 S08000015,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000015,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000015,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -1926,6 +1957,7 @@ S08000015,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,1015
 S08000015,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,1019,Cumulative people tested for COVID-19 - Positive
 S08000015,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,1019,Cumulative people tested for COVID-19 - Positive
 S08000015,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,1023,Cumulative people tested for COVID-19 - Positive
+S08000015,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,1029,Cumulative people tested for COVID-19 - Positive
 S08000016,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000016,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000016,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2007,6 +2039,7 @@ S08000016,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,322,
 S08000016,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,322,Cumulative people tested for COVID-19 - Positive
 S08000016,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,322,Cumulative people tested for COVID-19 - Positive
 S08000016,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,323,Cumulative people tested for COVID-19 - Positive
+S08000016,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,323,Cumulative people tested for COVID-19 - Positive
 S08000017,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000017,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000017,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2088,6 +2121,7 @@ S08000017,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,257,
 S08000017,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,258,Cumulative people tested for COVID-19 - Positive
 S08000017,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,260,Cumulative people tested for COVID-19 - Positive
 S08000017,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,260,Cumulative people tested for COVID-19 - Positive
+S08000017,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,260,Cumulative people tested for COVID-19 - Positive
 S08000029,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000029,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000029,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2169,6 +2203,7 @@ S08000029,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,826,
 S08000029,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,826,Cumulative people tested for COVID-19 - Positive
 S08000029,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,827,Cumulative people tested for COVID-19 - Positive
 S08000029,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,828,Cumulative people tested for COVID-19 - Positive
+S08000029,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,830,Cumulative people tested for COVID-19 - Positive
 S08000019,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000019,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000019,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2250,6 +2285,7 @@ S08000019,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,915,
 S08000019,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,917,Cumulative people tested for COVID-19 - Positive
 S08000019,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,917,Cumulative people tested for COVID-19 - Positive
 S08000019,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,918,Cumulative people tested for COVID-19 - Positive
+S08000019,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,919,Cumulative people tested for COVID-19 - Positive
 S08000020,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000020,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000020,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2331,6 +2367,7 @@ S08000020,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,1223
 S08000020,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,1224,Cumulative people tested for COVID-19 - Positive
 S08000020,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,1245,Cumulative people tested for COVID-19 - Positive
 S08000020,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,1250,Cumulative people tested for COVID-19 - Positive
+S08000020,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,1256,Cumulative people tested for COVID-19 - Positive
 S08000031,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000031,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000031,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2412,6 +2449,7 @@ S08000031,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,3865
 S08000031,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,3876,Cumulative people tested for COVID-19 - Positive
 S08000031,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,3892,Cumulative people tested for COVID-19 - Positive
 S08000031,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,3898,Cumulative people tested for COVID-19 - Positive
+S08000031,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,3916,Cumulative people tested for COVID-19 - Positive
 S08000022,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000022,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000022,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2493,6 +2531,7 @@ S08000022,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,335,
 S08000022,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,335,Cumulative people tested for COVID-19 - Positive
 S08000022,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,335,Cumulative people tested for COVID-19 - Positive
 S08000022,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,336,Cumulative people tested for COVID-19 - Positive
+S08000022,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,337,Cumulative people tested for COVID-19 - Positive
 S08000032,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000032,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000032,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2574,6 +2613,7 @@ S08000032,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,1922
 S08000032,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,1934,Cumulative people tested for COVID-19 - Positive
 S08000032,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,1944,Cumulative people tested for COVID-19 - Positive
 S08000032,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,1948,Cumulative people tested for COVID-19 - Positive
+S08000032,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,1957,Cumulative people tested for COVID-19 - Positive
 S08000024,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000024,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000024,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,5,Cumulative people tested for COVID-19 - Positive
@@ -2655,6 +2695,7 @@ S08000024,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,2649
 S08000024,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,2665,Cumulative people tested for COVID-19 - Positive
 S08000024,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,2669,Cumulative people tested for COVID-19 - Positive
 S08000024,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,2675,Cumulative people tested for COVID-19 - Positive
+S08000024,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,2685,Cumulative people tested for COVID-19 - Positive
 S08000025,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000025,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000025,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2736,6 +2777,7 @@ S08000025,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,7,Cu
 S08000025,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,7,Cumulative people tested for COVID-19 - Positive
 S08000025,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,7,Cumulative people tested for COVID-19 - Positive
 S08000025,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,7,Cumulative people tested for COVID-19 - Positive
+S08000025,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,7,Cumulative people tested for COVID-19 - Positive
 S08000026,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000026,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000026,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2817,6 +2859,7 @@ S08000026,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,54,C
 S08000026,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,54,Cumulative people tested for COVID-19 - Positive
 S08000026,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,54,Cumulative people tested for COVID-19 - Positive
 S08000026,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,54,Cumulative people tested for COVID-19 - Positive
+S08000026,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,54,Cumulative people tested for COVID-19 - Positive
 S08000030,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000030,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000030,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2898,6 +2941,7 @@ S08000030,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,1645
 S08000030,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,1658,Cumulative people tested for COVID-19 - Positive
 S08000030,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,1659,Cumulative people tested for COVID-19 - Positive
 S08000030,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,1659,Cumulative people tested for COVID-19 - Positive
+S08000030,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,1661,Cumulative people tested for COVID-19 - Positive
 S08000028,2020-03-07,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000028,2020-03-08,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
 S08000028,2020-03-09,Count,Cumulative people tested for COVID-19 - Positive,9999999,Cumulative people tested for COVID-19 - Positive
@@ -2979,6 +3023,7 @@ S08000028,2020-05-23,Count,Cumulative people tested for COVID-19 - Positive,6,Cu
 S08000028,2020-05-24,Count,Cumulative people tested for COVID-19 - Positive,6,Cumulative people tested for COVID-19 - Positive
 S08000028,2020-05-25,Count,Cumulative people tested for COVID-19 - Positive,6,Cumulative people tested for COVID-19 - Positive
 S08000028,2020-05-26,Count,Cumulative people tested for COVID-19 - Positive,6,Cumulative people tested for COVID-19 - Positive
+S08000028,2020-05-27,Count,Cumulative people tested for COVID-19 - Positive,6,Cumulative people tested for COVID-19 - Positive
 S08000015,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000015,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000015,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3049,6 +3094,7 @@ S08000015,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000015,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000015,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000015,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000015,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000016,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000016,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000016,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3119,6 +3165,7 @@ S08000016,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000016,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000016,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000016,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000016,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000017,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000017,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000017,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3189,6 +3236,7 @@ S08000017,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000017,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000017,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000017,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000017,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000029,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000029,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000029,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3259,6 +3307,7 @@ S08000029,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000029,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000029,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000029,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000029,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000019,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000019,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000019,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3329,6 +3378,7 @@ S08000019,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000019,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000019,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000019,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000019,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000020,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000020,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000020,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3399,6 +3449,7 @@ S08000020,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000020,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000020,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000020,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000020,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000031,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000031,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000031,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3469,6 +3520,7 @@ S08000031,2020-05-23,Count,COVID-19 patients in ICU - Total,13,COVID-19 patients
 S08000031,2020-05-24,Count,COVID-19 patients in ICU - Total,12,COVID-19 patients in ICU - Total
 S08000031,2020-05-25,Count,COVID-19 patients in ICU - Total,12,COVID-19 patients in ICU - Total
 S08000031,2020-05-26,Count,COVID-19 patients in ICU - Total,11,COVID-19 patients in ICU - Total
+S08000031,2020-05-27,Count,COVID-19 patients in ICU - Total,9,COVID-19 patients in ICU - Total
 S08000022,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000022,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000022,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3539,6 +3591,7 @@ S08000022,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000022,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000022,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000022,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000022,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000032,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000032,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000032,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3609,6 +3662,7 @@ S08000032,2020-05-23,Count,COVID-19 patients in ICU - Total,6,COVID-19 patients 
 S08000032,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000032,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000032,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000032,2020-05-27,Count,COVID-19 patients in ICU - Total,5,COVID-19 patients in ICU - Total
 S08000024,2020-03-18,Count,COVID-19 patients in ICU - Total,5,COVID-19 patients in ICU - Total
 S08000024,2020-03-19,Count,COVID-19 patients in ICU - Total,5,COVID-19 patients in ICU - Total
 S08000024,2020-03-20,Count,COVID-19 patients in ICU - Total,6,COVID-19 patients in ICU - Total
@@ -3679,6 +3733,7 @@ S08000024,2020-05-23,Count,COVID-19 patients in ICU - Total,10,COVID-19 patients
 S08000024,2020-05-24,Count,COVID-19 patients in ICU - Total,8,COVID-19 patients in ICU - Total
 S08000024,2020-05-25,Count,COVID-19 patients in ICU - Total,9,COVID-19 patients in ICU - Total
 S08000024,2020-05-26,Count,COVID-19 patients in ICU - Total,5,COVID-19 patients in ICU - Total
+S08000024,2020-05-27,Count,COVID-19 patients in ICU - Total,12,COVID-19 patients in ICU - Total
 S08000025,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000025,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000025,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3749,6 +3804,7 @@ S08000025,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000025,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000025,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000025,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000025,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000026,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000026,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000026,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3819,6 +3875,7 @@ S08000026,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000026,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000026,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000026,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000026,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000030,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000030,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000030,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3889,6 +3946,7 @@ S08000030,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000030,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000030,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000030,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000030,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000028,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000028,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000028,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -3959,6 +4017,7 @@ S08000028,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 pat
 S08000028,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000028,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000028,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+S08000028,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 SB0801,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 SB0801,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 SB0801,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -4029,6 +4088,7 @@ SB0801,2020-05-23,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patien
 SB0801,2020-05-24,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 SB0801,2020-05-25,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 SB0801,2020-05-26,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
+SB0801,2020-05-27,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000015,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,14,COVID-19 patients in hospital - Confirmed
 S08000015,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,19,COVID-19 patients in hospital - Confirmed
 S08000015,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,20,COVID-19 patients in hospital - Confirmed
@@ -4091,6 +4151,7 @@ S08000015,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,21,COVID-19
 S08000015,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,25,COVID-19 patients in hospital - Confirmed
 S08000015,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,21,COVID-19 patients in hospital - Confirmed
 S08000015,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,19,COVID-19 patients in hospital - Confirmed
+S08000015,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,16,COVID-19 patients in hospital - Confirmed
 S08000016,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,5,COVID-19 patients in hospital - Confirmed
 S08000016,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,6,COVID-19 patients in hospital - Confirmed
 S08000016,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,15,COVID-19 patients in hospital - Confirmed
@@ -4153,6 +4214,7 @@ S08000016,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,11,COVID-19
 S08000016,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,11,COVID-19 patients in hospital - Confirmed
 S08000016,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,11,COVID-19 patients in hospital - Confirmed
 S08000016,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,9,COVID-19 patients in hospital - Confirmed
+S08000016,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000017,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,11,COVID-19 patients in hospital - Confirmed
 S08000017,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,13,COVID-19 patients in hospital - Confirmed
 S08000017,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,13,COVID-19 patients in hospital - Confirmed
@@ -4215,6 +4277,7 @@ S08000017,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000017,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000017,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000017,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000017,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000029,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,20,COVID-19 patients in hospital - Confirmed
 S08000029,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,23,COVID-19 patients in hospital - Confirmed
 S08000029,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,30,COVID-19 patients in hospital - Confirmed
@@ -4277,6 +4340,7 @@ S08000029,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,69,COVID-19
 S08000029,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,69,COVID-19 patients in hospital - Confirmed
 S08000029,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,69,COVID-19 patients in hospital - Confirmed
 S08000029,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,67,COVID-19 patients in hospital - Confirmed
+S08000029,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,66,COVID-19 patients in hospital - Confirmed
 S08000019,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,29,COVID-19 patients in hospital - Confirmed
 S08000019,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,31,COVID-19 patients in hospital - Confirmed
 S08000019,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,32,COVID-19 patients in hospital - Confirmed
@@ -4339,6 +4403,7 @@ S08000019,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,16,COVID-19
 S08000019,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,14,COVID-19 patients in hospital - Confirmed
 S08000019,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,16,COVID-19 patients in hospital - Confirmed
 S08000019,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,15,COVID-19 patients in hospital - Confirmed
+S08000019,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,10,COVID-19 patients in hospital - Confirmed
 S08000020,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,8,COVID-19 patients in hospital - Confirmed
 S08000020,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,13,COVID-19 patients in hospital - Confirmed
 S08000020,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,16,COVID-19 patients in hospital - Confirmed
@@ -4401,6 +4466,7 @@ S08000020,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,70,COVID-19
 S08000020,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,72,COVID-19 patients in hospital - Confirmed
 S08000020,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,71,COVID-19 patients in hospital - Confirmed
 S08000020,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,66,COVID-19 patients in hospital - Confirmed
+S08000020,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,69,COVID-19 patients in hospital - Confirmed
 S08000031,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,125,COVID-19 patients in hospital - Confirmed
 S08000031,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,153,COVID-19 patients in hospital - Confirmed
 S08000031,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,200,COVID-19 patients in hospital - Confirmed
@@ -4463,6 +4529,7 @@ S08000031,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,379,COVID-1
 S08000031,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,379,COVID-19 patients in hospital - Confirmed
 S08000031,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,384,COVID-19 patients in hospital - Confirmed
 S08000031,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,382,COVID-19 patients in hospital - Confirmed
+S08000031,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,378,COVID-19 patients in hospital - Confirmed
 S08000022,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,7,COVID-19 patients in hospital - Confirmed
 S08000022,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,6,COVID-19 patients in hospital - Confirmed
 S08000022,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,7,COVID-19 patients in hospital - Confirmed
@@ -4525,6 +4592,7 @@ S08000022,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,10,COVID-19
 S08000022,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,10,COVID-19 patients in hospital - Confirmed
 S08000022,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,10,COVID-19 patients in hospital - Confirmed
 S08000022,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,8,COVID-19 patients in hospital - Confirmed
+S08000022,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,9,COVID-19 patients in hospital - Confirmed
 S08000032,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,N/A,COVID-19 patients in hospital - Confirmed
 S08000032,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,41,COVID-19 patients in hospital - Confirmed
 S08000032,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,62,COVID-19 patients in hospital - Confirmed
@@ -4587,6 +4655,7 @@ S08000032,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,86,COVID-19
 S08000032,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,83,COVID-19 patients in hospital - Confirmed
 S08000032,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,82,COVID-19 patients in hospital - Confirmed
 S08000032,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,83,COVID-19 patients in hospital - Confirmed
+S08000032,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,78,COVID-19 patients in hospital - Confirmed
 S08000024,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,66,COVID-19 patients in hospital - Confirmed
 S08000024,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,73,COVID-19 patients in hospital - Confirmed
 S08000024,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,83,COVID-19 patients in hospital - Confirmed
@@ -4649,6 +4718,7 @@ S08000024,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,162,COVID-1
 S08000024,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,165,COVID-19 patients in hospital - Confirmed
 S08000024,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,168,COVID-19 patients in hospital - Confirmed
 S08000024,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,169,COVID-19 patients in hospital - Confirmed
+S08000024,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,164,COVID-19 patients in hospital - Confirmed
 S08000025,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000025,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000025,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
@@ -4711,6 +4781,7 @@ S08000025,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000025,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000025,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000025,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000025,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000026,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000026,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000026,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
@@ -4773,6 +4844,7 @@ S08000026,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000026,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000026,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000026,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000026,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000030,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,26,COVID-19 patients in hospital - Confirmed
 S08000030,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,25,COVID-19 patients in hospital - Confirmed
 S08000030,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,32,COVID-19 patients in hospital - Confirmed
@@ -4835,6 +4907,7 @@ S08000030,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,13,COVID-19
 S08000030,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,13,COVID-19 patients in hospital - Confirmed
 S08000030,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,14,COVID-19 patients in hospital - Confirmed
 S08000030,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,13,COVID-19 patients in hospital - Confirmed
+S08000030,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,14,COVID-19 patients in hospital - Confirmed
 S08000028,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000028,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000028,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
@@ -4897,6 +4970,7 @@ S08000028,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000028,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000028,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000028,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000028,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 SB0801,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 SB0801,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 SB0801,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
@@ -4959,6 +5033,7 @@ SB0801,2020-05-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-
 SB0801,2020-05-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 SB0801,2020-05-25,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 SB0801,2020-05-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+SB0801,2020-05-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000015,2020-03-26,Count,COVID-19 patients in hospital - Suspected,31,COVID-19 patients in hospital - Suspected
 S08000015,2020-03-27,Count,COVID-19 patients in hospital - Suspected,25,COVID-19 patients in hospital - Suspected
 S08000015,2020-03-28,Count,COVID-19 patients in hospital - Suspected,31,COVID-19 patients in hospital - Suspected
@@ -5021,6 +5096,7 @@ S08000015,2020-05-23,Count,COVID-19 patients in hospital - Suspected,39,COVID-19
 S08000015,2020-05-24,Count,COVID-19 patients in hospital - Suspected,30,COVID-19 patients in hospital - Suspected
 S08000015,2020-05-25,Count,COVID-19 patients in hospital - Suspected,24,COVID-19 patients in hospital - Suspected
 S08000015,2020-05-26,Count,COVID-19 patients in hospital - Suspected,21,COVID-19 patients in hospital - Suspected
+S08000015,2020-05-27,Count,COVID-19 patients in hospital - Suspected,23,COVID-19 patients in hospital - Suspected
 S08000016,2020-03-26,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000016,2020-03-27,Count,COVID-19 patients in hospital - Suspected,19,COVID-19 patients in hospital - Suspected
 S08000016,2020-03-28,Count,COVID-19 patients in hospital - Suspected,20,COVID-19 patients in hospital - Suspected
@@ -5083,6 +5159,7 @@ S08000016,2020-05-23,Count,COVID-19 patients in hospital - Suspected,18,COVID-19
 S08000016,2020-05-24,Count,COVID-19 patients in hospital - Suspected,25,COVID-19 patients in hospital - Suspected
 S08000016,2020-05-25,Count,COVID-19 patients in hospital - Suspected,19,COVID-19 patients in hospital - Suspected
 S08000016,2020-05-26,Count,COVID-19 patients in hospital - Suspected,20,COVID-19 patients in hospital - Suspected
+S08000016,2020-05-27,Count,COVID-19 patients in hospital - Suspected,14,COVID-19 patients in hospital - Suspected
 S08000017,2020-03-26,Count,COVID-19 patients in hospital - Suspected,12,COVID-19 patients in hospital - Suspected
 S08000017,2020-03-27,Count,COVID-19 patients in hospital - Suspected,18,COVID-19 patients in hospital - Suspected
 S08000017,2020-03-28,Count,COVID-19 patients in hospital - Suspected,28,COVID-19 patients in hospital - Suspected
@@ -5145,6 +5222,7 @@ S08000017,2020-05-23,Count,COVID-19 patients in hospital - Suspected,14,COVID-19
 S08000017,2020-05-24,Count,COVID-19 patients in hospital - Suspected,18,COVID-19 patients in hospital - Suspected
 S08000017,2020-05-25,Count,COVID-19 patients in hospital - Suspected,13,COVID-19 patients in hospital - Suspected
 S08000017,2020-05-26,Count,COVID-19 patients in hospital - Suspected,10,COVID-19 patients in hospital - Suspected
+S08000017,2020-05-27,Count,COVID-19 patients in hospital - Suspected,14,COVID-19 patients in hospital - Suspected
 S08000029,2020-03-26,Count,COVID-19 patients in hospital - Suspected,25,COVID-19 patients in hospital - Suspected
 S08000029,2020-03-27,Count,COVID-19 patients in hospital - Suspected,28,COVID-19 patients in hospital - Suspected
 S08000029,2020-03-28,Count,COVID-19 patients in hospital - Suspected,20,COVID-19 patients in hospital - Suspected
@@ -5207,6 +5285,7 @@ S08000029,2020-05-23,Count,COVID-19 patients in hospital - Suspected,29,COVID-19
 S08000029,2020-05-24,Count,COVID-19 patients in hospital - Suspected,33,COVID-19 patients in hospital - Suspected
 S08000029,2020-05-25,Count,COVID-19 patients in hospital - Suspected,23,COVID-19 patients in hospital - Suspected
 S08000029,2020-05-26,Count,COVID-19 patients in hospital - Suspected,13,COVID-19 patients in hospital - Suspected
+S08000029,2020-05-27,Count,COVID-19 patients in hospital - Suspected,22,COVID-19 patients in hospital - Suspected
 S08000019,2020-03-26,Count,COVID-19 patients in hospital - Suspected,33,COVID-19 patients in hospital - Suspected
 S08000019,2020-03-27,Count,COVID-19 patients in hospital - Suspected,33,COVID-19 patients in hospital - Suspected
 S08000019,2020-03-28,Count,COVID-19 patients in hospital - Suspected,33,COVID-19 patients in hospital - Suspected
@@ -5269,6 +5348,7 @@ S08000019,2020-05-23,Count,COVID-19 patients in hospital - Suspected,53,COVID-19
 S08000019,2020-05-24,Count,COVID-19 patients in hospital - Suspected,55,COVID-19 patients in hospital - Suspected
 S08000019,2020-05-25,Count,COVID-19 patients in hospital - Suspected,41,COVID-19 patients in hospital - Suspected
 S08000019,2020-05-26,Count,COVID-19 patients in hospital - Suspected,29,COVID-19 patients in hospital - Suspected
+S08000019,2020-05-27,Count,COVID-19 patients in hospital - Suspected,35,COVID-19 patients in hospital - Suspected
 S08000020,2020-03-26,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000020,2020-03-27,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000020,2020-03-28,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
@@ -5331,6 +5411,7 @@ S08000020,2020-05-23,Count,COVID-19 patients in hospital - Suspected,21,COVID-19
 S08000020,2020-05-24,Count,COVID-19 patients in hospital - Suspected,18,COVID-19 patients in hospital - Suspected
 S08000020,2020-05-25,Count,COVID-19 patients in hospital - Suspected,13,COVID-19 patients in hospital - Suspected
 S08000020,2020-05-26,Count,COVID-19 patients in hospital - Suspected,22,COVID-19 patients in hospital - Suspected
+S08000020,2020-05-27,Count,COVID-19 patients in hospital - Suspected,16,COVID-19 patients in hospital - Suspected
 S08000031,2020-03-26,Count,COVID-19 patients in hospital - Suspected,N/A,COVID-19 patients in hospital - Suspected
 S08000031,2020-03-27,Count,COVID-19 patients in hospital - Suspected,N/A,COVID-19 patients in hospital - Suspected
 S08000031,2020-03-28,Count,COVID-19 patients in hospital - Suspected,N/A,COVID-19 patients in hospital - Suspected
@@ -5393,6 +5474,7 @@ S08000031,2020-05-23,Count,COVID-19 patients in hospital - Suspected,N/A,COVID-1
 S08000031,2020-05-24,Count,COVID-19 patients in hospital - Suspected,N/A,COVID-19 patients in hospital - Suspected
 S08000031,2020-05-25,Count,COVID-19 patients in hospital - Suspected,N/A,COVID-19 patients in hospital - Suspected
 S08000031,2020-05-26,Count,COVID-19 patients in hospital - Suspected,N/A,COVID-19 patients in hospital - Suspected
+S08000031,2020-05-27,Count,COVID-19 patients in hospital - Suspected,N/A,COVID-19 patients in hospital - Suspected
 S08000022,2020-03-26,Count,COVID-19 patients in hospital - Suspected,32,COVID-19 patients in hospital - Suspected
 S08000022,2020-03-27,Count,COVID-19 patients in hospital - Suspected,22,COVID-19 patients in hospital - Suspected
 S08000022,2020-03-28,Count,COVID-19 patients in hospital - Suspected,31,COVID-19 patients in hospital - Suspected
@@ -5455,6 +5537,7 @@ S08000022,2020-05-23,Count,COVID-19 patients in hospital - Suspected,38,COVID-19
 S08000022,2020-05-24,Count,COVID-19 patients in hospital - Suspected,26,COVID-19 patients in hospital - Suspected
 S08000022,2020-05-25,Count,COVID-19 patients in hospital - Suspected,27,COVID-19 patients in hospital - Suspected
 S08000022,2020-05-26,Count,COVID-19 patients in hospital - Suspected,41,COVID-19 patients in hospital - Suspected
+S08000022,2020-05-27,Count,COVID-19 patients in hospital - Suspected,34,COVID-19 patients in hospital - Suspected
 S08000032,2020-03-26,Count,COVID-19 patients in hospital - Suspected,N/A,COVID-19 patients in hospital - Suspected
 S08000032,2020-03-27,Count,COVID-19 patients in hospital - Suspected,51,COVID-19 patients in hospital - Suspected
 S08000032,2020-03-28,Count,COVID-19 patients in hospital - Suspected,48,COVID-19 patients in hospital - Suspected
@@ -5517,6 +5600,7 @@ S08000032,2020-05-23,Count,COVID-19 patients in hospital - Suspected,80,COVID-19
 S08000032,2020-05-24,Count,COVID-19 patients in hospital - Suspected,69,COVID-19 patients in hospital - Suspected
 S08000032,2020-05-25,Count,COVID-19 patients in hospital - Suspected,74,COVID-19 patients in hospital - Suspected
 S08000032,2020-05-26,Count,COVID-19 patients in hospital - Suspected,85,COVID-19 patients in hospital - Suspected
+S08000032,2020-05-27,Count,COVID-19 patients in hospital - Suspected,86,COVID-19 patients in hospital - Suspected
 S08000024,2020-03-26,Count,COVID-19 patients in hospital - Suspected,13,COVID-19 patients in hospital - Suspected
 S08000024,2020-03-27,Count,COVID-19 patients in hospital - Suspected,42,COVID-19 patients in hospital - Suspected
 S08000024,2020-03-28,Count,COVID-19 patients in hospital - Suspected,22,COVID-19 patients in hospital - Suspected
@@ -5579,6 +5663,7 @@ S08000024,2020-05-23,Count,COVID-19 patients in hospital - Suspected,150,COVID-1
 S08000024,2020-05-24,Count,COVID-19 patients in hospital - Suspected,187,COVID-19 patients in hospital - Suspected
 S08000024,2020-05-25,Count,COVID-19 patients in hospital - Suspected,174,COVID-19 patients in hospital - Suspected
 S08000024,2020-05-26,Count,COVID-19 patients in hospital - Suspected,103,COVID-19 patients in hospital - Suspected
+S08000024,2020-05-27,Count,COVID-19 patients in hospital - Suspected,178,COVID-19 patients in hospital - Suspected
 S08000025,2020-03-26,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000025,2020-03-27,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000025,2020-03-28,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
@@ -5641,6 +5726,7 @@ S08000025,2020-05-23,Count,COVID-19 patients in hospital - Suspected,9999999,COV
 S08000025,2020-05-24,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000025,2020-05-25,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000025,2020-05-26,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
+S08000025,2020-05-27,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000026,2020-03-26,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000026,2020-03-27,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000026,2020-03-28,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
@@ -5703,6 +5789,7 @@ S08000026,2020-05-23,Count,COVID-19 patients in hospital - Suspected,9999999,COV
 S08000026,2020-05-24,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000026,2020-05-25,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000026,2020-05-26,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
+S08000026,2020-05-27,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000030,2020-03-26,Count,COVID-19 patients in hospital - Suspected,24,COVID-19 patients in hospital - Suspected
 S08000030,2020-03-27,Count,COVID-19 patients in hospital - Suspected,25,COVID-19 patients in hospital - Suspected
 S08000030,2020-03-28,Count,COVID-19 patients in hospital - Suspected,29,COVID-19 patients in hospital - Suspected
@@ -5765,6 +5852,7 @@ S08000030,2020-05-23,Count,COVID-19 patients in hospital - Suspected,19,COVID-19
 S08000030,2020-05-24,Count,COVID-19 patients in hospital - Suspected,23,COVID-19 patients in hospital - Suspected
 S08000030,2020-05-25,Count,COVID-19 patients in hospital - Suspected,10,COVID-19 patients in hospital - Suspected
 S08000030,2020-05-26,Count,COVID-19 patients in hospital - Suspected,18,COVID-19 patients in hospital - Suspected
+S08000030,2020-05-27,Count,COVID-19 patients in hospital - Suspected,14,COVID-19 patients in hospital - Suspected
 S08000028,2020-03-26,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000028,2020-03-27,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000028,2020-03-28,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
@@ -5827,6 +5915,7 @@ S08000028,2020-05-23,Count,COVID-19 patients in hospital - Suspected,9999999,COV
 S08000028,2020-05-24,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000028,2020-05-25,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 S08000028,2020-05-26,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
+S08000028,2020-05-27,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 SB0801,2020-03-26,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 SB0801,2020-03-27,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 SB0801,2020-03-28,Count,COVID-19 patients in hospital - Suspected,5,COVID-19 patients in hospital - Suspected
@@ -5889,3 +5978,4 @@ SB0801,2020-05-23,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-
 SB0801,2020-05-24,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 SB0801,2020-05-25,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
 SB0801,2020-05-26,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
+SB0801,2020-05-27,Count,COVID-19 patients in hospital - Suspected,9999999,COVID-19 patients in hospital - Suspected
