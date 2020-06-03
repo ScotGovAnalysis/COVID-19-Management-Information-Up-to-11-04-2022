@@ -183,16 +183,16 @@ HB_table2 <- raw_HB_table2 %>%
 HB_table3a <- raw_HB_table3a %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
-  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) #%>%
-  #replace_na(list("N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A"))
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
+  mutate(Lanarkshire = na_if(Lanarkshire, "N/A"))
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table3b <- raw_HB_table3b %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
-  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) #%>%
-  #replace_na(list("N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A"))
-
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
+  mutate(Lanarkshire = na_if(Lanarkshire, "N/A"),
+         `Greater Glasgow and Clyde` = na_if(`Greater Glasgow and Clyde`, "N/A"))
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 
@@ -314,6 +314,8 @@ HB_output_dataset <- bind_rows(tidy_HB_table1,
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 whole_output_dataset <- bind_rows(SC_output_dataset,
                                   HB_output_dataset) %>%
+ # mutate(Value = str_replace(Value, 'N/A', "NA")) %>%
+
   na.omit
 
 
