@@ -5,7 +5,7 @@
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 02/06/2020
+# Last updated - 03/06/2020
 # ------------------------------------------------------------------------------
 
 
@@ -41,8 +41,8 @@ HB_codes <- tribble(
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
          
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B2%2BJune%2B2020.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B2%2BJune%2B2020.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B3%2BJune%2B2020.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B3%2BJune%2B2020.xlsx"
  
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -67,7 +67,7 @@ excel_sheets(tf2)
 raw_SC_table1 <- read_excel(tf1, "Table 1 - NHS 24", skip = 2)
 raw_SC_table2 <- read_excel(tf1, "Table 2 - Hospital Care", skip = 3)
 raw_SC_table3 <- read_excel(tf1, "Table 3 - Ambulance", skip = 2)[,-1]
-raw_SC_table4 <- read_excel(tf1, "Table 4 - Delayed Discharges", skip = 2)[, -c(1)]
+raw_SC_table4 <- read_excel(tf1, "Table 4 - Delayed Discharges", skip = 2)[,-1]
 raw_SC_table5 <- read_excel(tf1, "Table 5 - Testing", skip = 2)[-1, ]
 raw_SC_table6 <- read_excel(tf1, "Table 6 - Workforce", skip = 1)
 raw_SC_table7a <- read_excel(tf1, "Table 7a - Care Homes", skip = 2)[, -c(5,8)]
