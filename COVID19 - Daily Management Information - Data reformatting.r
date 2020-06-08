@@ -5,18 +5,18 @@
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 07/06/2020
+# Last updated - 08/06/2020
 # ------------------------------------------------------------------------------
 
 
-# [0] Loading libraries ------------------------------------------------------------
-library(httr) #GET
-library(readxl) #excel_sheets, read_excel
-library(dplyr) #%>%, rename, rename_at, mutate
-library(tidyr) #gather, join, na_if
-library(stringr) #str_remove, str_replace, bind_rows, left_join
+# [0] Loading libraries --------------------------------------------------------
+library(httr)    # GET
+library(readxl)  # excel_sheets, read_excel
+library(dplyr)   # %>%, rename, rename_at, mutate
+library(tidyr)   # gather, join, na_if
+library(stringr) # str_remove, str_replace, bind_rows, left_join
 
-# [1] Health Board 2014 codes ------------------------------------------------------
+# [1] Health Board 2014 codes --------------------------------------------------
 HB_codes <- tribble(
   ~HB2014Code, ~HB2014Name,
   "S08000015",	"Ayrshire and Arran",
@@ -37,12 +37,12 @@ HB_codes <- tribble(
 )
 
 
-# [2a] Reading original files from website --------------------------------------
+# [2a] Reading original files from website -------------------------------------
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
          
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B7%2BJune%2B2020.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B7%2BJune%2B2020.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B8%2BJune%2B2020.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B8%2BJune%2B2020.xlsx"
  
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -78,7 +78,6 @@ raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-16]
 raw_HB_table2  <- read_excel(tf2, "Table 2 - ICU patients", skip = 2)[, -17]
 raw_HB_table3a <- read_excel(tf2, "Table 3a - Hospital Confirmed", skip = 2)[, -17]
 raw_HB_table3b <- read_excel(tf2, "Table 3b- Hospital Suspected", skip = 2)[, -17]
-
 
 #unlink(tf1)
 #unlink(tf2)
@@ -330,18 +329,18 @@ write.csv(whole_output_dataset_9999999, "./COVID19 - Daily Management Informatio
 
 
 # to upload to GitHub
-write.csv(SC_table1, "./COVID19 - Daily Management Information - Scotland - Calls.csv", quote = FALSE, row.names = F)
-write.csv(SC_table2, "./COVID19 - Daily Management Information - Scotland - Hospital care.csv", quote = FALSE, row.names = F)
-write.csv(SC_table3, "./COVID19 - Daily Management Information - Scotland - Ambulance.csv", quote = FALSE, row.names = F)
-write.csv(SC_table4, "./COVID19 - Daily Management Information - Scotland - Delayed discharges.csv", quote = FALSE, row.names = F)
-write.csv(SC_table5, "./COVID19 - Daily Management Information - Scotland - Testing.csv", quote = FALSE, row.names = F)
-write.csv(SC_table6, "./COVID19 - Daily Management Information - Scotland - Workforce.csv", quote = FALSE, row.names = F)
+write.csv(SC_table1,  "./COVID19 - Daily Management Information - Scotland - Calls.csv", quote = FALSE, row.names = F)
+write.csv(SC_table2,  "./COVID19 - Daily Management Information - Scotland - Hospital care.csv", quote = FALSE, row.names = F)
+write.csv(SC_table3,  "./COVID19 - Daily Management Information - Scotland - Ambulance.csv", quote = FALSE, row.names = F)
+write.csv(SC_table4,  "./COVID19 - Daily Management Information - Scotland - Delayed discharges.csv", quote = FALSE, row.names = F)
+write.csv(SC_table5,  "./COVID19 - Daily Management Information - Scotland - Testing.csv", quote = FALSE, row.names = F)
+write.csv(SC_table6,  "./COVID19 - Daily Management Information - Scotland - Workforce.csv", quote = FALSE, row.names = F)
 write.csv(SC_table7a, "./COVID19 - Daily Management Information - Scotland - Care homes.csv", quote = FALSE, row.names = F)
 write.csv(SC_table7b, "./COVID19 - Daily Management Information - Scotland - Care home workforce.csv", quote = FALSE, row.names = F)
-write.csv(SC_table8, "./COVID19 - Daily Management Information - Scotland - Deaths.csv", quote = FALSE, row.names = F)
+write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Deaths.csv", quote = FALSE, row.names = F)
 
-write.csv(HB_table1, "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
-write.csv(HB_table2, "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients.csv", quote = FALSE, row.names = F)
+write.csv(HB_table1,  "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
+write.csv(HB_table2,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients.csv", quote = FALSE, row.names = F)
 write.csv(HB_table3a, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed.csv", quote = FALSE, row.names = F)
 write.csv(HB_table3b, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Suspected.csv", quote = FALSE, row.names = F)
 
@@ -351,4 +350,4 @@ write.csv(HB_table3b, "./COVID19 - Daily Management Information - Scottish Healt
 # '\\*'      - to match asterisks
 # mutate(Value = str_remove(Value, '\\p{No}'),
 #        Date = as.Date(as.numeric(Date), origin = "1899-12-30"),
-       
+
