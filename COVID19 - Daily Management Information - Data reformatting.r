@@ -5,7 +5,7 @@
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 11/06/2020
+# Last updated - 13/06/2020
 # ------------------------------------------------------------------------------
 
 
@@ -40,14 +40,14 @@ HB_codes <- tribble(
 # [2a] Reading original files from website -------------------------------------
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
-
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B12%2BJune%2B2020.xlsx"         
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B12%2BJune%2B2020.xlsx"
-
+         
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B13%2BJune%2B2020.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B13%2BJune%2B2020.xlsx"
+ 
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
 excel_sheets(tf1)
-
+ 
 # -- Health Boards (HB) --
 GET(url2, write_disk(tf2 <- tempfile(fileext = ".xlsx")))
 excel_sheets(tf2)
@@ -107,10 +107,10 @@ SC_table4 <- raw_SC_table4 %>%
   rename("Delayed discharges" = "Number of delayed discharges")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table5 <- raw_SC_table5 #%>%
-# rename("Date" = "Date notified",
-#        "Cumulative people tested for COVID-19 - Negative" = "Cumulative people tested for COVID-19",
-#        "Cumulative people tested for COVID-19 - Positive" = "...3",
-#        "Cumulative people tested for COVID-19 - Total" = "...4" )
+  # rename("Date" = "Date notified",
+  #        "Cumulative people tested for COVID-19 - Negative" = "Cumulative people tested for COVID-19",
+  #        "Cumulative people tested for COVID-19 - Positive" = "...3",
+  #        "Cumulative people tested for COVID-19 - Total" = "...4" )
 names(SC_table5) <- c("Date",
                       "Testing - Cumulative people tested for COVID-19 - Negative",
                       "Testing - Cumulative people tested for COVID-19 - Positive",
@@ -130,19 +130,19 @@ SC_table6 <- raw_SC_table6 %>%
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table7a <- raw_SC_table7a %>%
   rename("Adult care homes - Cumulative number that have reported a suspected COVID-19 case" 
-         = "Cumulative number of adult care homes that have reported a suspected COVID-19 case",
+           = "Cumulative number of adult care homes that have reported a suspected COVID-19 case",
          "Adult care homes - Proportion that have reported a suspected COVID-19 case"        
-         = "Proportion of all adult care homes that have reported a suspected COVID-19 case",
+           = "Proportion of all adult care homes that have reported a suspected COVID-19 case",
          "Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case" 
-         = "Cumulative number of adult care homes that have reported more than one case of suspected COVID-19",
+           = "Cumulative number of adult care homes that have reported more than one case of suspected COVID-19",
          "Adult care homes - Number with current suspected COVID-19 cases" 
-         = "Number of adult care homes with current case of suspected COVID-19",
+           = "Number of adult care homes with current case of suspected COVID-19",
          "Adult care homes - Proportion with current suspected COVID-19 cases" 
-         = "Proportion of all adult care homes with current case of suspected COVID-19",
+           = "Proportion of all adult care homes with current case of suspected COVID-19",
          "Adult care homes - Cumulative number of suspected COVID-19 cases" 
-         = "Cumulative number of suspected COVID-19 cases in adult care homes",
+           = "Cumulative number of suspected COVID-19 cases in adult care homes",
          "Adult care homes - Daily number of new suspected COVID-19 cases" 
-         = "Daily number of new suspected COVID-19 cases in adult care homes") %>%
+           = "Daily number of new suspected COVID-19 cases in adult care homes") %>%
   mutate(`Adult care homes - Proportion that have reported a suspected COVID-19 case` = 100*`Adult care homes - Proportion that have reported a suspected COVID-19 case`,
          `Adult care homes - Proportion with current suspected COVID-19 cases` = 100*as.numeric(`Adult care homes - Proportion with current suspected COVID-19 cases`),
          `Adult care homes - Number with current suspected COVID-19 cases` = as.numeric(`Adult care homes - Number with current suspected COVID-19 cases`))
@@ -171,13 +171,13 @@ SC_table8 <- raw_SC_table8
 HB_table1 <- raw_HB_table1 %>%
   rename_at(vars(starts_with("NHS")), list(~ str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) 
-
+  
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table2 <- raw_HB_table2 %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) 
-
+  
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table3a <- raw_HB_table3a %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
@@ -254,7 +254,7 @@ tidy_SC_table8 <- SC_table8 %>%
 tidy_HB_table1 <- HB_table1 %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "Testing - Cumulative people tested for COVID-19 - Positive")
-
+  
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table2 <- HB_table2 %>%
   gather(key = HBname, value = "Value", -Date) %>%
@@ -313,8 +313,8 @@ HB_output_dataset <- bind_rows(tidy_HB_table1,
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 whole_output_dataset <- bind_rows(SC_output_dataset,
                                   HB_output_dataset) %>%
-  # mutate(Value = str_replace(Value, 'N/A', "NA")) %>%
-  
+ # mutate(Value = str_replace(Value, 'N/A', "NA")) %>%
+
   na.omit
 
 
@@ -350,3 +350,4 @@ write.csv(HB_table3b, "./COVID19 - Daily Management Information - Scottish Healt
 # '\\*'      - to match asterisks
 # mutate(Value = str_remove(Value, '\\p{No}'),
 #        Date = as.Date(as.numeric(Date), origin = "1899-12-30"),
+
