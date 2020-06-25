@@ -5,7 +5,7 @@
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 24/06/2020
+# Last updated - 25/06/2020
 # ------------------------------------------------------------------------------
 
 
@@ -41,9 +41,9 @@ HB_codes <- tribble(
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
          
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B24%2BJune%2B2020.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B24%2BJune%2B2020.xlsx"
- 
+url1 <- "http://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/Trends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B25%2BJune%2B2020.xlsx"
+url2 <- "http://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard%2B25%2BJune%2B2020.xlsx"
+
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
 excel_sheets(tf1)
@@ -73,8 +73,8 @@ raw_SC_table6  <- read_excel(tf1, "Table 6 - Workforce", skip = 1)
 raw_SC_table7a <- read_excel(tf1, "Table 7a - Care Homes", skip = 2)[, -c(5,8)]
 raw_SC_table7b <- read_excel(tf1, "Table 7b - Care Home Workforce", skip = 1)
 raw_SC_table8  <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
-
-raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-16]
+# n_max added below to remove comment added to date column
+raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2, n_max = 110)[,-16]
 raw_HB_table2  <- read_excel(tf2, "Table 2 - ICU patients", skip = 2)[, -17]
 raw_HB_table3a <- read_excel(tf2, "Table 3a - Hospital Confirmed", skip = 2)[, -17]
 raw_HB_table3b <- read_excel(tf2, "Table 3b- Hospital Suspected", skip = 2)[, -17]
