@@ -2745,10 +2745,10 @@ S92000003,2020-06-25,Ratio,Adult care homes - Proportion with current suspected 
 S92000003,2020-06-26,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,24,Adult care homes - Proportion with current suspected COVID-19 cases
 S92000003,2020-06-27,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,23,Adult care homes - Proportion with current suspected COVID-19 cases
 S92000003,2020-06-28,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,23,Adult care homes - Proportion with current suspected COVID-19 cases
-S92000003,2020-06-28,Adult care homes - Number with current suspected COVID-19 cases - revised,Adult care homes - Number with current suspected COVID-19 cases - revised,143,Adult care homes - Number with current suspected COVID-19 cases - revised
-S92000003,2020-06-29,Adult care homes - Number with current suspected COVID-19 cases - revised,Adult care homes - Number with current suspected COVID-19 cases - revised,140,Adult care homes - Number with current suspected COVID-19 cases - revised
-S92000003,2020-06-28,Adult care homes - Proportion with current suspected COVID-19 cases - revised,Adult care homes - Proportion with current suspected COVID-19 cases - revised,13,Adult care homes - Proportion with current suspected COVID-19 cases - revised
-S92000003,2020-06-29,Adult care homes - Proportion with current suspected COVID-19 cases - revised,Adult care homes - Proportion with current suspected COVID-19 cases - revised,13,Adult care homes - Proportion with current suspected COVID-19 cases - revised
+S92000003,2020-06-28,Count,Adult care homes - Number with current suspected COVID-19 cases,143,Adult care homes - Number with current suspected COVID-19 cases - revised
+S92000003,2020-06-29,Count,Adult care homes - Number with current suspected COVID-19 cases,140,Adult care homes - Number with current suspected COVID-19 cases - revised
+S92000003,2020-06-28,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,13,Adult care homes - Proportion with current suspected COVID-19 cases - revised
+S92000003,2020-06-29,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,13,Adult care homes - Proportion with current suspected COVID-19 cases - revised
 S92000003,2020-04-11,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1095,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-12,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1124,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-13,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1209,Adult care homes - Cumulative number of suspected COVID-19 cases

@@ -248,6 +248,8 @@ tidy_SC_table7a <- SC_table7a %>%
                               "Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case" = "Count",
                               "Adult care homes - Number with current suspected COVID-19 cases" = "Count",
                               "Adult care homes - Proportion with current suspected COVID-19 cases" = "Ratio",
+                              "Adult care homes - Number with current suspected COVID-19 cases - revised" = "Count",
+                              "Adult care homes - Proportion with current suspected COVID-19 cases - revised" = "Ratio",
                               "Adult care homes - Cumulative number of suspected COVID-19 cases" = "Count",
                               "Adult care homes - Daily number of new suspected COVID-19 cases" = "Count"))
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
@@ -298,8 +300,10 @@ SC_output_dataset <- bind_rows(tidy_SC_table1,
                                tidy_SC_table8) %>%
   # Creating required variables
   mutate(GeographyCode = "S92000003",
+         Value = as.character(Value),
          "Units" = Variable,
-         Value = as.character(Value)) %>%
+         Units = str_remove(Units, pattern = " - revised")) %>%
+  
   # Ordering variables appropriately
   select(GeographyCode,
          DateCode = Date,
