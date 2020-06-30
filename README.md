@@ -250,7 +250,9 @@ This dataset gathers together information as published on [https://www.gov.scot/
 
 **Timeliness and Punctuality**
 
-The latest numbers will be published shortly after 2pm each day.
+The latest numbers will be published shortly after 2pm each day. From Monday 6 July, these data will be published as open data on weekdays only. This dataset will be updated every Monday with daily data for the preceding Saturday and Sunday. The last weekend for updating these open data will be 4 and 5 July.
+
+For the time being, the data will be still be updated daily on the [Scottish Government website](https://www.gov.scot/publications/coronavirus-covid-19-trends-in-daily-data/) at 2pm every day, including weekends. We keep our publication under constant review in an effort to meet user needs and will ensure any further changes are communicated in advance.
 
 **Coherence and Comparability**
 
