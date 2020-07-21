@@ -8,6 +8,12 @@ It is Management Information, which is collected and distributed each day in ord
 
 More information on the individual data sources can be found at: [https://www.gov.scot/publications/coronavirus-covid-19-data-definitions-and-sources/](https://www.gov.scot/publications/coronavirus-covid-19-data-definitions-and-sources/)
 
+
+On Wednesday 22 July, there are planned changes to the coronavirus data on the Scottish Government website. The blog below published on 20 July contains more information on these changes.  https://blogs.gov.scot/statistics/2020/07/20/planned-changes-to-coronavirus-data-page-on-scottish-government-website/.
+We will work to reflect these changes in open datasets that we are publishing onto https://github.com/DataScienceScotland/COVID-19-Management-Information and www.statistics.gov.scot as soon as possible, but please note that there will be a delay to publication whilst we do this.  The historic data up to 22 July will still be publicly available in open formats for use and reuse. We thank you in advance for your patience whilst we prioritise these changes in order to make this data available as soon as possible
+
+
+
 *Notes*
 
 SCOTLAND DATA 
