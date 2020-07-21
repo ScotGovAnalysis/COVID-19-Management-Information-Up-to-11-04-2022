@@ -1579,6 +1579,12 @@ S92000003,2020-07-12,Count,Testing - Cumulative people tested for COVID-19 - Neg
 S92000003,2020-07-13,Count,Testing - Cumulative people tested for COVID-19 - Negative,284447,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2020-07-14,Count,Testing - Cumulative people tested for COVID-19 - Negative,286605,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2020-07-15,Count,Testing - Cumulative people tested for COVID-19 - Negative,289673,Testing - Cumulative people tested for COVID-19 - Negative
+S92000003,2020-07-16,Count,Testing - Cumulative people tested for COVID-19 - Negative,292260,Testing - Cumulative people tested for COVID-19 - Negative
+S92000003,2020-07-17,Count,Testing - Cumulative people tested for COVID-19 - Negative,296497,Testing - Cumulative people tested for COVID-19 - Negative
+S92000003,2020-07-18,Count,Testing - Cumulative people tested for COVID-19 - Negative,299939,Testing - Cumulative people tested for COVID-19 - Negative
+S92000003,2020-07-19,Count,Testing - Cumulative people tested for COVID-19 - Negative,303309,Testing - Cumulative people tested for COVID-19 - Negative
+S92000003,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Negative,305000,Testing - Cumulative people tested for COVID-19 - Negative
+S92000003,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Negative,307893,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-02,Count,Testing - Cumulative people tested for COVID-19 - Positive,1,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-03,Count,Testing - Cumulative people tested for COVID-19 - Positive,1,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-04,Count,Testing - Cumulative people tested for COVID-19 - Positive,3,Testing - Cumulative people tested for COVID-19 - Positive
@@ -1715,6 +1721,12 @@ S92000003,2020-07-12,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S92000003,2020-07-13,Count,Testing - Cumulative people tested for COVID-19 - Positive,18365,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-07-14,Count,Testing - Cumulative people tested for COVID-19 - Positive,18368,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-07-15,Count,Testing - Cumulative people tested for COVID-19 - Positive,18373,Testing - Cumulative people tested for COVID-19 - Positive
+S92000003,2020-07-16,Count,Testing - Cumulative people tested for COVID-19 - Positive,18384,Testing - Cumulative people tested for COVID-19 - Positive
+S92000003,2020-07-17,Count,Testing - Cumulative people tested for COVID-19 - Positive,18401,Testing - Cumulative people tested for COVID-19 - Positive
+S92000003,2020-07-18,Count,Testing - Cumulative people tested for COVID-19 - Positive,18422,Testing - Cumulative people tested for COVID-19 - Positive
+S92000003,2020-07-19,Count,Testing - Cumulative people tested for COVID-19 - Positive,18445,Testing - Cumulative people tested for COVID-19 - Positive
+S92000003,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Positive,18452,Testing - Cumulative people tested for COVID-19 - Positive
+S92000003,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,18474,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-02,Count,Testing - Cumulative people tested for COVID-19 - Total,815,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-03,Count,Testing - Cumulative people tested for COVID-19 - Total,915,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-04,Count,Testing - Cumulative people tested for COVID-19 - Total,1046,Testing - Cumulative people tested for COVID-19 - Total
@@ -1851,6 +1863,12 @@ S92000003,2020-07-12,Count,Testing - Cumulative people tested for COVID-19 - Tot
 S92000003,2020-07-13,Count,Testing - Cumulative people tested for COVID-19 - Total,302812,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-07-14,Count,Testing - Cumulative people tested for COVID-19 - Total,304973,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-07-15,Count,Testing - Cumulative people tested for COVID-19 - Total,308046,Testing - Cumulative people tested for COVID-19 - Total
+S92000003,2020-07-16,Count,Testing - Cumulative people tested for COVID-19 - Total,310644,Testing - Cumulative people tested for COVID-19 - Total
+S92000003,2020-07-17,Count,Testing - Cumulative people tested for COVID-19 - Total,314898,Testing - Cumulative people tested for COVID-19 - Total
+S92000003,2020-07-18,Count,Testing - Cumulative people tested for COVID-19 - Total,318361,Testing - Cumulative people tested for COVID-19 - Total
+S92000003,2020-07-19,Count,Testing - Cumulative people tested for COVID-19 - Total,321754,Testing - Cumulative people tested for COVID-19 - Total
+S92000003,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Total,323452,Testing - Cumulative people tested for COVID-19 - Total
+S92000003,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Total,326367,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-02,Count,Testing - Daily people found positive,1,Testing - Daily people found positive
 S92000003,2020-03-03,Count,Testing - Daily people found positive,0,Testing - Daily people found positive
 S92000003,2020-03-04,Count,Testing - Daily people found positive,2,Testing - Daily people found positive
@@ -1987,6 +2005,12 @@ S92000003,2020-07-12,Count,Testing - Daily people found positive,19,Testing - Da
 S92000003,2020-07-13,Count,Testing - Daily people found positive,6,Testing - Daily people found positive
 S92000003,2020-07-14,Count,Testing - Daily people found positive,3,Testing - Daily people found positive
 S92000003,2020-07-15,Count,Testing - Daily people found positive,5,Testing - Daily people found positive
+S92000003,2020-07-16,Count,Testing - Daily people found positive,11,Testing - Daily people found positive
+S92000003,2020-07-17,Count,Testing - Daily people found positive,17,Testing - Daily people found positive
+S92000003,2020-07-18,Count,Testing - Daily people found positive,21,Testing - Daily people found positive
+S92000003,2020-07-19,Count,Testing - Daily people found positive,23,Testing - Daily people found positive
+S92000003,2020-07-20,Count,Testing - Daily people found positive,7,Testing - Daily people found positive
+S92000003,2020-07-21,Count,Testing - Daily people found positive,22,Testing - Daily people found positive
 S92000003,2020-04-01,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,1710,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-04-02,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,1118,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-04-03,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,1526,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
@@ -2093,6 +2117,12 @@ S92000003,2020-07-12,Count,Testing - Total number of COVID-19 tests carried out 
 S92000003,2020-07-13,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,2456,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-07-14,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,3425,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-07-15,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,3853,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
+S92000003,2020-07-16,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,4754,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
+S92000003,2020-07-17,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,4344,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
+S92000003,2020-07-18,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,4461,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
+S92000003,2020-07-19,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,2771,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
+S92000003,2020-07-20,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,2455,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
+S92000003,2020-07-21,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,4010,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-04-01,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,23324,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-04-02,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,24442,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-04-03,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,25968,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
@@ -2199,6 +2229,12 @@ S92000003,2020-07-12,Count,Testing - Total number of COVID-19 tests carried out 
 S92000003,2020-07-13,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,317196,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-07-14,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,320621,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-07-15,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,324474,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
+S92000003,2020-07-16,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,329228,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
+S92000003,2020-07-17,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,333572,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
+S92000003,2020-07-18,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,338033,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
+S92000003,2020-07-19,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,340804,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
+S92000003,2020-07-20,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,343259,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
+S92000003,2020-07-21,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,347269,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-04-06,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,42,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-04-07,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,124,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-04-08,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,154,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
@@ -2299,7 +2335,13 @@ S92000003,2020-07-11,Count,Testing - Total number of COVID-19 tests carried out 
 S92000003,2020-07-12,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,8292,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-07-13,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,2017,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-07-14,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,1483,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
-S92000003,2020-07-15,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,2985,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
+S92000003,2020-07-15,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,2984,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
+S92000003,2020-07-16,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,2557,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
+S92000003,2020-07-17,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,10312,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
+S92000003,2020-07-18,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,12086,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
+S92000003,2020-07-19,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,9366,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
+S92000003,2020-07-20,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,1651,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
+S92000003,2020-07-21,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,2118,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-04-06,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,42,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-04-07,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,166,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-04-08,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,320,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
@@ -2401,6 +2443,12 @@ S92000003,2020-07-12,Count,Testing - Total number of COVID-19 tests carried out 
 S92000003,2020-07-13,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,200655,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-07-14,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,202138,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-07-15,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,205123,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
+S92000003,2020-07-16,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,207679,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
+S92000003,2020-07-17,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,217991,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
+S92000003,2020-07-18,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,230077,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
+S92000003,2020-07-19,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,239443,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
+S92000003,2020-07-20,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,241094,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
+S92000003,2020-07-21,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,243212,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4354,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4378,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4403,NHS workforce COVID-19 absences - Nursing and midwifery staff
