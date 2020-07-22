@@ -69,13 +69,13 @@ raw_SC_table2  <- read_excel(tf1, "Table 2 - Hospital Care", skip = 3)[,-8] # To
 raw_SC_table3  <- read_excel(tf1, "Table 3 - Ambulance", skip = 2)[,-1]
 raw_SC_table4  <- read_excel(tf1, "Table 4 - Delayed Discharges", skip = 2)[,-1]
 raw_SC_table5  <- read_excel(tf1, "Table 5 - Testing", skip = 2)[-1,-c(10)]
-raw_SC_table6  <- read_excel(tf1, "Table 6 - Workforce", skip = 1, n_max = 112) # Tom change (n_max = 112) to remove weekly averages
+raw_SC_table6  <- read_excel(tf1, "Table 6 - Workforce", skip = 1, n_max = 112) # Tom change (n_max = 112) to remove weekly averages (Would need manually checked and updated each day)
 raw_SC_table7a <- read_excel(tf1, "Table 7a - Care Homes", skip = 2)[-1, -c(5,10)]
 raw_SC_table7b <- read_excel(tf1, "Table 7b - Care Home Workforce", skip = 1)
 raw_SC_table8  <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
 
 raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-16]
-raw_HB_table2  <- read_excel(tf2, "Table 2a - ICU patients", skip = 2)[, -17] # Tom change to re-named table
+raw_HB_table2  <- read_excel(tf2, "Table 2b - ICU patients (Hist.)", skip = 2)[, -17] # Tom change to re-named table (Ignoring table 2.a just now)
 # raw_HB_table2a  <- read_excel(tf2, "Table 2a - ICU patients", skip = 2)[, -17]
 # raw_HB_table2b  <- read_excel(tf2, "Table 2b - ICU patients (Hist.)", skip = 2)[, -17]
 raw_HB_table3a <- read_excel(tf2, "Table 3a - Hospital Confirmed", skip = 2)[, -17]
