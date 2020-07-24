@@ -138,3 +138,6 @@ Date,Ayrshire and Arran,Borders,Dumfries and Galloway,Fife,Forth Valley,Grampian
 2020-07-21,1269,346,300,937,1092,1440,4918,378,2762,3181,9,54,1781,7,NA,NA
 2020-07-22,1270,346,300,938,1092,1440,4921,378,2765,3182,9,54,1782,7,NA,NA
 2020-07-23,1272,346,300,939,1092,1441,4926,379,2769,3183,9,54,1783,7,NA,NA
+2020-07-24,1273,346,300,939,1091,1442,4940,381,2770,3184,9,54,1784,7,NA,*** on 24 July 2020, NHS Forth Valley de-notified one previous case so their number decreased by 1. NHS Lothian had two new cases, but also de-notified one previous case, giving them a net gain of 1 new case.
+NHS Forth Valley de-notified one case which is why their number has decreased by one. NHS Lothian have two new cases today, but have also de-notified one previous case, so have a net gain of one new case.
+ ***

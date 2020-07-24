@@ -370,6 +370,7 @@ S92000003,2020-07-20,Count,COVID-19 patients in ICU - Confirmed,3,COVID-19 patie
 S92000003,2020-07-21,Count,COVID-19 patients in ICU - Confirmed,4,COVID-19 patients in ICU - Confirmed
 S92000003,2020-07-22,Count,COVID-19 patients in ICU - Confirmed,3,COVID-19 patients in ICU - Confirmed
 S92000003,2020-07-23,Count,COVID-19 patients in ICU - Confirmed,2,COVID-19 patients in ICU - Confirmed
+S92000003,2020-07-24,Count,COVID-19 patients in ICU - Confirmed,2,COVID-19 patients in ICU - Confirmed
 S92000003,2020-03-27,Count,COVID-19 patients in ICU - Suspected,10,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-28,Count,COVID-19 patients in ICU - Suspected,7,COVID-19 patients in ICU - Suspected
 S92000003,2020-03-29,Count,COVID-19 patients in ICU - Suspected,10,COVID-19 patients in ICU - Suspected
@@ -732,6 +733,7 @@ S92000003,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,299,COVID-1
 S92000003,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,303,COVID-19 patients in hospital - Confirmed
 S92000003,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,295,COVID-19 patients in hospital - Confirmed
 S92000003,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,287,COVID-19 patients in hospital - Confirmed
+S92000003,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,278,COVID-19 patients in hospital - Confirmed
 S92000003,2020-03-27,Count,COVID-19 patients in hospital - Suspected,268,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-28,Count,COVID-19 patients in hospital - Suspected,271,COVID-19 patients in hospital - Suspected
 S92000003,2020-03-29,Count,COVID-19 patients in hospital - Suspected,294,COVID-19 patients in hospital - Suspected
@@ -1446,7 +1448,7 @@ S92000003,2020-07-14,Count,Delayed discharges,853,Delayed discharges
 S92000003,2020-07-15,Count,Delayed discharges,856,Delayed discharges
 S92000003,2020-07-16,Count,Delayed discharges,860,Delayed discharges
 S92000003,2020-07-17,Count,Delayed discharges,871,Delayed discharges
-S92000003,2020-07-20,Count,Delayed discharges,866,Delayed discharges
+S92000003,2020-07-20,Count,Delayed discharges,867,Delayed discharges
 S92000003,2020-07-21,Count,Delayed discharges,872,Delayed discharges
 S92000003,2020-03-02,Count,Testing - Cumulative people tested for COVID-19 - Negative,814,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-03,Count,Testing - Cumulative people tested for COVID-19 - Negative,914,Testing - Cumulative people tested for COVID-19 - Negative
@@ -1592,6 +1594,7 @@ S92000003,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Neg
 S92000003,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Negative,307893,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Negative,311478,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Negative,315113,Testing - Cumulative people tested for COVID-19 - Negative
+S92000003,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Negative,318999,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-02,Count,Testing - Cumulative people tested for COVID-19 - Positive,1,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-03,Count,Testing - Cumulative people tested for COVID-19 - Positive,1,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-04,Count,Testing - Cumulative people tested for COVID-19 - Positive,3,Testing - Cumulative people tested for COVID-19 - Positive
@@ -1736,6 +1739,7 @@ S92000003,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S92000003,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,18474,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,18484,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,18500,Testing - Cumulative people tested for COVID-19 - Positive
+S92000003,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,18520,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-02,Count,Testing - Cumulative people tested for COVID-19 - Total,815,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-03,Count,Testing - Cumulative people tested for COVID-19 - Total,915,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-04,Count,Testing - Cumulative people tested for COVID-19 - Total,1046,Testing - Cumulative people tested for COVID-19 - Total
@@ -1880,6 +1884,7 @@ S92000003,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Tot
 S92000003,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Total,326367,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Total,329962,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Total,333613,Testing - Cumulative people tested for COVID-19 - Total
+S92000003,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Total,337519,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-02,Count,Testing - Daily people found positive,1,Testing - Daily people found positive
 S92000003,2020-03-03,Count,Testing - Daily people found positive,0,Testing - Daily people found positive
 S92000003,2020-03-04,Count,Testing - Daily people found positive,2,Testing - Daily people found positive
@@ -2024,6 +2029,7 @@ S92000003,2020-07-20,Count,Testing - Daily people found positive,7,Testing - Dai
 S92000003,2020-07-21,Count,Testing - Daily people found positive,22,Testing - Daily people found positive
 S92000003,2020-07-22,Count,Testing - Daily people found positive,10,Testing - Daily people found positive
 S92000003,2020-07-23,Count,Testing - Daily people found positive,16,Testing - Daily people found positive
+S92000003,2020-07-24,Count,Testing - Daily people found positive,20,Testing - Daily people found positive
 S92000003,2020-04-01,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,1710,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-04-02,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,1118,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-04-03,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,1526,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
@@ -2138,6 +2144,7 @@ S92000003,2020-07-20,Count,Testing - Total number of COVID-19 tests carried out 
 S92000003,2020-07-21,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,4010,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-07-22,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,4594,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-07-23,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,4920,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
+S92000003,2020-07-24,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily,4641,Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily
 S92000003,2020-04-01,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,23324,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-04-02,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,24442,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-04-03,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,25968,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
@@ -2252,6 +2259,7 @@ S92000003,2020-07-20,Count,Testing - Total number of COVID-19 tests carried out 
 S92000003,2020-07-21,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,347269,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-07-22,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,351863,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-07-23,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,356783,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
+S92000003,2020-07-24,Count,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative,361424,Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative
 S92000003,2020-04-06,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,42,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-04-07,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,124,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-04-08,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,154,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
@@ -2361,6 +2369,7 @@ S92000003,2020-07-20,Count,Testing - Total number of COVID-19 tests carried out 
 S92000003,2020-07-21,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,2118,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-07-22,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,5126,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-07-23,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,6650,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
+S92000003,2020-07-24,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily,11697,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily
 S92000003,2020-04-06,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,42,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-04-07,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,166,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-04-08,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,320,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
@@ -2470,456 +2479,461 @@ S92000003,2020-07-20,Count,Testing - Total number of COVID-19 tests carried out 
 S92000003,2020-07-21,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,243212,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-07-22,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,248338,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
 S92000003,2020-07-23,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,254988,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
-S92000003,2020-04-01,Count,Testing - Additional Statistics - Total daily tests,1710,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-02,Count,Testing - Additional Statistics - Total daily tests,1118,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-03,Count,Testing - Additional Statistics - Total daily tests,1526,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-04,Count,Testing - Additional Statistics - Total daily tests,1522,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-05,Count,Testing - Additional Statistics - Total daily tests,3018,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-06,Count,Testing - Additional Statistics - Total daily tests,1048,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-07,Count,Testing - Additional Statistics - Total daily tests,1221,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-08,Count,Testing - Additional Statistics - Total daily tests,1709,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-09,Count,Testing - Additional Statistics - Total daily tests,1774,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-10,Count,Testing - Additional Statistics - Total daily tests,1567,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-11,Count,Testing - Additional Statistics - Total daily tests,1787,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-12,Count,Testing - Additional Statistics - Total daily tests,1617,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-13,Count,Testing - Additional Statistics - Total daily tests,957,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-14,Count,Testing - Additional Statistics - Total daily tests,1429,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-15,Count,Testing - Additional Statistics - Total daily tests,1734,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-16,Count,Testing - Additional Statistics - Total daily tests,1836,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-17,Count,Testing - Additional Statistics - Total daily tests,1682,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-18,Count,Testing - Additional Statistics - Total daily tests,2015,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-19,Count,Testing - Additional Statistics - Total daily tests,1709,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-20,Count,Testing - Additional Statistics - Total daily tests,1332,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-21,Count,Testing - Additional Statistics - Total daily tests,1401,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-22,Count,Testing - Additional Statistics - Total daily tests,2224,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-23,Count,Testing - Additional Statistics - Total daily tests,2184,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-24,Count,Testing - Additional Statistics - Total daily tests,1772,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-25,Count,Testing - Additional Statistics - Total daily tests,2222,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-26,Count,Testing - Additional Statistics - Total daily tests,2098,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-27,Count,Testing - Additional Statistics - Total daily tests,2608,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-28,Count,Testing - Additional Statistics - Total daily tests,2627,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-29,Count,Testing - Additional Statistics - Total daily tests,3471,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-30,Count,Testing - Additional Statistics - Total daily tests,4422,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-01,Count,Testing - Additional Statistics - Total daily tests,4661,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-02,Count,Testing - Additional Statistics - Total daily tests,5313,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-03,Count,Testing - Additional Statistics - Total daily tests,3720,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-04,Count,Testing - Additional Statistics - Total daily tests,3794,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-05,Count,Testing - Additional Statistics - Total daily tests,3923,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-06,Count,Testing - Additional Statistics - Total daily tests,4683,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-07,Count,Testing - Additional Statistics - Total daily tests,5079,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-08,Count,Testing - Additional Statistics - Total daily tests,4732,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-09,Count,Testing - Additional Statistics - Total daily tests,4397,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-10,Count,Testing - Additional Statistics - Total daily tests,3792,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-11,Count,Testing - Additional Statistics - Total daily tests,3584,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-12,Count,Testing - Additional Statistics - Total daily tests,4083,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-13,Count,Testing - Additional Statistics - Total daily tests,5108,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-14,Count,Testing - Additional Statistics - Total daily tests,5829,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-15,Count,Testing - Additional Statistics - Total daily tests,5213,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-16,Count,Testing - Additional Statistics - Total daily tests,6519,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-17,Count,Testing - Additional Statistics - Total daily tests,4721,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-18,Count,Testing - Additional Statistics - Total daily tests,3475,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-19,Count,Testing - Additional Statistics - Total daily tests,4559,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-20,Count,Testing - Additional Statistics - Total daily tests,6352,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-21,Count,Testing - Additional Statistics - Total daily tests,6518,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-22,Count,Testing - Additional Statistics - Total daily tests,5742,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-23,Count,Testing - Additional Statistics - Total daily tests,5406,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-24,Count,Testing - Additional Statistics - Total daily tests,4111,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-25,Count,Testing - Additional Statistics - Total daily tests,4742,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-26,Count,Testing - Additional Statistics - Total daily tests,4425,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-27,Count,Testing - Additional Statistics - Total daily tests,5178,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-28,Count,Testing - Additional Statistics - Total daily tests,5000,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-29,Count,Testing - Additional Statistics - Total daily tests,5472,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-30,Count,Testing - Additional Statistics - Total daily tests,4325,Testing - Additional Statistics - Total daily tests
-S92000003,2020-05-31,Count,Testing - Additional Statistics - Total daily tests,3229,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-01,Count,Testing - Additional Statistics - Total daily tests,2729,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-02,Count,Testing - Additional Statistics - Total daily tests,4406,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-03,Count,Testing - Additional Statistics - Total daily tests,4791,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-04,Count,Testing - Additional Statistics - Total daily tests,5202,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-05,Count,Testing - Additional Statistics - Total daily tests,5526,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-06,Count,Testing - Additional Statistics - Total daily tests,4974,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-07,Count,Testing - Additional Statistics - Total daily tests,3944,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-08,Count,Testing - Additional Statistics - Total daily tests,3425,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-09,Count,Testing - Additional Statistics - Total daily tests,4562,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-10,Count,Testing - Additional Statistics - Total daily tests,4747,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-11,Count,Testing - Additional Statistics - Total daily tests,5673,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-12,Count,Testing - Additional Statistics - Total daily tests,5377,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-13,Count,Testing - Additional Statistics - Total daily tests,5736,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-14,Count,Testing - Additional Statistics - Total daily tests,4417,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-15,Count,Testing - Additional Statistics - Total daily tests,3976,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-16,Count,Testing - Additional Statistics - Total daily tests,4735,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-17,Count,Testing - Additional Statistics - Total daily tests,5033,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-18,Count,Testing - Additional Statistics - Total daily tests,5253,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-19,Count,Testing - Additional Statistics - Total daily tests,4653,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-20,Count,Testing - Additional Statistics - Total daily tests,4558,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-21,Count,Testing - Additional Statistics - Total daily tests,3813,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-22,Count,Testing - Additional Statistics - Total daily tests,3416,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-23,Count,Testing - Additional Statistics - Total daily tests,4175,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-24,Count,Testing - Additional Statistics - Total daily tests,4863,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-25,Count,Testing - Additional Statistics - Total daily tests,4253,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-26,Count,Testing - Additional Statistics - Total daily tests,5386,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-27,Count,Testing - Additional Statistics - Total daily tests,4457,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-28,Count,Testing - Additional Statistics - Total daily tests,3738,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-29,Count,Testing - Additional Statistics - Total daily tests,3530,Testing - Additional Statistics - Total daily tests
-S92000003,2020-06-30,Count,Testing - Additional Statistics - Total daily tests,4210,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-01,Count,Testing - Additional Statistics - Total daily tests,4365,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-02,Count,Testing - Additional Statistics - Total daily tests,4688,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-03,Count,Testing - Additional Statistics - Total daily tests,5090,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-04,Count,Testing - Additional Statistics - Total daily tests,5356,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-05,Count,Testing - Additional Statistics - Total daily tests,3750,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-06,Count,Testing - Additional Statistics - Total daily tests,3526,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-07,Count,Testing - Additional Statistics - Total daily tests,4042,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-08,Count,Testing - Additional Statistics - Total daily tests,5822,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-09,Count,Testing - Additional Statistics - Total daily tests,10608,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-10,Count,Testing - Additional Statistics - Total daily tests,17573,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-11,Count,Testing - Additional Statistics - Total daily tests,9300,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-12,Count,Testing - Additional Statistics - Total daily tests,11441,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-13,Count,Testing - Additional Statistics - Total daily tests,4473,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-14,Count,Testing - Additional Statistics - Total daily tests,4908,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-15,Count,Testing - Additional Statistics - Total daily tests,6837,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-16,Count,Testing - Additional Statistics - Total daily tests,7311,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-17,Count,Testing - Additional Statistics - Total daily tests,14656,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-18,Count,Testing - Additional Statistics - Total daily tests,16547,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-19,Count,Testing - Additional Statistics - Total daily tests,12137,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-20,Count,Testing - Additional Statistics - Total daily tests,4106,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-21,Count,Testing - Additional Statistics - Total daily tests,6128,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-22,Count,Testing - Additional Statistics - Total daily tests,9720,Testing - Additional Statistics - Total daily tests
-S92000003,2020-07-23,Count,Testing - Additional Statistics - Total daily tests,11570,Testing - Additional Statistics - Total daily tests
-S92000003,2020-04-01,Count,Testing - Additional Statistics - People tested in last 7 days,6331,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-02,Count,Testing - Additional Statistics - People tested in last 7 days,6641,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-03,Count,Testing - Additional Statistics - People tested in last 7 days,7262,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-04,Count,Testing - Additional Statistics - People tested in last 7 days,7665,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-05,Count,Testing - Additional Statistics - People tested in last 7 days,9254,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-06,Count,Testing - Additional Statistics - People tested in last 7 days,9412,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-07,Count,Testing - Additional Statistics - People tested in last 7 days,9127,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-08,Count,Testing - Additional Statistics - People tested in last 7 days,9219,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-09,Count,Testing - Additional Statistics - People tested in last 7 days,9390,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-10,Count,Testing - Additional Statistics - People tested in last 7 days,9117,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-11,Count,Testing - Additional Statistics - People tested in last 7 days,9105,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-12,Count,Testing - Additional Statistics - People tested in last 7 days,7971,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-13,Count,Testing - Additional Statistics - People tested in last 7 days,7777,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-14,Count,Testing - Additional Statistics - People tested in last 7 days,7833,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-15,Count,Testing - Additional Statistics - People tested in last 7 days,7838,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-16,Count,Testing - Additional Statistics - People tested in last 7 days,7874,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-17,Count,Testing - Additional Statistics - People tested in last 7 days,7985,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-18,Count,Testing - Additional Statistics - People tested in last 7 days,8330,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-19,Count,Testing - Additional Statistics - People tested in last 7 days,8498,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-20,Count,Testing - Additional Statistics - People tested in last 7 days,8887,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-21,Count,Testing - Additional Statistics - People tested in last 7 days,8844,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-22,Count,Testing - Additional Statistics - People tested in last 7 days,9245,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-23,Count,Testing - Additional Statistics - People tested in last 7 days,9407,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-24,Count,Testing - Additional Statistics - People tested in last 7 days,9452,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-25,Count,Testing - Additional Statistics - People tested in last 7 days,9516,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-26,Count,Testing - Additional Statistics - People tested in last 7 days,9545,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-27,Count,Testing - Additional Statistics - People tested in last 7 days,9594,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-28,Count,Testing - Additional Statistics - People tested in last 7 days,9800,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-29,Count,Testing - Additional Statistics - People tested in last 7 days,9773,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-30,Count,Testing - Additional Statistics - People tested in last 7 days,9840,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-01,Count,Testing - Additional Statistics - People tested in last 7 days,10613,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-02,Count,Testing - Additional Statistics - People tested in last 7 days,11084,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-03,Count,Testing - Additional Statistics - People tested in last 7 days,11138,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-04,Count,Testing - Additional Statistics - People tested in last 7 days,11402,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-05,Count,Testing - Additional Statistics - People tested in last 7 days,11812,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-06,Count,Testing - Additional Statistics - People tested in last 7 days,12043,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-07,Count,Testing - Additional Statistics - People tested in last 7 days,12458,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-08,Count,Testing - Additional Statistics - People tested in last 7 days,12489,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-09,Count,Testing - Additional Statistics - People tested in last 7 days,12259,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-10,Count,Testing - Additional Statistics - People tested in last 7 days,12388,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-11,Count,Testing - Additional Statistics - People tested in last 7 days,12367,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-12,Count,Testing - Additional Statistics - People tested in last 7 days,12259,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-13,Count,Testing - Additional Statistics - People tested in last 7 days,12625,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-14,Count,Testing - Additional Statistics - People tested in last 7 days,13178,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-15,Count,Testing - Additional Statistics - People tested in last 7 days,13075,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-16,Count,Testing - Additional Statistics - People tested in last 7 days,14512,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-17,Count,Testing - Additional Statistics - People tested in last 7 days,14977,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-18,Count,Testing - Additional Statistics - People tested in last 7 days,14877,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-19,Count,Testing - Additional Statistics - People tested in last 7 days,14851,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-20,Count,Testing - Additional Statistics - People tested in last 7 days,14844,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-21,Count,Testing - Additional Statistics - People tested in last 7 days,14898,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-22,Count,Testing - Additional Statistics - People tested in last 7 days,15341,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-23,Count,Testing - Additional Statistics - People tested in last 7 days,14328,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-24,Count,Testing - Additional Statistics - People tested in last 7 days,14053,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-25,Count,Testing - Additional Statistics - People tested in last 7 days,14568,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-26,Count,Testing - Additional Statistics - People tested in last 7 days,14459,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-27,Count,Testing - Additional Statistics - People tested in last 7 days,14390,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-28,Count,Testing - Additional Statistics - People tested in last 7 days,13858,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-29,Count,Testing - Additional Statistics - People tested in last 7 days,13478,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-30,Count,Testing - Additional Statistics - People tested in last 7 days,13052,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-05-31,Count,Testing - Additional Statistics - People tested in last 7 days,12609,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-01,Count,Testing - Additional Statistics - People tested in last 7 days,11751,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-02,Count,Testing - Additional Statistics - People tested in last 7 days,11968,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-03,Count,Testing - Additional Statistics - People tested in last 7 days,11589,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-04,Count,Testing - Additional Statistics - People tested in last 7 days,11570,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-05,Count,Testing - Additional Statistics - People tested in last 7 days,11677,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-06,Count,Testing - Additional Statistics - People tested in last 7 days,11559,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-07,Count,Testing - Additional Statistics - People tested in last 7 days,11690,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-08,Count,Testing - Additional Statistics - People tested in last 7 days,11945,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-09,Count,Testing - Additional Statistics - People tested in last 7 days,11647,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-10,Count,Testing - Additional Statistics - People tested in last 7 days,11531,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-11,Count,Testing - Additional Statistics - People tested in last 7 days,11400,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-12,Count,Testing - Additional Statistics - People tested in last 7 days,11132,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-13,Count,Testing - Additional Statistics - People tested in last 7 days,11603,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-14,Count,Testing - Additional Statistics - People tested in last 7 days,11626,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-15,Count,Testing - Additional Statistics - People tested in last 7 days,83755,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-16,Count,Testing - Additional Statistics - People tested in last 7 days,85032,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-17,Count,Testing - Additional Statistics - People tested in last 7 days,86639,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-18,Count,Testing - Additional Statistics - People tested in last 7 days,88197,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-19,Count,Testing - Additional Statistics - People tested in last 7 days,88622,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-20,Count,Testing - Additional Statistics - People tested in last 7 days,91937,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-21,Count,Testing - Additional Statistics - People tested in last 7 days,93887,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-22,Count,Testing - Additional Statistics - People tested in last 7 days,22576,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-23,Count,Testing - Additional Statistics - People tested in last 7 days,21832,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-24,Count,Testing - Additional Statistics - People tested in last 7 days,21333,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-25,Count,Testing - Additional Statistics - People tested in last 7 days,22312,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-26,Count,Testing - Additional Statistics - People tested in last 7 days,25865,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-27,Count,Testing - Additional Statistics - People tested in last 7 days,23140,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-28,Count,Testing - Additional Statistics - People tested in last 7 days,23902,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-29,Count,Testing - Additional Statistics - People tested in last 7 days,24864,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-06-30,Count,Testing - Additional Statistics - People tested in last 7 days,24977,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-01,Count,Testing - Additional Statistics - People tested in last 7 days,25524,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-02,Count,Testing - Additional Statistics - People tested in last 7 days,24861,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-03,Count,Testing - Additional Statistics - People tested in last 7 days,23633,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-04,Count,Testing - Additional Statistics - People tested in last 7 days,24528,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-05,Count,Testing - Additional Statistics - People tested in last 7 days,23456,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-06,Count,Testing - Additional Statistics - People tested in last 7 days,23342,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-07,Count,Testing - Additional Statistics - People tested in last 7 days,23168,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-08,Count,Testing - Additional Statistics - People tested in last 7 days,22307,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-09,Count,Testing - Additional Statistics - People tested in last 7 days,22275,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-10,Count,Testing - Additional Statistics - People tested in last 7 days,22361,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-11,Count,Testing - Additional Statistics - People tested in last 7 days,21551,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-12,Count,Testing - Additional Statistics - People tested in last 7 days,21975,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-13,Count,Testing - Additional Statistics - People tested in last 7 days,21071,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-14,Count,Testing - Additional Statistics - People tested in last 7 days,21469,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-15,Count,Testing - Additional Statistics - People tested in last 7 days,22139,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-16,Count,Testing - Additional Statistics - People tested in last 7 days,20998,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-17,Count,Testing - Additional Statistics - People tested in last 7 days,20523,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-18,Count,Testing - Additional Statistics - People tested in last 7 days,21059,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-19,Count,Testing - Additional Statistics - People tested in last 7 days,20896,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-20,Count,Testing - Additional Statistics - People tested in last 7 days,20640,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-21,Count,Testing - Additional Statistics - People tested in last 7 days,21394,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-22,Count,Testing - Additional Statistics - People tested in last 7 days,21916,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-07-23,Count,Testing - Additional Statistics - People tested in last 7 days,22969,Testing - Additional Statistics - People tested in last 7 days
-S92000003,2020-04-01,Count,Testing - Additional Statistics - Positive cases in last 7 days,1591,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-02,Count,Testing - Additional Statistics - Positive cases in last 7 days,1708,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-03,Count,Testing - Additional Statistics - Positive cases in last 7 days,1942,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-04,Count,Testing - Additional Statistics - Positive cases in last 7 days,2100,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-05,Count,Testing - Additional Statistics - Positive cases in last 7 days,2322,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-06,Count,Testing - Additional Statistics - Positive cases in last 7 days,2398,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-07,Count,Testing - Additional Statistics - Positive cases in last 7 days,2236,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-08,Count,Testing - Additional Statistics - Positive cases in last 7 days,2255,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-09,Count,Testing - Additional Statistics - Positive cases in last 7 days,2355,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-10,Count,Testing - Additional Statistics - Positive cases in last 7 days,2274,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-11,Count,Testing - Additional Statistics - Positive cases in last 7 days,2245,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-12,Count,Testing - Additional Statistics - Positive cases in last 7 days,2206,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-13,Count,Testing - Additional Statistics - Positive cases in last 7 days,2106,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-14,Count,Testing - Additional Statistics - Positive cases in last 7 days,2129,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-15,Count,Testing - Additional Statistics - Positive cases in last 7 days,2183,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-16,Count,Testing - Additional Statistics - Positive cases in last 7 days,2145,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-17,Count,Testing - Additional Statistics - Positive cases in last 7 days,2134,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-18,Count,Testing - Additional Statistics - Positive cases in last 7 days,2230,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-19,Count,Testing - Additional Statistics - Positive cases in last 7 days,2275,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-20,Count,Testing - Additional Statistics - Positive cases in last 7 days,2383,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-21,Count,Testing - Additional Statistics - Positive cases in last 7 days,2314,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-22,Count,Testing - Additional Statistics - Positive cases in last 7 days,2290,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-23,Count,Testing - Additional Statistics - Positive cases in last 7 days,2307,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-24,Count,Testing - Additional Statistics - Positive cases in last 7 days,2288,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-25,Count,Testing - Additional Statistics - Positive cases in last 7 days,2231,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-26,Count,Testing - Additional Statistics - Positive cases in last 7 days,2137,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-27,Count,Testing - Additional Statistics - Positive cases in last 7 days,2071,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-28,Count,Testing - Additional Statistics - Positive cases in last 7 days,2049,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-29,Count,Testing - Additional Statistics - Positive cases in last 7 days,1996,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-30,Count,Testing - Additional Statistics - Positive cases in last 7 days,1944,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-01,Count,Testing - Additional Statistics - Positive cases in last 7 days,1957,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-02,Count,Testing - Additional Statistics - Positive cases in last 7 days,1876,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-03,Count,Testing - Additional Statistics - Positive cases in last 7 days,1773,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-04,Count,Testing - Additional Statistics - Positive cases in last 7 days,1745,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-05,Count,Testing - Additional Statistics - Positive cases in last 7 days,1716,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-06,Count,Testing - Additional Statistics - Positive cases in last 7 days,1675,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-07,Count,Testing - Additional Statistics - Positive cases in last 7 days,1571,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-08,Count,Testing - Additional Statistics - Positive cases in last 7 days,1495,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-09,Count,Testing - Additional Statistics - Positive cases in last 7 days,1378,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-10,Count,Testing - Additional Statistics - Positive cases in last 7 days,1389,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-11,Count,Testing - Additional Statistics - Positive cases in last 7 days,1361,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-12,Count,Testing - Additional Statistics - Positive cases in last 7 days,1326,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-13,Count,Testing - Additional Statistics - Positive cases in last 7 days,1220,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-14,Count,Testing - Additional Statistics - Positive cases in last 7 days,1193,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-15,Count,Testing - Additional Statistics - Positive cases in last 7 days,1111,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-16,Count,Testing - Additional Statistics - Positive cases in last 7 days,1142,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-17,Count,Testing - Additional Statistics - Positive cases in last 7 days,1051,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-18,Count,Testing - Additional Statistics - Positive cases in last 7 days,967,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-19,Count,Testing - Additional Statistics - Positive cases in last 7 days,892,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-20,Count,Testing - Additional Statistics - Positive cases in last 7 days,822,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-21,Count,Testing - Additional Statistics - Positive cases in last 7 days,739,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-22,Count,Testing - Additional Statistics - Positive cases in last 7 days,709,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-23,Count,Testing - Additional Statistics - Positive cases in last 7 days,594,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-24,Count,Testing - Additional Statistics - Positive cases in last 7 days,564,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-25,Count,Testing - Additional Statistics - Positive cases in last 7 days,562,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-26,Count,Testing - Additional Statistics - Positive cases in last 7 days,530,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-27,Count,Testing - Additional Statistics - Positive cases in last 7 days,489,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-28,Count,Testing - Additional Statistics - Positive cases in last 7 days,432,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-29,Count,Testing - Additional Statistics - Positive cases in last 7 days,358,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-30,Count,Testing - Additional Statistics - Positive cases in last 7 days,341,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-05-31,Count,Testing - Additional Statistics - Positive cases in last 7 days,299,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-01,Count,Testing - Additional Statistics - Positive cases in last 7 days,262,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-02,Count,Testing - Additional Statistics - Positive cases in last 7 days,286,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-03,Count,Testing - Additional Statistics - Positive cases in last 7 days,264,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-04,Count,Testing - Additional Statistics - Positive cases in last 7 days,265,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-05,Count,Testing - Additional Statistics - Positive cases in last 7 days,255,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-06,Count,Testing - Additional Statistics - Positive cases in last 7 days,221,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-07,Count,Testing - Additional Statistics - Positive cases in last 7 days,221,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-08,Count,Testing - Additional Statistics - Positive cases in last 7 days,221,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-09,Count,Testing - Additional Statistics - Positive cases in last 7 days,182,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-10,Count,Testing - Additional Statistics - Positive cases in last 7 days,161,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-11,Count,Testing - Additional Statistics - Positive cases in last 7 days,129,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-12,Count,Testing - Additional Statistics - Positive cases in last 7 days,127,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-13,Count,Testing - Additional Statistics - Positive cases in last 7 days,127,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-14,Count,Testing - Additional Statistics - Positive cases in last 7 days,134,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-15,Count,Testing - Additional Statistics - Positive cases in last 7 days,145,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-16,Count,Testing - Additional Statistics - Positive cases in last 7 days,146,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-17,Count,Testing - Additional Statistics - Positive cases in last 7 days,155,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-18,Count,Testing - Additional Statistics - Positive cases in last 7 days,149,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-19,Count,Testing - Additional Statistics - Positive cases in last 7 days,149,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-20,Count,Testing - Additional Statistics - Positive cases in last 7 days,154,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-21,Count,Testing - Additional Statistics - Positive cases in last 7 days,155,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-22,Count,Testing - Additional Statistics - Positive cases in last 7 days,140,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-23,Count,Testing - Additional Statistics - Positive cases in last 7 days,137,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-24,Count,Testing - Additional Statistics - Positive cases in last 7 days,125,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-25,Count,Testing - Additional Statistics - Positive cases in last 7 days,119,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-26,Count,Testing - Additional Statistics - Positive cases in last 7 days,109,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-27,Count,Testing - Additional Statistics - Positive cases in last 7 days,98,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-28,Count,Testing - Additional Statistics - Positive cases in last 7 days,80,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-29,Count,Testing - Additional Statistics - Positive cases in last 7 days,71,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-06-30,Count,Testing - Additional Statistics - Positive cases in last 7 days,69,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-01,Count,Testing - Additional Statistics - Positive cases in last 7 days,68,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-02,Count,Testing - Additional Statistics - Positive cases in last 7 days,68,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-03,Count,Testing - Additional Statistics - Positive cases in last 7 days,63,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-04,Count,Testing - Additional Statistics - Positive cases in last 7 days,59,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-05,Count,Testing - Additional Statistics - Positive cases in last 7 days,60,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-06,Count,Testing - Additional Statistics - Positive cases in last 7 days,59,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-07,Count,Testing - Additional Statistics - Positive cases in last 7 days,51,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-08,Count,Testing - Additional Statistics - Positive cases in last 7 days,50,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-09,Count,Testing - Additional Statistics - Positive cases in last 7 days,51,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-10,Count,Testing - Additional Statistics - Positive cases in last 7 days,57,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-11,Count,Testing - Additional Statistics - Positive cases in last 7 days,53,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-12,Count,Testing - Additional Statistics - Positive cases in last 7 days,63,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-13,Count,Testing - Additional Statistics - Positive cases in last 7 days,65,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-14,Count,Testing - Additional Statistics - Positive cases in last 7 days,66,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-15,Count,Testing - Additional Statistics - Positive cases in last 7 days,64,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-16,Count,Testing - Additional Statistics - Positive cases in last 7 days,69,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-17,Count,Testing - Additional Statistics - Positive cases in last 7 days,68,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-18,Count,Testing - Additional Statistics - Positive cases in last 7 days,82,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-19,Count,Testing - Additional Statistics - Positive cases in last 7 days,86,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-20,Count,Testing - Additional Statistics - Positive cases in last 7 days,87,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-21,Count,Testing - Additional Statistics - Positive cases in last 7 days,106,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-22,Count,Testing - Additional Statistics - Positive cases in last 7 days,111,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-07-23,Count,Testing - Additional Statistics - Positive cases in last 7 days,116,Testing - Additional Statistics - Positive cases in last 7 days
-S92000003,2020-04-07,Count,Testing - Additional Statistics - Tests in last 7 days,11163,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-08,Count,Testing - Additional Statistics - Tests in last 7 days,11162,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-09,Count,Testing - Additional Statistics - Tests in last 7 days,11818,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-10,Count,Testing - Additional Statistics - Tests in last 7 days,11859,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-11,Count,Testing - Additional Statistics - Tests in last 7 days,12124,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-12,Count,Testing - Additional Statistics - Tests in last 7 days,10723,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-13,Count,Testing - Additional Statistics - Tests in last 7 days,10632,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-14,Count,Testing - Additional Statistics - Tests in last 7 days,10840,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-15,Count,Testing - Additional Statistics - Tests in last 7 days,10865,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-16,Count,Testing - Additional Statistics - Tests in last 7 days,10927,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-17,Count,Testing - Additional Statistics - Tests in last 7 days,11042,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-18,Count,Testing - Additional Statistics - Tests in last 7 days,11270,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-19,Count,Testing - Additional Statistics - Tests in last 7 days,11362,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-20,Count,Testing - Additional Statistics - Tests in last 7 days,11737,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-21,Count,Testing - Additional Statistics - Tests in last 7 days,11709,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-22,Count,Testing - Additional Statistics - Tests in last 7 days,12199,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-23,Count,Testing - Additional Statistics - Tests in last 7 days,12547,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-24,Count,Testing - Additional Statistics - Tests in last 7 days,12637,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-25,Count,Testing - Additional Statistics - Tests in last 7 days,12844,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-26,Count,Testing - Additional Statistics - Tests in last 7 days,13233,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-27,Count,Testing - Additional Statistics - Tests in last 7 days,14509,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-28,Count,Testing - Additional Statistics - Tests in last 7 days,15735,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-29,Count,Testing - Additional Statistics - Tests in last 7 days,16982,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-04-30,Count,Testing - Additional Statistics - Tests in last 7 days,19220,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-01,Count,Testing - Additional Statistics - Tests in last 7 days,22109,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-02,Count,Testing - Additional Statistics - Tests in last 7 days,25200,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-03,Count,Testing - Additional Statistics - Tests in last 7 days,26822,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-04,Count,Testing - Additional Statistics - Tests in last 7 days,28008,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-05,Count,Testing - Additional Statistics - Tests in last 7 days,29304,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-06,Count,Testing - Additional Statistics - Tests in last 7 days,30516,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-07,Count,Testing - Additional Statistics - Tests in last 7 days,31173,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-08,Count,Testing - Additional Statistics - Tests in last 7 days,31244,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-09,Count,Testing - Additional Statistics - Tests in last 7 days,30328,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-10,Count,Testing - Additional Statistics - Tests in last 7 days,30400,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-11,Count,Testing - Additional Statistics - Tests in last 7 days,30190,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-12,Count,Testing - Additional Statistics - Tests in last 7 days,30350,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-13,Count,Testing - Additional Statistics - Tests in last 7 days,30775,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-14,Count,Testing - Additional Statistics - Tests in last 7 days,31525,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-15,Count,Testing - Additional Statistics - Tests in last 7 days,32006,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-16,Count,Testing - Additional Statistics - Tests in last 7 days,34128,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-17,Count,Testing - Additional Statistics - Tests in last 7 days,35057,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-18,Count,Testing - Additional Statistics - Tests in last 7 days,34948,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-19,Count,Testing - Additional Statistics - Tests in last 7 days,35424,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-20,Count,Testing - Additional Statistics - Tests in last 7 days,36668,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-21,Count,Testing - Additional Statistics - Tests in last 7 days,37357,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-22,Count,Testing - Additional Statistics - Tests in last 7 days,37886,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-23,Count,Testing - Additional Statistics - Tests in last 7 days,36773,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-24,Count,Testing - Additional Statistics - Tests in last 7 days,36163,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-25,Count,Testing - Additional Statistics - Tests in last 7 days,37430,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-26,Count,Testing - Additional Statistics - Tests in last 7 days,37296,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-27,Count,Testing - Additional Statistics - Tests in last 7 days,36122,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-28,Count,Testing - Additional Statistics - Tests in last 7 days,34604,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-29,Count,Testing - Additional Statistics - Tests in last 7 days,34334,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-30,Count,Testing - Additional Statistics - Tests in last 7 days,33253,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-05-31,Count,Testing - Additional Statistics - Tests in last 7 days,32371,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-01,Count,Testing - Additional Statistics - Tests in last 7 days,30358,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-02,Count,Testing - Additional Statistics - Tests in last 7 days,30339,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-03,Count,Testing - Additional Statistics - Tests in last 7 days,29952,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-04,Count,Testing - Additional Statistics - Tests in last 7 days,30154,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-05,Count,Testing - Additional Statistics - Tests in last 7 days,30208,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-06,Count,Testing - Additional Statistics - Tests in last 7 days,30857,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-07,Count,Testing - Additional Statistics - Tests in last 7 days,31572,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-08,Count,Testing - Additional Statistics - Tests in last 7 days,32268,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-09,Count,Testing - Additional Statistics - Tests in last 7 days,32424,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-10,Count,Testing - Additional Statistics - Tests in last 7 days,32380,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-11,Count,Testing - Additional Statistics - Tests in last 7 days,32851,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-12,Count,Testing - Additional Statistics - Tests in last 7 days,32702,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-13,Count,Testing - Additional Statistics - Tests in last 7 days,33464,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-14,Count,Testing - Additional Statistics - Tests in last 7 days,33937,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-15,Count,Testing - Additional Statistics - Tests in last 7 days,34488,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-16,Count,Testing - Additional Statistics - Tests in last 7 days,34661,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-17,Count,Testing - Additional Statistics - Tests in last 7 days,34947,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-18,Count,Testing - Additional Statistics - Tests in last 7 days,34527,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-19,Count,Testing - Additional Statistics - Tests in last 7 days,33803,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-20,Count,Testing - Additional Statistics - Tests in last 7 days,32625,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-21,Count,Testing - Additional Statistics - Tests in last 7 days,32021,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-22,Count,Testing - Additional Statistics - Tests in last 7 days,31461,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-23,Count,Testing - Additional Statistics - Tests in last 7 days,30901,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-24,Count,Testing - Additional Statistics - Tests in last 7 days,30731,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-25,Count,Testing - Additional Statistics - Tests in last 7 days,29731,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-26,Count,Testing - Additional Statistics - Tests in last 7 days,30464,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-27,Count,Testing - Additional Statistics - Tests in last 7 days,30363,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-28,Count,Testing - Additional Statistics - Tests in last 7 days,30288,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-29,Count,Testing - Additional Statistics - Tests in last 7 days,30402,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-06-30,Count,Testing - Additional Statistics - Tests in last 7 days,30437,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-01,Count,Testing - Additional Statistics - Tests in last 7 days,29939,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-02,Count,Testing - Additional Statistics - Tests in last 7 days,30374,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-03,Count,Testing - Additional Statistics - Tests in last 7 days,30078,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-04,Count,Testing - Additional Statistics - Tests in last 7 days,30977,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-05,Count,Testing - Additional Statistics - Tests in last 7 days,30989,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-06,Count,Testing - Additional Statistics - Tests in last 7 days,30985,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-07,Count,Testing - Additional Statistics - Tests in last 7 days,30817,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-08,Count,Testing - Additional Statistics - Tests in last 7 days,32274,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-09,Count,Testing - Additional Statistics - Tests in last 7 days,38194,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-10,Count,Testing - Additional Statistics - Tests in last 7 days,50677,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-11,Count,Testing - Additional Statistics - Tests in last 7 days,54621,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-12,Count,Testing - Additional Statistics - Tests in last 7 days,62312,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-13,Count,Testing - Additional Statistics - Tests in last 7 days,63259,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-14,Count,Testing - Additional Statistics - Tests in last 7 days,64125,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-15,Count,Testing - Additional Statistics - Tests in last 7 days,65140,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-16,Count,Testing - Additional Statistics - Tests in last 7 days,61843,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-17,Count,Testing - Additional Statistics - Tests in last 7 days,58926,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-18,Count,Testing - Additional Statistics - Tests in last 7 days,66173,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-19,Count,Testing - Additional Statistics - Tests in last 7 days,66869,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-20,Count,Testing - Additional Statistics - Tests in last 7 days,66502,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-21,Count,Testing - Additional Statistics - Tests in last 7 days,67722,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-22,Count,Testing - Additional Statistics - Tests in last 7 days,70605,Testing - Additional Statistics - Tests in last 7 days
-S92000003,2020-07-23,Count,Testing - Additional Statistics - Tests in last 7 days,74864,Testing - Additional Statistics - Tests in last 7 days
+S92000003,2020-07-24,Count,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative,266685,Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative
+S92000003,2020-04-01,Count,Testing - Total daily tests,1710,Testing - Total daily tests
+S92000003,2020-04-02,Count,Testing - Total daily tests,1118,Testing - Total daily tests
+S92000003,2020-04-03,Count,Testing - Total daily tests,1526,Testing - Total daily tests
+S92000003,2020-04-04,Count,Testing - Total daily tests,1522,Testing - Total daily tests
+S92000003,2020-04-05,Count,Testing - Total daily tests,3018,Testing - Total daily tests
+S92000003,2020-04-06,Count,Testing - Total daily tests,1048,Testing - Total daily tests
+S92000003,2020-04-07,Count,Testing - Total daily tests,1221,Testing - Total daily tests
+S92000003,2020-04-08,Count,Testing - Total daily tests,1709,Testing - Total daily tests
+S92000003,2020-04-09,Count,Testing - Total daily tests,1774,Testing - Total daily tests
+S92000003,2020-04-10,Count,Testing - Total daily tests,1567,Testing - Total daily tests
+S92000003,2020-04-11,Count,Testing - Total daily tests,1787,Testing - Total daily tests
+S92000003,2020-04-12,Count,Testing - Total daily tests,1617,Testing - Total daily tests
+S92000003,2020-04-13,Count,Testing - Total daily tests,957,Testing - Total daily tests
+S92000003,2020-04-14,Count,Testing - Total daily tests,1429,Testing - Total daily tests
+S92000003,2020-04-15,Count,Testing - Total daily tests,1734,Testing - Total daily tests
+S92000003,2020-04-16,Count,Testing - Total daily tests,1836,Testing - Total daily tests
+S92000003,2020-04-17,Count,Testing - Total daily tests,1682,Testing - Total daily tests
+S92000003,2020-04-18,Count,Testing - Total daily tests,2015,Testing - Total daily tests
+S92000003,2020-04-19,Count,Testing - Total daily tests,1709,Testing - Total daily tests
+S92000003,2020-04-20,Count,Testing - Total daily tests,1332,Testing - Total daily tests
+S92000003,2020-04-21,Count,Testing - Total daily tests,1401,Testing - Total daily tests
+S92000003,2020-04-22,Count,Testing - Total daily tests,2224,Testing - Total daily tests
+S92000003,2020-04-23,Count,Testing - Total daily tests,2184,Testing - Total daily tests
+S92000003,2020-04-24,Count,Testing - Total daily tests,1772,Testing - Total daily tests
+S92000003,2020-04-25,Count,Testing - Total daily tests,2222,Testing - Total daily tests
+S92000003,2020-04-26,Count,Testing - Total daily tests,2098,Testing - Total daily tests
+S92000003,2020-04-27,Count,Testing - Total daily tests,2608,Testing - Total daily tests
+S92000003,2020-04-28,Count,Testing - Total daily tests,2627,Testing - Total daily tests
+S92000003,2020-04-29,Count,Testing - Total daily tests,3471,Testing - Total daily tests
+S92000003,2020-04-30,Count,Testing - Total daily tests,4422,Testing - Total daily tests
+S92000003,2020-05-01,Count,Testing - Total daily tests,4661,Testing - Total daily tests
+S92000003,2020-05-02,Count,Testing - Total daily tests,5313,Testing - Total daily tests
+S92000003,2020-05-03,Count,Testing - Total daily tests,3720,Testing - Total daily tests
+S92000003,2020-05-04,Count,Testing - Total daily tests,3794,Testing - Total daily tests
+S92000003,2020-05-05,Count,Testing - Total daily tests,3923,Testing - Total daily tests
+S92000003,2020-05-06,Count,Testing - Total daily tests,4683,Testing - Total daily tests
+S92000003,2020-05-07,Count,Testing - Total daily tests,5079,Testing - Total daily tests
+S92000003,2020-05-08,Count,Testing - Total daily tests,4732,Testing - Total daily tests
+S92000003,2020-05-09,Count,Testing - Total daily tests,4397,Testing - Total daily tests
+S92000003,2020-05-10,Count,Testing - Total daily tests,3792,Testing - Total daily tests
+S92000003,2020-05-11,Count,Testing - Total daily tests,3584,Testing - Total daily tests
+S92000003,2020-05-12,Count,Testing - Total daily tests,4083,Testing - Total daily tests
+S92000003,2020-05-13,Count,Testing - Total daily tests,5108,Testing - Total daily tests
+S92000003,2020-05-14,Count,Testing - Total daily tests,5829,Testing - Total daily tests
+S92000003,2020-05-15,Count,Testing - Total daily tests,5213,Testing - Total daily tests
+S92000003,2020-05-16,Count,Testing - Total daily tests,6519,Testing - Total daily tests
+S92000003,2020-05-17,Count,Testing - Total daily tests,4721,Testing - Total daily tests
+S92000003,2020-05-18,Count,Testing - Total daily tests,3475,Testing - Total daily tests
+S92000003,2020-05-19,Count,Testing - Total daily tests,4559,Testing - Total daily tests
+S92000003,2020-05-20,Count,Testing - Total daily tests,6352,Testing - Total daily tests
+S92000003,2020-05-21,Count,Testing - Total daily tests,6518,Testing - Total daily tests
+S92000003,2020-05-22,Count,Testing - Total daily tests,5742,Testing - Total daily tests
+S92000003,2020-05-23,Count,Testing - Total daily tests,5406,Testing - Total daily tests
+S92000003,2020-05-24,Count,Testing - Total daily tests,4111,Testing - Total daily tests
+S92000003,2020-05-25,Count,Testing - Total daily tests,4742,Testing - Total daily tests
+S92000003,2020-05-26,Count,Testing - Total daily tests,4425,Testing - Total daily tests
+S92000003,2020-05-27,Count,Testing - Total daily tests,5178,Testing - Total daily tests
+S92000003,2020-05-28,Count,Testing - Total daily tests,5000,Testing - Total daily tests
+S92000003,2020-05-29,Count,Testing - Total daily tests,5472,Testing - Total daily tests
+S92000003,2020-05-30,Count,Testing - Total daily tests,4325,Testing - Total daily tests
+S92000003,2020-05-31,Count,Testing - Total daily tests,3229,Testing - Total daily tests
+S92000003,2020-06-01,Count,Testing - Total daily tests,2729,Testing - Total daily tests
+S92000003,2020-06-02,Count,Testing - Total daily tests,4406,Testing - Total daily tests
+S92000003,2020-06-03,Count,Testing - Total daily tests,4791,Testing - Total daily tests
+S92000003,2020-06-04,Count,Testing - Total daily tests,5202,Testing - Total daily tests
+S92000003,2020-06-05,Count,Testing - Total daily tests,5526,Testing - Total daily tests
+S92000003,2020-06-06,Count,Testing - Total daily tests,4974,Testing - Total daily tests
+S92000003,2020-06-07,Count,Testing - Total daily tests,3944,Testing - Total daily tests
+S92000003,2020-06-08,Count,Testing - Total daily tests,3425,Testing - Total daily tests
+S92000003,2020-06-09,Count,Testing - Total daily tests,4562,Testing - Total daily tests
+S92000003,2020-06-10,Count,Testing - Total daily tests,4747,Testing - Total daily tests
+S92000003,2020-06-11,Count,Testing - Total daily tests,5673,Testing - Total daily tests
+S92000003,2020-06-12,Count,Testing - Total daily tests,5377,Testing - Total daily tests
+S92000003,2020-06-13,Count,Testing - Total daily tests,5736,Testing - Total daily tests
+S92000003,2020-06-14,Count,Testing - Total daily tests,4417,Testing - Total daily tests
+S92000003,2020-06-15,Count,Testing - Total daily tests,3976,Testing - Total daily tests
+S92000003,2020-06-16,Count,Testing - Total daily tests,4735,Testing - Total daily tests
+S92000003,2020-06-17,Count,Testing - Total daily tests,5033,Testing - Total daily tests
+S92000003,2020-06-18,Count,Testing - Total daily tests,5253,Testing - Total daily tests
+S92000003,2020-06-19,Count,Testing - Total daily tests,4653,Testing - Total daily tests
+S92000003,2020-06-20,Count,Testing - Total daily tests,4558,Testing - Total daily tests
+S92000003,2020-06-21,Count,Testing - Total daily tests,3813,Testing - Total daily tests
+S92000003,2020-06-22,Count,Testing - Total daily tests,3416,Testing - Total daily tests
+S92000003,2020-06-23,Count,Testing - Total daily tests,4175,Testing - Total daily tests
+S92000003,2020-06-24,Count,Testing - Total daily tests,4863,Testing - Total daily tests
+S92000003,2020-06-25,Count,Testing - Total daily tests,4253,Testing - Total daily tests
+S92000003,2020-06-26,Count,Testing - Total daily tests,5386,Testing - Total daily tests
+S92000003,2020-06-27,Count,Testing - Total daily tests,4457,Testing - Total daily tests
+S92000003,2020-06-28,Count,Testing - Total daily tests,3738,Testing - Total daily tests
+S92000003,2020-06-29,Count,Testing - Total daily tests,3530,Testing - Total daily tests
+S92000003,2020-06-30,Count,Testing - Total daily tests,4210,Testing - Total daily tests
+S92000003,2020-07-01,Count,Testing - Total daily tests,4365,Testing - Total daily tests
+S92000003,2020-07-02,Count,Testing - Total daily tests,4688,Testing - Total daily tests
+S92000003,2020-07-03,Count,Testing - Total daily tests,5090,Testing - Total daily tests
+S92000003,2020-07-04,Count,Testing - Total daily tests,5356,Testing - Total daily tests
+S92000003,2020-07-05,Count,Testing - Total daily tests,3750,Testing - Total daily tests
+S92000003,2020-07-06,Count,Testing - Total daily tests,3526,Testing - Total daily tests
+S92000003,2020-07-07,Count,Testing - Total daily tests,4042,Testing - Total daily tests
+S92000003,2020-07-08,Count,Testing - Total daily tests,5822,Testing - Total daily tests
+S92000003,2020-07-09,Count,Testing - Total daily tests,10608,Testing - Total daily tests
+S92000003,2020-07-10,Count,Testing - Total daily tests,17573,Testing - Total daily tests
+S92000003,2020-07-11,Count,Testing - Total daily tests,9300,Testing - Total daily tests
+S92000003,2020-07-12,Count,Testing - Total daily tests,11441,Testing - Total daily tests
+S92000003,2020-07-13,Count,Testing - Total daily tests,4473,Testing - Total daily tests
+S92000003,2020-07-14,Count,Testing - Total daily tests,4908,Testing - Total daily tests
+S92000003,2020-07-15,Count,Testing - Total daily tests,6837,Testing - Total daily tests
+S92000003,2020-07-16,Count,Testing - Total daily tests,7311,Testing - Total daily tests
+S92000003,2020-07-17,Count,Testing - Total daily tests,14656,Testing - Total daily tests
+S92000003,2020-07-18,Count,Testing - Total daily tests,16547,Testing - Total daily tests
+S92000003,2020-07-19,Count,Testing - Total daily tests,12137,Testing - Total daily tests
+S92000003,2020-07-20,Count,Testing - Total daily tests,4106,Testing - Total daily tests
+S92000003,2020-07-21,Count,Testing - Total daily tests,6128,Testing - Total daily tests
+S92000003,2020-07-22,Count,Testing - Total daily tests,9720,Testing - Total daily tests
+S92000003,2020-07-23,Count,Testing - Total daily tests,11570,Testing - Total daily tests
+S92000003,2020-07-24,Count,Testing - Total daily tests,16338,Testing - Total daily tests
+S92000003,2020-04-01,Count,Testing - People tested in last 7 days,6331,Testing - People tested in last 7 days
+S92000003,2020-04-02,Count,Testing - People tested in last 7 days,6641,Testing - People tested in last 7 days
+S92000003,2020-04-03,Count,Testing - People tested in last 7 days,7262,Testing - People tested in last 7 days
+S92000003,2020-04-04,Count,Testing - People tested in last 7 days,7665,Testing - People tested in last 7 days
+S92000003,2020-04-05,Count,Testing - People tested in last 7 days,9254,Testing - People tested in last 7 days
+S92000003,2020-04-06,Count,Testing - People tested in last 7 days,9412,Testing - People tested in last 7 days
+S92000003,2020-04-07,Count,Testing - People tested in last 7 days,9127,Testing - People tested in last 7 days
+S92000003,2020-04-08,Count,Testing - People tested in last 7 days,9219,Testing - People tested in last 7 days
+S92000003,2020-04-09,Count,Testing - People tested in last 7 days,9390,Testing - People tested in last 7 days
+S92000003,2020-04-10,Count,Testing - People tested in last 7 days,9117,Testing - People tested in last 7 days
+S92000003,2020-04-11,Count,Testing - People tested in last 7 days,9105,Testing - People tested in last 7 days
+S92000003,2020-04-12,Count,Testing - People tested in last 7 days,7971,Testing - People tested in last 7 days
+S92000003,2020-04-13,Count,Testing - People tested in last 7 days,7777,Testing - People tested in last 7 days
+S92000003,2020-04-14,Count,Testing - People tested in last 7 days,7833,Testing - People tested in last 7 days
+S92000003,2020-04-15,Count,Testing - People tested in last 7 days,7838,Testing - People tested in last 7 days
+S92000003,2020-04-16,Count,Testing - People tested in last 7 days,7874,Testing - People tested in last 7 days
+S92000003,2020-04-17,Count,Testing - People tested in last 7 days,7985,Testing - People tested in last 7 days
+S92000003,2020-04-18,Count,Testing - People tested in last 7 days,8330,Testing - People tested in last 7 days
+S92000003,2020-04-19,Count,Testing - People tested in last 7 days,8498,Testing - People tested in last 7 days
+S92000003,2020-04-20,Count,Testing - People tested in last 7 days,8887,Testing - People tested in last 7 days
+S92000003,2020-04-21,Count,Testing - People tested in last 7 days,8844,Testing - People tested in last 7 days
+S92000003,2020-04-22,Count,Testing - People tested in last 7 days,9245,Testing - People tested in last 7 days
+S92000003,2020-04-23,Count,Testing - People tested in last 7 days,9407,Testing - People tested in last 7 days
+S92000003,2020-04-24,Count,Testing - People tested in last 7 days,9452,Testing - People tested in last 7 days
+S92000003,2020-04-25,Count,Testing - People tested in last 7 days,9516,Testing - People tested in last 7 days
+S92000003,2020-04-26,Count,Testing - People tested in last 7 days,9545,Testing - People tested in last 7 days
+S92000003,2020-04-27,Count,Testing - People tested in last 7 days,9594,Testing - People tested in last 7 days
+S92000003,2020-04-28,Count,Testing - People tested in last 7 days,9800,Testing - People tested in last 7 days
+S92000003,2020-04-29,Count,Testing - People tested in last 7 days,9773,Testing - People tested in last 7 days
+S92000003,2020-04-30,Count,Testing - People tested in last 7 days,9840,Testing - People tested in last 7 days
+S92000003,2020-05-01,Count,Testing - People tested in last 7 days,10613,Testing - People tested in last 7 days
+S92000003,2020-05-02,Count,Testing - People tested in last 7 days,11084,Testing - People tested in last 7 days
+S92000003,2020-05-03,Count,Testing - People tested in last 7 days,11138,Testing - People tested in last 7 days
+S92000003,2020-05-04,Count,Testing - People tested in last 7 days,11402,Testing - People tested in last 7 days
+S92000003,2020-05-05,Count,Testing - People tested in last 7 days,11812,Testing - People tested in last 7 days
+S92000003,2020-05-06,Count,Testing - People tested in last 7 days,12043,Testing - People tested in last 7 days
+S92000003,2020-05-07,Count,Testing - People tested in last 7 days,12458,Testing - People tested in last 7 days
+S92000003,2020-05-08,Count,Testing - People tested in last 7 days,12489,Testing - People tested in last 7 days
+S92000003,2020-05-09,Count,Testing - People tested in last 7 days,12259,Testing - People tested in last 7 days
+S92000003,2020-05-10,Count,Testing - People tested in last 7 days,12388,Testing - People tested in last 7 days
+S92000003,2020-05-11,Count,Testing - People tested in last 7 days,12367,Testing - People tested in last 7 days
+S92000003,2020-05-12,Count,Testing - People tested in last 7 days,12259,Testing - People tested in last 7 days
+S92000003,2020-05-13,Count,Testing - People tested in last 7 days,12625,Testing - People tested in last 7 days
+S92000003,2020-05-14,Count,Testing - People tested in last 7 days,13178,Testing - People tested in last 7 days
+S92000003,2020-05-15,Count,Testing - People tested in last 7 days,13075,Testing - People tested in last 7 days
+S92000003,2020-05-16,Count,Testing - People tested in last 7 days,14512,Testing - People tested in last 7 days
+S92000003,2020-05-17,Count,Testing - People tested in last 7 days,14977,Testing - People tested in last 7 days
+S92000003,2020-05-18,Count,Testing - People tested in last 7 days,14877,Testing - People tested in last 7 days
+S92000003,2020-05-19,Count,Testing - People tested in last 7 days,14851,Testing - People tested in last 7 days
+S92000003,2020-05-20,Count,Testing - People tested in last 7 days,14844,Testing - People tested in last 7 days
+S92000003,2020-05-21,Count,Testing - People tested in last 7 days,14898,Testing - People tested in last 7 days
+S92000003,2020-05-22,Count,Testing - People tested in last 7 days,15341,Testing - People tested in last 7 days
+S92000003,2020-05-23,Count,Testing - People tested in last 7 days,14328,Testing - People tested in last 7 days
+S92000003,2020-05-24,Count,Testing - People tested in last 7 days,14053,Testing - People tested in last 7 days
+S92000003,2020-05-25,Count,Testing - People tested in last 7 days,14568,Testing - People tested in last 7 days
+S92000003,2020-05-26,Count,Testing - People tested in last 7 days,14459,Testing - People tested in last 7 days
+S92000003,2020-05-27,Count,Testing - People tested in last 7 days,14390,Testing - People tested in last 7 days
+S92000003,2020-05-28,Count,Testing - People tested in last 7 days,13858,Testing - People tested in last 7 days
+S92000003,2020-05-29,Count,Testing - People tested in last 7 days,13478,Testing - People tested in last 7 days
+S92000003,2020-05-30,Count,Testing - People tested in last 7 days,13052,Testing - People tested in last 7 days
+S92000003,2020-05-31,Count,Testing - People tested in last 7 days,12609,Testing - People tested in last 7 days
+S92000003,2020-06-01,Count,Testing - People tested in last 7 days,11751,Testing - People tested in last 7 days
+S92000003,2020-06-02,Count,Testing - People tested in last 7 days,11968,Testing - People tested in last 7 days
+S92000003,2020-06-03,Count,Testing - People tested in last 7 days,11589,Testing - People tested in last 7 days
+S92000003,2020-06-04,Count,Testing - People tested in last 7 days,11570,Testing - People tested in last 7 days
+S92000003,2020-06-05,Count,Testing - People tested in last 7 days,11677,Testing - People tested in last 7 days
+S92000003,2020-06-06,Count,Testing - People tested in last 7 days,11559,Testing - People tested in last 7 days
+S92000003,2020-06-07,Count,Testing - People tested in last 7 days,11690,Testing - People tested in last 7 days
+S92000003,2020-06-08,Count,Testing - People tested in last 7 days,11945,Testing - People tested in last 7 days
+S92000003,2020-06-09,Count,Testing - People tested in last 7 days,11647,Testing - People tested in last 7 days
+S92000003,2020-06-10,Count,Testing - People tested in last 7 days,11531,Testing - People tested in last 7 days
+S92000003,2020-06-11,Count,Testing - People tested in last 7 days,11400,Testing - People tested in last 7 days
+S92000003,2020-06-12,Count,Testing - People tested in last 7 days,11132,Testing - People tested in last 7 days
+S92000003,2020-06-13,Count,Testing - People tested in last 7 days,11603,Testing - People tested in last 7 days
+S92000003,2020-06-14,Count,Testing - People tested in last 7 days,11626,Testing - People tested in last 7 days
+S92000003,2020-06-15,Count,Testing - People tested in last 7 days,83755,Testing - People tested in last 7 days
+S92000003,2020-06-16,Count,Testing - People tested in last 7 days,85032,Testing - People tested in last 7 days
+S92000003,2020-06-17,Count,Testing - People tested in last 7 days,86639,Testing - People tested in last 7 days
+S92000003,2020-06-18,Count,Testing - People tested in last 7 days,88197,Testing - People tested in last 7 days
+S92000003,2020-06-19,Count,Testing - People tested in last 7 days,88622,Testing - People tested in last 7 days
+S92000003,2020-06-20,Count,Testing - People tested in last 7 days,91937,Testing - People tested in last 7 days
+S92000003,2020-06-21,Count,Testing - People tested in last 7 days,93887,Testing - People tested in last 7 days
+S92000003,2020-06-22,Count,Testing - People tested in last 7 days,22576,Testing - People tested in last 7 days
+S92000003,2020-06-23,Count,Testing - People tested in last 7 days,21832,Testing - People tested in last 7 days
+S92000003,2020-06-24,Count,Testing - People tested in last 7 days,21333,Testing - People tested in last 7 days
+S92000003,2020-06-25,Count,Testing - People tested in last 7 days,22312,Testing - People tested in last 7 days
+S92000003,2020-06-26,Count,Testing - People tested in last 7 days,25865,Testing - People tested in last 7 days
+S92000003,2020-06-27,Count,Testing - People tested in last 7 days,23140,Testing - People tested in last 7 days
+S92000003,2020-06-28,Count,Testing - People tested in last 7 days,23902,Testing - People tested in last 7 days
+S92000003,2020-06-29,Count,Testing - People tested in last 7 days,24864,Testing - People tested in last 7 days
+S92000003,2020-06-30,Count,Testing - People tested in last 7 days,24977,Testing - People tested in last 7 days
+S92000003,2020-07-01,Count,Testing - People tested in last 7 days,25524,Testing - People tested in last 7 days
+S92000003,2020-07-02,Count,Testing - People tested in last 7 days,24861,Testing - People tested in last 7 days
+S92000003,2020-07-03,Count,Testing - People tested in last 7 days,23633,Testing - People tested in last 7 days
+S92000003,2020-07-04,Count,Testing - People tested in last 7 days,24528,Testing - People tested in last 7 days
+S92000003,2020-07-05,Count,Testing - People tested in last 7 days,23456,Testing - People tested in last 7 days
+S92000003,2020-07-06,Count,Testing - People tested in last 7 days,23342,Testing - People tested in last 7 days
+S92000003,2020-07-07,Count,Testing - People tested in last 7 days,23168,Testing - People tested in last 7 days
+S92000003,2020-07-08,Count,Testing - People tested in last 7 days,22307,Testing - People tested in last 7 days
+S92000003,2020-07-09,Count,Testing - People tested in last 7 days,22275,Testing - People tested in last 7 days
+S92000003,2020-07-10,Count,Testing - People tested in last 7 days,22361,Testing - People tested in last 7 days
+S92000003,2020-07-11,Count,Testing - People tested in last 7 days,21551,Testing - People tested in last 7 days
+S92000003,2020-07-12,Count,Testing - People tested in last 7 days,21975,Testing - People tested in last 7 days
+S92000003,2020-07-13,Count,Testing - People tested in last 7 days,21071,Testing - People tested in last 7 days
+S92000003,2020-07-14,Count,Testing - People tested in last 7 days,21469,Testing - People tested in last 7 days
+S92000003,2020-07-15,Count,Testing - People tested in last 7 days,22139,Testing - People tested in last 7 days
+S92000003,2020-07-16,Count,Testing - People tested in last 7 days,20998,Testing - People tested in last 7 days
+S92000003,2020-07-17,Count,Testing - People tested in last 7 days,20523,Testing - People tested in last 7 days
+S92000003,2020-07-18,Count,Testing - People tested in last 7 days,21059,Testing - People tested in last 7 days
+S92000003,2020-07-19,Count,Testing - People tested in last 7 days,20896,Testing - People tested in last 7 days
+S92000003,2020-07-20,Count,Testing - People tested in last 7 days,20640,Testing - People tested in last 7 days
+S92000003,2020-07-21,Count,Testing - People tested in last 7 days,21394,Testing - People tested in last 7 days
+S92000003,2020-07-22,Count,Testing - People tested in last 7 days,21916,Testing - People tested in last 7 days
+S92000003,2020-07-23,Count,Testing - People tested in last 7 days,22969,Testing - People tested in last 7 days
+S92000003,2020-07-24,Count,Testing - People tested in last 7 days,22621,Testing - People tested in last 7 days
+S92000003,2020-04-01,Count,Testing - Positive cases in last 7 days,1591,Testing - Positive cases in last 7 days
+S92000003,2020-04-02,Count,Testing - Positive cases in last 7 days,1708,Testing - Positive cases in last 7 days
+S92000003,2020-04-03,Count,Testing - Positive cases in last 7 days,1942,Testing - Positive cases in last 7 days
+S92000003,2020-04-04,Count,Testing - Positive cases in last 7 days,2100,Testing - Positive cases in last 7 days
+S92000003,2020-04-05,Count,Testing - Positive cases in last 7 days,2322,Testing - Positive cases in last 7 days
+S92000003,2020-04-06,Count,Testing - Positive cases in last 7 days,2398,Testing - Positive cases in last 7 days
+S92000003,2020-04-07,Count,Testing - Positive cases in last 7 days,2236,Testing - Positive cases in last 7 days
+S92000003,2020-04-08,Count,Testing - Positive cases in last 7 days,2255,Testing - Positive cases in last 7 days
+S92000003,2020-04-09,Count,Testing - Positive cases in last 7 days,2355,Testing - Positive cases in last 7 days
+S92000003,2020-04-10,Count,Testing - Positive cases in last 7 days,2274,Testing - Positive cases in last 7 days
+S92000003,2020-04-11,Count,Testing - Positive cases in last 7 days,2245,Testing - Positive cases in last 7 days
+S92000003,2020-04-12,Count,Testing - Positive cases in last 7 days,2206,Testing - Positive cases in last 7 days
+S92000003,2020-04-13,Count,Testing - Positive cases in last 7 days,2106,Testing - Positive cases in last 7 days
+S92000003,2020-04-14,Count,Testing - Positive cases in last 7 days,2129,Testing - Positive cases in last 7 days
+S92000003,2020-04-15,Count,Testing - Positive cases in last 7 days,2183,Testing - Positive cases in last 7 days
+S92000003,2020-04-16,Count,Testing - Positive cases in last 7 days,2145,Testing - Positive cases in last 7 days
+S92000003,2020-04-17,Count,Testing - Positive cases in last 7 days,2134,Testing - Positive cases in last 7 days
+S92000003,2020-04-18,Count,Testing - Positive cases in last 7 days,2230,Testing - Positive cases in last 7 days
+S92000003,2020-04-19,Count,Testing - Positive cases in last 7 days,2275,Testing - Positive cases in last 7 days
+S92000003,2020-04-20,Count,Testing - Positive cases in last 7 days,2383,Testing - Positive cases in last 7 days
+S92000003,2020-04-21,Count,Testing - Positive cases in last 7 days,2314,Testing - Positive cases in last 7 days
+S92000003,2020-04-22,Count,Testing - Positive cases in last 7 days,2290,Testing - Positive cases in last 7 days
+S92000003,2020-04-23,Count,Testing - Positive cases in last 7 days,2307,Testing - Positive cases in last 7 days
+S92000003,2020-04-24,Count,Testing - Positive cases in last 7 days,2288,Testing - Positive cases in last 7 days
+S92000003,2020-04-25,Count,Testing - Positive cases in last 7 days,2231,Testing - Positive cases in last 7 days
+S92000003,2020-04-26,Count,Testing - Positive cases in last 7 days,2137,Testing - Positive cases in last 7 days
+S92000003,2020-04-27,Count,Testing - Positive cases in last 7 days,2071,Testing - Positive cases in last 7 days
+S92000003,2020-04-28,Count,Testing - Positive cases in last 7 days,2049,Testing - Positive cases in last 7 days
+S92000003,2020-04-29,Count,Testing - Positive cases in last 7 days,1996,Testing - Positive cases in last 7 days
+S92000003,2020-04-30,Count,Testing - Positive cases in last 7 days,1944,Testing - Positive cases in last 7 days
+S92000003,2020-05-01,Count,Testing - Positive cases in last 7 days,1957,Testing - Positive cases in last 7 days
+S92000003,2020-05-02,Count,Testing - Positive cases in last 7 days,1876,Testing - Positive cases in last 7 days
+S92000003,2020-05-03,Count,Testing - Positive cases in last 7 days,1773,Testing - Positive cases in last 7 days
+S92000003,2020-05-04,Count,Testing - Positive cases in last 7 days,1745,Testing - Positive cases in last 7 days
+S92000003,2020-05-05,Count,Testing - Positive cases in last 7 days,1716,Testing - Positive cases in last 7 days
+S92000003,2020-05-06,Count,Testing - Positive cases in last 7 days,1675,Testing - Positive cases in last 7 days
+S92000003,2020-05-07,Count,Testing - Positive cases in last 7 days,1571,Testing - Positive cases in last 7 days
+S92000003,2020-05-08,Count,Testing - Positive cases in last 7 days,1495,Testing - Positive cases in last 7 days
+S92000003,2020-05-09,Count,Testing - Positive cases in last 7 days,1378,Testing - Positive cases in last 7 days
+S92000003,2020-05-10,Count,Testing - Positive cases in last 7 days,1389,Testing - Positive cases in last 7 days
+S92000003,2020-05-11,Count,Testing - Positive cases in last 7 days,1361,Testing - Positive cases in last 7 days
+S92000003,2020-05-12,Count,Testing - Positive cases in last 7 days,1326,Testing - Positive cases in last 7 days
+S92000003,2020-05-13,Count,Testing - Positive cases in last 7 days,1220,Testing - Positive cases in last 7 days
+S92000003,2020-05-14,Count,Testing - Positive cases in last 7 days,1193,Testing - Positive cases in last 7 days
+S92000003,2020-05-15,Count,Testing - Positive cases in last 7 days,1111,Testing - Positive cases in last 7 days
+S92000003,2020-05-16,Count,Testing - Positive cases in last 7 days,1142,Testing - Positive cases in last 7 days
+S92000003,2020-05-17,Count,Testing - Positive cases in last 7 days,1051,Testing - Positive cases in last 7 days
+S92000003,2020-05-18,Count,Testing - Positive cases in last 7 days,967,Testing - Positive cases in last 7 days
+S92000003,2020-05-19,Count,Testing - Positive cases in last 7 days,892,Testing - Positive cases in last 7 days
+S92000003,2020-05-20,Count,Testing - Positive cases in last 7 days,822,Testing - Positive cases in last 7 days
+S92000003,2020-05-21,Count,Testing - Positive cases in last 7 days,739,Testing - Positive cases in last 7 days
+S92000003,2020-05-22,Count,Testing - Positive cases in last 7 days,709,Testing - Positive cases in last 7 days
+S92000003,2020-05-23,Count,Testing - Positive cases in last 7 days,594,Testing - Positive cases in last 7 days
+S92000003,2020-05-24,Count,Testing - Positive cases in last 7 days,564,Testing - Positive cases in last 7 days
+S92000003,2020-05-25,Count,Testing - Positive cases in last 7 days,562,Testing - Positive cases in last 7 days
+S92000003,2020-05-26,Count,Testing - Positive cases in last 7 days,530,Testing - Positive cases in last 7 days
+S92000003,2020-05-27,Count,Testing - Positive cases in last 7 days,489,Testing - Positive cases in last 7 days
+S92000003,2020-05-28,Count,Testing - Positive cases in last 7 days,432,Testing - Positive cases in last 7 days
+S92000003,2020-05-29,Count,Testing - Positive cases in last 7 days,358,Testing - Positive cases in last 7 days
+S92000003,2020-05-30,Count,Testing - Positive cases in last 7 days,341,Testing - Positive cases in last 7 days
+S92000003,2020-05-31,Count,Testing - Positive cases in last 7 days,299,Testing - Positive cases in last 7 days
+S92000003,2020-06-01,Count,Testing - Positive cases in last 7 days,262,Testing - Positive cases in last 7 days
+S92000003,2020-06-02,Count,Testing - Positive cases in last 7 days,286,Testing - Positive cases in last 7 days
+S92000003,2020-06-03,Count,Testing - Positive cases in last 7 days,264,Testing - Positive cases in last 7 days
+S92000003,2020-06-04,Count,Testing - Positive cases in last 7 days,265,Testing - Positive cases in last 7 days
+S92000003,2020-06-05,Count,Testing - Positive cases in last 7 days,255,Testing - Positive cases in last 7 days
+S92000003,2020-06-06,Count,Testing - Positive cases in last 7 days,221,Testing - Positive cases in last 7 days
+S92000003,2020-06-07,Count,Testing - Positive cases in last 7 days,221,Testing - Positive cases in last 7 days
+S92000003,2020-06-08,Count,Testing - Positive cases in last 7 days,221,Testing - Positive cases in last 7 days
+S92000003,2020-06-09,Count,Testing - Positive cases in last 7 days,182,Testing - Positive cases in last 7 days
+S92000003,2020-06-10,Count,Testing - Positive cases in last 7 days,161,Testing - Positive cases in last 7 days
+S92000003,2020-06-11,Count,Testing - Positive cases in last 7 days,129,Testing - Positive cases in last 7 days
+S92000003,2020-06-12,Count,Testing - Positive cases in last 7 days,127,Testing - Positive cases in last 7 days
+S92000003,2020-06-13,Count,Testing - Positive cases in last 7 days,127,Testing - Positive cases in last 7 days
+S92000003,2020-06-14,Count,Testing - Positive cases in last 7 days,134,Testing - Positive cases in last 7 days
+S92000003,2020-06-15,Count,Testing - Positive cases in last 7 days,145,Testing - Positive cases in last 7 days
+S92000003,2020-06-16,Count,Testing - Positive cases in last 7 days,146,Testing - Positive cases in last 7 days
+S92000003,2020-06-17,Count,Testing - Positive cases in last 7 days,155,Testing - Positive cases in last 7 days
+S92000003,2020-06-18,Count,Testing - Positive cases in last 7 days,149,Testing - Positive cases in last 7 days
+S92000003,2020-06-19,Count,Testing - Positive cases in last 7 days,149,Testing - Positive cases in last 7 days
+S92000003,2020-06-20,Count,Testing - Positive cases in last 7 days,154,Testing - Positive cases in last 7 days
+S92000003,2020-06-21,Count,Testing - Positive cases in last 7 days,155,Testing - Positive cases in last 7 days
+S92000003,2020-06-22,Count,Testing - Positive cases in last 7 days,140,Testing - Positive cases in last 7 days
+S92000003,2020-06-23,Count,Testing - Positive cases in last 7 days,137,Testing - Positive cases in last 7 days
+S92000003,2020-06-24,Count,Testing - Positive cases in last 7 days,125,Testing - Positive cases in last 7 days
+S92000003,2020-06-25,Count,Testing - Positive cases in last 7 days,119,Testing - Positive cases in last 7 days
+S92000003,2020-06-26,Count,Testing - Positive cases in last 7 days,109,Testing - Positive cases in last 7 days
+S92000003,2020-06-27,Count,Testing - Positive cases in last 7 days,98,Testing - Positive cases in last 7 days
+S92000003,2020-06-28,Count,Testing - Positive cases in last 7 days,80,Testing - Positive cases in last 7 days
+S92000003,2020-06-29,Count,Testing - Positive cases in last 7 days,71,Testing - Positive cases in last 7 days
+S92000003,2020-06-30,Count,Testing - Positive cases in last 7 days,69,Testing - Positive cases in last 7 days
+S92000003,2020-07-01,Count,Testing - Positive cases in last 7 days,68,Testing - Positive cases in last 7 days
+S92000003,2020-07-02,Count,Testing - Positive cases in last 7 days,68,Testing - Positive cases in last 7 days
+S92000003,2020-07-03,Count,Testing - Positive cases in last 7 days,63,Testing - Positive cases in last 7 days
+S92000003,2020-07-04,Count,Testing - Positive cases in last 7 days,59,Testing - Positive cases in last 7 days
+S92000003,2020-07-05,Count,Testing - Positive cases in last 7 days,60,Testing - Positive cases in last 7 days
+S92000003,2020-07-06,Count,Testing - Positive cases in last 7 days,59,Testing - Positive cases in last 7 days
+S92000003,2020-07-07,Count,Testing - Positive cases in last 7 days,51,Testing - Positive cases in last 7 days
+S92000003,2020-07-08,Count,Testing - Positive cases in last 7 days,50,Testing - Positive cases in last 7 days
+S92000003,2020-07-09,Count,Testing - Positive cases in last 7 days,51,Testing - Positive cases in last 7 days
+S92000003,2020-07-10,Count,Testing - Positive cases in last 7 days,57,Testing - Positive cases in last 7 days
+S92000003,2020-07-11,Count,Testing - Positive cases in last 7 days,53,Testing - Positive cases in last 7 days
+S92000003,2020-07-12,Count,Testing - Positive cases in last 7 days,63,Testing - Positive cases in last 7 days
+S92000003,2020-07-13,Count,Testing - Positive cases in last 7 days,65,Testing - Positive cases in last 7 days
+S92000003,2020-07-14,Count,Testing - Positive cases in last 7 days,66,Testing - Positive cases in last 7 days
+S92000003,2020-07-15,Count,Testing - Positive cases in last 7 days,64,Testing - Positive cases in last 7 days
+S92000003,2020-07-16,Count,Testing - Positive cases in last 7 days,69,Testing - Positive cases in last 7 days
+S92000003,2020-07-17,Count,Testing - Positive cases in last 7 days,68,Testing - Positive cases in last 7 days
+S92000003,2020-07-18,Count,Testing - Positive cases in last 7 days,82,Testing - Positive cases in last 7 days
+S92000003,2020-07-19,Count,Testing - Positive cases in last 7 days,86,Testing - Positive cases in last 7 days
+S92000003,2020-07-20,Count,Testing - Positive cases in last 7 days,87,Testing - Positive cases in last 7 days
+S92000003,2020-07-21,Count,Testing - Positive cases in last 7 days,106,Testing - Positive cases in last 7 days
+S92000003,2020-07-22,Count,Testing - Positive cases in last 7 days,111,Testing - Positive cases in last 7 days
+S92000003,2020-07-23,Count,Testing - Positive cases in last 7 days,116,Testing - Positive cases in last 7 days
+S92000003,2020-07-24,Count,Testing - Positive cases in last 7 days,119,Testing - Positive cases in last 7 days
+S92000003,2020-04-07,Count,Testing - Tests in last 7 days,11163,Testing - Tests in last 7 days
+S92000003,2020-04-08,Count,Testing - Tests in last 7 days,11162,Testing - Tests in last 7 days
+S92000003,2020-04-09,Count,Testing - Tests in last 7 days,11818,Testing - Tests in last 7 days
+S92000003,2020-04-10,Count,Testing - Tests in last 7 days,11859,Testing - Tests in last 7 days
+S92000003,2020-04-11,Count,Testing - Tests in last 7 days,12124,Testing - Tests in last 7 days
+S92000003,2020-04-12,Count,Testing - Tests in last 7 days,10723,Testing - Tests in last 7 days
+S92000003,2020-04-13,Count,Testing - Tests in last 7 days,10632,Testing - Tests in last 7 days
+S92000003,2020-04-14,Count,Testing - Tests in last 7 days,10840,Testing - Tests in last 7 days
+S92000003,2020-04-15,Count,Testing - Tests in last 7 days,10865,Testing - Tests in last 7 days
+S92000003,2020-04-16,Count,Testing - Tests in last 7 days,10927,Testing - Tests in last 7 days
+S92000003,2020-04-17,Count,Testing - Tests in last 7 days,11042,Testing - Tests in last 7 days
+S92000003,2020-04-18,Count,Testing - Tests in last 7 days,11270,Testing - Tests in last 7 days
+S92000003,2020-04-19,Count,Testing - Tests in last 7 days,11362,Testing - Tests in last 7 days
+S92000003,2020-04-20,Count,Testing - Tests in last 7 days,11737,Testing - Tests in last 7 days
+S92000003,2020-04-21,Count,Testing - Tests in last 7 days,11709,Testing - Tests in last 7 days
+S92000003,2020-04-22,Count,Testing - Tests in last 7 days,12199,Testing - Tests in last 7 days
+S92000003,2020-04-23,Count,Testing - Tests in last 7 days,12547,Testing - Tests in last 7 days
+S92000003,2020-04-24,Count,Testing - Tests in last 7 days,12637,Testing - Tests in last 7 days
+S92000003,2020-04-25,Count,Testing - Tests in last 7 days,12844,Testing - Tests in last 7 days
+S92000003,2020-04-26,Count,Testing - Tests in last 7 days,13233,Testing - Tests in last 7 days
+S92000003,2020-04-27,Count,Testing - Tests in last 7 days,14509,Testing - Tests in last 7 days
+S92000003,2020-04-28,Count,Testing - Tests in last 7 days,15735,Testing - Tests in last 7 days
+S92000003,2020-04-29,Count,Testing - Tests in last 7 days,16982,Testing - Tests in last 7 days
+S92000003,2020-04-30,Count,Testing - Tests in last 7 days,19220,Testing - Tests in last 7 days
+S92000003,2020-05-01,Count,Testing - Tests in last 7 days,22109,Testing - Tests in last 7 days
+S92000003,2020-05-02,Count,Testing - Tests in last 7 days,25200,Testing - Tests in last 7 days
+S92000003,2020-05-03,Count,Testing - Tests in last 7 days,26822,Testing - Tests in last 7 days
+S92000003,2020-05-04,Count,Testing - Tests in last 7 days,28008,Testing - Tests in last 7 days
+S92000003,2020-05-05,Count,Testing - Tests in last 7 days,29304,Testing - Tests in last 7 days
+S92000003,2020-05-06,Count,Testing - Tests in last 7 days,30516,Testing - Tests in last 7 days
+S92000003,2020-05-07,Count,Testing - Tests in last 7 days,31173,Testing - Tests in last 7 days
+S92000003,2020-05-08,Count,Testing - Tests in last 7 days,31244,Testing - Tests in last 7 days
+S92000003,2020-05-09,Count,Testing - Tests in last 7 days,30328,Testing - Tests in last 7 days
+S92000003,2020-05-10,Count,Testing - Tests in last 7 days,30400,Testing - Tests in last 7 days
+S92000003,2020-05-11,Count,Testing - Tests in last 7 days,30190,Testing - Tests in last 7 days
+S92000003,2020-05-12,Count,Testing - Tests in last 7 days,30350,Testing - Tests in last 7 days
+S92000003,2020-05-13,Count,Testing - Tests in last 7 days,30775,Testing - Tests in last 7 days
+S92000003,2020-05-14,Count,Testing - Tests in last 7 days,31525,Testing - Tests in last 7 days
+S92000003,2020-05-15,Count,Testing - Tests in last 7 days,32006,Testing - Tests in last 7 days
+S92000003,2020-05-16,Count,Testing - Tests in last 7 days,34128,Testing - Tests in last 7 days
+S92000003,2020-05-17,Count,Testing - Tests in last 7 days,35057,Testing - Tests in last 7 days
+S92000003,2020-05-18,Count,Testing - Tests in last 7 days,34948,Testing - Tests in last 7 days
+S92000003,2020-05-19,Count,Testing - Tests in last 7 days,35424,Testing - Tests in last 7 days
+S92000003,2020-05-20,Count,Testing - Tests in last 7 days,36668,Testing - Tests in last 7 days
+S92000003,2020-05-21,Count,Testing - Tests in last 7 days,37357,Testing - Tests in last 7 days
+S92000003,2020-05-22,Count,Testing - Tests in last 7 days,37886,Testing - Tests in last 7 days
+S92000003,2020-05-23,Count,Testing - Tests in last 7 days,36773,Testing - Tests in last 7 days
+S92000003,2020-05-24,Count,Testing - Tests in last 7 days,36163,Testing - Tests in last 7 days
+S92000003,2020-05-25,Count,Testing - Tests in last 7 days,37430,Testing - Tests in last 7 days
+S92000003,2020-05-26,Count,Testing - Tests in last 7 days,37296,Testing - Tests in last 7 days
+S92000003,2020-05-27,Count,Testing - Tests in last 7 days,36122,Testing - Tests in last 7 days
+S92000003,2020-05-28,Count,Testing - Tests in last 7 days,34604,Testing - Tests in last 7 days
+S92000003,2020-05-29,Count,Testing - Tests in last 7 days,34334,Testing - Tests in last 7 days
+S92000003,2020-05-30,Count,Testing - Tests in last 7 days,33253,Testing - Tests in last 7 days
+S92000003,2020-05-31,Count,Testing - Tests in last 7 days,32371,Testing - Tests in last 7 days
+S92000003,2020-06-01,Count,Testing - Tests in last 7 days,30358,Testing - Tests in last 7 days
+S92000003,2020-06-02,Count,Testing - Tests in last 7 days,30339,Testing - Tests in last 7 days
+S92000003,2020-06-03,Count,Testing - Tests in last 7 days,29952,Testing - Tests in last 7 days
+S92000003,2020-06-04,Count,Testing - Tests in last 7 days,30154,Testing - Tests in last 7 days
+S92000003,2020-06-05,Count,Testing - Tests in last 7 days,30208,Testing - Tests in last 7 days
+S92000003,2020-06-06,Count,Testing - Tests in last 7 days,30857,Testing - Tests in last 7 days
+S92000003,2020-06-07,Count,Testing - Tests in last 7 days,31572,Testing - Tests in last 7 days
+S92000003,2020-06-08,Count,Testing - Tests in last 7 days,32268,Testing - Tests in last 7 days
+S92000003,2020-06-09,Count,Testing - Tests in last 7 days,32424,Testing - Tests in last 7 days
+S92000003,2020-06-10,Count,Testing - Tests in last 7 days,32380,Testing - Tests in last 7 days
+S92000003,2020-06-11,Count,Testing - Tests in last 7 days,32851,Testing - Tests in last 7 days
+S92000003,2020-06-12,Count,Testing - Tests in last 7 days,32702,Testing - Tests in last 7 days
+S92000003,2020-06-13,Count,Testing - Tests in last 7 days,33464,Testing - Tests in last 7 days
+S92000003,2020-06-14,Count,Testing - Tests in last 7 days,33937,Testing - Tests in last 7 days
+S92000003,2020-06-15,Count,Testing - Tests in last 7 days,34488,Testing - Tests in last 7 days
+S92000003,2020-06-16,Count,Testing - Tests in last 7 days,34661,Testing - Tests in last 7 days
+S92000003,2020-06-17,Count,Testing - Tests in last 7 days,34947,Testing - Tests in last 7 days
+S92000003,2020-06-18,Count,Testing - Tests in last 7 days,34527,Testing - Tests in last 7 days
+S92000003,2020-06-19,Count,Testing - Tests in last 7 days,33803,Testing - Tests in last 7 days
+S92000003,2020-06-20,Count,Testing - Tests in last 7 days,32625,Testing - Tests in last 7 days
+S92000003,2020-06-21,Count,Testing - Tests in last 7 days,32021,Testing - Tests in last 7 days
+S92000003,2020-06-22,Count,Testing - Tests in last 7 days,31461,Testing - Tests in last 7 days
+S92000003,2020-06-23,Count,Testing - Tests in last 7 days,30901,Testing - Tests in last 7 days
+S92000003,2020-06-24,Count,Testing - Tests in last 7 days,30731,Testing - Tests in last 7 days
+S92000003,2020-06-25,Count,Testing - Tests in last 7 days,29731,Testing - Tests in last 7 days
+S92000003,2020-06-26,Count,Testing - Tests in last 7 days,30464,Testing - Tests in last 7 days
+S92000003,2020-06-27,Count,Testing - Tests in last 7 days,30363,Testing - Tests in last 7 days
+S92000003,2020-06-28,Count,Testing - Tests in last 7 days,30288,Testing - Tests in last 7 days
+S92000003,2020-06-29,Count,Testing - Tests in last 7 days,30402,Testing - Tests in last 7 days
+S92000003,2020-06-30,Count,Testing - Tests in last 7 days,30437,Testing - Tests in last 7 days
+S92000003,2020-07-01,Count,Testing - Tests in last 7 days,29939,Testing - Tests in last 7 days
+S92000003,2020-07-02,Count,Testing - Tests in last 7 days,30374,Testing - Tests in last 7 days
+S92000003,2020-07-03,Count,Testing - Tests in last 7 days,30078,Testing - Tests in last 7 days
+S92000003,2020-07-04,Count,Testing - Tests in last 7 days,30977,Testing - Tests in last 7 days
+S92000003,2020-07-05,Count,Testing - Tests in last 7 days,30989,Testing - Tests in last 7 days
+S92000003,2020-07-06,Count,Testing - Tests in last 7 days,30985,Testing - Tests in last 7 days
+S92000003,2020-07-07,Count,Testing - Tests in last 7 days,30817,Testing - Tests in last 7 days
+S92000003,2020-07-08,Count,Testing - Tests in last 7 days,32274,Testing - Tests in last 7 days
+S92000003,2020-07-09,Count,Testing - Tests in last 7 days,38194,Testing - Tests in last 7 days
+S92000003,2020-07-10,Count,Testing - Tests in last 7 days,50677,Testing - Tests in last 7 days
+S92000003,2020-07-11,Count,Testing - Tests in last 7 days,54621,Testing - Tests in last 7 days
+S92000003,2020-07-12,Count,Testing - Tests in last 7 days,62312,Testing - Tests in last 7 days
+S92000003,2020-07-13,Count,Testing - Tests in last 7 days,63259,Testing - Tests in last 7 days
+S92000003,2020-07-14,Count,Testing - Tests in last 7 days,64125,Testing - Tests in last 7 days
+S92000003,2020-07-15,Count,Testing - Tests in last 7 days,65140,Testing - Tests in last 7 days
+S92000003,2020-07-16,Count,Testing - Tests in last 7 days,61843,Testing - Tests in last 7 days
+S92000003,2020-07-17,Count,Testing - Tests in last 7 days,58926,Testing - Tests in last 7 days
+S92000003,2020-07-18,Count,Testing - Tests in last 7 days,66173,Testing - Tests in last 7 days
+S92000003,2020-07-19,Count,Testing - Tests in last 7 days,66869,Testing - Tests in last 7 days
+S92000003,2020-07-20,Count,Testing - Tests in last 7 days,66502,Testing - Tests in last 7 days
+S92000003,2020-07-21,Count,Testing - Tests in last 7 days,67722,Testing - Tests in last 7 days
+S92000003,2020-07-22,Count,Testing - Tests in last 7 days,70605,Testing - Tests in last 7 days
+S92000003,2020-07-23,Count,Testing - Tests in last 7 days,74864,Testing - Tests in last 7 days
+S92000003,2020-07-24,Count,Testing - Tests in last 7 days,76546,Testing - Tests in last 7 days
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4354,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4378,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4403,NHS workforce COVID-19 absences - Nursing and midwifery staff
@@ -3471,6 +3485,7 @@ S92000003,2020-07-19,Count,Adult care homes - Cumulative number that have report
 S92000003,2020-07-20,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,697,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-07-21,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,697,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-07-22,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,697,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
+S92000003,2020-07-23,Count,Adult care homes - Cumulative number that have reported a suspected COVID-19 case,697,Adult care homes - Cumulative number that have reported a suspected COVID-19 case
 S92000003,2020-04-11,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,37,Adult care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-12,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,38,Adult care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-13,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,38,Adult care homes - Proportion that have reported a suspected COVID-19 case
@@ -3574,6 +3589,7 @@ S92000003,2020-07-19,Ratio,Adult care homes - Proportion that have reported a su
 S92000003,2020-07-20,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,65,Adult care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-07-21,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,65,Adult care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-07-22,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,65,Adult care homes - Proportion that have reported a suspected COVID-19 case
+S92000003,2020-07-23,Ratio,Adult care homes - Proportion that have reported a suspected COVID-19 case,65,Adult care homes - Proportion that have reported a suspected COVID-19 case
 S92000003,2020-04-11,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,202,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-12,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,204,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-13,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,214,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
@@ -3677,6 +3693,7 @@ S92000003,2020-07-19,Count,Adult care homes - Cumulative number that have report
 S92000003,2020-07-20,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,547,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-07-21,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,548,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-07-22,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,548,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
+S92000003,2020-07-23,Count,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case,548,Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case
 S92000003,2020-04-21,Count,Adult care homes - Number with current suspected COVID-19 cases,384,Adult care homes - Number with current suspected COVID-19 cases
 S92000003,2020-04-28,Count,Adult care homes - Number with current suspected COVID-19 cases,429,Adult care homes - Number with current suspected COVID-19 cases
 S92000003,2020-05-05,Count,Adult care homes - Number with current suspected COVID-19 cases,453,Adult care homes - Number with current suspected COVID-19 cases
@@ -3812,6 +3829,7 @@ S92000003,2020-07-19,Count,Adult care homes - Number with current suspected COVI
 S92000003,2020-07-20,Count,Adult care homes - Number with current suspected COVID-19 cases,90,Adult care homes - Number with current suspected COVID-19 cases - revised
 S92000003,2020-07-21,Count,Adult care homes - Number with current suspected COVID-19 cases,83,Adult care homes - Number with current suspected COVID-19 cases - revised
 S92000003,2020-07-22,Count,Adult care homes - Number with current suspected COVID-19 cases,81,Adult care homes - Number with current suspected COVID-19 cases - revised
+S92000003,2020-07-23,Count,Adult care homes - Number with current suspected COVID-19 cases,76,Adult care homes - Number with current suspected COVID-19 cases - revised
 S92000003,2020-06-28,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,13,Adult care homes - Proportion with current suspected COVID-19 cases - revised
 S92000003,2020-06-29,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,13,Adult care homes - Proportion with current suspected COVID-19 cases - revised
 S92000003,2020-06-30,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,13,Adult care homes - Proportion with current suspected COVID-19 cases - revised
@@ -3837,6 +3855,7 @@ S92000003,2020-07-19,Ratio,Adult care homes - Proportion with current suspected 
 S92000003,2020-07-20,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,8,Adult care homes - Proportion with current suspected COVID-19 cases - revised
 S92000003,2020-07-21,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,8,Adult care homes - Proportion with current suspected COVID-19 cases - revised
 S92000003,2020-07-22,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,8,Adult care homes - Proportion with current suspected COVID-19 cases - revised
+S92000003,2020-07-23,Ratio,Adult care homes - Proportion with current suspected COVID-19 cases,7,Adult care homes - Proportion with current suspected COVID-19 cases - revised
 S92000003,2020-04-11,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1095,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-12,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1124,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-13,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,1209,Adult care homes - Cumulative number of suspected COVID-19 cases
@@ -3940,6 +3959,7 @@ S92000003,2020-07-19,Count,Adult care homes - Cumulative number of suspected COV
 S92000003,2020-07-20,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,6830,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-07-21,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,6834,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-07-22,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,6841,Adult care homes - Cumulative number of suspected COVID-19 cases
+S92000003,2020-07-23,Count,Adult care homes - Cumulative number of suspected COVID-19 cases,6851,Adult care homes - Cumulative number of suspected COVID-19 cases
 S92000003,2020-04-11,Count,Adult care homes - Daily number of new suspected COVID-19 cases,35,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-04-12,Count,Adult care homes - Daily number of new suspected COVID-19 cases,29,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-04-13,Count,Adult care homes - Daily number of new suspected COVID-19 cases,85,Adult care homes - Daily number of new suspected COVID-19 cases
@@ -4043,6 +4063,7 @@ S92000003,2020-07-19,Count,Adult care homes - Daily number of new suspected COVI
 S92000003,2020-07-20,Count,Adult care homes - Daily number of new suspected COVID-19 cases,28,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-07-21,Count,Adult care homes - Daily number of new suspected COVID-19 cases,4,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-07-22,Count,Adult care homes - Daily number of new suspected COVID-19 cases,7,Adult care homes - Daily number of new suspected COVID-19 cases
+S92000003,2020-07-23,Count,Adult care homes - Daily number of new suspected COVID-19 cases,10,Adult care homes - Daily number of new suspected COVID-19 cases
 S92000003,2020-04-21,Count,Adult care homes - Number of staff reported as absent,3732,Adult care homes - Number of staff reported as absent
 S92000003,2020-04-28,Count,Adult care homes - Number of staff reported as absent,4163,Adult care homes - Number of staff reported as absent
 S92000003,2020-05-05,Count,Adult care homes - Number of staff reported as absent,3672,Adult care homes - Number of staff reported as absent
@@ -4245,6 +4266,7 @@ S92000003,2020-07-20,Count,Number of COVID-19 confirmed deaths registered to dat
 S92000003,2020-07-21,Count,Number of COVID-19 confirmed deaths registered to date,2491,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-07-22,Count,Number of COVID-19 confirmed deaths registered to date,2491,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-07-23,Count,Number of COVID-19 confirmed deaths registered to date,2491,Number of COVID-19 confirmed deaths registered to date
+S92000003,2020-07-24,Count,Number of COVID-19 confirmed deaths registered to date,2491,Number of COVID-19 confirmed deaths registered to date
 S08000015,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000015,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000015,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -4384,6 +4406,7 @@ S08000015,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000015,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,1269,Testing - Cumulative people tested for COVID-19 - Positive
 S08000015,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,1270,Testing - Cumulative people tested for COVID-19 - Positive
 S08000015,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,1272,Testing - Cumulative people tested for COVID-19 - Positive
+S08000015,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,1273,Testing - Cumulative people tested for COVID-19 - Positive
 S08000016,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000016,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000016,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -4523,6 +4546,7 @@ S08000016,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000016,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,346,Testing - Cumulative people tested for COVID-19 - Positive
 S08000016,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,346,Testing - Cumulative people tested for COVID-19 - Positive
 S08000016,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,346,Testing - Cumulative people tested for COVID-19 - Positive
+S08000016,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,346,Testing - Cumulative people tested for COVID-19 - Positive
 S08000017,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000017,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000017,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -4662,6 +4686,7 @@ S08000017,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000017,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,300,Testing - Cumulative people tested for COVID-19 - Positive
 S08000017,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,300,Testing - Cumulative people tested for COVID-19 - Positive
 S08000017,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,300,Testing - Cumulative people tested for COVID-19 - Positive
+S08000017,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,300,Testing - Cumulative people tested for COVID-19 - Positive
 S08000029,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000029,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000029,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -4801,6 +4826,7 @@ S08000029,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000029,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,937,Testing - Cumulative people tested for COVID-19 - Positive
 S08000029,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,938,Testing - Cumulative people tested for COVID-19 - Positive
 S08000029,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,939,Testing - Cumulative people tested for COVID-19 - Positive
+S08000029,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,939,Testing - Cumulative people tested for COVID-19 - Positive
 S08000019,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000019,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000019,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -4940,6 +4966,7 @@ S08000019,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000019,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,1092,Testing - Cumulative people tested for COVID-19 - Positive
 S08000019,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,1092,Testing - Cumulative people tested for COVID-19 - Positive
 S08000019,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,1092,Testing - Cumulative people tested for COVID-19 - Positive
+S08000019,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,1091,Testing - Cumulative people tested for COVID-19 - Positive
 S08000020,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000020,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000020,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -5079,6 +5106,7 @@ S08000020,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000020,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,1440,Testing - Cumulative people tested for COVID-19 - Positive
 S08000020,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,1440,Testing - Cumulative people tested for COVID-19 - Positive
 S08000020,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,1441,Testing - Cumulative people tested for COVID-19 - Positive
+S08000020,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,1442,Testing - Cumulative people tested for COVID-19 - Positive
 S08000031,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000031,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000031,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -5218,6 +5246,7 @@ S08000031,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000031,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,4918,Testing - Cumulative people tested for COVID-19 - Positive
 S08000031,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,4921,Testing - Cumulative people tested for COVID-19 - Positive
 S08000031,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,4926,Testing - Cumulative people tested for COVID-19 - Positive
+S08000031,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,4940,Testing - Cumulative people tested for COVID-19 - Positive
 S08000022,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000022,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000022,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -5357,6 +5386,7 @@ S08000022,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000022,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,378,Testing - Cumulative people tested for COVID-19 - Positive
 S08000022,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,378,Testing - Cumulative people tested for COVID-19 - Positive
 S08000022,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,379,Testing - Cumulative people tested for COVID-19 - Positive
+S08000022,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,381,Testing - Cumulative people tested for COVID-19 - Positive
 S08000032,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000032,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000032,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -5496,6 +5526,7 @@ S08000032,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000032,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,2762,Testing - Cumulative people tested for COVID-19 - Positive
 S08000032,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,2765,Testing - Cumulative people tested for COVID-19 - Positive
 S08000032,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,2769,Testing - Cumulative people tested for COVID-19 - Positive
+S08000032,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,2770,Testing - Cumulative people tested for COVID-19 - Positive
 S08000024,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000024,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000024,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,5,Testing - Cumulative people tested for COVID-19 - Positive
@@ -5635,6 +5666,7 @@ S08000024,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000024,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,3181,Testing - Cumulative people tested for COVID-19 - Positive
 S08000024,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,3182,Testing - Cumulative people tested for COVID-19 - Positive
 S08000024,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,3183,Testing - Cumulative people tested for COVID-19 - Positive
+S08000024,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,3184,Testing - Cumulative people tested for COVID-19 - Positive
 S08000025,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000025,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000025,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -5774,6 +5806,7 @@ S08000025,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000025,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,9,Testing - Cumulative people tested for COVID-19 - Positive
 S08000025,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,9,Testing - Cumulative people tested for COVID-19 - Positive
 S08000025,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,9,Testing - Cumulative people tested for COVID-19 - Positive
+S08000025,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,9,Testing - Cumulative people tested for COVID-19 - Positive
 S08000026,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000026,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000026,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -5913,6 +5946,7 @@ S08000026,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000026,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,54,Testing - Cumulative people tested for COVID-19 - Positive
 S08000026,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,54,Testing - Cumulative people tested for COVID-19 - Positive
 S08000026,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,54,Testing - Cumulative people tested for COVID-19 - Positive
+S08000026,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,54,Testing - Cumulative people tested for COVID-19 - Positive
 S08000030,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000030,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000030,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -6052,6 +6086,7 @@ S08000030,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000030,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,1781,Testing - Cumulative people tested for COVID-19 - Positive
 S08000030,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,1782,Testing - Cumulative people tested for COVID-19 - Positive
 S08000030,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,1783,Testing - Cumulative people tested for COVID-19 - Positive
+S08000030,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,1784,Testing - Cumulative people tested for COVID-19 - Positive
 S08000028,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000028,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
 S08000028,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,9999999,Testing - Cumulative people tested for COVID-19 - Positive
@@ -6191,6 +6226,7 @@ S08000028,2020-07-20,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000028,2020-07-21,Count,Testing - Cumulative people tested for COVID-19 - Positive,7,Testing - Cumulative people tested for COVID-19 - Positive
 S08000028,2020-07-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,7,Testing - Cumulative people tested for COVID-19 - Positive
 S08000028,2020-07-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,7,Testing - Cumulative people tested for COVID-19 - Positive
+S08000028,2020-07-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,7,Testing - Cumulative people tested for COVID-19 - Positive
 S08000015,2020-03-18,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000015,2020-03-19,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
 S08000015,2020-03-20,Count,COVID-19 patients in ICU - Total,9999999,COVID-19 patients in ICU - Total
@@ -8201,6 +8237,7 @@ S08000015,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000015,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000015,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000015,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000015,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000016,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,5,COVID-19 patients in hospital - Confirmed
 S08000016,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,6,COVID-19 patients in hospital - Confirmed
 S08000016,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,15,COVID-19 patients in hospital - Confirmed
@@ -8321,6 +8358,7 @@ S08000016,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000016,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000016,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000016,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000016,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000017,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,11,COVID-19 patients in hospital - Confirmed
 S08000017,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,13,COVID-19 patients in hospital - Confirmed
 S08000017,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,13,COVID-19 patients in hospital - Confirmed
@@ -8441,6 +8479,7 @@ S08000017,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000017,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000017,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000017,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000017,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000029,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,20,COVID-19 patients in hospital - Confirmed
 S08000029,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,23,COVID-19 patients in hospital - Confirmed
 S08000029,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,30,COVID-19 patients in hospital - Confirmed
@@ -8561,6 +8600,7 @@ S08000029,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000029,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000029,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000029,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000029,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000019,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,29,COVID-19 patients in hospital - Confirmed
 S08000019,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,31,COVID-19 patients in hospital - Confirmed
 S08000019,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,32,COVID-19 patients in hospital - Confirmed
@@ -8681,6 +8721,7 @@ S08000019,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000019,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000019,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000019,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000019,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000020,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,8,COVID-19 patients in hospital - Confirmed
 S08000020,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,13,COVID-19 patients in hospital - Confirmed
 S08000020,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,16,COVID-19 patients in hospital - Confirmed
@@ -8801,6 +8842,7 @@ S08000020,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,30,COVID-19
 S08000020,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,32,COVID-19 patients in hospital - Confirmed
 S08000020,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,27,COVID-19 patients in hospital - Confirmed
 S08000020,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,29,COVID-19 patients in hospital - Confirmed
+S08000020,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,30,COVID-19 patients in hospital - Confirmed
 S08000031,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,125,COVID-19 patients in hospital - Confirmed
 S08000031,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,153,COVID-19 patients in hospital - Confirmed
 S08000031,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,200,COVID-19 patients in hospital - Confirmed
@@ -8921,6 +8963,7 @@ S08000031,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,172,COVID-1
 S08000031,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,175,COVID-19 patients in hospital - Confirmed
 S08000031,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,176,COVID-19 patients in hospital - Confirmed
 S08000031,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,169,COVID-19 patients in hospital - Confirmed
+S08000031,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,162,COVID-19 patients in hospital - Confirmed
 S08000022,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,7,COVID-19 patients in hospital - Confirmed
 S08000022,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,6,COVID-19 patients in hospital - Confirmed
 S08000022,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,7,COVID-19 patients in hospital - Confirmed
@@ -9041,6 +9084,7 @@ S08000022,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000022,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000022,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000022,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000022,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000032,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,41,COVID-19 patients in hospital - Confirmed
 S08000032,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,62,COVID-19 patients in hospital - Confirmed
 S08000032,2020-03-29,Count,COVID-19 patients in hospital - Confirmed,71,COVID-19 patients in hospital - Confirmed
@@ -9160,6 +9204,7 @@ S08000032,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,16,COVID-19
 S08000032,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,15,COVID-19 patients in hospital - Confirmed
 S08000032,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,14,COVID-19 patients in hospital - Confirmed
 S08000032,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,12,COVID-19 patients in hospital - Confirmed
+S08000032,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,12,COVID-19 patients in hospital - Confirmed
 S08000024,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,66,COVID-19 patients in hospital - Confirmed
 S08000024,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,73,COVID-19 patients in hospital - Confirmed
 S08000024,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,83,COVID-19 patients in hospital - Confirmed
@@ -9280,6 +9325,7 @@ S08000024,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,76,COVID-19
 S08000024,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,75,COVID-19 patients in hospital - Confirmed
 S08000024,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,74,COVID-19 patients in hospital - Confirmed
 S08000024,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,73,COVID-19 patients in hospital - Confirmed
+S08000024,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,70,COVID-19 patients in hospital - Confirmed
 S08000025,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000025,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000025,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
@@ -9400,6 +9446,7 @@ S08000025,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000025,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000025,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000025,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000025,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000026,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000026,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000026,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
@@ -9520,6 +9567,7 @@ S08000026,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000026,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000026,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000026,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000026,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000030,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,26,COVID-19 patients in hospital - Confirmed
 S08000030,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,25,COVID-19 patients in hospital - Confirmed
 S08000030,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,32,COVID-19 patients in hospital - Confirmed
@@ -9640,6 +9688,7 @@ S08000030,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000030,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000030,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000030,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000030,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000028,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000028,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000028,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
@@ -9760,6 +9809,7 @@ S08000028,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COV
 S08000028,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000028,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000028,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+S08000028,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 SB0801,2020-03-26,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 SB0801,2020-03-27,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 SB0801,2020-03-28,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
@@ -9880,6 +9930,7 @@ SB0801,2020-07-20,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-
 SB0801,2020-07-21,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 SB0801,2020-07-22,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 SB0801,2020-07-23,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
+SB0801,2020-07-24,Count,COVID-19 patients in hospital - Confirmed,9999999,COVID-19 patients in hospital - Confirmed
 S08000015,2020-03-26,Count,COVID-19 patients in hospital - Suspected,31,COVID-19 patients in hospital - Suspected
 S08000015,2020-03-27,Count,COVID-19 patients in hospital - Suspected,25,COVID-19 patients in hospital - Suspected
 S08000015,2020-03-28,Count,COVID-19 patients in hospital - Suspected,31,COVID-19 patients in hospital - Suspected
