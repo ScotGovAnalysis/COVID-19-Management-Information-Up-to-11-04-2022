@@ -9,10 +9,27 @@ It is Management Information, which is collected and distributed each day in ord
 More information on the individual data sources can be found at: [https://www.gov.scot/publications/coronavirus-covid-19-data-definitions-and-sources/](https://www.gov.scot/publications/coronavirus-covid-19-data-definitions-and-sources/)
 
 
-On Wednesday 22 July, there are planned changes to the coronavirus data on the Scottish Government website. The blog below published on 20 July contains more information on these changes.  https://blogs.gov.scot/statistics/2020/07/20/planned-changes-to-coronavirus-data-page-on-scottish-government-website/.
-We will work to reflect these changes in open datasets that we are publishing onto https://github.com/DataScienceScotland/COVID-19-Management-Information and www.statistics.gov.scot as soon as possible, but please note that there will be a delay to publication whilst we do this.  The historic data up to 22 July will still be publicly available in open formats for use and reuse. We thank you in advance for your patience whilst we prioritise these changes in order to make this data available as soon as possible
+On Wednesday 22 July, there were changes made to the coronavirus data on the Scottish Government website. The blog below published on 20 July contains more information on these changes.  https://blogs.gov.scot/statistics/2020/07/20/planned-changes-to-coronavirus-data-page-on-scottish-government-website/.
+
+Changes have been made to the following datasets:
+
+Calls - Numbers of calls to NHS 111 and the coronavirus helpline. This table is no longer updated as of 22/07.  Data up to 21/07 will remain published as open data on   https://github.com/DataScienceScotland/COVID-19-Management-Information
+
+Hospital – Numbers of people in hospital and in ICU with confirmed COVID-19 will be continue to be published.  Number of people in hospital and in ICU with suspected COVID-19 will stop being published as 22/07.  Data up to 21/07 will remain published as open data on  https://github.com/DataScienceScotland/COVID-19-Management-Information
+
+Ambulance - Numbers of ambulance attendances (total and COVID-19 suspected) and number of people taken to hospital with suspected COVID-19. This table is no longer updated as of 22/07.  Data up to 21/07 will remain published as open data on https://github.com/DataScienceScotland/COVID-19-Management-Information
+
+Delayed discharges – this table will be uploaded weekly as of 22/07.  We have not yet published as open data on github.com.  Daily data up to 21/07 will remain published as open data on https://github.com/DataScienceScotland/COVID-19-Management-Information
+
+Workforce – this table will be uploaded weekly as of 22/07.  We have not yet published as open data on github.com.  Daily data up to 21/07 will remain published as open data on https://github.com/DataScienceScotland/COVID-19-Management-Information
+
+Scottish Health Boards – Hospital patients – Suspected -  this table is no longer updated as of 22/07.  Data up to 21/07 will remain published as open data on 
+https://github.com/DataScienceScotland/COVID-19-Management-Information
 
 
+
+
+--------------------------------------
 
 *Notes*
 
