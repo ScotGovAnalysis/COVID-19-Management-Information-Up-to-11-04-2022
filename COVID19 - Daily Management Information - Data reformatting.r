@@ -132,10 +132,10 @@ names(SC_table5) <- c("Date",
                       "Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative",
                       "Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily",
                       "Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative",
-                      "Testing - Additional Statistics - Total daily tests",
-                      "Testing - Additional Statistics - People tested in last 7 days",
-                      "Testing - Additional Statistics - Positive cases in last 7 days",
-                      "Testing - Additional Statistics - Tests in last 7 days")
+                      "Testing - Total daily tests",
+                      "Testing - People tested in last 7 days",
+                      "Testing - Positive cases in last 7 days",
+                      "Testing - Tests in last 7 days")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table6 <- raw_SC_table6 %>%
   rename("NHS workforce COVID-19 absences - Nursing and midwifery staff" = "Nursing and midwifery absences",
