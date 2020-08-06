@@ -5,7 +5,7 @@
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 05/08/2020
+# Last updated - 06/08/2020
 # ------------------------------------------------------------------------------
 
 
@@ -41,8 +41,8 @@ HB_codes <- tribble(
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
 
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B05%2BAugust%2B2020.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B05%2BAugust%2B2020.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B%2B6%2BAugust%2B2020.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B6%2BAugust%2B2020.xlsx"
 
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -70,7 +70,7 @@ raw_SC_table3  <- read_excel(tf1, "Table 3 - Ambulance", skip = 2)[,-1]
 raw_SC_table4  <- read_excel(tf1, "Table 4 - Delayed Discharges", skip = 2)[,-1]
 raw_SC_table5  <- read_excel(tf1, "Table 5 - Testing", skip = 2)[-1,]
 raw_SC_table6  <- read_excel(tf1, "Table 6 - Workforce", skip = 1, n_max = 112) 
-raw_SC_table7a <- read_excel(tf1, "Table 7a - Care Homes", skip = 2, n_max = 105)[-1, -c(5,10)]
+# raw_SC_table7a <- read_excel(tf1, "Table 7a - Care Homes", skip = 2, n_max = 105)[-1, -c(5,10)]
 raw_SC_table7b <- read_excel(tf1, "Table 7b - Care Home Workforce", skip = 1)
 raw_SC_table8  <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
 
@@ -140,39 +140,39 @@ SC_table6 <- raw_SC_table6 %>%
          "NHS workforce COVID-19 absences - All staff" = "All staff absences") %>%
   na.omit
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-SC_table7a <- raw_SC_table7a %>%
-  rename("Adult care homes - Cumulative number that have reported a suspected COVID-19 case" 
-           = "Cumulative number of adult care homes that have reported a suspected COVID-19 case",
-         
-         "Adult care homes - Proportion that have reported a suspected COVID-19 case"        
-           = "Proportion of all adult care homes that have reported a suspected COVID-19 case",
-         
-         "Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case" 
-           = "Cumulative number of adult care homes that have reported more than one case of suspected COVID-19",
-         
-         "Adult care homes - Number with current suspected COVID-19 cases" 
-           = "Number of adult care homes with current case of suspected COVID-19...6",
-         
-         "Adult care homes - Proportion with current suspected COVID-19 cases" 
-           = "Proportion of all adult care homes with current case of suspected COVID-19...7",
-         
-         "Adult care homes - Number with current suspected COVID-19 cases - revised" 
-           = "Number of adult care homes with current case of suspected COVID-19...8",
-         
-         "Adult care homes - Proportion with current suspected COVID-19 cases - revised" 
-           = "Proportion of all adult care homes with current case of suspected COVID-19...9",
- 
-         "Adult care homes - Cumulative number of suspected COVID-19 cases" 
-           = "Cumulative number of suspected COVID-19 cases in adult care homes",
-         
-         "Adult care homes - Daily number of new suspected COVID-19 cases" 
-           = "Daily number of new suspected COVID-19 cases in adult care homes") %>%
-  
-  mutate(`Adult care homes - Proportion that have reported a suspected COVID-19 case` = 100*`Adult care homes - Proportion that have reported a suspected COVID-19 case`,
-         `Adult care homes - Proportion with current suspected COVID-19 cases` = 100*as.numeric(`Adult care homes - Proportion with current suspected COVID-19 cases`),
-         `Adult care homes - Number with current suspected COVID-19 cases` = as.numeric(`Adult care homes - Number with current suspected COVID-19 cases`),
-         `Adult care homes - Proportion with current suspected COVID-19 cases - revised` = 100*as.numeric(`Adult care homes - Proportion with current suspected COVID-19 cases - revised`),
-         `Adult care homes - Number with current suspected COVID-19 cases - revised` = as.numeric(`Adult care homes - Number with current suspected COVID-19 cases - revised`))
+# SC_table7a <- raw_SC_table7a %>%
+#   rename("Adult care homes - Cumulative number that have reported a suspected COVID-19 case" 
+#            = "Cumulative number of adult care homes that have reported a suspected COVID-19 case",
+#          
+#          "Adult care homes - Proportion that have reported a suspected COVID-19 case"        
+#            = "Proportion of all adult care homes that have reported a suspected COVID-19 case",
+#          
+#          "Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case" 
+#            = "Cumulative number of adult care homes that have reported more than one case of suspected COVID-19",
+#          
+#          "Adult care homes - Number with current suspected COVID-19 cases" 
+#            = "Number of adult care homes with current case of suspected COVID-19...6",
+#          
+#          "Adult care homes - Proportion with current suspected COVID-19 cases" 
+#            = "Proportion of all adult care homes with current case of suspected COVID-19...7",
+#          
+#          "Adult care homes - Number with current suspected COVID-19 cases - revised" 
+#            = "Number of adult care homes with current case of suspected COVID-19...8",
+#          
+#          "Adult care homes - Proportion with current suspected COVID-19 cases - revised" 
+#            = "Proportion of all adult care homes with current case of suspected COVID-19...9",
+#  
+#          "Adult care homes - Cumulative number of suspected COVID-19 cases" 
+#            = "Cumulative number of suspected COVID-19 cases in adult care homes",
+#          
+#          "Adult care homes - Daily number of new suspected COVID-19 cases" 
+#            = "Daily number of new suspected COVID-19 cases in adult care homes") %>%
+#   
+#   mutate(`Adult care homes - Proportion that have reported a suspected COVID-19 case` = 100*`Adult care homes - Proportion that have reported a suspected COVID-19 case`,
+#          `Adult care homes - Proportion with current suspected COVID-19 cases` = 100*as.numeric(`Adult care homes - Proportion with current suspected COVID-19 cases`),
+#          `Adult care homes - Number with current suspected COVID-19 cases` = as.numeric(`Adult care homes - Number with current suspected COVID-19 cases`),
+#          `Adult care homes - Proportion with current suspected COVID-19 cases - revised` = 100*as.numeric(`Adult care homes - Proportion with current suspected COVID-19 cases - revised`),
+#          `Adult care homes - Number with current suspected COVID-19 cases - revised` = as.numeric(`Adult care homes - Number with current suspected COVID-19 cases - revised`))
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table7b <- raw_SC_table7b %>%
   rename("Adult care homes - Number of staff reported as absent" 
@@ -251,19 +251,19 @@ tidy_SC_table6 <- SC_table6 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-tidy_SC_table7a <- SC_table7a %>%
-  gather(key = "Variable", value = "Value", -Date) %>%
-  mutate(Measurement = Variable,
-         Measurement = recode(Measurement,
-                              "Adult care homes - Cumulative number that have reported a suspected COVID-19 case" = "Count",
-                              "Adult care homes - Proportion that have reported a suspected COVID-19 case" = "Ratio",
-                              "Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case" = "Count",
-                              "Adult care homes - Number with current suspected COVID-19 cases" = "Count",
-                              "Adult care homes - Proportion with current suspected COVID-19 cases" = "Ratio",
-                              "Adult care homes - Number with current suspected COVID-19 cases - revised" = "Count",
-                              "Adult care homes - Proportion with current suspected COVID-19 cases - revised" = "Ratio",
-                              "Adult care homes - Cumulative number of suspected COVID-19 cases" = "Count",
-                              "Adult care homes - Daily number of new suspected COVID-19 cases" = "Count"))
+# tidy_SC_table7a <- SC_table7a %>%
+#   gather(key = "Variable", value = "Value", -Date) %>%
+#   mutate(Measurement = Variable,
+#          Measurement = recode(Measurement,
+#                               "Adult care homes - Cumulative number that have reported a suspected COVID-19 case" = "Count",
+#                               "Adult care homes - Proportion that have reported a suspected COVID-19 case" = "Ratio",
+#                               "Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case" = "Count",
+#                               "Adult care homes - Number with current suspected COVID-19 cases" = "Count",
+#                               "Adult care homes - Proportion with current suspected COVID-19 cases" = "Ratio",
+#                               "Adult care homes - Number with current suspected COVID-19 cases - revised" = "Count",
+#                               "Adult care homes - Proportion with current suspected COVID-19 cases - revised" = "Ratio",
+#                               "Adult care homes - Cumulative number of suspected COVID-19 cases" = "Count",
+#                               "Adult care homes - Daily number of new suspected COVID-19 cases" = "Count"))
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_SC_table7b <- SC_table7b %>%
   gather(key = "Variable", value = "Value", -Date) %>%
@@ -307,7 +307,7 @@ SC_output_dataset <- bind_rows(tidy_SC_table1,
                                tidy_SC_table4,
                                tidy_SC_table5,
                                tidy_SC_table6,
-                               tidy_SC_table7a,
+                               # tidy_SC_table7a,
                                tidy_SC_table7b,
                                tidy_SC_table8) %>%
   # Creating required variables
@@ -366,7 +366,7 @@ write.csv(SC_table3,  "./COVID19 - Daily Management Information - Scotland - Amb
 write.csv(SC_table4,  "./COVID19 - Daily Management Information - Scotland - Delayed discharges.csv", quote = FALSE, row.names = F)
 write.csv(SC_table5,  "./COVID19 - Daily Management Information - Scotland - Testing.csv", quote = FALSE, row.names = F)
 write.csv(SC_table6,  "./COVID19 - Daily Management Information - Scotland - Workforce.csv", quote = FALSE, row.names = F)
-write.csv(SC_table7a, "./COVID19 - Daily Management Information - Scotland - Care homes.csv", quote = FALSE, row.names = F)
+# write.csv(SC_table7a, "./COVID19 - Daily Management Information - Scotland - Care homes.csv", quote = FALSE, row.names = F)
 write.csv(SC_table7b, "./COVID19 - Daily Management Information - Scotland - Care home workforce.csv", quote = FALSE, row.names = F)
 write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Deaths.csv", quote = FALSE, row.names = F)
 
