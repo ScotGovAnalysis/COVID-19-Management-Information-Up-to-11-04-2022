@@ -5,7 +5,7 @@
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 27/08/2020
+# Last updated - 31/08/2020
 # ------------------------------------------------------------------------------
 
 
@@ -41,8 +41,8 @@ HB_codes <- tribble(
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
 
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B28%2BAugust%2B2020.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B28%2BAugust%2B2020.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B31%2BAugust%2B2020.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B31%2BAugust%2B2020.xlsx"
 
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -73,6 +73,8 @@ raw_SC_table6  <- read_excel(tf1, "Table 6 - Workforce", skip = 1, n_max = 112)
 # raw_SC_table7a <- read_excel(tf1, "Table 7a - Care Homes", skip = 2, n_max = 105)[-1, -c(5,10)]
 raw_SC_table7b <- read_excel(tf1, "Table 7b - Care Home Workforce", skip = 1)
 raw_SC_table8  <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
+raw_SC_table9  <- read_excel(tf1, "Table 9 - School education", skip = 2)[, 1:5]
+
 
 raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-c(16,17,18)]
 
@@ -193,6 +195,21 @@ SC_table7b <- raw_SC_table7b %>%
          `Adult care homes - Staff absence rate` = 100*as.numeric(`Adult care homes - Staff absence rate`))
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table8 <- raw_SC_table8
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+SC_table9 <- raw_SC_table9
+names(SC_table9) <- c(
+  "Date",
+  "School education - Number of pupils absent due to COVID-19 related reasons",
+  "School education - Percentage attendance",
+  "School education - Percentage absence due to COVID-19 related reasons",
+  "School education - Percentage absence for non COVID-19 related reasons")
+SC_table9 <-SC_table9 %>%
+  mutate(`School education - Percentage attendance` = 100*`School education - Percentage attendance`,
+         `School education - Percentage absence due to COVID-19 related reasons` = 100*`School education - Percentage absence due to COVID-19 related reasons`,
+         `School education - Percentage absence for non COVID-19 related reasons` = 100*`School education - Percentage absence for non COVID-19 related reasons`)
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table1 <- raw_HB_table1 %>%
@@ -278,6 +295,16 @@ tidy_SC_table7b <- SC_table7b %>%
 tidy_SC_table8 <- SC_table8 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+tidy_SC_table9 <- SC_table9 %>%
+  gather(key = "Variable", value = "Value", -Date) %>%
+  mutate(Measurement = Variable,
+         Measurement = recode(Measurement,
+                              "School education - Number of pupils absent due to COVID-19 related reasons" = "Count",                                
+                              "School education - Percentage attendance" = "Ratio",
+                              "School education - Percentage absence due to COVID-19 related reasons" = "Ratio",
+                              "School education - Percentage absence for non COVID-19 related reasons" = "Ratio"))
+
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table1 <- HB_table1 %>%
@@ -309,7 +336,8 @@ SC_output_dataset <- bind_rows(tidy_SC_table1,
                                tidy_SC_table6,
                                # tidy_SC_table7a,
                                tidy_SC_table7b,
-                               tidy_SC_table8) %>%
+                               tidy_SC_table8,
+                               tidy_SC_table9) %>%
   # Creating required variables
   mutate(GeographyCode = "S92000003",
          Value = as.character(Value),
@@ -369,6 +397,7 @@ write.csv(SC_table6,  "./COVID19 - Daily Management Information - Scotland - Wor
 # write.csv(SC_table7a, "./COVID19 - Daily Management Information - Scotland - Care homes.csv", quote = FALSE, row.names = F)
 write.csv(SC_table7b, "./COVID19 - Daily Management Information - Scotland - Care home workforce.csv", quote = FALSE, row.names = F)
 write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Deaths.csv", quote = FALSE, row.names = F)
+write.csv(SC_table9,  "./COVID19 - Daily Management Information - Scotland - School education.csv", quote = FALSE, row.names = F)
 
 write.csv(HB_table1,  "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
 write.csv(HB_table2,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients.csv", quote = FALSE, row.names = F)
