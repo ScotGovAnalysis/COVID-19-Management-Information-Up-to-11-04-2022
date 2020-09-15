@@ -65,7 +65,7 @@ excel_sheets(tf2)
 
 # [3] Saving individual tables -------------------------------------------------
 raw_SC_table1  <- read_excel(tf1, "Table 1 - NHS 24", skip = 2)
-raw_SC_table2  <- read_excel(tf1, "Table 2 - Archive Hospital Care", skip = 2)[,-8]
+raw_SC_table2  <- read_excel(tf1, "Table 2 - Archive Hospital Care", skip = 3)[,-8]
 raw_SC_table3  <- read_excel(tf1, "Table 3 - Ambulance", skip = 2)[,-1]
 raw_SC_table4  <- read_excel(tf1, "Table 4 - Delayed Discharges", skip = 2)[,-1]
 raw_SC_table5  <- read_excel(tf1, "Table 5 - Testing", skip = 2)[-1,-c(14,15)]
