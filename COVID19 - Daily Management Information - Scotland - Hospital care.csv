@@ -1,4 +1,5 @@
 Date,COVID-19 patients in ICU - Confirmed,COVID-19 patients in ICU - Suspected,COVID-19 patients in ICU - Total,COVID-19 patients in hospital - Confirmed,COVID-19 patients in hospital - Suspected,COVID-19 patients in hospital - Total
+NA,Confirmed,Suspected,Total,Confirmed,Suspected,Total
 2020-03-18,NA,NA,6,NA,NA,149
 2020-03-19,NA,NA,11,NA,NA,213
 2020-03-20,NA,NA,16,NA,NA,247
@@ -180,3 +181,4 @@ Date,COVID-19 patients in ICU - Confirmed,COVID-19 patients in ICU - Suspected,C
 2020-09-12,8,NA,NA,261,NA,NA
 2020-09-13,7,NA,NA,259,NA,NA
 2020-09-14,7,NA,NA,264,NA,NA
+2020-09-15,7,NA,NA,262,NA,NA
