@@ -5,7 +5,7 @@
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 22/09/2020
+# Last updated - 23/09/2020
 # ------------------------------------------------------------------------------
 
 
@@ -41,8 +41,8 @@ HB_codes <- tribble(
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
 
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B22%2BSeptember%2B2020.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B22%2BSeptember%2B2020.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B23%2BSeptember%2B2020.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B23%2BSeptember%2B2020.xlsx"
 
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -65,7 +65,8 @@ excel_sheets(tf2)
 
 # [3] Saving individual tables -------------------------------------------------
 raw_SC_table1  <- read_excel(tf1, "Table 1 - NHS 24", skip = 2)
-raw_SC_table2  <- read_excel(tf1, "Table 2 - Archive Hospital Care", skip = 3)[,-8]
+raw_SC_table2_archived  <- read_excel(tf1, "Table 2 - Archive Hospital Care", skip = 3)[,-8]
+raw_SC_table2  <- read_excel(tf1, "Table 2 - Hospital Care", skip = 2)
 raw_SC_table3  <- read_excel(tf1, "Table 3 - Ambulance", skip = 2)[,-1]
 raw_SC_table4  <- read_excel(tf1, "Table 4 - Delayed Discharges", skip = 2)[,-1]
 raw_SC_table5  <- read_excel(tf1, "Table 5 - Testing", skip = 2)[-1,-c(14:16)]
@@ -76,12 +77,12 @@ raw_SC_table8  <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
 raw_SC_table9  <- read_excel(tf1, "Table 9 - School education", skip = 2)[, 1:5]
 
 
-raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-c(16,17,18)]
+raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-c(16:18)]
 
 # TODO 2b is continuation of old table 2, decide what to do with 2.b as being ignored just now
 
-raw_HB_table2  <- read_excel(tf2, "Table 2 - ICU (Hist.)", skip = 2, n_max = 126)[, -c(1:18, 35)]
-colnames(raw_HB_table2) <- c("Date",
+raw_HB_table2a_archived  <- read_excel(tf2, "Table 2 - ICU (Hist.)", skip = 2)[, -c(17:35)]
+colnames(raw_HB_table2a_archived) <- c("Date",
                              "NHS Ayrshire & Arran",
                              "NHS Borders",
                              "NHS Dumfries & Galloway",
@@ -97,31 +98,34 @@ colnames(raw_HB_table2) <- c("Date",
                              "NHS Tayside",
                              "NHS Western Isles",              
                              "Golden Jubilee National Hospital")
+
+raw_HB_table2b_archived  <- read_excel(tf2, "Table 2 - ICU (Hist.)", skip = 2, n_max = 126)[, -c(1:18, 35)]
+colnames(raw_HB_table2b_archived) <- c("Date",
+                                       "NHS Ayrshire & Arran",
+                                       "NHS Borders",
+                                       "NHS Dumfries & Galloway",
+                                       "NHS Fife",
+                                       "NHS Forth Valley",
+                                       "NHS Grampian",
+                                       "NHS Greater Glasgow & Clyde",
+                                       "NHS Highland",
+                                       "NHS Lanarkshire",
+                                       "NHS Lothian",
+                                       "NHS Orkney",
+                                       "NHS Shetland",
+                                       "NHS Tayside",
+                                       "NHS Western Isles",              
+                                       "Golden Jubilee National Hospital")
 
 # To bring in both tables:
 # raw_HB_table2a  <- read_excel(tf2, "Table 2a - ICU patients", skip = 2)[, -17]
 # raw_HB_table2b  <- read_excel(tf2, "Table 2b - ICU patients (Hist.)", skip = 2)[, -17]
 
-raw_HB_table3a <- read_excel(tf2, "Table 3- Hospital (Hist.)", skip = 2)[, -c(18:37)]
-colnames(raw_HB_table3a) <- c("Date",
-                             "NHS Ayrshire & Arran",
-                             "NHS Borders",
-                             "NHS Dumfries & Galloway",
-                             "NHS Fife",
-                             "NHS Forth Valley",
-                             "NHS Grampian",
-                             "NHS Greater Glasgow & Clyde",
-                             "NHS Highland",
-                             "NHS Lanarkshire",
-                             "NHS Lothian",
-                             "NHS Orkney",
-                             "NHS Shetland",
-                             "NHS Tayside",
-                             "NHS Western Isles",              
-                             "Golden Jubilee National Hospital",
-                             "Scotland")
-raw_HB_table3b <- read_excel(tf2, "Table 3- Hospital (Hist.)", skip = 2)[-c(119:174), -c(1:18, 35:37)]
-colnames(raw_HB_table3b) <- c("Date",
+raw_HB_table2  <- read_excel(tf2, "Table 2 - ICU patients", skip = 2)[, -17]
+
+
+raw_HB_table3a_archived <- read_excel(tf2, "Table 3- Hospital (Hist.)", skip = 2)[, -c(17:37)]
+colnames(raw_HB_table3a_archived) <- c("Date",
                              "NHS Ayrshire & Arran",
                              "NHS Borders",
                              "NHS Dumfries & Galloway",
@@ -137,6 +141,27 @@ colnames(raw_HB_table3b) <- c("Date",
                              "NHS Tayside",
                              "NHS Western Isles",              
                              "Golden Jubilee National Hospital")
+
+raw_HB_table3b_archived <- read_excel(tf2, "Table 3- Hospital (Hist.)", skip = 2, n_max = 118)[ -c(1:18, 35:37)]
+colnames(raw_HB_table3b_archived) <- c("Date",
+                             "NHS Ayrshire & Arran",
+                             "NHS Borders",
+                             "NHS Dumfries & Galloway",
+                             "NHS Fife",
+                             "NHS Forth Valley",
+                             "NHS Grampian",
+                             "NHS Greater Glasgow & Clyde",
+                             "NHS Highland",
+                             "NHS Lanarkshire",
+                             "NHS Lothian",
+                             "NHS Orkney",
+                             "NHS Shetland",
+                             "NHS Tayside",
+                             "NHS Western Isles",              
+                             "Golden Jubilee National Hospital")
+
+
+raw_HB_table3  <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -17]
 
 #unlink(tf1)
 #unlink(tf2)
@@ -146,16 +171,21 @@ SC_table1 <- raw_SC_table1 %>%
   rename("Calls - NHS24 111" = "NHS24 111 Calls",
          "Calls - Coronavirus helpline" = "Coronavirus Helpline Calls")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-SC_table2 <- raw_SC_table2
+SC_table2_archived <- raw_SC_table2_archived
 # Renaming variables in this table the old way because different package versions
 # create different default names for variables
-names(SC_table2) <- c("Date",
-                      "COVID-19 patients in ICU - Confirmed",
-                      "COVID-19 patients in ICU - Suspected",
-                      "COVID-19 patients in ICU - Total",
-                      "COVID-19 patients in hospital - Confirmed",
-                      "COVID-19 patients in hospital - Suspected",
-                      "COVID-19 patients in hospital - Total")
+names(SC_table2_archived) <- c("Date",
+                      "COVID-19 patients in ICU - Confirmed (archived)",
+                      "COVID-19 patients in ICU - Suspected (archived)",
+                      "COVID-19 patients in ICU - Total (archived)",
+                      "COVID-19 patients in hospital - Confirmed (archived)",
+                      "COVID-19 patients in hospital - Suspected (archived)",
+                      "COVID-19 patients in hospital - Total (archived)")
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+SC_table2 <- raw_SC_table2 %>%
+  rename("Date" = "Reporting Date",
+         "COVID-19 patients in ICU - Confirmed" = "(i) COVID-19 patients in ICU\r\n or combined ICU/HDU",
+         "COVID-19 patients in hospital - Confirmed" = "(ii) COVID-19 patients in hospital (including those in ICU)")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table3 <- raw_SC_table3 %>%
   rename("Ambulance attendances - Total" = "Number of attendances",                                  
@@ -266,25 +296,44 @@ HB_table1 <- raw_HB_table1 %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))
   
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-HB_table2 <- raw_HB_table2 %>%
+HB_table2a_archived <- raw_HB_table2a_archived %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) 
   
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-HB_table3a <- raw_HB_table3a %>%
+HB_table2b_archived <- raw_HB_table2b_archived %>%
+  rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
+  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) 
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+HB_table2 <- raw_HB_table2 %>%
+  rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
+  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) 
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+HB_table3a_archived <- raw_HB_table3a_archived %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
   mutate(Lanarkshire = na_if(Lanarkshire, "N/A"))
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-HB_table3b <- raw_HB_table3b %>%
+HB_table3b_archived <- raw_HB_table3b_archived %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
   mutate(Lanarkshire = na_if(Lanarkshire, "N/A"),
          `Greater Glasgow and Clyde` = na_if(`Greater Glasgow and Clyde`, "N/A"))
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+HB_table3 <- raw_HB_table3 %>%
+  rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
+  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) 
+
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 
@@ -293,6 +342,11 @@ HB_table3b <- raw_HB_table3b %>%
 # alphabetic order
 tidy_SC_table1 <- SC_table1 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
+  mutate(Measurement = "Count")
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+tidy_SC_table2_archived <- SC_table2_archived %>%
+  gather(key = "Variable", value = "Value", -Date) %>%
+  mutate_at(vars("Value"), as.numeric) %>%
   mutate(Measurement = "Count")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_SC_table2 <- SC_table2 %>%
@@ -361,23 +415,39 @@ tidy_HB_table1 <- HB_table1 %>%
   mutate(Units = "Testing - Cumulative people tested for COVID-19 - Positive")
   
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+tidy_HB_table2a_archived <- HB_table2a_archived %>%
+  gather(key = HBname, value = "Value", -Date) %>%
+  mutate(Units = "COVID-19 patients in ICU - Confirmed (archived)")
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+tidy_HB_table2b_archived <- HB_table2b_archived %>%
+  gather(key = HBname, value = "Value", -Date) %>%
+  mutate(Units = "COVID-19 patients in ICU - Total (archived)")
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table2 <- HB_table2 %>%
   gather(key = HBname, value = "Value", -Date) %>%
-  mutate(Units = "COVID-19 patients in ICU - Total")
+  mutate(Units = "COVID-19 patients in ICU - Confirmed")
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-tidy_HB_table3a <- HB_table3a %>%
+tidy_HB_table3a_archived <- HB_table3a_archived %>%
+  gather(key = HBname, value = "Value", -Date) %>%
+  mutate(Units = "COVID-19 patients in hospital - Confirmed (archived)")
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+tidy_HB_table3b_archived <- HB_table3b_archived %>%
+  gather(key = HBname, value = "Value", -Date) %>%
+  mutate(Units = "COVID-19 patients in hospital - Suspected (archived)")
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+tidy_HB_table3 <- HB_table3 %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "COVID-19 patients in hospital - Confirmed")
-
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-tidy_HB_table3b <- HB_table3b %>%
-  gather(key = HBname, value = "Value", -Date) %>%
-  mutate(Units = "COVID-19 patients in hospital - Suspected")
 
 
 # [6] Binding tidy datasets together -------------------------------------------
 SC_output_dataset <- bind_rows(tidy_SC_table1,
+                               tidy_SC_table2_archived,
                                tidy_SC_table2,
                                tidy_SC_table3,
                                tidy_SC_table4,
@@ -403,9 +473,12 @@ SC_output_dataset <- bind_rows(tidy_SC_table1,
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_output_dataset <- bind_rows(tidy_HB_table1,
+                               tidy_HB_table2a_archived,
+                               tidy_HB_table2b_archived,
                                tidy_HB_table2,
-                               tidy_HB_table3a,
-                               tidy_HB_table3b) %>%
+                               tidy_HB_table3a_archived,
+                               tidy_HB_table3b_archived,
+                               tidy_HB_table3) %>%
   # Creating required variables
   left_join(HB_codes, by = c("HBname" = "HB2014Name")) %>%
   mutate(Measurement = "Count",
@@ -438,6 +511,7 @@ write.csv(whole_output_dataset_9999999, "./COVID19 - Daily Management Informatio
 
 # to upload to GitHub
 write.csv(SC_table1,  "./COVID19 - Daily Management Information - Scotland - Calls.csv", quote = FALSE, row.names = F)
+write.csv(SC_table2_archived,  "./COVID19 - Daily Management Information - Scotland - Hospital care - Archived.csv", quote = FALSE, row.names = F)
 write.csv(SC_table2,  "./COVID19 - Daily Management Information - Scotland - Hospital care.csv", quote = FALSE, row.names = F)
 write.csv(SC_table3,  "./COVID19 - Daily Management Information - Scotland - Ambulance.csv", quote = FALSE, row.names = F)
 write.csv(SC_table4,  "./COVID19 - Daily Management Information - Scotland - Delayed discharges.csv", quote = FALSE, row.names = F)
@@ -449,9 +523,12 @@ write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Dea
 write.csv(SC_table9,  "./COVID19 - Daily Management Information - Scotland - School education.csv", quote = FALSE, row.names = F)
 
 write.csv(HB_table1,  "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
-write.csv(HB_table2,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients.csv", quote = FALSE, row.names = F)
-write.csv(HB_table3a, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed.csv", quote = FALSE, row.names = F)
-write.csv(HB_table3b, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Suspected.csv", quote = FALSE, row.names = F)
+write.csv(HB_table2a_archived,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients - Confirmed - Archived.csv", quote = FALSE, row.names = F)
+write.csv(HB_table2b_archived,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients - Total - Archived.csv", quote = FALSE, row.names = F)
+write.csv(HB_table2,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients - Confirmed.csv", quote = FALSE, row.names = F)
+write.csv(HB_table3a_archived, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed - Archived.csv", quote = FALSE, row.names = F)
+write.csv(HB_table3b_archived, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Suspected - Archived.csv", quote = FALSE, row.names = F)
+write.csv(HB_table3,  "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed.csv", quote = FALSE, row.names = F)
 
 
 # Bits of code used in previous versions ---------------------------------------
