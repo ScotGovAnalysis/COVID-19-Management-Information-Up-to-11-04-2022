@@ -5,7 +5,7 @@
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 24/09/2020
+# Last updated - 28/09/2020
 # ------------------------------------------------------------------------------
 
 
@@ -41,8 +41,8 @@ HB_codes <- tribble(
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
 
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B24%2BSeptember%2B2020.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B24%2BSeptember%2B2020.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B28%2BSeptember%2B2020.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B28%2BSeptember%2B2020.xlsx"
 
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -293,7 +293,8 @@ SC_table9 <-SC_table9 %>%
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table1 <- raw_HB_table1 %>%
   rename_at(vars(starts_with("NHS")), list(~ str_remove(., "NHS "))) %>%
-  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))
+  rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
+  rename("Date" = "Date notified")
   
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table2a_archived <- raw_HB_table2a_archived %>%
@@ -311,7 +312,8 @@ HB_table2b_archived <- raw_HB_table2b_archived %>%
 HB_table2 <- raw_HB_table2 %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
-  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) 
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
+  rename("Date" = "Reporting date")
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table3a_archived <- raw_HB_table3a_archived %>%
@@ -332,7 +334,8 @@ HB_table3b_archived <- raw_HB_table3b_archived %>%
 HB_table3 <- raw_HB_table3 %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
-  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) 
+  rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
+  rename("Date" = "Reporting date")
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
