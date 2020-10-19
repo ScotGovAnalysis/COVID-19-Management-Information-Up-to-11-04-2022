@@ -5,7 +5,7 @@
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 15/10/2020
+# Last updated - 19/10/2020
 # ------------------------------------------------------------------------------
 
 
@@ -41,8 +41,8 @@ HB_codes <- tribble(
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
 
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B16%2BOctober%2B2020.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B22%2BJULY%2B2020%2B-%2BONWARDS%2B-%2B1.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B19%2BOctober%2B2020.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B19%2BOctober%2B2020.xlsx"
 
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -69,7 +69,7 @@ raw_SC_table2_archived  <- read_excel(tf1, "Table 2 - Archive Hospital Care", sk
 raw_SC_table2  <- read_excel(tf1, "Table 2 - Hospital Care", skip = 2)
 raw_SC_table3  <- read_excel(tf1, "Table 3 - Ambulance", skip = 2)[,-1]
 raw_SC_table4  <- read_excel(tf1, "Table 4 - Delayed Discharges", skip = 2)[,-1]
-raw_SC_table5  <- read_excel(tf1, "Table 5 - Testing", skip = 2)[-1,-c(14:16)]
+raw_SC_table5  <- read_excel(tf1, "Table 5 - Testing", skip = 2)[-1,-c(20,21)]
 raw_SC_table6  <- read_excel(tf1, "Table 6 - Workforce", skip = 1, n_max = 112) 
 # raw_SC_table7a <- read_excel(tf1, "Table 7a - Care Homes", skip = 2, n_max = 105)[-1, -c(5,10)]
 raw_SC_table7b <- read_excel(tf1, "Table 7b - Care Home Workforce", skip = 1)
@@ -204,15 +204,27 @@ names(SC_table5) <- c("Date",
                       "Testing - Cumulative people tested for COVID-19 - Negative",
                       "Testing - Cumulative people tested for COVID-19 - Positive",
                       "Testing - Cumulative people tested for COVID-19 - Total",
-                      "Testing - Daily people found positive",
-                      "Testing - Total number of COVID-19 tests carried out by NHS Labs - Daily",
-                      "Testing - Total number of COVID-19 tests carried out by NHS Labs - Cumulative",
-                      "Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Daily",
-                      "Testing - Total number of COVID-19 tests carried out by Regional Testing Centres - Cumulative",
-                      "Testing - Total daily tests",
-                      "Testing - People tested in last 7 days",
-                      "Testing - Positive cases in last 7 days",
-                      "Testing - Tests in last 7 days")
+                      "Testing - New cases reported",
+                      "Testing - New cases as percentage of people newly tested",
+                      "Testing - Total number of COVID-19 tests reported by NHS Labs - Daily",
+                      "Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative",
+                      "Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily",
+                      "Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative",
+                      "Testing - Total daily tests reported",
+                      "Testing - Total daily number of positive tests reported",
+                      "Testing - Test positivity (percent of tests that are positive)",
+                      "Testing - People with first test results in last 7 days",
+                      "Testing - Positive cases reported in last 7 days",
+                      "Testing - Tests reported in last 7 days",
+                      "Testing - Positive tests reported in last 7 days",
+                      "Testing - Test positivity rate in last 7 days",
+                      "Testing - Tests in last 7 days per 1000 population") 
+
+SC_table5 <- SC_table5 %>%
+  mutate(`Testing - Test positivity (percent of tests that are positive)` = 100*`Testing - Test positivity (percent of tests that are positive)`,
+         `Testing - Test positivity rate in last 7 days` = 100*`Testing - Test positivity rate in last 7 days`)
+         
+         
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table6 <- raw_SC_table6 %>%
   rename("NHS workforce COVID-19 absences - Nursing and midwifery staff" = "Nursing and midwifery absences",
@@ -368,7 +380,26 @@ tidy_SC_table4 <- SC_table4 %>%
 tidy_SC_table5 <- SC_table5 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate_at(vars("Value"), as.numeric) %>%
-  mutate(Measurement = "Count")
+  mutate(Measurement = Variable,
+         Measurement = recode(Measurement,
+                              "Testing - Cumulative people tested for COVID-19 - Negative" = "Count",
+                              "Testing - Cumulative people tested for COVID-19 - Positive" = "Count",
+                              "Testing - Cumulative people tested for COVID-19 - Total" = "Count",
+                              "Testing - New cases reported" = "Count",
+                              "Testing - New cases as percentage of people newly tested" = "Ratio",
+                              "Testing - Total number of COVID-19 tests reported by NHS Labs - Daily" = "Count",
+                              "Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative" = "Count",
+                              "Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily" = "Count",
+                              "Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative" = "Count",
+                              "Testing - Total daily tests reported" = "Count",
+                              "Testing - Total daily number of positive tests reported" = "Count",
+                              "Testing - Test positivity (percent of tests that are positive)" = "Ratio",
+                              "Testing - People with first test results in last 7 days" = "Count",
+                              "Testing - Positive cases reported in last 7 days" = "Count",
+                              "Testing - Tests reported in last 7 days" = "Count",
+                              "Testing - Positive tests reported in last 7 days" = "Count",
+                              "Testing - Test positivity rate in last 7 days" = "Ratio",
+                              "Testing - Tests in last 7 days per 1000 population" = "Ratio"))
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_SC_table6 <- SC_table6 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
