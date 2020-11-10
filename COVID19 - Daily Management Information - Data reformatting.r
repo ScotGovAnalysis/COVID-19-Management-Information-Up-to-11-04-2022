@@ -570,4 +570,3 @@ write.csv(HB_table3,  "./COVID19 - Daily Management Information - Scottish Healt
 # '\\*'      - to match asterisks
 # mutate(Value = str_remove(Value, '\\p{No}'),
 #        Date = as.Date(as.numeric(Date), origin = "1899-12-30"),
-
