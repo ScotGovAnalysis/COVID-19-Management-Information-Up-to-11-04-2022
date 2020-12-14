@@ -53,7 +53,7 @@ These data are important for informing health services and other public and priv
 
 **Timeliness and Punctuality**
 
-The latest numbers will be published shortly on the Scottish Government website  after 2pm each day, 7 days a week, up to 23 December 2020, these data will be also published as open data on github every weekday. From 23 December, these data will be published every Wednesday on github and will contain daily data for the preceding days. These data will continue to be published on a daily basis on the Scottish Government website at 2pm  We will review the frequency of the open data publication as required in response to ongoing user needs.
+The latest numbers will be published shortly on the Scottish Government website  after 2pm each day, 7 days a week, up to 23 December 2020, these data will be also published as open data on github every weekday. From 23 December, these data will be published every Wednesday on github and will contain daily data for the preceding days. These data will continue to be published on a daily basis on the Scottish Government website at 2pm. We will review the frequency of the open data publication as required in response to ongoing user needs.
 
 
 **Revisions**
