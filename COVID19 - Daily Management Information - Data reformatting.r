@@ -5,18 +5,24 @@
 # Author - Victoria Avila (victoria.avila@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 17/12/2020
+# Last updated - 18/12/2020
 # ------------------------------------------------------------------------------
 
-
 # [0] Loading libraries --------------------------------------------------------
-library(httr)    # GET
-library(readxl)  # excel_sheets, read_excel
-library(dplyr)   # %>%, rename, rename_at, mutate
-library(tidyr)   # gather, join, na_if
-library(stringr) # str_remove, str_replace, bind_rows, left_join
+library(httr)      # GET
+library(readxl)    # excel_sheets, read_excel
+library(dplyr)     # %>%, if_else, rename, rename_at, mutate
+library(lubridate) # day, month, year, ymd
+library(tidyr)     # gather, join, na_if
+library(stringr)   # str_c, str_remove, str_replace, bind_rows, left_join
 
-# [1] Health Board 2014 codes --------------------------------------------------
+# [1a] Manual URL overrides -----------------------------------------------
+# If the URLs for the data sets have changed, replace NAs with the URLs
+metadata <- as.list(NULL)
+metadata$daily_data_trends$url_manual <- NA
+metadata$daily_data_by_nhs_board$url_manual <- NA
+
+# [1b] Health Board 2014 codes --------------------------------------------
 HB_codes <- tribble(
   ~HB2014Code, ~HB2014Name,
   "S08000015",	"Ayrshire and Arran",
@@ -36,21 +42,73 @@ HB_codes <- tribble(
   "SB0801",     "The Golden Jubilee National Hospital"
 )
 
+# [1c] Today's date -------------------------------------------------------
+today <- as.list(NULL)
+today$iso <- Sys.Date() %>% ymd()
+today$day <- today$iso %>% day() %>% as.integer()
+today$month <- today$iso %>% month() %>% as.integer()
+today$month_name <- today$iso %>% month(label = TRUE, abbr = FALSE) %>% as.character()
+today$year <- today$iso %>% year() %>% as.integer()
 
-# [2a] Reading original files from website -------------------------------------
-# URL shouldn't have changed, but it would good to confirm before running the
-# whole code
+# [2a] Reading original files from website --------------------------------
+# Fetch today's data sets
+# Generate the URLs to the data sets using the date generated above
+# https://www.gov.scot/publications/coronavirus-covid-19-trends-in-daily-data/
 
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B17%2BDecember%2B2020.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B17%2BDecember%2B2020.xlsx"
+# Trends in daily COVID-19 data
+metadata[[1]]$url_auto <- str_c(
+  "https://www.gov.scot/",
+  "binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/",
+  "trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/",
+  "govscot%3Adocument/",
+  "COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B",
+  today$day, "%2B", today$month_name, "%2B", today$year, ".xlsx"
+)
 
-# -- Scotland (SC) --
-GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
-excel_sheets(tf1)
- 
-# -- Health Boards (HB) --
-GET(url2, write_disk(tf2 <- tempfile(fileext = ".xlsx")))
-excel_sheets(tf2)
+# COVID-19 data by NHS Board
+metadata[[2]]$url_auto <- str_c(
+  "https://www.gov.scot/",
+  "binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/",
+  "covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/",
+  "govscot%3Adocument/",
+  "COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B",
+  today$day, "%2B", today$month_name, "%2B", today$year, ".xlsx"
+)
+
+# Generate temporary file paths to write the downloaded data sets to
+sapply(1:length(metadata), function(i) {
+  
+  temporary_file_path <- tempfile(fileext = ".xlsx")
+  
+  metadata[[i]]$temporary_file_path <<- temporary_file_path
+  
+  str_c("tf", i) %>% 
+    assign(temporary_file_path, envir = .GlobalEnv)
+  
+  return()
+  
+})
+
+# Fetch the data sets from gov.scot, and write them to disk
+# If user overrides are not given for each URL, then use the URLs automatically
+# generated from today's date
+sapply(1:length(metadata), function(i) {
+  
+  temporary_file_path <- metadata[[i]]$temporary_file_path
+  url_auto <- metadata[[i]]$url_auto
+  url_manual <- metadata[[i]]$url_manual
+  
+  if (!is.na(url_manual)) {
+    url <- url_manual
+  } else {
+    url <- url_auto
+  }
+  
+  GET(url, write_disk(temporary_file_path))
+  
+  return()
+  
+})
 
 # [2b] Reading original files locally ------------------------------------------
 # Use this option if using a SCOTS machine
@@ -63,7 +121,7 @@ excel_sheets(tf2)
 #tf1 <- paste0(path, "Trends+in+daily+COVID-19+data+050520.xlsx")
 #tf2 <- paste0(path, "COVID-19+data+by+NHS+Board-050520.xlsx")
 
-# [3] Saving individual tables -------------------------------------------------
+# [3a] Saving individual tables -------------------------------------------------
 raw_SC_table1  <- read_excel(tf1, "Table 1 - NHS 24", skip = 2)
 raw_SC_table2_archived  <- read_excel(tf1, "Table 2 - Archive Hospital Care", skip = 3)[,-8]
 raw_SC_table2  <- read_excel(tf1, "Table 2 - Hospital Care", skip = 2)
@@ -75,7 +133,6 @@ raw_SC_table6  <- read_excel(tf1, "Table 6 - Workforce", skip = 1, n_max = 112)
 raw_SC_table7b <- read_excel(tf1, "Table 7b - Care Home Workforce", skip = 1)
 raw_SC_table8  <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
 raw_SC_table9  <- read_excel(tf1, "Table 9 - School education", skip = 2)[, 1:5]
-
 
 raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-c(16:18)]
 
