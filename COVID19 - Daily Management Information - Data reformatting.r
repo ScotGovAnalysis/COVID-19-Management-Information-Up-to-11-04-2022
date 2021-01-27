@@ -80,8 +80,11 @@ raw_SC_table9a  <- read_excel(tf1, "Table 9 - School education", skip = 2, n_max
 # Table 9b: Percentage of pupils in attendance at school (2021)
 raw_SC_table9b  <- read_excel(tf1, "Table 9 - School education", skip = 98)[, 1:5]
 # Table 10a: Daily COVID-19 vaccinations in Scotland
-# Number of people who have received the first or second dose of the COVID-19 vaccine
+# Number of people who have received the Covid vaccination
 raw_SC_table10a <- read_excel(tf1, "Table 10a - Vaccinations", skip = 2)[, 1:3]
+# Table 10b: Daily COVID-19 vaccinations in Scotland by JCVI Priority Group
+# Number of people who have received the Covid vaccination by JCVI priority group
+raw_SC_table10b <- read_excel(tf1, "Table 10b - Vac by JCVI group", skip = 3)[, c(1, 2, 4, 6, 7, 9, 11, 12, 14, 15, 17)]
 
 raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-c(16:18)]
 
@@ -308,25 +311,58 @@ SC_table9a <-SC_table9a %>%
 
 SC_table9b <- raw_SC_table9b %>% 
   rename(
-    Date = `...1`,
-    `School education - Percentage attendance` = `All...2`,
-    `School education - Percentage attendance - Primary` = `Primary...3`,
-    `School education - Percentage attendance - Secondary` = `Secondary...4`,
-    `School education - Percentage attendance - Special` = `Special...5`,
+    "Date" = "...1",
+    "School education - Percentage attendance" = "All...2",
+    "School education - Percentage attendance - Primary" = "Primary...3",
+    "School education - Percentage attendance - Secondary" = "Secondary...4",
+    "School education - Percentage attendance - Special" = "Special...5",
   ) %>% 
   mutate(
-    `School education - Percentage attendance` = 100 * `School education - Percentage attendance`,
-    `School education - Percentage attendance - Primary` = 100 * `School education - Percentage attendance - Primary`,
-    `School education - Percentage attendance - Secondary` = 100 * `School education - Percentage attendance - Secondary`,
-    `School education - Percentage attendance - Special` = 100 * `School education - Percentage attendance - Special`
+    "School education - Percentage attendance" = 100 * `School education - Percentage attendance`,
+    "School education - Percentage attendance - Primary" = 100 * `School education - Percentage attendance - Primary`,
+    "School education - Percentage attendance - Secondary" = 100 * `School education - Percentage attendance - Secondary`,
+    "School education - Percentage attendance - Special" = 100 * `School education - Percentage attendance - Special`
   )
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 SC_table10a <- raw_SC_table10a %>% 
   rename(
     "Vaccinations - Number of people who have received first dose" = "Number of people who have received the first dose of the Covid vaccination",
     "Vaccinations - Number of people who have received second dose" = "Number of people who have received the second dose of the Covid vaccination"
   )
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+SC_table10b <- raw_SC_table10b %>% 
+  rename(
+    "Date" = "...1",
+    # Care home residents
+    "Vaccinations - By JCVI priority group - Care home residents - Number vaccinated" = "Number vaccinated...2",
+    "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - Older adult care homes" = "% Uptake for residents in older adult care homes",
+    "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - All care homes" = "% Uptake for residents in all care homes",
+    # Care home staff
+    "Vaccinations - By JCVI priority group - Care home staff - Number vaccinated" = "Number vaccinated...7",
+    "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - Older adult care homes" = "% Uptake for staff in older adult care homes",
+    "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - All care homes" = "% Uptake for staff in all care homes",
+    # Individuals aged 80 or over living in the community (excluding care home residents)
+    "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated" = "Number vaccinated...12",
+    "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage uptake" = "% Uptake...14",
+    # Frontline health and social care workers
+    "Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated" = "Number vaccinated...15",
+    "Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage uptake" = "% Uptake...17",
+  )
+
+for(i in colnames(SC_table10b)[-1]){
+  SC_table10b[i][SC_table10b[i] == "*Initial target met"] <- "1"
+}
+
+rm(i)
+
+SC_table10b <- SC_table10b %>% mutate(
+  across(where(is.character), as.numeric)
+)
+
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 
@@ -474,10 +510,34 @@ tidy_SC_table9b <- SC_table9b %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Ratio")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-# Scotland: Vaccinations
+
 tidy_SC_table10a <- SC_table10a %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+tidy_SC_table10b <- SC_table10b %>%
+  gather(key = "Variable", value = "Value", -Date) %>%
+  mutate(
+    Measurement = Variable,
+    Measurement = recode(
+      Measurement,
+      # Counts
+      "Vaccinations - By JCVI priority group - Care home residents - Number vaccinated" = "Count",
+      "Vaccinations - By JCVI priority group - Care home staff - Number vaccinated" = "Count",
+      "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated" = "Count",
+      "Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated" = "Count",
+      # Ratios
+      "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - Older adult care homes" = "Ratio",
+      "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - All care homes" = "Ratio",
+      "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - Older adult care homes" = "Ratio",
+      "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - All care homes" = "Ratio",
+      "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage uptake" = "Ratio",
+      "Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage uptake" = "Ratio"
+    )
+  )
+
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
@@ -529,7 +589,8 @@ SC_output_dataset <- bind_rows(tidy_SC_table1,
                                tidy_SC_table8,
                                tidy_SC_table9a,
                                tidy_SC_table9b,
-                               tidy_SC_table10a) %>%
+                               tidy_SC_table10a,
+                               tidy_SC_table10b) %>%
   # Creating required variables
   mutate(GeographyCode = "S92000003",
          Value = as.character(Value),
@@ -596,6 +657,7 @@ write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Dea
 write.csv(SC_table9a,  "./COVID19 - Daily Management Information - Scotland - School education.csv", quote = FALSE, row.names = F)
 write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - School education (2021).csv", quote = FALSE, row.names = F)
 write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
+write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
 
 write.csv(HB_table1,  "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
 write.csv(HB_table2a_archived,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients - Confirmed - Archived.csv", quote = FALSE, row.names = F)
