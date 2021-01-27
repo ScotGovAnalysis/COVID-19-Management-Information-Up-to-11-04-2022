@@ -7,7 +7,7 @@
 # - Miles Drake (miles.drake@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 20/01/2021
+# Last updated - 27/01/2021
 # ------------------------------------------------------------------------------
 
 # [0] Loading libraries --------------------------------------------------------
@@ -42,8 +42,8 @@ HB_codes <- tribble(
 # URL shouldn't have changed, but it would good to confirm before running the
 # whole code
 
-url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B20%2BJanuary%2B2021.xlsx"
-url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B20%2BJanuary%2B2021.xlsx"
+url1 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/govscot%3Adocument/COVID-19%2BDaily%2Bdata%2B-%2BTrends%2Bin%2Bdaily%2BCOVID-19%2Bdata%2B-%2B27%2BJanuary%2B2021.xlsx"
+url2 <- "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdaily%2Bdata%2B-%2Bby%2BNHS%2BBoard%2B-%2B27%2BJanuary%2B2021.xlsx"
 
 # -- Scotland (SC) --
 GET(url1, write_disk(tf1 <- tempfile(fileext = ".xlsx")))
@@ -79,7 +79,9 @@ raw_SC_table8  <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
 raw_SC_table9a  <- read_excel(tf1, "Table 9 - School education", skip = 2, n_max = 93)[, 1:5]
 # Table 9b: Percentage of pupils in attendance at school (2021)
 raw_SC_table9b  <- read_excel(tf1, "Table 9 - School education", skip = 98)[, 1:5]
-raw_SC_table10 <- read_excel(tf1, "Table 10 - Vaccinations", skip = 2)[, 1:3]
+# Table 10a: Daily COVID-19 vaccinations in Scotland
+# Number of people who have received the first or second dose of the COVID-19 vaccine
+raw_SC_table10a <- read_excel(tf1, "Table 10a - Vaccinations", skip = 2)[, 1:3]
 
 raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-c(16:18)]
 
@@ -320,10 +322,10 @@ SC_table9b <- raw_SC_table9b %>%
   )
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-SC_table10 <- raw_SC_table10 %>% 
+SC_table10a <- raw_SC_table10a %>% 
   rename(
-    "Vaccination - Number of people who have received first dose" = "Number of people who have received the first dose of the Covid vaccination",
-    "Vaccination - Number of people who have received second dose" = "Number of people who have received the second dose of the Covid vaccination"
+    "Vaccinations - Number of people who have received first dose" = "Number of people who have received the first dose of the Covid vaccination",
+    "Vaccinations - Number of people who have received second dose" = "Number of people who have received the second dose of the Covid vaccination"
   )
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
@@ -473,7 +475,7 @@ tidy_SC_table9b <- SC_table9b %>%
   mutate(Measurement = "Ratio")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 # Scotland: Vaccinations
-tidy_SC_table10 <- SC_table10 %>%
+tidy_SC_table10a <- SC_table10a %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
@@ -527,7 +529,7 @@ SC_output_dataset <- bind_rows(tidy_SC_table1,
                                tidy_SC_table8,
                                tidy_SC_table9a,
                                tidy_SC_table9b,
-                               tidy_SC_table10) %>%
+                               tidy_SC_table10a) %>%
   # Creating required variables
   mutate(GeographyCode = "S92000003",
          Value = as.character(Value),
@@ -593,7 +595,7 @@ write.csv(SC_table7b, "./COVID19 - Daily Management Information - Scotland - Car
 write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Deaths.csv", quote = FALSE, row.names = F)
 write.csv(SC_table9a,  "./COVID19 - Daily Management Information - Scotland - School education.csv", quote = FALSE, row.names = F)
 write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - School education (2021).csv", quote = FALSE, row.names = F)
-write.csv(SC_table10,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
+write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
 
 write.csv(HB_table1,  "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
 write.csv(HB_table2a_archived,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients - Confirmed - Archived.csv", quote = FALSE, row.names = F)
