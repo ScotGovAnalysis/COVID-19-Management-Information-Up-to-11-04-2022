@@ -250,7 +250,10 @@ metadata[[1]]$date_last_modified$tables$raw_SC_table5 <- date_table_last_modifie
 metadata[[1]]$date_last_modified$tables$raw_SC_table6 <- date_table_last_modified(raw_SC_table6)
 metadata[[1]]$date_last_modified$tables$raw_SC_table7b <- date_table_last_modified(raw_SC_table7b)
 metadata[[1]]$date_last_modified$tables$raw_SC_table8 <- date_table_last_modified(raw_SC_table8)
-metadata[[1]]$date_last_modified$tables$raw_SC_table9 <- date_table_last_modified(raw_SC_table9)
+metadata[[1]]$date_last_modified$tables$raw_SC_table9a <- date_table_last_modified(raw_SC_table9a)
+metadata[[1]]$date_last_modified$tables$raw_SC_table9b <- date_table_last_modified(raw_SC_table9b)
+metadata[[1]]$date_last_modified$tables$raw_SC_table10a <- date_table_last_modified(raw_SC_table10a)
+metadata[[1]]$date_last_modified$tables$raw_SC_table10b <- date_table_last_modified(raw_SC_table10b)
 
 metadata[[1]]$date_last_modified$data_set <- metadata[[1]]$date_last_modified$tables %>% 
   unlist() %>% max() %>% as.Date(origin = "1970-01-01") %>% ymd()
@@ -454,18 +457,18 @@ SC_table10b <- raw_SC_table10b %>%
     "Date" = "...1",
     # Care home residents
     "Vaccinations - By JCVI priority group - Care home residents - Number vaccinated" = "Number vaccinated...2",
-    "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - Older adult care homes" = "% Uptake for residents in older adult care homes",
-    "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - All care homes" = "% Uptake for residents in all care homes",
+    "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - Older adult care homes" = "% Vaccinated for residents in older adult care homes",
+    "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - All care homes" = "% Vaccinated for residents in all care homes",
     # Care home staff
     "Vaccinations - By JCVI priority group - Care home staff - Number vaccinated" = "Number vaccinated...7",
-    "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - Older adult care homes" = "% Uptake for staff in older adult care homes",
-    "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - All care homes" = "% Uptake for staff in all care homes",
+    "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - Older adult care homes" = "% Vaccinated for staff in older adult care homes",
+    "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - All care homes" = "% Vaccinated for staff in all care homes",
     # Individuals aged 80 or over living in the community (excluding care home residents)
     "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated" = "Number vaccinated...12",
-    "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage uptake" = "% Uptake...14",
+    "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage uptake" = "% Vaccinated...14",
     # Frontline health and social care workers
     "Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated" = "Number vaccinated...15",
-    "Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage uptake" = "% Uptake...17",
+    "Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage uptake" = "% Vaccinated...17",
   )
 
 for(i in colnames(SC_table10b)[-1]){
