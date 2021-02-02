@@ -2,10 +2,12 @@
 # Title - SG Covid-19 daily update (Management Information)
 # Purpose - Reformatting Covid-19 daily update data to upload to 
 #           statistics.gov.scot and github.com/DataScienceScotland
-# Author - Victoria Avila (victoria.avila@gov.scot)
+# Authors:
+# - Victoria Avila (victoria.avila@gov.scot)
+# - Miles Drake (miles.drake@gov.scot)
 # Open Data info - statistics.opendata@gov.scot
 # Date created - 17/04/2020
-# Last updated - 18/12/2020
+# Last updated - 27/01/2021
 # ------------------------------------------------------------------------------
 
 # [0] Loading libraries --------------------------------------------------------
@@ -132,7 +134,16 @@ raw_SC_table6  <- read_excel(tf1, "Table 6 - Workforce", skip = 1, n_max = 112)
 # raw_SC_table7a <- read_excel(tf1, "Table 7a - Care Homes", skip = 2, n_max = 105)[-1, -c(5,10)]
 raw_SC_table7b <- read_excel(tf1, "Table 7b - Care Home Workforce", skip = 1)
 raw_SC_table8  <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
-raw_SC_table9  <- read_excel(tf1, "Table 9 - School education", skip = 2)[, 1:5]
+# Table 9 / 9a: Daily attendance and absence in schools in Scotland
+raw_SC_table9a  <- read_excel(tf1, "Table 9 - School education", skip = 2, n_max = 93)[, 1:5]
+# Table 9b: Percentage of pupils in attendance at school (2021)
+raw_SC_table9b  <- read_excel(tf1, "Table 9 - School education", skip = 98)[, 1:5]
+# Table 10a: Daily COVID-19 vaccinations in Scotland
+# Number of people who have received the Covid vaccination
+raw_SC_table10a <- read_excel(tf1, "Table 10a - Vaccinations", skip = 2)[, 1:3]
+# Table 10b: Daily COVID-19 vaccinations in Scotland by JCVI Priority Group
+# Number of people who have received the Covid vaccination by JCVI priority group
+raw_SC_table10b <- read_excel(tf1, "Table 10b - Vac by JCVI group", skip = 3)[, c(1, 2, 4, 6, 7, 9, 11, 12, 14, 15, 17)]
 
 raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-c(16:18)]
 
@@ -140,21 +151,21 @@ raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-c(16
 
 raw_HB_table2a_archived  <- read_excel(tf2, "Table 2 - ICU (Hist.)", skip = 2)[, -c(17:35)]
 colnames(raw_HB_table2a_archived) <- c("Date",
-                             "NHS Ayrshire & Arran",
-                             "NHS Borders",
-                             "NHS Dumfries & Galloway",
-                             "NHS Fife",
-                             "NHS Forth Valley",
-                             "NHS Grampian",
-                             "NHS Greater Glasgow & Clyde",
-                             "NHS Highland",
-                             "NHS Lanarkshire",
-                             "NHS Lothian",
-                             "NHS Orkney",
-                             "NHS Shetland",
-                             "NHS Tayside",
-                             "NHS Western Isles",              
-                             "Golden Jubilee National Hospital")
+                                       "NHS Ayrshire & Arran",
+                                       "NHS Borders",
+                                       "NHS Dumfries & Galloway",
+                                       "NHS Fife",
+                                       "NHS Forth Valley",
+                                       "NHS Grampian",
+                                       "NHS Greater Glasgow & Clyde",
+                                       "NHS Highland",
+                                       "NHS Lanarkshire",
+                                       "NHS Lothian",
+                                       "NHS Orkney",
+                                       "NHS Shetland",
+                                       "NHS Tayside",
+                                       "NHS Western Isles",              
+                                       "Golden Jubilee National Hospital")
 
 raw_HB_table2b_archived  <- read_excel(tf2, "Table 2 - ICU (Hist.)", skip = 2, n_max = 126)[, -c(1:18, 35)]
 colnames(raw_HB_table2b_archived) <- c("Date",
@@ -183,39 +194,39 @@ raw_HB_table2  <- read_excel(tf2, "Table 2 - ICU patients", skip = 2)[, -17]
 
 raw_HB_table3a_archived <- read_excel(tf2, "Table 3- Hospital (Hist.)", skip = 2)[, -c(17:37)]
 colnames(raw_HB_table3a_archived) <- c("Date",
-                             "NHS Ayrshire & Arran",
-                             "NHS Borders",
-                             "NHS Dumfries & Galloway",
-                             "NHS Fife",
-                             "NHS Forth Valley",
-                             "NHS Grampian",
-                             "NHS Greater Glasgow & Clyde",
-                             "NHS Highland",
-                             "NHS Lanarkshire",
-                             "NHS Lothian",
-                             "NHS Orkney",
-                             "NHS Shetland",
-                             "NHS Tayside",
-                             "NHS Western Isles",              
-                             "Golden Jubilee National Hospital")
+                                       "NHS Ayrshire & Arran",
+                                       "NHS Borders",
+                                       "NHS Dumfries & Galloway",
+                                       "NHS Fife",
+                                       "NHS Forth Valley",
+                                       "NHS Grampian",
+                                       "NHS Greater Glasgow & Clyde",
+                                       "NHS Highland",
+                                       "NHS Lanarkshire",
+                                       "NHS Lothian",
+                                       "NHS Orkney",
+                                       "NHS Shetland",
+                                       "NHS Tayside",
+                                       "NHS Western Isles",              
+                                       "Golden Jubilee National Hospital")
 
 raw_HB_table3b_archived <- read_excel(tf2, "Table 3- Hospital (Hist.)", skip = 2, n_max = 118)[ -c(1:18, 35:37)]
 colnames(raw_HB_table3b_archived) <- c("Date",
-                             "NHS Ayrshire & Arran",
-                             "NHS Borders",
-                             "NHS Dumfries & Galloway",
-                             "NHS Fife",
-                             "NHS Forth Valley",
-                             "NHS Grampian",
-                             "NHS Greater Glasgow & Clyde",
-                             "NHS Highland",
-                             "NHS Lanarkshire",
-                             "NHS Lothian",
-                             "NHS Orkney",
-                             "NHS Shetland",
-                             "NHS Tayside",
-                             "NHS Western Isles",              
-                             "Golden Jubilee National Hospital")
+                                       "NHS Ayrshire & Arran",
+                                       "NHS Borders",
+                                       "NHS Dumfries & Galloway",
+                                       "NHS Fife",
+                                       "NHS Forth Valley",
+                                       "NHS Grampian",
+                                       "NHS Greater Glasgow & Clyde",
+                                       "NHS Highland",
+                                       "NHS Lanarkshire",
+                                       "NHS Lothian",
+                                       "NHS Orkney",
+                                       "NHS Shetland",
+                                       "NHS Tayside",
+                                       "NHS Western Isles",              
+                                       "Golden Jubilee National Hospital")
 
 
 raw_HB_table3  <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -17]
@@ -288,12 +299,12 @@ SC_table2_archived <- raw_SC_table2_archived
 # Renaming variables in this table the old way because different package versions
 # create different default names for variables
 names(SC_table2_archived) <- c("Date",
-                      "COVID-19 patients in ICU - Confirmed (archived)",
-                      "COVID-19 patients in ICU - Suspected (archived)",
-                      "COVID-19 patients in ICU - Total (archived)",
-                      "COVID-19 patients in hospital - Confirmed (archived)",
-                      "COVID-19 patients in hospital - Suspected (archived)",
-                      "COVID-19 patients in hospital - Total (archived)")
+                               "COVID-19 patients in ICU - Confirmed (archived)",
+                               "COVID-19 patients in ICU - Suspected (archived)",
+                               "COVID-19 patients in ICU - Total (archived)",
+                               "COVID-19 patients in hospital - Confirmed (archived)",
+                               "COVID-19 patients in hospital - Suspected (archived)",
+                               "COVID-19 patients in hospital - Total (archived)")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table2 <- raw_SC_table2 %>%
   rename("Date" = "Reporting Date",
@@ -309,10 +320,10 @@ SC_table4 <- raw_SC_table4 %>%
   rename("Delayed discharges" = "Number of delayed discharges")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table5 <- raw_SC_table5 #%>%
-  # rename("Date" = "Date notified",
-  #        "Cumulative people tested for COVID-19 - Negative" = "Cumulative people tested for COVID-19",
-  #        "Cumulative people tested for COVID-19 - Positive" = "...3",
-  #        "Cumulative people tested for COVID-19 - Total" = "...4" )
+# rename("Date" = "Date notified",
+#        "Cumulative people tested for COVID-19 - Negative" = "Cumulative people tested for COVID-19",
+#        "Cumulative people tested for COVID-19 - Positive" = "...3",
+#        "Cumulative people tested for COVID-19 - Total" = "...4" )
 names(SC_table5) <- c("Date",
                       "Testing - Cumulative people tested for COVID-19 - Negative",
                       "Testing - Cumulative people tested for COVID-19 - Positive",
@@ -336,8 +347,8 @@ names(SC_table5) <- c("Date",
 SC_table5 <- SC_table5 %>%
   mutate(`Testing - Test positivity (percent of tests that are positive)` = 100*`Testing - Test positivity (percent of tests that are positive)`,
          `Testing - Test positivity rate in last 7 days` = 100*`Testing - Test positivity rate in last 7 days`)
-         
-         
+
+
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table6 <- raw_SC_table6 %>%
   rename("NHS workforce COVID-19 absences - Nursing and midwifery staff" = "Nursing and midwifery absences",
@@ -400,19 +411,74 @@ SC_table7b <- raw_SC_table7b %>%
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table8 <- raw_SC_table8
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-SC_table9 <- raw_SC_table9
-names(SC_table9) <- c(
+SC_table9a <- raw_SC_table9a
+names(SC_table9a) <- c(
   "Date",
   "School education - Number of pupils absent due to COVID-19 related reasons",
   "School education - Percentage attendance",
   "School education - Percentage absence due to COVID-19 related reasons",
   "School education - Percentage absence for non COVID-19 related reasons")
-SC_table9 <-SC_table9 %>%
+SC_table9a <-SC_table9a %>%
   mutate(`School education - Percentage attendance` = 100*`School education - Percentage attendance`,
          `School education - Percentage absence due to COVID-19 related reasons` = 100*`School education - Percentage absence due to COVID-19 related reasons`,
          `School education - Percentage absence for non COVID-19 related reasons` = 100*`School education - Percentage absence for non COVID-19 related reasons`)
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
+SC_table9b <- raw_SC_table9b %>% 
+  rename(
+    "Date" = "...1",
+    "School education - Percentage attendance" = "All...2",
+    "School education - Percentage attendance - Primary" = "Primary...3",
+    "School education - Percentage attendance - Secondary" = "Secondary...4",
+    "School education - Percentage attendance - Special" = "Special...5",
+  ) %>% 
+  mutate(
+    "School education - Percentage attendance" = 100 * `School education - Percentage attendance`,
+    "School education - Percentage attendance - Primary" = 100 * `School education - Percentage attendance - Primary`,
+    "School education - Percentage attendance - Secondary" = 100 * `School education - Percentage attendance - Secondary`,
+    "School education - Percentage attendance - Special" = 100 * `School education - Percentage attendance - Special`
+  )
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+SC_table10a <- raw_SC_table10a %>% 
+  rename(
+    "Vaccinations - Number of people who have received first dose" = "Number of people who have received the first dose of the Covid vaccination",
+    "Vaccinations - Number of people who have received second dose" = "Number of people who have received the second dose of the Covid vaccination"
+  )
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+SC_table10b <- raw_SC_table10b %>% 
+  rename(
+    "Date" = "...1",
+    # Care home residents
+    "Vaccinations - By JCVI priority group - Care home residents - Number vaccinated" = "Number vaccinated...2",
+    "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - Older adult care homes" = "% Uptake for residents in older adult care homes",
+    "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - All care homes" = "% Uptake for residents in all care homes",
+    # Care home staff
+    "Vaccinations - By JCVI priority group - Care home staff - Number vaccinated" = "Number vaccinated...7",
+    "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - Older adult care homes" = "% Uptake for staff in older adult care homes",
+    "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - All care homes" = "% Uptake for staff in all care homes",
+    # Individuals aged 80 or over living in the community (excluding care home residents)
+    "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated" = "Number vaccinated...12",
+    "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage uptake" = "% Uptake...14",
+    # Frontline health and social care workers
+    "Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated" = "Number vaccinated...15",
+    "Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage uptake" = "% Uptake...17",
+  )
+
+for(i in colnames(SC_table10b)[-1]){
+  SC_table10b[i][SC_table10b[i] == "*Initial target met"] <- "1"
+}
+
+rm(i)
+
+SC_table10b <- SC_table10b %>% mutate(
+  across(where(is.character), as.numeric)
+)
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
@@ -420,13 +486,13 @@ HB_table1 <- raw_HB_table1 %>%
   rename_at(vars(starts_with("NHS")), list(~ str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
   rename("Date" = "Date notified")
-  
+
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table2a_archived <- raw_HB_table2a_archived %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) 
-  
+
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table2b_archived <- raw_HB_table2b_archived %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
@@ -546,7 +612,7 @@ tidy_SC_table8 <- SC_table8 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-tidy_SC_table9 <- SC_table9 %>%
+tidy_SC_table9a <- SC_table9a %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = Variable,
          Measurement = recode(Measurement,
@@ -554,13 +620,46 @@ tidy_SC_table9 <- SC_table9 %>%
                               "School education - Percentage attendance" = "Ratio",
                               "School education - Percentage absence due to COVID-19 related reasons" = "Ratio",
                               "School education - Percentage absence for non COVID-19 related reasons" = "Ratio"))
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+tidy_SC_table9b <- SC_table9b %>% 
+  gather(key = "Variable", value = "Value", -Date) %>%
+  mutate(Measurement = "Ratio")
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
+tidy_SC_table10a <- SC_table10a %>%
+  gather(key = "Variable", value = "Value", -Date) %>%
+  mutate(Measurement = "Count")
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+tidy_SC_table10b <- SC_table10b %>%
+  gather(key = "Variable", value = "Value", -Date) %>%
+  mutate(
+    Measurement = Variable,
+    Measurement = recode(
+      Measurement,
+      # Counts
+      "Vaccinations - By JCVI priority group - Care home residents - Number vaccinated" = "Count",
+      "Vaccinations - By JCVI priority group - Care home staff - Number vaccinated" = "Count",
+      "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated" = "Count",
+      "Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated" = "Count",
+      # Ratios
+      "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - Older adult care homes" = "Ratio",
+      "Vaccinations - By JCVI priority group - Care home residents - Percentage uptake - All care homes" = "Ratio",
+      "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - Older adult care homes" = "Ratio",
+      "Vaccinations - By JCVI priority group - Care home staff - Percentage uptake - All care homes" = "Ratio",
+      "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage uptake" = "Ratio",
+      "Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage uptake" = "Ratio"
+    )
+  )
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table1 <- HB_table1 %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "Testing - Cumulative people tested for COVID-19 - Positive")
-  
+
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table2a_archived <- HB_table2a_archived %>%
   gather(key = HBname, value = "Value", -Date) %>%
@@ -603,7 +702,10 @@ SC_output_dataset <- bind_rows(tidy_SC_table1,
                                # tidy_SC_table7a,
                                tidy_SC_table7b,
                                tidy_SC_table8,
-                               tidy_SC_table9) %>%
+                               tidy_SC_table9a,
+                               tidy_SC_table9b,
+                               tidy_SC_table10a,
+                               tidy_SC_table10b) %>%
   # Creating required variables
   mutate(GeographyCode = "S92000003",
          Value = as.character(Value),
@@ -641,8 +743,8 @@ HB_output_dataset <- bind_rows(tidy_HB_table1,
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 whole_output_dataset <- bind_rows(SC_output_dataset,
                                   HB_output_dataset) %>%
- # mutate(Value = str_replace(Value, 'N/A', "NA")) %>%
-
+  # mutate(Value = str_replace(Value, 'N/A', "NA")) %>%
+  
   na.omit
 
 
@@ -667,7 +769,10 @@ write.csv(SC_table6,  "./COVID19 - Daily Management Information - Scotland - Wor
 # write.csv(SC_table7a, "./COVID19 - Daily Management Information - Scotland - Care homes.csv", quote = FALSE, row.names = F)
 write.csv(SC_table7b, "./COVID19 - Daily Management Information - Scotland - Care home workforce.csv", quote = FALSE, row.names = F)
 write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Deaths.csv", quote = FALSE, row.names = F)
-write.csv(SC_table9,  "./COVID19 - Daily Management Information - Scotland - School education.csv", quote = FALSE, row.names = F)
+write.csv(SC_table9a,  "./COVID19 - Daily Management Information - Scotland - School education.csv", quote = FALSE, row.names = F)
+write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - School education (2021).csv", quote = FALSE, row.names = F)
+write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
+write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
 
 write.csv(HB_table1,  "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
 write.csv(HB_table2a_archived,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients - Confirmed - Archived.csv", quote = FALSE, row.names = F)
