@@ -106,7 +106,6 @@ sapply(1:length(metadata), function(i) {
 })
 
 # Read data sets ----------------------------------------------------------
-# Read data sets, and save each worksheet as an individual data frame
 
 # Whole-of-Scotland data ------------------------------------------------ #
 
@@ -666,11 +665,12 @@ whole_output_dataset_9999999 <- whole_output_dataset %>%
 
 # Save data frames as CSV -------------------------------------------------
 
-# to upload to statistics.gov.scot
+# CSV file for https://statistics.gov.scot/ ----------------------------- #
+
 write.csv(whole_output_dataset, "./COVID19 - Daily Management Information - Tidy dataset to upload to statistics.gov.scot.csv", quote = FALSE, row.names = F)  
 write.csv(whole_output_dataset_9999999, "./COVID19 - Daily Management Information - Tidy dataset to upload to statistics.gov.scot_9999999.csv", quote = FALSE, row.names = F)  
 
-# to upload to GitHub
+# CSV files for https://github.com/DataScienceScotland/ ----------------- #
 
 # Whole-of-Scotland data ------------------------------------------------ #
 
