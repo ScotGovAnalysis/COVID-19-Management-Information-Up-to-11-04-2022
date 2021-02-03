@@ -1,30 +1,46 @@
-# ------------------------------------------------------------------------------
-# Title - SG Covid-19 daily update (Management Information)
-# Purpose - Reformatting Covid-19 daily update data to upload to 
-#           statistics.gov.scot and github.com/DataScienceScotland
+# ----------------------------------------------------------------------- #
+# Title: SG Covid-19 Daily Update (Management Information)
+# Purpose: Reformatting Covid-19 daily update data to upload to 
+#   https://statistics.gov.scot and https://github.com/DataScienceScotland
 # Authors:
 # - Victoria Avila (victoria.avila@gov.scot)
 # - Miles Drake (miles.drake@gov.scot)
-# Open Data info - statistics.opendata@gov.scot
-# Date created - 17/04/2020
-# Last updated - 27/01/2021
-# ------------------------------------------------------------------------------
+# Open Data Info: statistics.opendata@gov.scot
+# Date created: 2020-04-17
+# Last updated: 2021-02-03
+# ----------------------------------------------------------------------- #
 
-# [0] Loading libraries --------------------------------------------------------
-library(httr)      # GET
-library(readxl)    # excel_sheets, read_excel
-library(dplyr)     # %>%, if_else, rename, rename_at, mutate
-library(lubridate) # day, month, year, ymd
-library(tidyr)     # gather, join, na_if
-library(stringr)   # str_c, str_remove, str_replace, bind_rows, left_join
+# Load required libraries -------------------------------------------------
 
-# [1a] Manual URL overrides -----------------------------------------------
-# If the URLs for the data sets have changed, replace NAs with the URLs
+library(httr)       # GET
+library(readxl)     # excel_sheets, read_excel
+library(dplyr)      # %>%, if_else, rename, rename_at, mutate
+library(lubridate)  # day, month, year, ymd
+library(tidyr)      # gather, join, na_if
+library(stringr)    # str_c, str_remove, str_replace, bind_rows, left_join
+
+# Manual URL entry --------------------------------------------------------
+# If the URL for either data set has changed, replace NA with the new URL
+# Eg: metadata$daily_data_trends$url_manual <- "https://gov.scot/new.xlsx"
+# This is only necessary if the file naming scheme has changed
+# Otherwise, leave this section unchanged
+
 metadata <- as.list(NULL)
 metadata$daily_data_trends$url_manual <- NA
 metadata$daily_data_by_nhs_board$url_manual <- NA
 
-# [1b] Health Board 2014 codes --------------------------------------------
+# Today's date ------------------------------------------------------------
+# Used to generate the URLs of the Scottish and Health Boards data sets,
+# and used to confirm that the data sets downloaded are up-to-date.
+
+today <- as.list(NULL)
+today$iso <- Sys.Date() %>% ymd()
+today$year <- today$iso %>% year() %>% as.integer()
+today$month <- today$iso %>% month() %>% as.integer()
+today$day <- today$iso %>% day() %>% as.integer()
+today$month_name <- today$iso %>% month(label = TRUE, abbr = FALSE) %>% as.character()
+
+# Health board codes (2014) -----------------------------------------------
 HB_codes <- tribble(
   ~HB2014Code, ~HB2014Name,
   "S08000015",	"Ayrshire and Arran",
@@ -44,20 +60,10 @@ HB_codes <- tribble(
   "SB0801",     "The Golden Jubilee National Hospital"
 )
 
-# [1c] Today's date -------------------------------------------------------
-today <- as.list(NULL)
-today$iso <- Sys.Date() %>% ymd()
-today$day <- today$iso %>% day() %>% as.integer()
-today$month <- today$iso %>% month() %>% as.integer()
-today$month_name <- today$iso %>% month(label = TRUE, abbr = FALSE) %>% as.character()
-today$year <- today$iso %>% year() %>% as.integer()
-
-# [2a] Reading original files from website --------------------------------
-# Fetch today's data sets
-# Generate the URLs to the data sets using the date generated above
+# Generate data set URLs --------------------------------------------------
 # https://www.gov.scot/publications/coronavirus-covid-19-trends-in-daily-data/
 
-# Trends in daily COVID-19 data
+# Trends in daily COVID-19 data (Whole-of-Scotland data)
 metadata[[1]]$url_auto <- str_c(
   "https://www.gov.scot/",
   "binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/",
@@ -67,7 +73,7 @@ metadata[[1]]$url_auto <- str_c(
   today$day, "%2B", today$month_name, "%2B", today$year, ".xlsx"
 )
 
-# COVID-19 data by NHS Board
+# COVID-19 data by NHS Board (Health board data)
 metadata[[2]]$url_auto <- str_c(
   "https://www.gov.scot/",
   "binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/",
@@ -77,7 +83,8 @@ metadata[[2]]$url_auto <- str_c(
   today$day, "%2B", today$month_name, "%2B", today$year, ".xlsx"
 )
 
-# Generate temporary file paths to write the downloaded data sets to
+# Generate temporary file paths -------------------------------------------
+
 sapply(1:length(metadata), function(i) {
   
   temporary_file_path <- tempfile(fileext = ".xlsx")
@@ -91,39 +98,46 @@ sapply(1:length(metadata), function(i) {
   
 })
 
-# Fetch the data sets from gov.scot, and write them to disk
-# If user overrides are not given for each URL, then use the URLs automatically
-# generated from today's date
+# Fetch data sets ---------------------------------------------------------
+
 sapply(1:length(metadata), function(i) {
   
   temporary_file_path <- metadata[[i]]$temporary_file_path
   url_auto <- metadata[[i]]$url_auto
   url_manual <- metadata[[i]]$url_manual
   
+  # If the user has not manually entered a URL for the data set, then use
+  # the standard URL, which is automatically generated using today's date
   if (!is.na(url_manual)) {
     url <- url_manual
   } else {
     url <- url_auto
   }
   
+  # Save data set as a temporary file
   GET(url, write_disk(temporary_file_path))
   
   return()
   
 })
 
-# [2b] Reading original files locally ------------------------------------------
+# Fetch data sets from local machine --------------------------------------
+# TODO
 # Use this option if using a SCOTS machine
 #
 # Download files from:
 # https://www.gov.scot/publications/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/
 # Modify to use your own folder and file names
 #
-#path <- "C:/Users/Victoria/Downloads/" 
-#tf1 <- paste0(path, "Trends+in+daily+COVID-19+data+050520.xlsx")
-#tf2 <- paste0(path, "COVID-19+data+by+NHS+Board-050520.xlsx")
+# path <- "C:/Users/Victoria/Downloads/" 
+# tf1 <- paste0(path, "Trends+in+daily+COVID-19+data+050520.xlsx")
+# tf2 <- paste0(path, "COVID-19+data+by+NHS+Board-050520.xlsx")
 
-# [3a] Saving individual tables -------------------------------------------------
+# Read data sets ----------------------------------------------------------
+# Read data sets, and save each worksheet as an individual data frame
+
+# Whole-of-Scotland data ------------------------------------------------ #
+
 raw_SC_table1  <- read_excel(tf1, "Table 1 - NHS 24", skip = 2)
 raw_SC_table2_archived  <- read_excel(tf1, "Table 2 - Archive Hospital Care", skip = 3)[,-8]
 raw_SC_table2  <- read_excel(tf1, "Table 2 - Hospital Care", skip = 2)
@@ -144,6 +158,8 @@ raw_SC_table10a <- read_excel(tf1, "Table 10a - Vaccinations", skip = 2)[, 1:3]
 # Table 10b: Daily COVID-19 vaccinations in Scotland by JCVI Priority Group
 # Number of people who have received the Covid vaccination by JCVI priority group
 raw_SC_table10b <- read_excel(tf1, "Table 10b - Vac by JCVI group", skip = 3)[, c(1, 2, 4, 6, 7, 9, 11, 12, 14, 15, 17)]
+
+# Health board data ----------------------------------------------------- #
 
 raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-c(16:18)]
 
@@ -234,14 +250,15 @@ raw_HB_table3  <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -17
 #unlink(tf1)
 #unlink(tf2)
 
-# [3b] Fetch dates last modified for each dataset -------------------------
+# Fetch dates last modified for each dataset ------------------------------
 
 date_table_last_modified <- function(df) {
   df[[1]] %>% max(na.rm = TRUE) %>% ymd() %>% 
     return()
 }
 
-# Scottish data set
+# Whole-of-Scotland data ------------------------------------------------ #
+
 metadata[[1]]$date_last_modified$tables$raw_SC_table1 <- date_table_last_modified(raw_SC_table1)
 metadata[[1]]$date_last_modified$tables$raw_SC_table2 <- date_table_last_modified(raw_SC_table2)
 metadata[[1]]$date_last_modified$tables$raw_SC_table3 <- date_table_last_modified(raw_SC_table3)
@@ -258,7 +275,8 @@ metadata[[1]]$date_last_modified$tables$raw_SC_table10b <- date_table_last_modif
 metadata[[1]]$date_last_modified$data_set <- metadata[[1]]$date_last_modified$tables %>% 
   unlist() %>% max() %>% as.Date(origin = "1970-01-01") %>% ymd()
 
-# Health board data set
+# Health board data ----------------------------------------------------- #
+
 metadata[[2]]$date_last_modified$tables$raw_HB_table1 <- date_table_last_modified(raw_HB_table1)
 metadata[[2]]$date_last_modified$tables$raw_HB_table2 <- date_table_last_modified(raw_HB_table2)
 metadata[[2]]$date_last_modified$tables$raw_HB_table3 <- date_table_last_modified(raw_HB_table3)
@@ -266,8 +284,9 @@ metadata[[2]]$date_last_modified$tables$raw_HB_table3 <- date_table_last_modifie
 metadata[[2]]$date_last_modified$data_set <- metadata[[2]]$date_last_modified$tables %>% 
   unlist() %>% max() %>% as.Date(origin = "1970-01-01") %>% ymd()
 
-# [3c] Quality assurance --------------------------------------------------
-# Prompt the user if the data sets downloaded do not appear to be today's
+# Quality assurance -------------------------------------------------------
+# Prompt the user if the data sets downloaded were not last updated today
+
 sapply(1:length(metadata), function(i) {
   
   name <- names(metadata)[[i]]
@@ -293,11 +312,14 @@ sapply(1:length(metadata), function(i) {
   
 })
 
-# [4] Renaming variables -------------------------------------------------------
+# Rename variables --------------------------------------------------------
+
+# Whole-of-Scotland data ------------------------------------------------ #
+
 SC_table1 <- raw_SC_table1 %>%
   rename("Calls - NHS24 111" = "NHS24 111 Calls",
          "Calls - Coronavirus helpline" = "Coronavirus Helpline Calls")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 SC_table2_archived <- raw_SC_table2_archived
 # Renaming variables in this table the old way because different package versions
 # create different default names for variables
@@ -308,20 +330,20 @@ names(SC_table2_archived) <- c("Date",
                                "COVID-19 patients in hospital - Confirmed (archived)",
                                "COVID-19 patients in hospital - Suspected (archived)",
                                "COVID-19 patients in hospital - Total (archived)")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 SC_table2 <- raw_SC_table2 %>%
   rename("Date" = "Reporting Date",
          "COVID-19 patients in ICU - Confirmed" = "(i) COVID-19 patients in ICU\r\n or combined ICU/HDU",
          "COVID-19 patients in hospital - Confirmed" = "(ii) COVID-19 patients in hospital (including those in ICU)")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 SC_table3 <- raw_SC_table3 %>%
   rename("Ambulance attendances - Total" = "Number of attendances",                                  
          "Ambulance attendances - COVID-19 suspected" = "Number of COVID-19 suspected attendances",               
          "Ambulance attendances - COVID-19 suspected patients taken to hospital" = "Number of suspected COVID-19 patients taken to hospital")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 SC_table4 <- raw_SC_table4 %>%
   rename("Delayed discharges" = "Number of delayed discharges")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 SC_table5 <- raw_SC_table5 #%>%
 # rename("Date" = "Date notified",
 #        "Cumulative people tested for COVID-19 - Negative" = "Cumulative people tested for COVID-19",
@@ -345,20 +367,19 @@ names(SC_table5) <- c("Date",
                       "Testing - Tests reported in last 7 days",
                       "Testing - Positive tests reported in last 7 days",
                       "Testing - Test positivity rate in last 7 days",
-                      "Testing - Tests in last 7 days per 1000 population") 
+                      "Testing - Tests in last 7 days per 1000 population")
 
 SC_table5 <- SC_table5 %>%
   mutate(`Testing - Test positivity (percent of tests that are positive)` = 100*`Testing - Test positivity (percent of tests that are positive)`,
          `Testing - Test positivity rate in last 7 days` = 100*`Testing - Test positivity rate in last 7 days`)
 
-
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 SC_table6 <- raw_SC_table6 %>%
   rename("NHS workforce COVID-19 absences - Nursing and midwifery staff" = "Nursing and midwifery absences",
          "NHS workforce COVID-19 absences - Medical and dental staff" = "Medical and dental staff absences",
          "NHS workforce COVID-19 absences - Other staff" = "Other staff absences",
          "NHS workforce COVID-19 absences - All staff" = "All staff absences") %>%
   na.omit
+
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 # SC_table7a <- raw_SC_table7a %>%
 #   rename("Adult care homes - Cumulative number that have reported a suspected COVID-19 case" 
@@ -394,6 +415,7 @@ SC_table6 <- raw_SC_table6 %>%
 #          `Adult care homes - Proportion with current suspected COVID-19 cases - revised` = 100*as.numeric(`Adult care homes - Proportion with current suspected COVID-19 cases - revised`),
 #          `Adult care homes - Number with current suspected COVID-19 cases - revised` = as.numeric(`Adult care homes - Number with current suspected COVID-19 cases - revised`))
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 SC_table7b <- raw_SC_table7b %>%
   rename("Adult care homes - Number of staff reported as absent" 
          = "No. of staff reported as absent in adult care homes",
@@ -411,9 +433,9 @@ SC_table7b <- raw_SC_table7b %>%
          = "Staff absence rate") %>%
   mutate(`Adult care homes - Response rate` = 100*`Adult care homes - Response rate`,
          `Adult care homes - Staff absence rate` = 100*as.numeric(`Adult care homes - Staff absence rate`))
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 SC_table8 <- raw_SC_table8
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 SC_table9a <- raw_SC_table9a
 names(SC_table9a) <- c(
   "Date",
@@ -425,7 +447,6 @@ SC_table9a <-SC_table9a %>%
   mutate(`School education - Percentage attendance` = 100*`School education - Percentage attendance`,
          `School education - Percentage absence due to COVID-19 related reasons` = 100*`School education - Percentage absence due to COVID-19 related reasons`,
          `School education - Percentage absence for non COVID-19 related reasons` = 100*`School education - Percentage absence for non COVID-19 related reasons`)
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 SC_table9b <- raw_SC_table9b %>% 
   rename(
@@ -442,15 +463,11 @@ SC_table9b <- raw_SC_table9b %>%
     "School education - Percentage attendance - Special" = 100 * `School education - Percentage attendance - Special`
   )
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-
 SC_table10a <- raw_SC_table10a %>% 
   rename(
     "Vaccinations - Number of people who have received first dose" = "Number of people who have received the first dose of the Covid vaccination",
     "Vaccinations - Number of people who have received second dose" = "Number of people who have received the second dose of the Covid vaccination"
   )
-
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 SC_table10b <- raw_SC_table10b %>% 
   rename(
@@ -481,42 +498,35 @@ SC_table10b <- SC_table10b %>% mutate(
   across(where(is.character), as.numeric)
 )
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# Health board data ----------------------------------------------------- #
 
-
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table1 <- raw_HB_table1 %>%
   rename_at(vars(starts_with("NHS")), list(~ str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
   rename("Date" = "Date notified")
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table2a_archived <- raw_HB_table2a_archived %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) 
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table2b_archived <- raw_HB_table2b_archived %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) 
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table2 <- raw_HB_table2 %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and"))) %>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
   rename("Date" = "Reporting date")
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table3a_archived <- raw_HB_table3a_archived %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
   mutate(Lanarkshire = na_if(Lanarkshire, "N/A"))
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table3b_archived <- raw_HB_table3b_archived %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
@@ -524,41 +534,42 @@ HB_table3b_archived <- raw_HB_table3b_archived %>%
   mutate(Lanarkshire = na_if(Lanarkshire, "N/A"),
          `Greater Glasgow and Clyde` = na_if(`Greater Glasgow and Clyde`, "N/A"))
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 HB_table3 <- raw_HB_table3 %>%
   rename_at(vars(starts_with("NHS")), funs(str_remove(., "NHS "))) %>%
   rename_at(vars(contains("&")), list(~ str_replace(., "&", "and")))%>%
   rename_at(vars(contains("Golden")), list(~ str_replace(., "Golden", "The Golden"))) %>%
   rename("Date" = "Reporting date")
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# Tidy data frames --------------------------------------------------------
+# Convert data frames into a tidy data format
+# For use on https://statistics.gov.scot/
+# Some variable names have been slightly changed so they get placed
+# together, in alphabetical order
 
+# Whole-of-Scotland data ------------------------------------------------ #
 
-# [5] Creating tidy datasets from each table -----------------------------------
-# Some variable names have been slightly changed so they get placed together in
-# alphabetic order
 tidy_SC_table1 <- SC_table1 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 tidy_SC_table2_archived <- SC_table2_archived %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate_at(vars("Value"), as.numeric) %>%
   mutate(Measurement = "Count")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 tidy_SC_table2 <- SC_table2 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate_at(vars("Value"), as.numeric) %>%
   mutate(Measurement = "Count")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 tidy_SC_table3 <- SC_table3 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 tidy_SC_table4 <- SC_table4 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 tidy_SC_table5 <- SC_table5 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate_at(vars("Value"), as.numeric) %>%
@@ -582,11 +593,11 @@ tidy_SC_table5 <- SC_table5 %>%
                               "Testing - Positive tests reported in last 7 days" = "Count",
                               "Testing - Test positivity rate in last 7 days" = "Ratio",
                               "Testing - Tests in last 7 days per 1000 population" = "Ratio"))
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 tidy_SC_table6 <- SC_table6 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 # tidy_SC_table7a <- SC_table7a %>%
 #   gather(key = "Variable", value = "Value", -Date) %>%
 #   mutate(Measurement = Variable,
@@ -600,7 +611,7 @@ tidy_SC_table6 <- SC_table6 %>%
 #                               "Adult care homes - Proportion with current suspected COVID-19 cases - revised" = "Ratio",
 #                               "Adult care homes - Cumulative number of suspected COVID-19 cases" = "Count",
 #                               "Adult care homes - Daily number of new suspected COVID-19 cases" = "Count"))
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 tidy_SC_table7b <- SC_table7b %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = Variable,
@@ -610,11 +621,11 @@ tidy_SC_table7b <- SC_table7b %>%
                               "Adult care homes - Response rate" = "Ratio",
                               "Adult care homes - Total number of staff in adult care homes which submitted a return" = "Count",
                               "Adult care homes - Staff absence rate" = "Ratio"))
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 tidy_SC_table8 <- SC_table8 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 tidy_SC_table9a <- SC_table9a %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = Variable,
@@ -623,17 +634,14 @@ tidy_SC_table9a <- SC_table9a %>%
                               "School education - Percentage attendance" = "Ratio",
                               "School education - Percentage absence due to COVID-19 related reasons" = "Ratio",
                               "School education - Percentage absence for non COVID-19 related reasons" = "Ratio"))
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
 tidy_SC_table9b <- SC_table9b %>% 
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Ratio")
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 tidy_SC_table10a <- SC_table10a %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
-
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 tidy_SC_table10b <- SC_table10b %>%
   gather(key = "Variable", value = "Value", -Date) %>%
@@ -656,45 +664,40 @@ tidy_SC_table10b <- SC_table10b %>%
     )
   )
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# Health board data ----------------------------------------------------- #
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table1 <- HB_table1 %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "Testing - Cumulative people tested for COVID-19 - Positive")
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table2a_archived <- HB_table2a_archived %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "COVID-19 patients in ICU - Confirmed (archived)")
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table2b_archived <- HB_table2b_archived %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "COVID-19 patients in ICU - Total (archived)")
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table2 <- HB_table2 %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "COVID-19 patients in ICU - Confirmed")
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table3a_archived <- HB_table3a_archived %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "COVID-19 patients in hospital - Confirmed (archived)")
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table3b_archived <- HB_table3b_archived %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "COVID-19 patients in hospital - Suspected (archived)")
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 tidy_HB_table3 <- HB_table3 %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "COVID-19 patients in hospital - Confirmed")
 
+# Bind tidy data frames ---------------------------------------------------
 
-# [6] Binding tidy datasets together -------------------------------------------
+# Whole-of-Scotland data ------------------------------------------------ #
+
 SC_output_dataset <- bind_rows(tidy_SC_table1,
                                tidy_SC_table2_archived,
                                tidy_SC_table2,
@@ -723,7 +726,8 @@ SC_output_dataset <- bind_rows(tidy_SC_table1,
          Value,
          Variable) 
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# Health board data ----------------------------------------------------- #
+
 HB_output_dataset <- bind_rows(tidy_HB_table1,
                                tidy_HB_table2a_archived,
                                tidy_HB_table2b_archived,
@@ -743,25 +747,27 @@ HB_output_dataset <- bind_rows(tidy_HB_table1,
          Value,
          Variable)
 
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# Combined data --------------------------------------------------------- #
+
 whole_output_dataset <- bind_rows(SC_output_dataset,
                                   HB_output_dataset) %>%
   # mutate(Value = str_replace(Value, 'N/A', "NA")) %>%
   
   na.omit
 
-
 whole_output_dataset_9999999 <- whole_output_dataset %>%
   mutate(Value = str_replace(Value, '\\*', "9999999"))
 
-# [7] Saving final dataset as .csv ---------------------------------------------
+# Save data frames as CSV -------------------------------------------------
 
 # to upload to statistics.gov.scot
 write.csv(whole_output_dataset, "./COVID19 - Daily Management Information - Tidy dataset to upload to statistics.gov.scot.csv", quote = FALSE, row.names = F)  
 write.csv(whole_output_dataset_9999999, "./COVID19 - Daily Management Information - Tidy dataset to upload to statistics.gov.scot_9999999.csv", quote = FALSE, row.names = F)  
 
-
 # to upload to GitHub
+
+# Whole-of-Scotland data ------------------------------------------------ #
+
 write.csv(SC_table1,  "./COVID19 - Daily Management Information - Scotland - Calls.csv", quote = FALSE, row.names = F)
 write.csv(SC_table2_archived,  "./COVID19 - Daily Management Information - Scotland - Hospital care - Archived.csv", quote = FALSE, row.names = F)
 write.csv(SC_table2,  "./COVID19 - Daily Management Information - Scotland - Hospital care.csv", quote = FALSE, row.names = F)
@@ -777,6 +783,8 @@ write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - Sc
 write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
 write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
 
+# Health board data ----------------------------------------------------- #
+
 write.csv(HB_table1,  "./COVID19 - Daily Management Information - Scottish Health Boards - Cumulative cases.csv", quote = FALSE, row.names = F)
 write.csv(HB_table2a_archived,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients - Confirmed - Archived.csv", quote = FALSE, row.names = F)
 write.csv(HB_table2b_archived,  "./COVID19 - Daily Management Information - Scottish Health Boards - ICU patients - Total - Archived.csv", quote = FALSE, row.names = F)
@@ -784,7 +792,6 @@ write.csv(HB_table2,  "./COVID19 - Daily Management Information - Scottish Healt
 write.csv(HB_table3a_archived, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed - Archived.csv", quote = FALSE, row.names = F)
 write.csv(HB_table3b_archived, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Suspected - Archived.csv", quote = FALSE, row.names = F)
 write.csv(HB_table3,  "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed.csv", quote = FALSE, row.names = F)
-
 
 # Bits of code used in previous versions ---------------------------------------
 # '\\p{No}'  - to match super and subscripts -- https://www.regular-expressions.info/unicode.html
