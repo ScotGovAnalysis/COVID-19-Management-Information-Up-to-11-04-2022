@@ -660,15 +660,11 @@ whole_output_dataset <- bind_rows(SC_output_dataset,
                                   HB_output_dataset) %>%
   na.omit
 
-whole_output_dataset_9999999 <- whole_output_dataset %>%
-  mutate(Value = str_replace(Value, '\\*', "9999999"))
-
 # Save data frames as CSV -------------------------------------------------
 
 # CSV file for https://statistics.gov.scot/ ----------------------------- #
 
 write.csv(whole_output_dataset, "./COVID19 - Daily Management Information - Tidy dataset to upload to statistics.gov.scot.csv", quote = FALSE, row.names = F)  
-write.csv(whole_output_dataset_9999999, "./COVID19 - Daily Management Information - Tidy dataset to upload to statistics.gov.scot_9999999.csv", quote = FALSE, row.names = F)  
 
 # CSV files for https://github.com/DataScienceScotland/ ----------------- #
 
