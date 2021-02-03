@@ -16,6 +16,7 @@ library(httr)       # GET
 library(readxl)     # excel_sheets, read_excel
 library(dplyr)      # %>%, if_else, rename, rename_at, mutate
 library(lubridate)  # day, month, year, ymd
+library(readr)      # read_csv
 library(tidyr)      # gather, join, na_if
 library(stringr)    # str_c, str_remove, str_replace, bind_rows, left_join
 
@@ -41,24 +42,7 @@ today$day <- today$iso %>% day() %>% as.integer()
 today$month_name <- today$iso %>% month(label = TRUE, abbr = FALSE) %>% as.character()
 
 # Health board codes (2014) -----------------------------------------------
-HB_codes <- tribble(
-  ~HB2014Code, ~HB2014Name,
-  "S08000015",	"Ayrshire and Arran",
-  "S08000016",	"Borders",
-  "S08000017",	"Dumfries and Galloway",
-  "S08000019",	"Forth Valley",
-  "S08000020",	"Grampian",
-  "S08000022",	"Highland",
-  "S08000024",	"Lothian",
-  "S08000025",	"Orkney",
-  "S08000026",	"Shetland",
-  "S08000028",	"Western Isles",
-  "S08000029",	"Fife",
-  "S08000030",	"Tayside",
-  "S08000031",	"Greater Glasgow and Clyde",
-  "S08000032",	"Lanarkshire",
-  "SB0801",     "The Golden Jubilee National Hospital"
-)
+HB_codes <- read_csv("data/health-board-codes.csv")
 
 # Generate data set URLs --------------------------------------------------
 # https://www.gov.scot/publications/coronavirus-covid-19-trends-in-daily-data/
