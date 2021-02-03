@@ -105,18 +105,6 @@ sapply(1:length(metadata), function(i) {
   
 })
 
-# Fetch data sets from local machine --------------------------------------
-# TODO
-# Use this option if using a SCOTS machine
-#
-# Download files from:
-# https://www.gov.scot/publications/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/
-# Modify to use your own folder and file names
-#
-# path <- "C:/Users/Victoria/Downloads/" 
-# tf1 <- paste0(path, "Trends+in+daily+COVID-19+data+050520.xlsx")
-# tf2 <- paste0(path, "COVID-19+data+by+NHS+Board-050520.xlsx")
-
 # Read data sets ----------------------------------------------------------
 # Read data sets, and save each worksheet as an individual data frame
 
@@ -128,8 +116,7 @@ raw_SC_table2  <- read_excel(tf1, "Table 2 - Hospital Care", skip = 2)
 raw_SC_table3  <- read_excel(tf1, "Table 3 - Ambulance", skip = 2)[,-1]
 raw_SC_table4  <- read_excel(tf1, "Table 4 - Delayed Discharges", skip = 2)[,-1]
 raw_SC_table5  <- read_excel(tf1, "Table 5 - Testing", skip = 2)[-1,-c(20,21)]
-raw_SC_table6  <- read_excel(tf1, "Table 6 - Workforce", skip = 1, n_max = 112) 
-# raw_SC_table7a <- read_excel(tf1, "Table 7a - Care Homes", skip = 2, n_max = 105)[-1, -c(5,10)]
+raw_SC_table6  <- read_excel(tf1, "Table 6 - Workforce", skip = 1, n_max = 112)
 raw_SC_table7b <- read_excel(tf1, "Table 7b - Care Home Workforce", skip = 1)
 raw_SC_table8  <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
 # Table 9 / 9a: Daily attendance and absence in schools in Scotland
@@ -146,8 +133,6 @@ raw_SC_table10b <- read_excel(tf1, "Table 10b - Vac by JCVI group", skip = 3)[, 
 # Health board data ----------------------------------------------------- #
 
 raw_HB_table1  <- read_excel(tf2, "Table 1 - Cumulative cases", skip = 2)[,-c(16:18)]
-
-# TODO 2b is continuation of old table 2, decide what to do with 2.b as being ignored just now
 
 raw_HB_table2a_archived  <- read_excel(tf2, "Table 2 - ICU (Hist.)", skip = 2)[, -c(17:35)]
 colnames(raw_HB_table2a_archived) <- c("Date",
@@ -185,12 +170,7 @@ colnames(raw_HB_table2b_archived) <- c("Date",
                                        "NHS Western Isles",              
                                        "Golden Jubilee National Hospital")
 
-# To bring in both tables:
-# raw_HB_table2a  <- read_excel(tf2, "Table 2a - ICU patients", skip = 2)[, -17]
-# raw_HB_table2b  <- read_excel(tf2, "Table 2b - ICU patients (Hist.)", skip = 2)[, -17]
-
 raw_HB_table2  <- read_excel(tf2, "Table 2 - ICU patients", skip = 2)[, -17]
-
 
 raw_HB_table3a_archived <- read_excel(tf2, "Table 3- Hospital (Hist.)", skip = 2)[, -c(17:37)]
 colnames(raw_HB_table3a_archived) <- c("Date",
@@ -230,9 +210,6 @@ colnames(raw_HB_table3b_archived) <- c("Date",
 
 
 raw_HB_table3  <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -17]
-
-#unlink(tf1)
-#unlink(tf2)
 
 # Fetch dates last modified for each dataset ------------------------------
 
@@ -328,11 +305,8 @@ SC_table3 <- raw_SC_table3 %>%
 SC_table4 <- raw_SC_table4 %>%
   rename("Delayed discharges" = "Number of delayed discharges")
 
-SC_table5 <- raw_SC_table5 #%>%
-# rename("Date" = "Date notified",
-#        "Cumulative people tested for COVID-19 - Negative" = "Cumulative people tested for COVID-19",
-#        "Cumulative people tested for COVID-19 - Positive" = "...3",
-#        "Cumulative people tested for COVID-19 - Total" = "...4" )
+SC_table5 <- raw_SC_table5
+
 names(SC_table5) <- c("Date",
                       "Testing - Cumulative people tested for COVID-19 - Negative",
                       "Testing - Cumulative people tested for COVID-19 - Positive",
@@ -363,42 +337,6 @@ SC_table6 <- raw_SC_table6 %>%
          "NHS workforce COVID-19 absences - Other staff" = "Other staff absences",
          "NHS workforce COVID-19 absences - All staff" = "All staff absences") %>%
   na.omit
-
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-# SC_table7a <- raw_SC_table7a %>%
-#   rename("Adult care homes - Cumulative number that have reported a suspected COVID-19 case" 
-#            = "Cumulative number of adult care homes that have reported a suspected COVID-19 case",
-#          
-#          "Adult care homes - Proportion that have reported a suspected COVID-19 case"        
-#            = "Proportion of all adult care homes that have reported a suspected COVID-19 case",
-#          
-#          "Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case" 
-#            = "Cumulative number of adult care homes that have reported more than one case of suspected COVID-19",
-#          
-#          "Adult care homes - Number with current suspected COVID-19 cases" 
-#            = "Number of adult care homes with current case of suspected COVID-19...6",
-#          
-#          "Adult care homes - Proportion with current suspected COVID-19 cases" 
-#            = "Proportion of all adult care homes with current case of suspected COVID-19...7",
-#          
-#          "Adult care homes - Number with current suspected COVID-19 cases - revised" 
-#            = "Number of adult care homes with current case of suspected COVID-19...8",
-#          
-#          "Adult care homes - Proportion with current suspected COVID-19 cases - revised" 
-#            = "Proportion of all adult care homes with current case of suspected COVID-19...9",
-#  
-#          "Adult care homes - Cumulative number of suspected COVID-19 cases" 
-#            = "Cumulative number of suspected COVID-19 cases in adult care homes",
-#          
-#          "Adult care homes - Daily number of new suspected COVID-19 cases" 
-#            = "Daily number of new suspected COVID-19 cases in adult care homes") %>%
-#   
-#   mutate(`Adult care homes - Proportion that have reported a suspected COVID-19 case` = 100*`Adult care homes - Proportion that have reported a suspected COVID-19 case`,
-#          `Adult care homes - Proportion with current suspected COVID-19 cases` = 100*as.numeric(`Adult care homes - Proportion with current suspected COVID-19 cases`),
-#          `Adult care homes - Number with current suspected COVID-19 cases` = as.numeric(`Adult care homes - Number with current suspected COVID-19 cases`),
-#          `Adult care homes - Proportion with current suspected COVID-19 cases - revised` = 100*as.numeric(`Adult care homes - Proportion with current suspected COVID-19 cases - revised`),
-#          `Adult care homes - Number with current suspected COVID-19 cases - revised` = as.numeric(`Adult care homes - Number with current suspected COVID-19 cases - revised`))
-# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
 SC_table7b <- raw_SC_table7b %>%
   rename("Adult care homes - Number of staff reported as absent" 
@@ -582,20 +520,6 @@ tidy_SC_table6 <- SC_table6 %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
 
-# tidy_SC_table7a <- SC_table7a %>%
-#   gather(key = "Variable", value = "Value", -Date) %>%
-#   mutate(Measurement = Variable,
-#          Measurement = recode(Measurement,
-#                               "Adult care homes - Cumulative number that have reported a suspected COVID-19 case" = "Count",
-#                               "Adult care homes - Proportion that have reported a suspected COVID-19 case" = "Ratio",
-#                               "Adult care homes - Cumulative number that have reported more than one suspected COVID-19 case" = "Count",
-#                               "Adult care homes - Number with current suspected COVID-19 cases" = "Count",
-#                               "Adult care homes - Proportion with current suspected COVID-19 cases" = "Ratio",
-#                               "Adult care homes - Number with current suspected COVID-19 cases - revised" = "Count",
-#                               "Adult care homes - Proportion with current suspected COVID-19 cases - revised" = "Ratio",
-#                               "Adult care homes - Cumulative number of suspected COVID-19 cases" = "Count",
-#                               "Adult care homes - Daily number of new suspected COVID-19 cases" = "Count"))
-
 tidy_SC_table7b <- SC_table7b %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = Variable,
@@ -735,8 +659,6 @@ HB_output_dataset <- bind_rows(tidy_HB_table1,
 
 whole_output_dataset <- bind_rows(SC_output_dataset,
                                   HB_output_dataset) %>%
-  # mutate(Value = str_replace(Value, 'N/A', "NA")) %>%
-  
   na.omit
 
 whole_output_dataset_9999999 <- whole_output_dataset %>%
@@ -759,7 +681,6 @@ write.csv(SC_table3,  "./COVID19 - Daily Management Information - Scotland - Amb
 write.csv(SC_table4,  "./COVID19 - Daily Management Information - Scotland - Delayed discharges.csv", quote = FALSE, row.names = F)
 write.csv(SC_table5,  "./COVID19 - Daily Management Information - Scotland - Testing.csv", quote = FALSE, row.names = F)
 write.csv(SC_table6,  "./COVID19 - Daily Management Information - Scotland - Workforce.csv", quote = FALSE, row.names = F)
-# write.csv(SC_table7a, "./COVID19 - Daily Management Information - Scotland - Care homes.csv", quote = FALSE, row.names = F)
 write.csv(SC_table7b, "./COVID19 - Daily Management Information - Scotland - Care home workforce.csv", quote = FALSE, row.names = F)
 write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Deaths.csv", quote = FALSE, row.names = F)
 write.csv(SC_table9a,  "./COVID19 - Daily Management Information - Scotland - School education.csv", quote = FALSE, row.names = F)
@@ -776,9 +697,3 @@ write.csv(HB_table2,  "./COVID19 - Daily Management Information - Scottish Healt
 write.csv(HB_table3a_archived, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed - Archived.csv", quote = FALSE, row.names = F)
 write.csv(HB_table3b_archived, "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Suspected - Archived.csv", quote = FALSE, row.names = F)
 write.csv(HB_table3,  "./COVID19 - Daily Management Information - Scottish Health Boards - Hospital patients - Confirmed.csv", quote = FALSE, row.names = F)
-
-# Bits of code used in previous versions ---------------------------------------
-# '\\p{No}'  - to match super and subscripts -- https://www.regular-expressions.info/unicode.html
-# '\\*'      - to match asterisks
-# mutate(Value = str_remove(Value, '\\p{No}'),
-#        Date = as.Date(as.numeric(Date), origin = "1899-12-30"),
