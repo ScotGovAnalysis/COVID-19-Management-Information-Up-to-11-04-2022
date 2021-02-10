@@ -291,10 +291,13 @@ names(SC_table2_archived) <- c("Date",
                                "COVID-19 patients in hospital - Suspected (archived)",
                                "COVID-19 patients in hospital - Total (archived)")
 
-SC_table2 <- raw_SC_table2 %>%
-  rename("Date" = "Reporting Date",
-         "COVID-19 patients in ICU - Confirmed" = "(i) COVID-19 patients in ICU\r\n or combined ICU/HDU",
-         "COVID-19 patients in hospital - Confirmed" = "(ii) COVID-19 patients in hospital (including those in ICU)")
+SC_table2 <- raw_SC_table2 %>% 
+  rename(
+    "Date" = "Reporting Date",
+    "COVID-19 patients in ICU - Confirmed - Length of stay 28 days or less" = "(i) COVID-19 patients in ICU\r\n or combined ICU/HDU (with length of stay 28 days or less)",
+    "COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less" = "(ii) COVID-19 patients in hospital (including those in ICU) (with length of stay 28 days or less)",
+    "COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days" = "(iii) COVID-19 patients in ICU or combined ICU/HDU (with length of stay more than 28 days)"
+  )
 
 SC_table3 <- raw_SC_table3 %>%
   rename("Ambulance attendances - Total" = "Number of attendances",                                  
