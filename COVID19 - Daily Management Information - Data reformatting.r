@@ -210,6 +210,10 @@ colnames(raw_HB_table3b_archived) <- c("Date",
 
 raw_HB_table3  <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -17]
 
+# Test variable count -----------------------------------------------------
+
+source("scripts/quality-assurance/variables.R")
+
 # Fetch dates last modified for each dataset ------------------------------
 
 date_table_last_modified <- function(df) {
