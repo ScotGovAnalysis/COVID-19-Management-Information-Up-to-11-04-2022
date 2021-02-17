@@ -1,13 +1,12 @@
 # ----------------------------------------------------------------------- #
-# Title: SG Covid-19 Daily Update (Management Information)
-# Purpose: Reformatting Covid-19 daily update data to upload to 
-#   https://statistics.gov.scot and https://github.com/DataScienceScotland
+# SG Covid-19 Weekly Update (Management Information)
+# Reformats COVID-19 daily update data for simultaneous upload to
+#   https://statistics.gov.scot/ and https://github.com/DataScienceScotland/
 # Authors:
 # - Victoria Avila (victoria.avila@gov.scot)
 # - Miles Drake (miles.drake@gov.scot)
-# Open Data Info: statistics.opendata@gov.scot
-# Date created: 2020-04-17
-# Last updated: 2021-02-03
+# Open Data Platform:
+# - https://statistics.opendata@gov.scot/
 # ----------------------------------------------------------------------- #
 
 # Load required libraries -------------------------------------------------
