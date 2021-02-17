@@ -37,6 +37,7 @@ metadata[[2]]$date_last_modified$data_set <- metadata[[2]]$date_last_modified$ta
 
 sapply(1:length(metadata), function(i) {
   
+  count <- length(metadata)
   name <- names(metadata)[[i]]
   date_last_modified <- metadata[[i]]$date_last_modified$data_set
   date_now <- today$iso
@@ -46,7 +47,7 @@ sapply(1:length(metadata), function(i) {
     
     warning(
       str_c(
-        "Data set number ", i, " (", name, ") does not seem to be the most recent version.\n  ",
+        "Data set number ", i, " of ", count, " (", name, ") does not seem to be the most recent version.\n  ",
         "It was last updated on ", date_last_modified, " (", age, " days ago)."
       )
     )
