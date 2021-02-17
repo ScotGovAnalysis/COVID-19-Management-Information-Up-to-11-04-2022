@@ -210,48 +210,10 @@ colnames(raw_HB_table3b_archived) <- c("Date",
 
 raw_HB_table3  <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -17]
 
-# Test variable count -----------------------------------------------------
-
-source("scripts/quality-assurance/variables.R")
-
-# Fetch dates last modified for each dataset ------------------------------
-
-date_table_last_modified <- function(df) {
-  df[[1]] %>% max(na.rm = TRUE) %>% ymd() %>% 
-    return()
-}
-
-# Whole-of-Scotland data ------------------------------------------------ #
-
-metadata[[1]]$date_last_modified$tables$raw_SC_table1 <- date_table_last_modified(raw_SC_table1)
-metadata[[1]]$date_last_modified$tables$raw_SC_table2 <- date_table_last_modified(raw_SC_table2)
-metadata[[1]]$date_last_modified$tables$raw_SC_table3 <- date_table_last_modified(raw_SC_table3)
-metadata[[1]]$date_last_modified$tables$raw_SC_table4 <- date_table_last_modified(raw_SC_table4)
-metadata[[1]]$date_last_modified$tables$raw_SC_table5 <- date_table_last_modified(raw_SC_table5)
-metadata[[1]]$date_last_modified$tables$raw_SC_table6 <- date_table_last_modified(raw_SC_table6)
-metadata[[1]]$date_last_modified$tables$raw_SC_table7b <- date_table_last_modified(raw_SC_table7b)
-metadata[[1]]$date_last_modified$tables$raw_SC_table8 <- date_table_last_modified(raw_SC_table8)
-metadata[[1]]$date_last_modified$tables$raw_SC_table9a <- date_table_last_modified(raw_SC_table9a)
-metadata[[1]]$date_last_modified$tables$raw_SC_table9b <- date_table_last_modified(raw_SC_table9b)
-metadata[[1]]$date_last_modified$tables$raw_SC_table10a <- date_table_last_modified(raw_SC_table10a)
-metadata[[1]]$date_last_modified$tables$raw_SC_table10b <- date_table_last_modified(raw_SC_table10b)
-
-metadata[[1]]$date_last_modified$data_set <- metadata[[1]]$date_last_modified$tables %>% 
-  unlist() %>% max() %>% as.Date(origin = "1970-01-01") %>% ymd()
-
-# Health board data ----------------------------------------------------- #
-
-metadata[[2]]$date_last_modified$tables$raw_HB_table1 <- date_table_last_modified(raw_HB_table1)
-metadata[[2]]$date_last_modified$tables$raw_HB_table2 <- date_table_last_modified(raw_HB_table2)
-metadata[[2]]$date_last_modified$tables$raw_HB_table3 <- date_table_last_modified(raw_HB_table3)
-
-metadata[[2]]$date_last_modified$data_set <- metadata[[2]]$date_last_modified$tables %>% 
-  unlist() %>% max() %>% as.Date(origin = "1970-01-01") %>% ymd()
-
 # Quality assurance -------------------------------------------------------
-# Prompt the user if the data sets downloaded were not last updated today
 
 source("scripts/quality-assurance/date-last-modified.R")
+source("scripts/quality-assurance/variables.R")
 
 # Rename variables --------------------------------------------------------
 
