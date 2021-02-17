@@ -9,15 +9,12 @@ sapply(1:length(metadata), function(i) {
   
   if (age != 0) {
     
-    error_message <- str_c(
-      "Data set number ", i, " (", name, ") does not seem to be the most recent version.\n",
-      "It was last updated on ", date_last_modified, ".\n",
-      "Today is ", date_now, ".\n",
-      "This data set was last updated ", age, " days ago.\n",
-      "Press [Enter] in the console window to continue."
+    warning(
+      str_c(
+        "Data set number ", i, " (", name, ") does not seem to be the most recent version.\n  ",
+        "It was last updated on ", date_last_modified, " (", age, " days ago)."
+      )
     )
-    
-    readline(prompt = error_message) %>% invisible()
     
   }
   
