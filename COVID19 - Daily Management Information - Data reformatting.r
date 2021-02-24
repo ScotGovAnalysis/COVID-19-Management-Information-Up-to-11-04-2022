@@ -126,7 +126,61 @@ raw_SC_table9b  <- read_excel(tf1, "Table 9 - School education", skip = 98)[, 1:
 raw_SC_table10a <- read_excel(tf1, "Table 10a - Vaccinations", skip = 2)[, 1:3]
 # Table 10b: Daily COVID-19 vaccinations in Scotland by JCVI Priority Group
 # Number of people who have received the Covid vaccination by JCVI priority group
-raw_SC_table10b <- read_excel(tf1, "Table 10b - Vac by JCVI group", skip = 3)[, c(1, 2, 4, 6, 7, 9, 11, 12, 14, 15, 17)]
+raw_SC_table10b <- read_excel(tf1, "Table 10b - Vac by JCVI group", skip = 3)
+raw_SC_table10c <- read_excel(tf1, "Table 10c - Vac by age", skip = 3)
+raw_SC_table11  <- read_excel(tf1, "Table 11 - Vac supply", skip = 2)
+
+# Table 12 - Universities and Colleges
+raw_SC_table12x_n_max <- (interval(ymd("2021-01-15"), today$iso) / weeks()) + 1
+raw_SC_table12x_n_max <- as.integer(raw_SC_table12x_n_max)
+
+# Table 12a - University COVID data - Positive cases amongst students in Scotland
+raw_SC_table12a_1 <- read_excel(
+  path = tf1,
+  sheet = "Table 12 - Uni and College",
+  skip = 2,
+  n_max = 11
+)
+
+raw_SC_table12a_2 <- read_excel(
+  path = tf1,
+  sheet = "Table 12 - Uni and College",
+  col_names = names(raw_SC_table12a_1),
+  col_types = c("date", "numeric", "numeric", "numeric"),
+  na = "-",
+  skip = 15,
+  n_max = raw_SC_table12x_n_max
+)
+
+raw_SC_table12a <- bind_rows(
+  raw_SC_table12a_1,
+  raw_SC_table12a_2
+)
+
+# Table 12b - Colleges COVID data - Positive cases amongst students in Scotland
+raw_SC_table12b_1_skip <- length(raw_SC_table12a[[1]]) + (2 + 1 + 1 + 2)
+raw_SC_table12b_2_skip <- raw_SC_table12b_1_skip + (1 + 7 + 1)
+
+raw_SC_table12b_1 <- read_excel(
+  path = tf1,
+  sheet = "Table 12 - Uni and College",
+  skip = raw_SC_table12b_1_skip,
+  n_max = 7
+)
+
+raw_SC_table12b_2 <- read_excel(
+  path = tf1,
+  sheet = "Table 12 - Uni and College",
+  col_names = names(raw_SC_table12b_1),
+  col_types = c("date", "numeric", "numeric", "numeric"),
+  na = "-",
+  skip = raw_SC_table12b_2_skip
+)
+
+raw_SC_table12b <- bind_rows(
+  raw_SC_table12b_1,
+  raw_SC_table12b_2
+)
 
 # Health board data ----------------------------------------------------- #
 
@@ -364,6 +418,22 @@ SC_table10b <- SC_table10b %>% mutate(
   across(where(is.character), as.numeric)
 )
 
+SC_table12a <- raw_SC_table12a %>% 
+  rename(
+    "Date" = "Date",
+    "Universities - Students - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive this semester",
+    "Universities - Students - Positive tests reported - Weekly increase" = "New cases reported since last week",
+    "Universities - Students - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
+  )
+
+SC_table12b <- raw_SC_table12b %>% 
+  rename(
+    "Date" = "Date",
+    "Colleges - Students - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive",
+    "Colleges - Students - Positive tests reported - Weekly increase" = "New cases reported since last return",
+    "Colleges - Students - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
+  )
+
 # Health board data ----------------------------------------------------- #
 
 HB_table1 <- raw_HB_table1 %>%
@@ -516,6 +586,26 @@ tidy_SC_table10b <- SC_table10b %>%
     )
   )
 
+tidy_SC_table12a <- SC_table12a %>%
+  gather(
+    key = "Variable",
+    value = "Value",
+    -Date
+  ) %>%
+  mutate(
+    Measurement = "Count"
+  )
+
+tidy_SC_table12b <- SC_table12b %>%
+  gather(
+    key = "Variable",
+    value = "Value",
+    -Date
+  ) %>%
+  mutate(
+    Measurement = "Count"
+  )
+
 # Health board data ----------------------------------------------------- #
 
 tidy_HB_table1 <- HB_table1 %>%
@@ -550,20 +640,23 @@ tidy_HB_table3 <- HB_table3 %>%
 
 # Whole-of-Scotland data ------------------------------------------------ #
 
-SC_output_dataset <- bind_rows(tidy_SC_table1,
-                               tidy_SC_table2_archived,
-                               tidy_SC_table2,
-                               tidy_SC_table3,
-                               tidy_SC_table4,
-                               tidy_SC_table5,
-                               tidy_SC_table6,
-                               # tidy_SC_table7a,
-                               tidy_SC_table7b,
-                               tidy_SC_table8,
-                               tidy_SC_table9a,
-                               tidy_SC_table9b,
-                               tidy_SC_table10a,
-                               tidy_SC_table10b) %>%
+SC_output_dataset <- bind_rows(
+  tidy_SC_table1,
+  tidy_SC_table2_archived,
+  tidy_SC_table2,
+  tidy_SC_table3,
+  tidy_SC_table4,
+  tidy_SC_table5,
+  tidy_SC_table6,
+  # tidy_SC_table7a,
+  tidy_SC_table7b,
+  tidy_SC_table8,
+  tidy_SC_table9a,
+  tidy_SC_table9b,
+  tidy_SC_table10a,
+  tidy_SC_table12a,
+  tidy_SC_table12b,
+  ) %>%
   # Creating required variables
   mutate(GeographyCode = "S92000003",
          Value = as.character(Value),
@@ -627,7 +720,9 @@ write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Dea
 write.csv(SC_table9a,  "./COVID19 - Daily Management Information - Scotland - School education.csv", quote = FALSE, row.names = F)
 write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - School education (2021).csv", quote = FALSE, row.names = F)
 write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
-write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
+# write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
+write.csv(SC_table12a,  "./COVID19 - Daily Management Information - Scotland - Universities - Students.csv", quote = FALSE, row.names = F)
+write.csv(SC_table12b,  "./COVID19 - Daily Management Information - Scotland - Colleges - Students.csv", quote = FALSE, row.names = F)
 
 # Health board data ----------------------------------------------------- #
 
