@@ -421,17 +421,17 @@ SC_table10b <- SC_table10b %>% mutate(
 SC_table12a <- raw_SC_table12a %>% 
   rename(
     "Date" = "Date",
-    "Universities - Students - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive this semester",
-    "Universities - Students - Positive tests reported - Weekly increase" = "New cases reported since last week",
-    "Universities - Students - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
+    "Students - Universities - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive this semester",
+    "Students - Universities - Positive tests reported - Weekly increase" = "New cases reported since last week",
+    "Students - Universities - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
   )
 
 SC_table12b <- raw_SC_table12b %>% 
   rename(
     "Date" = "Date",
-    "Colleges - Students - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive",
-    "Colleges - Students - Positive tests reported - Weekly increase" = "New cases reported since last return",
-    "Colleges - Students - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
+    "Students - Colleges - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive",
+    "Students - Colleges - Positive tests reported - Weekly increase" = "New cases reported since last return",
+    "Students - Colleges - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
   )
 
 # Health board data ----------------------------------------------------- #
@@ -721,8 +721,8 @@ write.csv(SC_table9a,  "./COVID19 - Daily Management Information - Scotland - Sc
 write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - School education (2021).csv", quote = FALSE, row.names = F)
 write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
 # write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
-write.csv(SC_table12a,  "./COVID19 - Daily Management Information - Scotland - Universities - Students.csv", quote = FALSE, row.names = F)
-write.csv(SC_table12b,  "./COVID19 - Daily Management Information - Scotland - Colleges - Students.csv", quote = FALSE, row.names = F)
+write.csv(SC_table12a,  "./COVID19 - Daily Management Information - Scotland - Students - Universities.csv", quote = FALSE, row.names = F)
+write.csv(SC_table12b,  "./COVID19 - Daily Management Information - Scotland - Students - Colleges.csv", quote = FALSE, row.names = F)
 
 # Health board data ----------------------------------------------------- #
 
