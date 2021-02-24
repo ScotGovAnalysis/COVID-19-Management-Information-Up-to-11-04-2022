@@ -128,6 +128,7 @@ raw_SC_table10a <- read_excel(tf1, "Table 10a - Vaccinations", skip = 2)[, 1:3]
 # Number of people who have received the Covid vaccination by JCVI priority group
 raw_SC_table10b <- read_excel(tf1, "Table 10b - Vac by JCVI group", skip = 3)
 raw_SC_table10c <- read_excel(tf1, "Table 10c - Vac by age", skip = 3)
+# Table 11 - Vaccine supply
 raw_SC_table11  <- read_excel(tf1, "Table 11 - Vac supply", skip = 2)
 
 # Table 12 - Universities and Colleges
@@ -418,6 +419,13 @@ SC_table10b <- SC_table10b %>% mutate(
   across(where(is.character), as.numeric)
 )
 
+SC_table11 <- raw_SC_table11 %>% 
+  rename(
+    "Date" = "Date",
+    "Vaccine supply - Doses allocated - Cumulative total" = "Total number of doses allocated:",
+    "Vaccine supply - Doses delivered - Cumulative total" = "Total number of doses delivered"
+  )
+
 SC_table12a <- raw_SC_table12a %>% 
   rename(
     "Date" = "Date",
@@ -586,6 +594,16 @@ tidy_SC_table10b <- SC_table10b %>%
     )
   )
 
+tidy_SC_table11 <- SC_table11 %>%
+  gather(
+    key = "Variable",
+    value = "Value",
+    -Date
+  ) %>%
+  mutate(
+    Measurement = "Count"
+  )
+
 tidy_SC_table12a <- SC_table12a %>%
   gather(
     key = "Variable",
@@ -654,6 +672,7 @@ SC_output_dataset <- bind_rows(
   tidy_SC_table9a,
   tidy_SC_table9b,
   tidy_SC_table10a,
+  tidy_SC_table11,
   tidy_SC_table12a,
   tidy_SC_table12b,
   ) %>%
@@ -721,6 +740,7 @@ write.csv(SC_table9a,  "./COVID19 - Daily Management Information - Scotland - Sc
 write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - School education (2021).csv", quote = FALSE, row.names = F)
 write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
 # write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
+write.csv(SC_table11,  "./COVID19 - Daily Management Information - Scotland - Vaccine supply.csv", quote = FALSE, row.names = F)
 write.csv(SC_table12a,  "./COVID19 - Daily Management Information - Scotland - Students - Universities.csv", quote = FALSE, row.names = F)
 write.csv(SC_table12b,  "./COVID19 - Daily Management Information - Scotland - Students - Colleges.csv", quote = FALSE, row.names = F)
 

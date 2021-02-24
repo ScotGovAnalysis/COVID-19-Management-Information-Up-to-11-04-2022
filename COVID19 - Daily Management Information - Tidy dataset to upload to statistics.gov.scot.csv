@@ -9069,6 +9069,10 @@ S92000003,2021-02-21,Count,Vaccinations - Number of people who have received sec
 S92000003,2021-02-22,Count,Vaccinations - Number of people who have received second dose,37342,Vaccinations - Number of people who have received second dose
 S92000003,2021-02-23,Count,Vaccinations - Number of people who have received second dose,43203,Vaccinations - Number of people who have received second dose
 S92000003,2021-02-24,Count,Vaccinations - Number of people who have received second dose,50121,Vaccinations - Number of people who have received second dose
+S92000003,2021-02-15,Count,Vaccine supply - Doses allocated - Cumulative total,1618320,Vaccine supply - Doses allocated - Cumulative total
+S92000003,2021-02-22,Count,Vaccine supply - Doses allocated - Cumulative total,1763400,Vaccine supply - Doses allocated - Cumulative total
+S92000003,2021-02-15,Count,Vaccine supply - Doses delivered - Cumulative total,1520690,Vaccine supply - Doses delivered - Cumulative total
+S92000003,2021-02-22,Count,Vaccine supply - Doses delivered - Cumulative total,1643450,Vaccine supply - Doses delivered - Cumulative total
 S92000003,2020-10-16,Count,Students - Universities - Positive tests reported - Cumulative total,2300,Students - Universities - Positive tests reported - Cumulative total
 S92000003,2020-10-23,Count,Students - Universities - Positive tests reported - Cumulative total,2600,Students - Universities - Positive tests reported - Cumulative total
 S92000003,2020-10-30,Count,Students - Universities - Positive tests reported - Cumulative total,2900,Students - Universities - Positive tests reported - Cumulative total
