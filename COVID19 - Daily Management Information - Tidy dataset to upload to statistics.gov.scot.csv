@@ -1250,6 +1250,7 @@ S92000003,2021-02-21,Count,COVID-19 patients in ICU - Confirmed - Length of stay
 S92000003,2021-02-22,Count,COVID-19 patients in ICU - Confirmed - Length of stay 28 days or less,99,COVID-19 patients in ICU - Confirmed - Length of stay 28 days or less
 S92000003,2021-02-23,Count,COVID-19 patients in ICU - Confirmed - Length of stay 28 days or less,93,COVID-19 patients in ICU - Confirmed - Length of stay 28 days or less
 S92000003,2021-02-24,Count,COVID-19 patients in ICU - Confirmed - Length of stay 28 days or less,93,COVID-19 patients in ICU - Confirmed - Length of stay 28 days or less
+S92000003,2021-02-25,Count,COVID-19 patients in ICU - Confirmed - Length of stay 28 days or less,89,COVID-19 patients in ICU - Confirmed - Length of stay 28 days or less
 S92000003,2020-09-11,Count,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less,45,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less
 S92000003,2020-09-12,Count,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less,42,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less
 S92000003,2020-09-13,Count,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less,45,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less
@@ -1417,6 +1418,7 @@ S92000003,2021-02-21,Count,COVID-19 patients in hospital - Confirmed - Length of
 S92000003,2021-02-22,Count,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less,1141,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less
 S92000003,2021-02-23,Count,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less,1076,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less
 S92000003,2021-02-24,Count,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less,1018,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less
+S92000003,2021-02-25,Count,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less,967,COVID-19 patients in hospital - Confirmed - Length of stay 28 days or less
 S92000003,2021-01-20,Count,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days,12,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days
 S92000003,2021-01-21,Count,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days,11,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days
 S92000003,2021-01-22,Count,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days,11,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days
@@ -1453,6 +1455,7 @@ S92000003,2021-02-21,Count,COVID-19 patients in ICU - Confirmed - Length of stay
 S92000003,2021-02-22,Count,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days,32,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days
 S92000003,2021-02-23,Count,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days,32,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days
 S92000003,2021-02-24,Count,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days,31,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days
+S92000003,2021-02-25,Count,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days,30,COVID-19 patients in ICU - Confirmed - Length of stay more than 28 days
 S92000003,2020-03-18,Count,Ambulance attendances - Total,1538,Ambulance attendances - Total
 S92000003,2020-03-19,Count,Ambulance attendances - Total,1572,Ambulance attendances - Total
 S92000003,2020-03-20,Count,Ambulance attendances - Total,1593,Ambulance attendances - Total
@@ -1960,7 +1963,8 @@ S92000003,2021-01-20,Count,Delayed discharges,1100,Delayed discharges
 S92000003,2021-01-27,Count,Delayed discharges,1084,Delayed discharges
 S92000003,2021-02-03,Count,Delayed discharges,1097,Delayed discharges
 S92000003,2021-02-10,Count,Delayed discharges,1046,Delayed discharges
-S92000003,2021-02-17,Count,Delayed discharges,1091,Delayed discharges
+S92000003,2021-02-17,Count,Delayed discharges,1009,Delayed discharges
+S92000003,2021-02-24,Count,Delayed discharges,944,Delayed discharges
 S92000003,2020-03-02,Count,Testing - Cumulative people tested for COVID-19 - Negative,814,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-03,Count,Testing - Cumulative people tested for COVID-19 - Negative,914,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-04,Count,Testing - Cumulative people tested for COVID-19 - Negative,1043,Testing - Cumulative people tested for COVID-19 - Negative
@@ -2321,6 +2325,7 @@ S92000003,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Neg
 S92000003,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Negative,1462048,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Negative,1465046,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Negative,1469618,Testing - Cumulative people tested for COVID-19 - Negative
+S92000003,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Negative,1473438,Testing - Cumulative people tested for COVID-19 - Negative
 S92000003,2020-03-02,Count,Testing - Cumulative people tested for COVID-19 - Positive,1,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-03,Count,Testing - Cumulative people tested for COVID-19 - Positive,1,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-04,Count,Testing - Cumulative people tested for COVID-19 - Positive,3,Testing - Cumulative people tested for COVID-19 - Positive
@@ -2681,6 +2686,7 @@ S92000003,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S92000003,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,198184,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,198839,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,199637,Testing - Cumulative people tested for COVID-19 - Positive
+S92000003,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,200406,Testing - Cumulative people tested for COVID-19 - Positive
 S92000003,2020-03-02,Count,Testing - Cumulative people tested for COVID-19 - Total,815,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-03,Count,Testing - Cumulative people tested for COVID-19 - Total,915,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-04,Count,Testing - Cumulative people tested for COVID-19 - Total,1046,Testing - Cumulative people tested for COVID-19 - Total
@@ -3041,6 +3047,7 @@ S92000003,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Tot
 S92000003,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Total,1660232,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Total,1663885,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Total,1669255,Testing - Cumulative people tested for COVID-19 - Total
+S92000003,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Total,1673844,Testing - Cumulative people tested for COVID-19 - Total
 S92000003,2020-03-02,Count,Testing - New cases reported,1,Testing - New cases reported
 S92000003,2020-03-03,Count,Testing - New cases reported,0,Testing - New cases reported
 S92000003,2020-03-04,Count,Testing - New cases reported,2,Testing - New cases reported
@@ -3401,6 +3408,7 @@ S92000003,2021-02-21,Count,Testing - New cases reported,827,Testing - New cases 
 S92000003,2021-02-22,Count,Testing - New cases reported,715,Testing - New cases reported
 S92000003,2021-02-23,Count,Testing - New cases reported,655,Testing - New cases reported
 S92000003,2021-02-24,Count,Testing - New cases reported,798,Testing - New cases reported
+S92000003,2021-02-25,Count,Testing - New cases reported,769,Testing - New cases reported
 S92000003,2020-03-03,Ratio,Testing - New cases as percentage of people newly tested,0,Testing - New cases as percentage of people newly tested
 S92000003,2020-03-04,Ratio,Testing - New cases as percentage of people newly tested,0.0152671755725191,Testing - New cases as percentage of people newly tested
 S92000003,2020-03-05,Ratio,Testing - New cases as percentage of people newly tested,0.0142857142857143,Testing - New cases as percentage of people newly tested
@@ -3760,6 +3768,7 @@ S92000003,2021-02-21,Ratio,Testing - New cases as percentage of people newly tes
 S92000003,2021-02-22,Ratio,Testing - New cases as percentage of people newly tested,0.173417414504002,Testing - New cases as percentage of people newly tested
 S92000003,2021-02-23,Ratio,Testing - New cases as percentage of people newly tested,0.179304681084041,Testing - New cases as percentage of people newly tested
 S92000003,2021-02-24,Ratio,Testing - New cases as percentage of people newly tested,0.148603351955307,Testing - New cases as percentage of people newly tested
+S92000003,2021-02-25,Ratio,Testing - New cases as percentage of people newly tested,0.167574634996731,Testing - New cases as percentage of people newly tested
 S92000003,2020-04-01,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily,1710,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily
 S92000003,2020-04-02,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily,1118,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily
 S92000003,2020-04-03,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily,1526,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily
@@ -4090,6 +4099,7 @@ S92000003,2021-02-21,Count,Testing - Total number of COVID-19 tests reported by 
 S92000003,2021-02-22,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily,4725,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily
 S92000003,2021-02-23,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily,11153,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily
 S92000003,2021-02-24,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily,14854,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily
+S92000003,2021-02-25,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily,16886,Testing - Total number of COVID-19 tests reported by NHS Labs - Daily
 S92000003,2020-04-01,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative,23324,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative
 S92000003,2020-04-02,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative,24442,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative
 S92000003,2020-04-03,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative,25968,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative
@@ -4420,6 +4430,7 @@ S92000003,2021-02-21,Count,Testing - Total number of COVID-19 tests reported by 
 S92000003,2021-02-22,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative,1804618,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative
 S92000003,2021-02-23,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative,1815771,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative
 S92000003,2021-02-24,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative,1830625,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative
+S92000003,2021-02-25,Count,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative,1847511,Testing - Total number of COVID-19 tests reported by NHS Labs - Cumulative
 S92000003,2020-04-06,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily,42,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily
 S92000003,2020-04-07,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily,124,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily
 S92000003,2020-04-08,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily,154,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily
@@ -4745,6 +4756,7 @@ S92000003,2021-02-21,Count,Testing - Total number of COVID-19 tests reported by 
 S92000003,2021-02-22,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily,7634,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily
 S92000003,2021-02-23,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily,4878,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily
 S92000003,2021-02-24,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily,8665,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily
+S92000003,2021-02-25,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily,7703,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Daily
 S92000003,2020-04-06,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative,42,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative
 S92000003,2020-04-07,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative,166,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative
 S92000003,2020-04-08,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative,320,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative
@@ -5070,6 +5082,7 @@ S92000003,2021-02-21,Count,Testing - Total number of COVID-19 tests reported by 
 S92000003,2021-02-22,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative,2635792,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative
 S92000003,2021-02-23,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative,2640670,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative
 S92000003,2021-02-24,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative,2649335,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative
+S92000003,2021-02-25,Count,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative,2657038,Testing - Total number of COVID-19 tests reported by UK Gov testing programme - Cumulative
 S92000003,2020-04-01,Count,Testing - Total daily tests reported,1710,Testing - Total daily tests reported
 S92000003,2020-04-02,Count,Testing - Total daily tests reported,1118,Testing - Total daily tests reported
 S92000003,2020-04-03,Count,Testing - Total daily tests reported,1526,Testing - Total daily tests reported
@@ -5400,6 +5413,7 @@ S92000003,2021-02-21,Count,Testing - Total daily tests reported,17955,Testing - 
 S92000003,2021-02-22,Count,Testing - Total daily tests reported,12359,Testing - Total daily tests reported
 S92000003,2021-02-23,Count,Testing - Total daily tests reported,16031,Testing - Total daily tests reported
 S92000003,2021-02-24,Count,Testing - Total daily tests reported,23519,Testing - Total daily tests reported
+S92000003,2021-02-25,Count,Testing - Total daily tests reported,24589,Testing - Total daily tests reported
 S92000003,2020-08-18,Count,Testing - Total daily number of positive tests reported,54,Testing - Total daily number of positive tests reported
 S92000003,2020-08-19,Count,Testing - Total daily number of positive tests reported,57,Testing - Total daily number of positive tests reported
 S92000003,2020-08-20,Count,Testing - Total daily number of positive tests reported,84,Testing - Total daily number of positive tests reported
@@ -5591,6 +5605,7 @@ S92000003,2021-02-21,Count,Testing - Total daily number of positive tests report
 S92000003,2021-02-22,Count,Testing - Total daily number of positive tests reported,818,Testing - Total daily number of positive tests reported
 S92000003,2021-02-23,Count,Testing - Total daily number of positive tests reported,777,Testing - Total daily number of positive tests reported
 S92000003,2021-02-24,Count,Testing - Total daily number of positive tests reported,929,Testing - Total daily number of positive tests reported
+S92000003,2021-02-25,Count,Testing - Total daily number of positive tests reported,901,Testing - Total daily number of positive tests reported
 S92000003,2020-08-18,Ratio,Testing - Test positivity (percent of tests that are positive),0.467572950038964,Testing - Test positivity (percent of tests that are positive)
 S92000003,2020-08-19,Ratio,Testing - Test positivity (percent of tests that are positive),0.536824260689395,Testing - Test positivity (percent of tests that are positive)
 S92000003,2020-08-20,Ratio,Testing - Test positivity (percent of tests that are positive),0.497012011123602,Testing - Test positivity (percent of tests that are positive)
@@ -5782,6 +5797,7 @@ S92000003,2021-02-21,Ratio,Testing - Test positivity (percent of tests that are 
 S92000003,2021-02-22,Ratio,Testing - Test positivity (percent of tests that are positive),6.61865846751355,Testing - Test positivity (percent of tests that are positive)
 S92000003,2021-02-23,Ratio,Testing - Test positivity (percent of tests that are positive),4.84685921028008,Testing - Test positivity (percent of tests that are positive)
 S92000003,2021-02-24,Ratio,Testing - Test positivity (percent of tests that are positive),3.94999787405927,Testing - Test positivity (percent of tests that are positive)
+S92000003,2021-02-25,Ratio,Testing - Test positivity (percent of tests that are positive),3.66424010736508,Testing - Test positivity (percent of tests that are positive)
 S92000003,2020-04-01,Count,Testing - People with first test results in last 7 days,6331,Testing - People with first test results in last 7 days
 S92000003,2020-04-02,Count,Testing - People with first test results in last 7 days,6641,Testing - People with first test results in last 7 days
 S92000003,2020-04-03,Count,Testing - People with first test results in last 7 days,7262,Testing - People with first test results in last 7 days
@@ -6112,6 +6128,7 @@ S92000003,2021-02-21,Count,Testing - People with first test results in last 7 da
 S92000003,2021-02-22,Count,Testing - People with first test results in last 7 days,30962,Testing - People with first test results in last 7 days
 S92000003,2021-02-23,Count,Testing - People with first test results in last 7 days,30945,Testing - People with first test results in last 7 days
 S92000003,2021-02-24,Count,Testing - People with first test results in last 7 days,30962,Testing - People with first test results in last 7 days
+S92000003,2021-02-25,Count,Testing - People with first test results in last 7 days,31984,Testing - People with first test results in last 7 days
 S92000003,2020-04-01,Count,Testing - Positive cases reported in last 7 days,1591,Testing - Positive cases reported in last 7 days
 S92000003,2020-04-02,Count,Testing - Positive cases reported in last 7 days,1708,Testing - Positive cases reported in last 7 days
 S92000003,2020-04-03,Count,Testing - Positive cases reported in last 7 days,1942,Testing - Positive cases reported in last 7 days
@@ -6442,6 +6459,7 @@ S92000003,2021-02-21,Count,Testing - Positive cases reported in last 7 days,5653
 S92000003,2021-02-22,Count,Testing - Positive cases reported in last 7 days,5809,Testing - Positive cases reported in last 7 days
 S92000003,2021-02-23,Count,Testing - Positive cases reported in last 7 days,5691,Testing - Positive cases reported in last 7 days
 S92000003,2021-02-24,Count,Testing - Positive cases reported in last 7 days,5368,Testing - Positive cases reported in last 7 days
+S92000003,2021-02-25,Count,Testing - Positive cases reported in last 7 days,5452,Testing - Positive cases reported in last 7 days
 S92000003,2020-04-07,Count,Testing - Tests reported in last 7 days,11163,Testing - Tests reported in last 7 days
 S92000003,2020-04-08,Count,Testing - Tests reported in last 7 days,11162,Testing - Tests reported in last 7 days
 S92000003,2020-04-09,Count,Testing - Tests reported in last 7 days,11818,Testing - Tests reported in last 7 days
@@ -6766,6 +6784,7 @@ S92000003,2021-02-21,Count,Testing - Tests reported in last 7 days,131202,Testin
 S92000003,2021-02-22,Count,Testing - Tests reported in last 7 days,133618,Testing - Tests reported in last 7 days
 S92000003,2021-02-23,Count,Testing - Tests reported in last 7 days,135081,Testing - Tests reported in last 7 days
 S92000003,2021-02-24,Count,Testing - Tests reported in last 7 days,134257,Testing - Tests reported in last 7 days
+S92000003,2021-02-25,Count,Testing - Tests reported in last 7 days,137566,Testing - Tests reported in last 7 days
 S92000003,2020-08-24,Count,Testing - Positive tests reported in last 7 days,575,Testing - Positive tests reported in last 7 days
 S92000003,2020-08-25,Count,Testing - Positive tests reported in last 7 days,573,Testing - Positive tests reported in last 7 days
 S92000003,2020-08-26,Count,Testing - Positive tests reported in last 7 days,594,Testing - Positive tests reported in last 7 days
@@ -6951,6 +6970,7 @@ S92000003,2021-02-21,Count,Testing - Positive tests reported in last 7 days,6569
 S92000003,2021-02-22,Count,Testing - Positive tests reported in last 7 days,6692,Testing - Positive tests reported in last 7 days
 S92000003,2021-02-23,Count,Testing - Positive tests reported in last 7 days,6589,Testing - Positive tests reported in last 7 days
 S92000003,2021-02-24,Count,Testing - Positive tests reported in last 7 days,6264,Testing - Positive tests reported in last 7 days
+S92000003,2021-02-25,Count,Testing - Positive tests reported in last 7 days,6349,Testing - Positive tests reported in last 7 days
 S92000003,2020-08-24,Ratio,Testing - Test positivity rate in last 7 days,0.570917936752222,Testing - Test positivity rate in last 7 days
 S92000003,2020-08-25,Ratio,Testing - Test positivity rate in last 7 days,0.540183832194202,Testing - Test positivity rate in last 7 days
 S92000003,2020-08-26,Ratio,Testing - Test positivity rate in last 7 days,0.505114926401184,Testing - Test positivity rate in last 7 days
@@ -7136,6 +7156,7 @@ S92000003,2021-02-21,Ratio,Testing - Test positivity rate in last 7 days,5.00678
 S92000003,2021-02-22,Ratio,Testing - Test positivity rate in last 7 days,5.00830726399138,Testing - Test positivity rate in last 7 days
 S92000003,2021-02-23,Ratio,Testing - Test positivity rate in last 7 days,4.87781405230935,Testing - Test positivity rate in last 7 days
 S92000003,2021-02-24,Ratio,Testing - Test positivity rate in last 7 days,4.66567851210738,Testing - Test positivity rate in last 7 days
+S92000003,2021-02-25,Ratio,Testing - Test positivity rate in last 7 days,4.61523923062385,Testing - Test positivity rate in last 7 days
 S92000003,2020-04-07,Ratio,Testing - Tests in last 7 days per 1000 population,2.04327055076602,Testing - Tests in last 7 days per 1000 population
 S92000003,2020-04-08,Ratio,Testing - Tests in last 7 days per 1000 population,2.04308751121117,Testing - Tests in last 7 days per 1000 population
 S92000003,2020-04-09,Ratio,Testing - Tests in last 7 days per 1000 population,2.16316145919133,Testing - Tests in last 7 days per 1000 population
@@ -7460,6 +7481,7 @@ S92000003,2021-02-21,Ratio,Testing - Tests in last 7 days per 1000 population,24
 S92000003,2021-02-22,Ratio,Testing - Tests in last 7 days per 1000 population,24.4573792396537,Testing - Tests in last 7 days per 1000 population
 S92000003,2021-02-23,Ratio,Testing - Tests in last 7 days per 1000 population,24.725166108396,Testing - Tests in last 7 days per 1000 population
 S92000003,2021-02-24,Ratio,Testing - Tests in last 7 days per 1000 population,24.5743415152014,Testing - Tests in last 7 days per 1000 population
+S92000003,2021-02-25,Ratio,Testing - Tests in last 7 days per 1000 population,25.1800194021928,Testing - Tests in last 7 days per 1000 population
 S92000003,2020-04-01,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4354,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-02,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4378,NHS workforce COVID-19 absences - Nursing and midwifery staff
 S92000003,2020-04-03,Count,NHS workforce COVID-19 absences - Nursing and midwifery staff,4403,NHS workforce COVID-19 absences - Nursing and midwifery staff
@@ -7951,6 +7973,7 @@ S92000003,2021-01-26,Count,Adult care homes - Number of staff reported as absent
 S92000003,2021-02-02,Count,Adult care homes - Number of staff reported as absent,1175,Adult care homes - Number of staff reported as absent
 S92000003,2021-02-09,Count,Adult care homes - Number of staff reported as absent,1031,Adult care homes - Number of staff reported as absent
 S92000003,2021-02-16,Count,Adult care homes - Number of staff reported as absent,997,Adult care homes - Number of staff reported as absent
+S92000003,2021-02-23,Count,Adult care homes - Number of staff reported as absent,1040,Adult care homes - Number of staff reported as absent
 S92000003,2020-04-21,Count,Adult care homes - Adult care homes which submitted a return,708,Adult care homes - Adult care homes which submitted a return
 S92000003,2020-04-28,Count,Adult care homes - Adult care homes which submitted a return,862,Adult care homes - Adult care homes which submitted a return
 S92000003,2020-05-05,Count,Adult care homes - Adult care homes which submitted a return,822,Adult care homes - Adult care homes which submitted a return
@@ -7994,6 +8017,7 @@ S92000003,2021-01-26,Count,Adult care homes - Adult care homes which submitted a
 S92000003,2021-02-02,Count,Adult care homes - Adult care homes which submitted a return,717,Adult care homes - Adult care homes which submitted a return
 S92000003,2021-02-09,Count,Adult care homes - Adult care homes which submitted a return,711,Adult care homes - Adult care homes which submitted a return
 S92000003,2021-02-16,Count,Adult care homes - Adult care homes which submitted a return,724,Adult care homes - Adult care homes which submitted a return
+S92000003,2021-02-23,Count,Adult care homes - Adult care homes which submitted a return,746,Adult care homes - Adult care homes which submitted a return
 S92000003,2020-04-21,Ratio,Adult care homes - Response rate,65,Adult care homes - Response rate
 S92000003,2020-04-28,Ratio,Adult care homes - Response rate,79,Adult care homes - Response rate
 S92000003,2020-05-05,Ratio,Adult care homes - Response rate,76,Adult care homes - Response rate
@@ -8037,6 +8061,7 @@ S92000003,2021-01-26,Ratio,Adult care homes - Response rate,68,Adult care homes 
 S92000003,2021-02-02,Ratio,Adult care homes - Response rate,67,Adult care homes - Response rate
 S92000003,2021-02-09,Ratio,Adult care homes - Response rate,66,Adult care homes - Response rate
 S92000003,2021-02-16,Ratio,Adult care homes - Response rate,67,Adult care homes - Response rate
+S92000003,2021-02-23,Ratio,Adult care homes - Response rate,69,Adult care homes - Response rate
 S92000003,2020-04-21,Count,Adult care homes - Total number of staff in adult care homes which submitted a return,37213,Adult care homes - Total number of staff in adult care homes which submitted a return
 S92000003,2020-04-28,Count,Adult care homes - Total number of staff in adult care homes which submitted a return,45068,Adult care homes - Total number of staff in adult care homes which submitted a return
 S92000003,2020-05-05,Count,Adult care homes - Total number of staff in adult care homes which submitted a return,43403,Adult care homes - Total number of staff in adult care homes which submitted a return
@@ -8080,6 +8105,7 @@ S92000003,2021-01-26,Count,Adult care homes - Total number of staff in adult car
 S92000003,2021-02-02,Count,Adult care homes - Total number of staff in adult care homes which submitted a return,37506,Adult care homes - Total number of staff in adult care homes which submitted a return
 S92000003,2021-02-09,Count,Adult care homes - Total number of staff in adult care homes which submitted a return,35981,Adult care homes - Total number of staff in adult care homes which submitted a return
 S92000003,2021-02-16,Count,Adult care homes - Total number of staff in adult care homes which submitted a return,37831,Adult care homes - Total number of staff in adult care homes which submitted a return
+S92000003,2021-02-23,Count,Adult care homes - Total number of staff in adult care homes which submitted a return,37452,Adult care homes - Total number of staff in adult care homes which submitted a return
 S92000003,2020-04-21,Ratio,Adult care homes - Staff absence rate,10.0287533926316,Adult care homes - Staff absence rate
 S92000003,2020-04-28,Ratio,Adult care homes - Staff absence rate,9.23715274696015,Adult care homes - Staff absence rate
 S92000003,2020-05-05,Ratio,Adult care homes - Staff absence rate,8.46024468354722,Adult care homes - Staff absence rate
@@ -8123,6 +8149,7 @@ S92000003,2021-01-26,Ratio,Adult care homes - Staff absence rate,3.7,Adult care 
 S92000003,2021-02-02,Ratio,Adult care homes - Staff absence rate,3.1,Adult care homes - Staff absence rate
 S92000003,2021-02-09,Ratio,Adult care homes - Staff absence rate,2.9,Adult care homes - Staff absence rate
 S92000003,2021-02-16,Ratio,Adult care homes - Staff absence rate,2.6,Adult care homes - Staff absence rate
+S92000003,2021-02-23,Ratio,Adult care homes - Staff absence rate,2.8,Adult care homes - Staff absence rate
 S92000003,2020-03-14,Count,Number of COVID-19 confirmed deaths registered to date,1,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-03-15,Count,Number of COVID-19 confirmed deaths registered to date,1,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-03-16,Count,Number of COVID-19 confirmed deaths registered to date,1,Number of COVID-19 confirmed deaths registered to date
@@ -8471,6 +8498,7 @@ S92000003,2021-02-21,Count,Number of COVID-19 confirmed deaths registered to dat
 S92000003,2021-02-22,Count,Number of COVID-19 confirmed deaths registered to date,6950,Number of COVID-19 confirmed deaths registered to date
 S92000003,2021-02-23,Count,Number of COVID-19 confirmed deaths registered to date,7006,Number of COVID-19 confirmed deaths registered to date
 S92000003,2021-02-24,Count,Number of COVID-19 confirmed deaths registered to date,7053,Number of COVID-19 confirmed deaths registered to date
+S92000003,2021-02-25,Count,Number of COVID-19 confirmed deaths registered to date,7084,Number of COVID-19 confirmed deaths registered to date
 S92000003,2020-08-17,Count,School education - Number of pupils absent due to COVID-19 related reasons,6691,School education - Number of pupils absent due to COVID-19 related reasons
 S92000003,2020-08-18,Count,School education - Number of pupils absent due to COVID-19 related reasons,7628,School education - Number of pupils absent due to COVID-19 related reasons
 S92000003,2020-08-19,Count,School education - Number of pupils absent due to COVID-19 related reasons,8328,School education - Number of pupils absent due to COVID-19 related reasons
@@ -8872,11 +8900,12 @@ S92000003,2021-02-10,Ratio,School education - Percentage attendance,6.4885308,Sc
 S92000003,2021-02-11,Ratio,School education - Percentage attendance,6.40618448,School education - Percentage attendance
 S92000003,2021-02-12,Ratio,School education - Percentage attendance,6.37358586,School education - Percentage attendance
 S92000003,2021-02-15,Ratio,School education - Percentage attendance,7.40863523,School education - Percentage attendance
-S92000003,2021-02-16,Ratio,School education - Percentage attendance,8.07198189,School education - Percentage attendance
+S92000003,2021-02-16,Ratio,School education - Percentage attendance,8.05111202,School education - Percentage attendance
 S92000003,2021-02-17,Ratio,School education - Percentage attendance,8.36561418,School education - Percentage attendance
 S92000003,2021-02-18,Ratio,School education - Percentage attendance,7.98891665,School education - Percentage attendance
 S92000003,2021-02-19,Ratio,School education - Percentage attendance,7.57329193,School education - Percentage attendance
 S92000003,2021-02-22,Ratio,School education - Percentage attendance,30.54456723,School education - Percentage attendance
+S92000003,2021-02-23,Ratio,School education - Percentage attendance,30.63644904,School education - Percentage attendance
 S92000003,2021-01-06,Ratio,School education - Percentage attendance - Primary,7.42097848069625,School education - Percentage attendance - Primary
 S92000003,2021-01-07,Ratio,School education - Percentage attendance - Primary,6.20802741517968,School education - Percentage attendance - Primary
 S92000003,2021-01-08,Ratio,School education - Percentage attendance - Primary,5.7900924043553,School education - Percentage attendance - Primary
@@ -8906,11 +8935,12 @@ S92000003,2021-02-10,Ratio,School education - Percentage attendance - Primary,8.
 S92000003,2021-02-11,Ratio,School education - Percentage attendance - Primary,8.94135372,School education - Percentage attendance - Primary
 S92000003,2021-02-12,Ratio,School education - Percentage attendance - Primary,8.82495958,School education - Percentage attendance - Primary
 S92000003,2021-02-15,Ratio,School education - Percentage attendance - Primary,10.4185764,School education - Percentage attendance - Primary
-S92000003,2021-02-16,Ratio,School education - Percentage attendance - Primary,11.33415676,School education - Percentage attendance - Primary
+S92000003,2021-02-16,Ratio,School education - Percentage attendance - Primary,11.29251647,School education - Percentage attendance - Primary
 S92000003,2021-02-17,Ratio,School education - Percentage attendance - Primary,12.03588838,School education - Percentage attendance - Primary
 S92000003,2021-02-18,Ratio,School education - Percentage attendance - Primary,11.00985686,School education - Percentage attendance - Primary
 S92000003,2021-02-19,Ratio,School education - Percentage attendance - Primary,11.04623776,School education - Percentage attendance - Primary
 S92000003,2021-02-22,Ratio,School education - Percentage attendance - Primary,46.82621153,School education - Percentage attendance - Primary
+S92000003,2021-02-23,Ratio,School education - Percentage attendance - Primary,47.32004514,School education - Percentage attendance - Primary
 S92000003,2021-01-06,Ratio,School education - Percentage attendance - Secondary,1.30923718801872,School education - Percentage attendance - Secondary
 S92000003,2021-01-07,Ratio,School education - Percentage attendance - Secondary,0.980802113133805,School education - Percentage attendance - Secondary
 S92000003,2021-01-08,Ratio,School education - Percentage attendance - Secondary,0.839292673863194,School education - Percentage attendance - Secondary
@@ -8940,11 +8970,12 @@ S92000003,2021-02-10,Ratio,School education - Percentage attendance - Secondary,
 S92000003,2021-02-11,Ratio,School education - Percentage attendance - Secondary,2.63658425,School education - Percentage attendance - Secondary
 S92000003,2021-02-12,Ratio,School education - Percentage attendance - Secondary,2.62360623,School education - Percentage attendance - Secondary
 S92000003,2021-02-15,Ratio,School education - Percentage attendance - Secondary,3.07411238,School education - Percentage attendance - Secondary
-S92000003,2021-02-16,Ratio,School education - Percentage attendance - Secondary,3.30152356,School education - Percentage attendance - Secondary
+S92000003,2021-02-16,Ratio,School education - Percentage attendance - Secondary,3.40428942,School education - Percentage attendance - Secondary
 S92000003,2021-02-17,Ratio,School education - Percentage attendance - Secondary,3.07465037,School education - Percentage attendance - Secondary
 S92000003,2021-02-18,Ratio,School education - Percentage attendance - Secondary,3.5104122,School education - Percentage attendance - Secondary
 S92000003,2021-02-19,Ratio,School education - Percentage attendance - Secondary,2.59321505,School education - Percentage attendance - Secondary
 S92000003,2021-02-22,Ratio,School education - Percentage attendance - Secondary,8.11496444,School education - Percentage attendance - Secondary
+S92000003,2021-02-23,Ratio,School education - Percentage attendance - Secondary,8.37004866,School education - Percentage attendance - Secondary
 S92000003,2021-01-06,Ratio,School education - Percentage attendance - Special,19.9501246882793,School education - Percentage attendance - Special
 S92000003,2021-01-07,Ratio,School education - Percentage attendance - Special,15.3908399417381,School education - Percentage attendance - Special
 S92000003,2021-01-08,Ratio,School education - Percentage attendance - Special,16.7672833495618,School education - Percentage attendance - Special
@@ -8974,11 +9005,12 @@ S92000003,2021-02-10,Ratio,School education - Percentage attendance - Special,15
 S92000003,2021-02-11,Ratio,School education - Percentage attendance - Special,16.06346942,School education - Percentage attendance - Special
 S92000003,2021-02-12,Ratio,School education - Percentage attendance - Special,15.80125336,School education - Percentage attendance - Special
 S92000003,2021-02-15,Ratio,School education - Percentage attendance - Special,18.73727088,School education - Percentage attendance - Special
-S92000003,2021-02-16,Ratio,School education - Percentage attendance - Special,21.81048174,School education - Percentage attendance - Special
+S92000003,2021-02-16,Ratio,School education - Percentage attendance - Special,20.32235459,School education - Percentage attendance - Special
 S92000003,2021-02-17,Ratio,School education - Percentage attendance - Special,19.38291139,School education - Percentage attendance - Special
 S92000003,2021-02-18,Ratio,School education - Percentage attendance - Special,22.11369408,School education - Percentage attendance - Special
 S92000003,2021-02-19,Ratio,School education - Percentage attendance - Special,16.11835702,School education - Percentage attendance - Special
 S92000003,2021-02-22,Ratio,School education - Percentage attendance - Special,38.75399962,School education - Percentage attendance - Special
+S92000003,2021-02-23,Ratio,School education - Percentage attendance - Special,38.65736704,School education - Percentage attendance - Special
 S92000003,2021-01-11,Count,Vaccinations - Number of people who have received first dose,163377,Vaccinations - Number of people who have received first dose
 S92000003,2021-01-12,Count,Vaccinations - Number of people who have received first dose,175942,Vaccinations - Number of people who have received first dose
 S92000003,2021-01-13,Count,Vaccinations - Number of people who have received first dose,191965,Vaccinations - Number of people who have received first dose
@@ -9024,6 +9056,7 @@ S92000003,2021-02-21,Count,Vaccinations - Number of people who have received fir
 S92000003,2021-02-22,Count,Vaccinations - Number of people who have received first dose,1445488,Vaccinations - Number of people who have received first dose
 S92000003,2021-02-23,Count,Vaccinations - Number of people who have received first dose,1465241,Vaccinations - Number of people who have received first dose
 S92000003,2021-02-24,Count,Vaccinations - Number of people who have received first dose,1488077,Vaccinations - Number of people who have received first dose
+S92000003,2021-02-25,Count,Vaccinations - Number of people who have received first dose,1515980,Vaccinations - Number of people who have received first dose
 S92000003,2021-01-11,Count,Vaccinations - Number of people who have received second dose,2758,Vaccinations - Number of people who have received second dose
 S92000003,2021-01-12,Count,Vaccinations - Number of people who have received second dose,2857,Vaccinations - Number of people who have received second dose
 S92000003,2021-01-13,Count,Vaccinations - Number of people who have received second dose,2990,Vaccinations - Number of people who have received second dose
@@ -9069,6 +9102,7 @@ S92000003,2021-02-21,Count,Vaccinations - Number of people who have received sec
 S92000003,2021-02-22,Count,Vaccinations - Number of people who have received second dose,37342,Vaccinations - Number of people who have received second dose
 S92000003,2021-02-23,Count,Vaccinations - Number of people who have received second dose,43203,Vaccinations - Number of people who have received second dose
 S92000003,2021-02-24,Count,Vaccinations - Number of people who have received second dose,50121,Vaccinations - Number of people who have received second dose
+S92000003,2021-02-25,Count,Vaccinations - Number of people who have received second dose,56661,Vaccinations - Number of people who have received second dose
 S92000003,2021-01-25,Count,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated,28371,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated
 S92000003,2021-01-26,Count,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated,28409,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated
 S92000003,2021-01-27,Count,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated,28558,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated
@@ -9098,6 +9132,7 @@ S92000003,2021-02-21,Count,Vaccinations - By JCVI priority group - Care home res
 S92000003,2021-02-22,Count,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated,30941,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated
 S92000003,2021-02-23,Count,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated,31035,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated
 S92000003,2021-02-24,Count,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated,31116,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated
+S92000003,2021-02-25,Count,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated,31218,Vaccinations - By JCVI priority group - Care home residents - Number vaccinated
 S92000003,2021-01-25,Ratio,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated,94.57,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-26,Ratio,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated,94.6966666666667,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-27,Ratio,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated,95.1933333333333,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated
@@ -9127,6 +9162,7 @@ S92000003,2021-02-21,Ratio,Vaccinations - By JCVI priority group - Care home res
 S92000003,2021-02-22,Ratio,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated,103.136666666667,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated
 S92000003,2021-02-23,Ratio,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated,103.45,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated
 S92000003,2021-02-24,Ratio,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated,103.72,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated
+S92000003,2021-02-25,Ratio,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated,104.06,Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-25,Ratio,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated,88.659375,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-26,Ratio,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated,88.778125,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-27,Ratio,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated,89.24375,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated
@@ -9156,6 +9192,7 @@ S92000003,2021-02-21,Ratio,Vaccinations - By JCVI priority group - Care home res
 S92000003,2021-02-22,Ratio,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated,96.690625,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated
 S92000003,2021-02-23,Ratio,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated,96.984375,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated
 S92000003,2021-02-24,Ratio,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated,97.2375,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated
+S92000003,2021-02-25,Ratio,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated,97.55625,Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-25,Count,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated,36108,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated
 S92000003,2021-01-26,Count,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated,37394,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated
 S92000003,2021-01-27,Count,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated,37792,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated
@@ -9185,6 +9222,7 @@ S92000003,2021-02-21,Count,Vaccinations - By JCVI priority group - Care home sta
 S92000003,2021-02-22,Count,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated,42461,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated
 S92000003,2021-02-23,Count,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated,42726,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated
 S92000003,2021-02-24,Count,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated,43002,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated
+S92000003,2021-02-25,Count,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated,43332,Vaccinations - By JCVI priority group - Care home staff - Number vaccinated
 S92000003,2021-01-25,Ratio,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated,80.24,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-26,Ratio,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated,83.0977777777778,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-27,Ratio,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated,83.9822222222222,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated
@@ -9214,6 +9252,7 @@ S92000003,2021-02-21,Ratio,Vaccinations - By JCVI priority group - Care home sta
 S92000003,2021-02-22,Ratio,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated,94.3577777777778,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated
 S92000003,2021-02-23,Ratio,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated,94.9466666666667,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated
 S92000003,2021-02-24,Ratio,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated,95.56,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated
+S92000003,2021-02-25,Ratio,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated,96.2933333333333,Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-25,Ratio,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated,69.4384615384615,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-26,Ratio,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated,71.9115384615385,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated
 S92000003,2021-01-27,Ratio,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated,72.6769230769231,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated
@@ -9243,46 +9282,47 @@ S92000003,2021-02-21,Ratio,Vaccinations - By JCVI priority group - Care home sta
 S92000003,2021-02-22,Ratio,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated,81.6557692307692,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated
 S92000003,2021-02-23,Ratio,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated,82.1653846153846,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated
 S92000003,2021-02-24,Ratio,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated,82.6961538461538,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated
-S92000003,2021-01-25,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,115882,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-01-26,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,127658,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-01-27,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,140885,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-01-28,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,157907,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-01-29,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,170024,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-01,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,199261,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-02,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,208447,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-03,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,216815,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-04,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,223817,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-05,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,229219,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-06,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,231972,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-07,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,235089,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-08,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,236763,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-09,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,239095,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-10,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,240273,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-11,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,242518,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-12,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,244374,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-13,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,245981,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-14,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,246455,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-02-15,Count,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated,246991,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Number vaccinated
-S92000003,2021-01-25,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,46.3528,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-01-26,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,51.0632,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-01-27,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,56.354,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-01-28,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,63.1628,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-01-29,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,68.0096,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-01,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,79.7044,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-02,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,83.3788,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-03,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,86.726,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-04,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,89.5268,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-05,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,91.6876,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-06,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,92.7888,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-07,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,94.0356,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-08,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,94.7052,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-09,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,95.638,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-10,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,96.1092,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-11,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,97.0072,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-12,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,97.7496,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-13,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,98.3924,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-14,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,98.582,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-15,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated,98.7964,Vaccinations - By JCVI priority group - Aged 80 or over (excluding care home residents) - Percentage of estimated population vaccinated
+S92000003,2021-02-25,Ratio,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated,83.3307692307692,Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated
+S92000003,2021-01-25,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,115882,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-01-26,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,127658,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-01-27,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,140885,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-01-28,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,157907,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-01-29,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,170024,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-01,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,199261,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-02,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,208447,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-03,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,216815,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-04,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,223817,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-05,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,229219,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-06,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,231972,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-07,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,235089,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-08,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,236763,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-09,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,239095,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-10,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,240273,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-11,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,242518,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-12,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,244374,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-13,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,245981,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-14,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,246455,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-02-15,Count,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated,246991,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated
+S92000003,2021-01-25,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,46.3528,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-01-26,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,51.0632,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-01-27,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,56.354,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-01-28,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,63.1628,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-01-29,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,68.0096,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-01,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,79.7044,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-02,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,83.3788,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-03,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,86.726,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-04,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,89.5268,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-05,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,91.6876,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-06,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,92.7888,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-07,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,94.0356,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-08,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,94.7052,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-09,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,95.638,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-10,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,96.1092,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-11,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,97.0072,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-12,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,97.7496,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-13,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,98.3924,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-14,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,98.582,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-15,Ratio,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated,98.7964,Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated
 S92000003,2021-01-25,Count,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated,218985,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated
 S92000003,2021-01-26,Count,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated,226257,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated
 S92000003,2021-01-27,Count,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated,233681,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated
@@ -9312,6 +9352,7 @@ S92000003,2021-02-21,Count,Vaccinations - By JCVI priority group - Frontline hea
 S92000003,2021-02-22,Count,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated,290103,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated
 S92000003,2021-02-23,Count,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated,291263,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated
 S92000003,2021-02-24,Count,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated,292690,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated
+S92000003,2021-02-25,Count,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated,294288,Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated
 S92000003,2021-01-25,Ratio,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated,95.2108695652174,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated
 S92000003,2021-01-26,Ratio,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated,98.3726086956522,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated
 S92000003,2021-01-27,Ratio,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated,101.600434782609,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated
@@ -9341,58 +9382,59 @@ S92000003,2021-02-21,Ratio,Vaccinations - By JCVI priority group - Frontline hea
 S92000003,2021-02-22,Ratio,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated,126.131739130435,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated
 S92000003,2021-02-23,Ratio,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated,126.636086956522,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated
 S92000003,2021-02-24,Ratio,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated,127.25652173913,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated
-S92000003,2021-02-01,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,26059,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-02,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,39364,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-03,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,53851,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-04,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,71596,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-05,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,90166,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-06,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,105855,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-07,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,121447,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-08,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,128072,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-09,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,142474,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-10,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,152717,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-11,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,165242,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-12,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,175425,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-13,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,182917,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-14,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,187666,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-15,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated,189504,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-01,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,13.7152631578947,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-02,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,20.7178947368421,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-03,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,28.3426315789474,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-04,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,37.6821052631579,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-05,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,47.4557894736842,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-06,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,55.7131578947368,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-07,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,63.9194736842105,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-08,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,67.4063157894737,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-09,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,74.9863157894737,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-10,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,80.3773684210526,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-11,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,86.9694736842105,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-12,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,92.3289473684211,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-13,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,96.2721052631579,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-14,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,98.7715789473684,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-15,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated,99.7389473684211,Vaccinations - By JCVI priority group - Aged 75 to 79 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-05,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,44464,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-06,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,56110,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-07,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,72734,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-08,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,80654,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-09,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,103319,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-10,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,127098,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-11,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,152352,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-12,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,178543,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-13,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,202110,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-14,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,219074,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-15,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated,227059,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Number vaccinated
-S92000003,2021-02-05,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,15.88,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-06,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,20.0392857142857,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-07,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,25.9764285714286,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-08,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,28.805,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-09,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,36.8996428571429,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-10,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,45.3921428571429,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-11,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,54.4114285714286,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-12,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,63.7653571428571,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-13,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,72.1821428571429,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-14,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,78.2407142857143,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
-S92000003,2021-02-15,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated,81.0925,Vaccinations - By JCVI priority group - Aged 70 to 74 (excluding care home residents) - Percentage of estimated population vaccinated
+S92000003,2021-02-25,Ratio,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated,127.951304347826,Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated
+S92000003,2021-02-01,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,26059,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-02,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,39364,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-03,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,53851,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-04,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,71596,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-05,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,90166,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-06,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,105855,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-07,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,121447,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-08,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,128072,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-09,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,142474,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-10,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,152717,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-11,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,165242,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-12,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,175425,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-13,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,182917,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-14,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,187666,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-15,Count,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated,189504,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated
+S92000003,2021-02-01,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,13.7152631578947,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-02,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,20.7178947368421,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-03,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,28.3426315789474,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-04,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,37.6821052631579,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-05,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,47.4557894736842,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-06,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,55.7131578947368,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-07,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,63.9194736842105,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-08,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,67.4063157894737,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-09,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,74.9863157894737,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-10,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,80.3773684210526,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-11,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,86.9694736842105,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-12,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,92.3289473684211,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-13,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,96.2721052631579,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-14,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,98.7715789473684,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-15,Ratio,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated,99.7389473684211,Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-05,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,44464,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-06,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,56110,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-07,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,72734,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-08,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,80654,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-09,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,103319,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-10,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,127098,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-11,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,152352,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-12,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,178543,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-13,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,202110,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-14,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,219074,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-15,Count,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated,227059,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated
+S92000003,2021-02-05,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,15.88,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-06,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,20.0392857142857,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-07,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,25.9764285714286,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-08,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,28.805,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-09,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,36.8996428571429,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-10,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,45.3921428571429,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-11,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,54.4114285714286,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-12,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,63.7653571428571,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-13,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,72.1821428571429,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-14,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,78.2407142857143,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
+S92000003,2021-02-15,Ratio,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated,81.0925,Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated
 S92000003,2021-02-17,Count,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated,143752,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated
 S92000003,2021-02-18,Count,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated,148168,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated
 S92000003,2021-02-19,Count,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated,151046,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated
@@ -9401,6 +9443,7 @@ S92000003,2021-02-21,Count,Vaccinations - By JCVI priority group - Clinically ex
 S92000003,2021-02-22,Count,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated,154735,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated
 S92000003,2021-02-23,Count,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated,155944,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated
 S92000003,2021-02-24,Count,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated,157094,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated
+S92000003,2021-02-25,Count,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated,158018,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated
 S92000003,2021-02-17,Ratio,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated,80.1887687081281,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated
 S92000003,2021-02-18,Ratio,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated,82.6521334099416,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated
 S92000003,2021-02-19,Ratio,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated,84.2575599524731,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated
@@ -9409,6 +9452,95 @@ S92000003,2021-02-21,Ratio,Vaccinations - By JCVI priority group - Clinically ex
 S92000003,2021-02-22,Ratio,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated,86.3153843150161,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated
 S92000003,2021-02-23,Ratio,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated,86.9897973413958,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated
 S92000003,2021-02-24,Ratio,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated,87.6312985658264,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated
+S92000003,2021-02-25,Ratio,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated,88.1467308539776,Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated
+S92000003,2021-02-15,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,269951,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-16,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,270654,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-17,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,271528,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-18,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,272333,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-19,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,273063,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-20,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,273668,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-21,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,273935,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-22,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,274159,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-23,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,274508,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-24,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,274861,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-25,Count,Vaccinations - By age - Aged 80 or over - Number vaccinated,275223,Vaccinations - By age - Aged 80 or over - Number vaccinated
+S92000003,2021-02-15,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,100.021119402432,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-16,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,100.281592032428,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-17,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,100.605422869719,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-18,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,100.903688114593,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-19,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,101.174164672056,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-20,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,101.398326750502,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-21,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,101.497254477684,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-22,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,101.580250024084,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-23,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,101.709560049501,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-24,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,101.840352138247,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-25,Ratio,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated,101.974478869482,Vaccinations - By age - Aged 80 or over - Percentage of estimated population vaccinated
+S92000003,2021-02-15,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,195841,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-16,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,199163,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-17,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,201356,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-18,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,203726,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-19,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,205981,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-20,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,207506,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-21,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,208641,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-22,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,209297,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-23,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,210181,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-24,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,210689,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-25,Count,Vaccinations - By age - Aged 75 to 79 - Number vaccinated,211268,Vaccinations - By age - Aged 75 to 79 - Number vaccinated
+S92000003,2021-02-15,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,99.9438635168996,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-16,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,101.639185306531,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-17,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,102.758342646886,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-18,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,103.967828691867,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-19,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,105.118626595424,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-20,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,105.896882383861,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-21,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,106.476108823124,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-22,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,106.810886395068,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-23,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,107.262019586529,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-24,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,107.52126807212,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-25,Ratio,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated,107.816750105894,Vaccinations - By age - Aged 75 to 79 - Percentage of estimated population vaccinated
+S92000003,2021-02-15,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,237058,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-16,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,245231,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-17,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,250986,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-18,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,256381,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-19,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,261681,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-20,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,265912,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-21,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,267914,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-22,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,269165,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-23,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,271014,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-24,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,272301,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-25,Count,Vaccinations - By age - Aged 70 to 74 - Number vaccinated,273419,Vaccinations - By age - Aged 70 to 74 - Number vaccinated
+S92000003,2021-02-15,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,85.0109016840233,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-16,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,87.9418050893651,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-17,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,90.0055942852225,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-18,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,91.9402845913303,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-19,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,93.8409071348653,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-20,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,95.3581776974496,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-21,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,96.0761109676679,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-22,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,96.5247296095476,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-23,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,97.1877958516223,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-24,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,97.649324382477,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-25,Ratio,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated,98.0502481567547,Vaccinations - By age - Aged 70 to 74 - Percentage of estimated population vaccinated
+S92000003,2021-02-15,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,159947,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-16,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,173918,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-17,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,190651,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-18,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,207534,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-19,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,220470,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-20,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,232549,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-21,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,238951,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-22,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,242231,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-23,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,246235,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-24,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,250585,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-25,Count,Vaccinations - By age - Aged 65 to 69 - Number vaccinated,255266,Vaccinations - By age - Aged 65 to 69 - Number vaccinated
+S92000003,2021-02-15,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,53.4146618399434,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
+S92000003,2021-02-16,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,58.0803088390484,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
+S92000003,2021-02-17,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,63.6683319752608,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
+S92000003,2021-02-18,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,69.306447950201,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
+S92000003,2021-02-19,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,73.6264543620844,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
+S92000003,2021-02-20,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,77.6602636887031,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
+S92000003,2021-02-21,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,79.7982260456045,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
+S92000003,2021-02-22,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,80.8935894524519,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
+S92000003,2021-02-23,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,82.2307342942253,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
+S92000003,2021-02-24,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,83.6834266173308,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
+S92000003,2021-02-25,Ratio,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated,85.2466571378956,Vaccinations - By age - Aged 65 to 69 - Percentage of estimated population vaccinated
 S92000003,2021-02-15,Count,Vaccine supply - Doses allocated - Cumulative total,1618320,Vaccine supply - Doses allocated - Cumulative total
 S92000003,2021-02-22,Count,Vaccine supply - Doses allocated - Cumulative total,1763400,Vaccine supply - Doses allocated - Cumulative total
 S92000003,2021-02-15,Count,Vaccine supply - Doses delivered - Cumulative total,1520690,Vaccine supply - Doses delivered - Cumulative total
@@ -9854,6 +9986,7 @@ S08000015,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000015,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,15113,Testing - Cumulative people tested for COVID-19 - Positive
 S08000015,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,15152,Testing - Cumulative people tested for COVID-19 - Positive
 S08000015,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,15201,Testing - Cumulative people tested for COVID-19 - Positive
+S08000015,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,15259,Testing - Cumulative people tested for COVID-19 - Positive
 S08000016,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000016,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000016,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -10209,6 +10342,7 @@ S08000016,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000016,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,2790,Testing - Cumulative people tested for COVID-19 - Positive
 S08000016,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,2791,Testing - Cumulative people tested for COVID-19 - Positive
 S08000016,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,2793,Testing - Cumulative people tested for COVID-19 - Positive
+S08000016,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,2799,Testing - Cumulative people tested for COVID-19 - Positive
 S08000017,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000017,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000017,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -10564,6 +10698,7 @@ S08000017,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000017,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,3993,Testing - Cumulative people tested for COVID-19 - Positive
 S08000017,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,4005,Testing - Cumulative people tested for COVID-19 - Positive
 S08000017,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,4017,Testing - Cumulative people tested for COVID-19 - Positive
+S08000017,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,4022,Testing - Cumulative people tested for COVID-19 - Positive
 S08000029,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000029,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000029,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -10919,6 +11054,7 @@ S08000029,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000029,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,9659,Testing - Cumulative people tested for COVID-19 - Positive
 S08000029,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,9683,Testing - Cumulative people tested for COVID-19 - Positive
 S08000029,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,9724,Testing - Cumulative people tested for COVID-19 - Positive
+S08000029,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,9764,Testing - Cumulative people tested for COVID-19 - Positive
 S08000019,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000019,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000019,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -11274,6 +11410,7 @@ S08000019,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000019,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,10267,Testing - Cumulative people tested for COVID-19 - Positive
 S08000019,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,10338,Testing - Cumulative people tested for COVID-19 - Positive
 S08000019,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,10438,Testing - Cumulative people tested for COVID-19 - Positive
+S08000019,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,10513,Testing - Cumulative people tested for COVID-19 - Positive
 S08000020,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000020,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000020,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -11629,6 +11766,7 @@ S08000020,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000020,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,13326,Testing - Cumulative people tested for COVID-19 - Positive
 S08000020,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,13338,Testing - Cumulative people tested for COVID-19 - Positive
 S08000020,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,13385,Testing - Cumulative people tested for COVID-19 - Positive
+S08000020,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,13403,Testing - Cumulative people tested for COVID-19 - Positive
 S08000031,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000031,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000031,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -11984,6 +12122,7 @@ S08000031,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000031,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,61753,Testing - Cumulative people tested for COVID-19 - Positive
 S08000031,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,61951,Testing - Cumulative people tested for COVID-19 - Positive
 S08000031,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,62175,Testing - Cumulative people tested for COVID-19 - Positive
+S08000031,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,62402,Testing - Cumulative people tested for COVID-19 - Positive
 S08000022,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000022,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000022,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -12339,6 +12478,7 @@ S08000022,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000022,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,4568,Testing - Cumulative people tested for COVID-19 - Positive
 S08000022,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,4582,Testing - Cumulative people tested for COVID-19 - Positive
 S08000022,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,4601,Testing - Cumulative people tested for COVID-19 - Positive
+S08000022,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,4615,Testing - Cumulative people tested for COVID-19 - Positive
 S08000032,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000032,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000032,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -12694,6 +12834,7 @@ S08000032,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000032,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,36181,Testing - Cumulative people tested for COVID-19 - Positive
 S08000032,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,36309,Testing - Cumulative people tested for COVID-19 - Positive
 S08000032,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,36429,Testing - Cumulative people tested for COVID-19 - Positive
+S08000032,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,36575,Testing - Cumulative people tested for COVID-19 - Positive
 S08000024,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000024,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000024,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,5,Testing - Cumulative people tested for COVID-19 - Positive
@@ -13049,6 +13190,7 @@ S08000024,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000024,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,27052,Testing - Cumulative people tested for COVID-19 - Positive
 S08000024,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,27175,Testing - Cumulative people tested for COVID-19 - Positive
 S08000024,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,27308,Testing - Cumulative people tested for COVID-19 - Positive
+S08000024,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,27449,Testing - Cumulative people tested for COVID-19 - Positive
 S08000025,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000025,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000025,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -13404,6 +13546,7 @@ S08000025,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000025,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,70,Testing - Cumulative people tested for COVID-19 - Positive
 S08000025,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,70,Testing - Cumulative people tested for COVID-19 - Positive
 S08000025,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,70,Testing - Cumulative people tested for COVID-19 - Positive
+S08000025,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,70,Testing - Cumulative people tested for COVID-19 - Positive
 S08000026,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000026,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000026,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -13759,6 +13902,7 @@ S08000026,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000026,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,212,Testing - Cumulative people tested for COVID-19 - Positive
 S08000026,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,212,Testing - Cumulative people tested for COVID-19 - Positive
 S08000026,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,212,Testing - Cumulative people tested for COVID-19 - Positive
+S08000026,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,212,Testing - Cumulative people tested for COVID-19 - Positive
 S08000030,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000030,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000030,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -14114,6 +14258,7 @@ S08000030,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000030,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,12938,Testing - Cumulative people tested for COVID-19 - Positive
 S08000030,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,12967,Testing - Cumulative people tested for COVID-19 - Positive
 S08000030,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,13016,Testing - Cumulative people tested for COVID-19 - Positive
+S08000030,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,13055,Testing - Cumulative people tested for COVID-19 - Positive
 S08000028,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000028,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000028,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
@@ -14469,6 +14614,7 @@ S08000028,2021-02-21,Count,Testing - Cumulative people tested for COVID-19 - Pos
 S08000028,2021-02-22,Count,Testing - Cumulative people tested for COVID-19 - Positive,262,Testing - Cumulative people tested for COVID-19 - Positive
 S08000028,2021-02-23,Count,Testing - Cumulative people tested for COVID-19 - Positive,266,Testing - Cumulative people tested for COVID-19 - Positive
 S08000028,2021-02-24,Count,Testing - Cumulative people tested for COVID-19 - Positive,268,Testing - Cumulative people tested for COVID-19 - Positive
+S08000028,2021-02-25,Count,Testing - Cumulative people tested for COVID-19 - Positive,268,Testing - Cumulative people tested for COVID-19 - Positive
 S08000015,2020-03-26,Count,COVID-19 patients in ICU - Confirmed (archived),*,COVID-19 patients in ICU - Confirmed (archived)
 S08000015,2020-03-27,Count,COVID-19 patients in ICU - Confirmed (archived),*,COVID-19 patients in ICU - Confirmed (archived)
 S08000015,2020-03-28,Count,COVID-19 patients in ICU - Confirmed (archived),7,COVID-19 patients in ICU - Confirmed (archived)
@@ -19136,6 +19282,7 @@ S08000015,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,10,COVID-19 pati
 S08000015,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,10,COVID-19 patients in ICU - Confirmed
 S08000015,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,9,COVID-19 patients in ICU - Confirmed
 S08000015,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,9,COVID-19 patients in ICU - Confirmed
+S08000015,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,9,COVID-19 patients in ICU - Confirmed
 S08000016,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000016,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000016,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -19303,6 +19450,7 @@ S08000016,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patie
 S08000016,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000016,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000016,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
+S08000016,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000017,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000017,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000017,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -19470,6 +19618,7 @@ S08000017,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,5,COVID-19 patie
 S08000017,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,5,COVID-19 patients in ICU - Confirmed
 S08000017,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000017,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
+S08000017,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000029,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000029,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000029,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -19637,6 +19786,7 @@ S08000029,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,5,COVID-19 patie
 S08000029,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,5,COVID-19 patients in ICU - Confirmed
 S08000029,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,5,COVID-19 patients in ICU - Confirmed
 S08000029,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,5,COVID-19 patients in ICU - Confirmed
+S08000029,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,5,COVID-19 patients in ICU - Confirmed
 S08000019,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000019,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000019,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -19804,6 +19954,7 @@ S08000019,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,15,COVID-19 pati
 S08000019,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,14,COVID-19 patients in ICU - Confirmed
 S08000019,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,13,COVID-19 patients in ICU - Confirmed
 S08000019,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,15,COVID-19 patients in ICU - Confirmed
+S08000019,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,13,COVID-19 patients in ICU - Confirmed
 S08000020,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000020,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000020,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -19971,6 +20122,7 @@ S08000020,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,5,COVID-19 patie
 S08000020,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,6,COVID-19 patients in ICU - Confirmed
 S08000020,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,5,COVID-19 patients in ICU - Confirmed
 S08000020,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,5,COVID-19 patients in ICU - Confirmed
+S08000020,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000031,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000031,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000031,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -20138,6 +20290,7 @@ S08000031,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,21,COVID-19 pati
 S08000031,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,20,COVID-19 patients in ICU - Confirmed
 S08000031,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,23,COVID-19 patients in ICU - Confirmed
 S08000031,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,22,COVID-19 patients in ICU - Confirmed
+S08000031,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,22,COVID-19 patients in ICU - Confirmed
 S08000022,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000022,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000022,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -20305,6 +20458,7 @@ S08000022,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,6,COVID-19 patie
 S08000022,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,6,COVID-19 patients in ICU - Confirmed
 S08000022,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,6,COVID-19 patients in ICU - Confirmed
 S08000022,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,6,COVID-19 patients in ICU - Confirmed
+S08000022,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,7,COVID-19 patients in ICU - Confirmed
 S08000032,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000032,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000032,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -20472,6 +20626,7 @@ S08000032,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,17,COVID-19 pati
 S08000032,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,18,COVID-19 patients in ICU - Confirmed
 S08000032,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,16,COVID-19 patients in ICU - Confirmed
 S08000032,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,16,COVID-19 patients in ICU - Confirmed
+S08000032,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,15,COVID-19 patients in ICU - Confirmed
 S08000024,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000024,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000024,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -20639,6 +20794,7 @@ S08000024,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,11,COVID-19 pati
 S08000024,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,12,COVID-19 patients in ICU - Confirmed
 S08000024,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,12,COVID-19 patients in ICU - Confirmed
 S08000024,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,12,COVID-19 patients in ICU - Confirmed
+S08000024,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,12,COVID-19 patients in ICU - Confirmed
 S08000025,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000025,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000025,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -20806,6 +20962,7 @@ S08000025,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patie
 S08000025,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000025,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000025,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
+S08000025,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000026,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000026,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000026,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -20973,6 +21130,7 @@ S08000026,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patie
 S08000026,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000026,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000026,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
+S08000026,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000030,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000030,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000030,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -21140,6 +21298,7 @@ S08000030,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patie
 S08000030,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000030,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000030,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
+S08000030,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000028,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000028,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000028,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -21307,6 +21466,7 @@ S08000028,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patie
 S08000028,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000028,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000028,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
+S08000028,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 SB0801,2020-09-11,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 SB0801,2020-09-12,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 SB0801,2020-09-13,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
@@ -21474,6 +21634,7 @@ SB0801,2021-02-21,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients
 SB0801,2021-02-22,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 SB0801,2021-02-23,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 SB0801,2021-02-24,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
+SB0801,2021-02-25,Count,COVID-19 patients in ICU - Confirmed,*,COVID-19 patients in ICU - Confirmed
 S08000015,2020-03-26,Count,COVID-19 patients in hospital - Confirmed (archived),14,COVID-19 patients in hospital - Confirmed (archived)
 S08000015,2020-03-27,Count,COVID-19 patients in hospital - Confirmed (archived),19,COVID-19 patients in hospital - Confirmed (archived)
 S08000015,2020-03-28,Count,COVID-19 patients in hospital - Confirmed (archived),20,COVID-19 patients in hospital - Confirmed (archived)
@@ -25901,6 +26062,7 @@ S08000015,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,136,COVID-1
 S08000015,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,149,COVID-19 patients in hospital - Confirmed
 S08000015,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,129,COVID-19 patients in hospital - Confirmed
 S08000015,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,127,COVID-19 patients in hospital - Confirmed
+S08000015,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,122,COVID-19 patients in hospital - Confirmed
 S08000016,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000016,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000016,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -26068,6 +26230,7 @@ S08000016,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,7,COVID-19 
 S08000016,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,7,COVID-19 patients in hospital - Confirmed
 S08000016,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,7,COVID-19 patients in hospital - Confirmed
 S08000016,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,8,COVID-19 patients in hospital - Confirmed
+S08000016,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,7,COVID-19 patients in hospital - Confirmed
 S08000017,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000017,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000017,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -26235,6 +26398,7 @@ S08000017,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,16,COVID-19
 S08000017,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,17,COVID-19 patients in hospital - Confirmed
 S08000017,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,12,COVID-19 patients in hospital - Confirmed
 S08000017,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,10,COVID-19 patients in hospital - Confirmed
+S08000017,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,6,COVID-19 patients in hospital - Confirmed
 S08000029,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000029,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000029,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -26402,6 +26566,7 @@ S08000029,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,66,COVID-19
 S08000029,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,59,COVID-19 patients in hospital - Confirmed
 S08000029,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,55,COVID-19 patients in hospital - Confirmed
 S08000029,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,48,COVID-19 patients in hospital - Confirmed
+S08000029,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,46,COVID-19 patients in hospital - Confirmed
 S08000019,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000019,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000019,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -26569,6 +26734,7 @@ S08000019,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,140,COVID-1
 S08000019,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,140,COVID-19 patients in hospital - Confirmed
 S08000019,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,122,COVID-19 patients in hospital - Confirmed
 S08000019,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,111,COVID-19 patients in hospital - Confirmed
+S08000019,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,106,COVID-19 patients in hospital - Confirmed
 S08000020,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000020,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000020,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -26736,6 +26902,7 @@ S08000020,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,32,COVID-19
 S08000020,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,36,COVID-19 patients in hospital - Confirmed
 S08000020,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,34,COVID-19 patients in hospital - Confirmed
 S08000020,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,28,COVID-19 patients in hospital - Confirmed
+S08000020,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,18,COVID-19 patients in hospital - Confirmed
 S08000031,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,25,COVID-19 patients in hospital - Confirmed
 S08000031,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,25,COVID-19 patients in hospital - Confirmed
 S08000031,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,25,COVID-19 patients in hospital - Confirmed
@@ -26903,6 +27070,7 @@ S08000031,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,298,COVID-1
 S08000031,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,290,COVID-19 patients in hospital - Confirmed
 S08000031,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,278,COVID-19 patients in hospital - Confirmed
 S08000031,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,267,COVID-19 patients in hospital - Confirmed
+S08000031,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,257,COVID-19 patients in hospital - Confirmed
 S08000022,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000022,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000022,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -27070,6 +27238,7 @@ S08000022,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,32,COVID-19
 S08000022,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,32,COVID-19 patients in hospital - Confirmed
 S08000022,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,30,COVID-19 patients in hospital - Confirmed
 S08000022,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,30,COVID-19 patients in hospital - Confirmed
+S08000022,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,26,COVID-19 patients in hospital - Confirmed
 S08000032,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,10,COVID-19 patients in hospital - Confirmed
 S08000032,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,6,COVID-19 patients in hospital - Confirmed
 S08000032,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,7,COVID-19 patients in hospital - Confirmed
@@ -27237,6 +27406,7 @@ S08000032,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,180,COVID-1
 S08000032,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,188,COVID-19 patients in hospital - Confirmed
 S08000032,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,181,COVID-19 patients in hospital - Confirmed
 S08000032,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,168,COVID-19 patients in hospital - Confirmed
+S08000032,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,175,COVID-19 patients in hospital - Confirmed
 S08000024,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000024,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000024,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -27404,6 +27574,7 @@ S08000024,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,195,COVID-1
 S08000024,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,197,COVID-19 patients in hospital - Confirmed
 S08000024,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,202,COVID-19 patients in hospital - Confirmed
 S08000024,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,202,COVID-19 patients in hospital - Confirmed
+S08000024,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,183,COVID-19 patients in hospital - Confirmed
 S08000025,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000025,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000025,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -27571,6 +27742,7 @@ S08000025,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 
 S08000025,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000025,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000025,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
+S08000025,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000026,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000026,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000026,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -27738,6 +27910,7 @@ S08000026,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 
 S08000026,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000026,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000026,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
+S08000026,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000030,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000030,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000030,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -27905,6 +28078,7 @@ S08000030,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,24,COVID-19
 S08000030,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,19,COVID-19 patients in hospital - Confirmed
 S08000030,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,20,COVID-19 patients in hospital - Confirmed
 S08000030,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,14,COVID-19 patients in hospital - Confirmed
+S08000030,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,17,COVID-19 patients in hospital - Confirmed
 S08000028,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000028,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 S08000028,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -28072,6 +28246,7 @@ S08000028,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,6,COVID-19 
 S08000028,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,7,COVID-19 patients in hospital - Confirmed
 S08000028,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,6,COVID-19 patients in hospital - Confirmed
 S08000028,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,5,COVID-19 patients in hospital - Confirmed
+S08000028,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 SB0801,2020-09-11,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 SB0801,2020-09-12,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 SB0801,2020-09-13,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
@@ -28239,3 +28414,4 @@ SB0801,2021-02-21,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 pat
 SB0801,2021-02-22,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 SB0801,2021-02-23,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
 SB0801,2021-02-24,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed
+SB0801,2021-02-25,Count,COVID-19 patients in hospital - Confirmed,*,COVID-19 patients in hospital - Confirmed

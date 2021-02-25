@@ -502,6 +502,80 @@ SC_table10b <- raw_SC_table10b %>%
     -ends_with("Estimated population")
   )
 
+## Table 10c: vaccinations by age group --------------------------------- #
+
+SC_table10c <- raw_SC_table10c
+
+# Fetch prefix for each variable name from the merged cells above them
+
+SC_table10c_category_names <- read_excel(
+  path = tf1,
+  sheet = "Table 10c - Vac by age",
+  col_names = FALSE,
+  skip = 2,
+  n_max = 1
+  ) %>%
+  as.character()
+
+SC_table10c_category_names <- SC_table10c_category_names[
+  SC_table10c_category_names != "NA" & SC_table10c_category_names != "Date"
+  ] %>% 
+  str_replace_all("-", " to ")
+
+SC_table10c_category_names <- str_c("Aged", SC_table10c_category_names, sep = " ")
+
+names(SC_table10c) <- c(
+  "Date",
+  rep(
+    c("Number vaccinated", "Estimated population", "Percentage of estimated population vaccinated"),
+    times = length(SC_table10c_category_names)
+  )
+)
+
+names(SC_table10c)[-1] <- str_c(
+  rep(SC_table10c_category_names, each = 3),
+  names(SC_table10c)[-1],
+  sep = " - "
+)
+
+# Calculate percentage of estimated population vaccinated
+
+SC_table10c <- SC_table10c %>% 
+  mutate(
+    !!str_c(SC_table10c_category_names[1], "Percentage of estimated population vaccinated", sep = " - ") := 
+      !!as.name(str_c(SC_table10c_category_names[1], "Number vaccinated", sep = " - ")) / 
+      !!as.name(str_c(SC_table10c_category_names[1], "Estimated population", sep = " - ")) * 100
+  ) %>% 
+  mutate(
+    !!str_c(SC_table10c_category_names[2], "Percentage of estimated population vaccinated", sep = " - ") := 
+      !!as.name(str_c(SC_table10c_category_names[2], "Number vaccinated", sep = " - ")) / 
+      !!as.name(str_c(SC_table10c_category_names[2], "Estimated population", sep = " - ")) * 100
+  ) %>% 
+  mutate(
+    !!str_c(SC_table10c_category_names[3], "Percentage of estimated population vaccinated", sep = " - ") := 
+      !!as.name(str_c(SC_table10c_category_names[3], "Number vaccinated", sep = " - ")) / 
+      !!as.name(str_c(SC_table10c_category_names[3], "Estimated population", sep = " - ")) * 100
+  ) %>% 
+  mutate(
+    !!str_c(SC_table10c_category_names[4], "Percentage of estimated population vaccinated", sep = " - ") := 
+      !!as.name(str_c(SC_table10c_category_names[4], "Number vaccinated", sep = " - ")) / 
+      !!as.name(str_c(SC_table10c_category_names[4], "Estimated population", sep = " - ")) * 100
+  ) %>% 
+  select(
+    -ends_with("Estimated population")
+  )
+
+# Append variable names for tidy data set
+
+names(SC_table10c)[-1] <- str_c(
+  "Vaccinations",
+  "By age",
+  names(SC_table10c)[-1],
+  sep = " - "
+)
+
+# Table 11: vaccine supply ---------------------------------------------- #
+
 SC_table11 <- raw_SC_table11 %>% 
   rename(
     "Date" = "Date",
@@ -683,6 +757,19 @@ tidy_SC_table10b <- SC_table10b %>%
     )
   )
 
+tidy_SC_table10c <- SC_table10c %>%
+  gather(
+    key = "Variable",
+    value = "Value",
+    -Date
+  ) %>%
+  mutate(
+    Measurement = case_when(
+      str_ends(Variable, "Number vaccinated") ~ "Count",
+      str_ends(Variable, "Percentage of estimated population vaccinated") ~ "Ratio"
+    )
+  )
+
 tidy_SC_table11 <- SC_table11 %>%
   gather(
     key = "Variable",
@@ -762,6 +849,7 @@ SC_output_dataset <- bind_rows(
   tidy_SC_table9b,
   tidy_SC_table10a,
   tidy_SC_table10b,
+  tidy_SC_table10c,
   tidy_SC_table11,
   tidy_SC_table12a,
   tidy_SC_table12b,
@@ -830,6 +918,7 @@ write.csv(SC_table9a,  "./COVID19 - Daily Management Information - Scotland - Sc
 write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - School education (2021).csv", quote = FALSE, row.names = F)
 write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
 write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
+write.csv(SC_table10c,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By age.csv", quote = FALSE, row.names = F)
 write.csv(SC_table11,  "./COVID19 - Daily Management Information - Scotland - Vaccine supply.csv", quote = FALSE, row.names = F)
 write.csv(SC_table12a,  "./COVID19 - Daily Management Information - Scotland - Students - Universities.csv", quote = FALSE, row.names = F)
 write.csv(SC_table12b,  "./COVID19 - Daily Management Information - Scotland - Students - Colleges.csv", quote = FALSE, row.names = F)
