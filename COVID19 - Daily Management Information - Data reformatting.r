@@ -830,6 +830,13 @@ tidy_HB_table3 <- HB_table3 %>%
   gather(key = HBname, value = "Value", -Date) %>%
   mutate(Units = "COVID-19 patients in hospital - Confirmed")
 
+# Remove variables failing quality assurance ------------------------------
+
+tidy_SC_table10b <- tidy_SC_table10b %>% 
+  filter(
+    !grepl("Aged.*excluding care home residents", Variable)
+  )
+
 # Bind tidy data frames ---------------------------------------------------
 
 # Whole-of-Scotland data ------------------------------------------------ #
