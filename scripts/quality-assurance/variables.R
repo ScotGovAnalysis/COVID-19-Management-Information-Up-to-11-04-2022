@@ -59,7 +59,6 @@ raw_SC_table8   %>% test_variable_count(2)
 raw_SC_table9a  %>% test_variable_count(5)
 raw_SC_table9b  %>% test_variable_count(5)
 raw_SC_table10a %>% test_variable_count(3)
-raw_SC_table10b %>% test_variable_count(11)
 
 # Health board data ----------------------------------------------------- #
 
@@ -181,22 +180,6 @@ raw_SC_table10a %>% test_variable_names(
     "Date",
     "Number of people who have received the first dose of the Covid vaccination",
     "Number of people who have received the second dose of the Covid vaccination"
-  )
-)
-
-raw_SC_table10b %>% test_variable_names(
-  c(
-    "...1",
-    "Number vaccinated...2",
-    "% Vaccinated for residents in older adult care homes",
-    "% Vaccinated for residents in all care homes",
-    "Number vaccinated...7",
-    "% Vaccinated for staff in older adult care homes",
-    "% Vaccinated for staff in all care homes",
-    "Number vaccinated...12",
-    "% Vaccinated...14",
-    "Number vaccinated...15",
-    "% Vaccinated...17"
   )
 )
 

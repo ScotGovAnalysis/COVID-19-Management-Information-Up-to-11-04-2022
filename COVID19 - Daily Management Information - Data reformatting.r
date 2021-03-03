@@ -135,13 +135,7 @@ raw_SC_table10a <- read_excel(
 
 # Table 10b: Daily COVID-19 vaccinations in Scotland by JCVI Priority Group
 # Number of people who have received the Covid vaccination by JCVI priority group
-raw_SC_table10b <- read_excel(
-  path = tf1,
-  sheet = "Table 10b - Vac by JCVI group",
-  col_types = c("date", rep("numeric", times = 25)),
-  na = c("* Age breakdowns now provided on a diffferent basis - see Table 10c", "*Initial target met"),
-  skip = 3
-)
+source("scripts/import/scotland/table-10-b-vaccinations-by-jcvi-group.R")
 
 # Table 10c: Daily COVID-19 Vaccinations in Scotland by age group
 # Number of people who have received the Covid vaccination by age group
@@ -417,91 +411,6 @@ SC_table10a <- raw_SC_table10a %>%
     "Vaccinations - Number of people who have received second dose" = "Number of people who have received the second dose of the Covid vaccination"
   )
 
-SC_table10b <- raw_SC_table10b %>% 
-  rename(
-    "Date" = "...1",
-    # Care home residents
-    "Vaccinations - By JCVI priority group - Care home residents - Number vaccinated" = 
-      "Number vaccinated...2",
-    "Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Estimated population" = 
-      "Estimated population of residents in older adult care homes",
-    "Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated" = 
-      "% Vaccinated for residents in older adult care homes",
-    "Vaccinations - By JCVI priority group - Care home residents - All care homes - Estimated population" = 
-      "Estimated population of residents in all care homes",
-    "Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated" = 
-      "% Vaccinated for residents in all care homes",
-    # Care home staff
-    "Vaccinations - By JCVI priority group - Care home staff - Number vaccinated" = 
-      "Number vaccinated...7",
-    "Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Estimated population" = 
-      "Estimated population of staff in older adult care homes",
-    "Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated" = 
-      "% Vaccinated for staff in older adult care homes",
-    "Vaccinations - By JCVI priority group - Care home staff - All care homes - Estimated population" = 
-      "Estimated population of staff in all care homes",
-    "Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated" = 
-      "% Vaccinated for staff in all care homes",
-    # Individuals aged 80 or over living in the community (excluding care home residents)
-    "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated" = 
-      "Number vaccinated...12",
-    "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Estimated population" = 
-      "Estimated population...13",
-    "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated" = 
-      "% Vaccinated...14",
-    # Frontline health and social care workers
-    "Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated" = 
-      "Number vaccinated...15",
-    "Vaccinations - By JCVI priority group - Frontline health and social care workers - Estimated population" = 
-      "Estimated population...16",
-    "Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated" = 
-      "% Vaccinated...17",
-    # Individuals aged 75 to 79 living in the community (excluding care home residents)
-    "Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated" = 
-      "Number vaccinated...18",
-    "Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Estimated population" = 
-      "Estimated population...19",
-    "Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated" = 
-      "% Vaccinated...20",
-    # Individuals aged 70 to 74 living in the community (excluding care home residents)
-    "Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated" = 
-      "Number vaccinated...21",
-    "Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Estimated population" = 
-      "Estimated population...22",
-    "Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated" = 
-      "% Vaccinated...23",
-    # Individuals aged 75 to 79 living in the community (excluding care home residents)
-    "Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated" = 
-      "Number vaccinated...24",
-    "Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Estimated population" = 
-      "Estimated population...25",
-    "Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated" = 
-      "% Vaccinated...26"
-  ) %>% 
-  mutate(
-    "Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated" = 
-      `Vaccinations - By JCVI priority group - Care home residents - Number vaccinated` / `Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Estimated population` * 100,
-    "Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated" = 
-      `Vaccinations - By JCVI priority group - Care home residents - Number vaccinated` / `Vaccinations - By JCVI priority group - Care home residents - All care homes - Estimated population` * 100,
-    "Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated" = 
-      `Vaccinations - By JCVI priority group - Care home staff - Number vaccinated` / `Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Estimated population` * 100,
-    "Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated" = 
-      `Vaccinations - By JCVI priority group - Care home staff - Number vaccinated` / `Vaccinations - By JCVI priority group - Care home staff - All care homes - Estimated population` * 100,
-    "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated" = 
-      `Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated` / `Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Estimated population` * 100,
-    "Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated" = 
-      `Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated` / `Vaccinations - By JCVI priority group - Frontline health and social care workers - Estimated population` * 100,
-    "Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated" = 
-      `Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated` / `Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Estimated population` * 100,
-    "Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated" = 
-      `Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated` / `Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Estimated population` * 100,
-    "Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated" = 
-      `Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated` / `Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Estimated population` * 100
-  ) %>% 
-  select(
-    -ends_with("Estimated population")
-  )
-
 ## Table 10c: vaccinations by age group --------------------------------- #
 
 SC_table10c <- raw_SC_table10c
@@ -730,33 +639,6 @@ tidy_SC_table10a <- SC_table10a %>%
   gather(key = "Variable", value = "Value", -Date) %>%
   mutate(Measurement = "Count")
 
-tidy_SC_table10b <- SC_table10b %>%
-  gather(key = "Variable", value = "Value", -Date) %>%
-  mutate(
-    Measurement = Variable,
-    Measurement = recode(
-      Measurement,
-      # Counts
-      "Vaccinations - By JCVI priority group - Care home residents - Number vaccinated" = "Count",
-      "Vaccinations - By JCVI priority group - Care home staff - Number vaccinated" = "Count",
-      "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Number vaccinated" = "Count",
-      "Vaccinations - By JCVI priority group - Frontline health and social care workers - Number vaccinated" = "Count",
-      "Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Number vaccinated" = "Count",
-      "Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Number vaccinated" = "Count",
-      "Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Number vaccinated" = "Count",
-      # Ratios
-      "Vaccinations - By JCVI priority group - Care home residents - Older adult care homes - Percentage of estimated population vaccinated" = "Ratio",
-      "Vaccinations - By JCVI priority group - Care home residents - All care homes - Percentage of estimated population vaccinated" = "Ratio",
-      "Vaccinations - By JCVI priority group - Care home staff - Older adult care homes - Percentage of estimated population vaccinated" = "Ratio",
-      "Vaccinations - By JCVI priority group - Care home staff - All care homes - Percentage of estimated population vaccinated" = "Ratio",
-      "Vaccinations - By JCVI priority group - Aged 80 or over excluding care home residents - Percentage of estimated population vaccinated" = "Ratio",
-      "Vaccinations - By JCVI priority group - Frontline health and social care workers - Percentage of estimated population vaccinated" = "Ratio",
-      "Vaccinations - By JCVI priority group - Aged 75 to 79 excluding care home residents - Percentage of estimated population vaccinated" = "Ratio",
-      "Vaccinations - By JCVI priority group - Aged 70 to 74 excluding care home residents - Percentage of estimated population vaccinated" = "Ratio",
-      "Vaccinations - By JCVI priority group - Clinically extremely vulnerable - Percentage of estimated population vaccinated" = "Ratio"
-    )
-  )
-
 tidy_SC_table10c <- SC_table10c %>%
   gather(
     key = "Variable",
@@ -832,10 +714,10 @@ tidy_HB_table3 <- HB_table3 %>%
 
 # Remove variables failing quality assurance ------------------------------
 
-tidy_SC_table10b <- tidy_SC_table10b %>% 
-  filter(
-    !grepl("Aged.*excluding care home residents", Variable)
-  )
+# tidy_SC_table10b <- tidy_SC_table10b %>% 
+#   filter(
+#     !grepl("Aged.*excluding care home residents", Variable)
+#   )
 
 # Bind tidy data frames ---------------------------------------------------
 
@@ -924,7 +806,7 @@ write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Dea
 write.csv(SC_table9a,  "./COVID19 - Daily Management Information - Scotland - School education.csv", quote = FALSE, row.names = F)
 write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - School education (2021).csv", quote = FALSE, row.names = F)
 write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
-write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
+# write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
 write.csv(SC_table10c,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By age.csv", quote = FALSE, row.names = F)
 write.csv(SC_table11,  "./COVID19 - Daily Management Information - Scotland - Vaccine supply.csv", quote = FALSE, row.names = F)
 write.csv(SC_table12a,  "./COVID19 - Daily Management Information - Scotland - Students - Universities.csv", quote = FALSE, row.names = F)
