@@ -283,7 +283,7 @@ colnames(raw_HB_table3b_archived) <- c("Date",
                                        "Golden Jubilee National Hospital")
 
 
-raw_HB_table3  <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -17]
+raw_HB_table3  <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -c(17:18)]
 
 # Quality assurance -------------------------------------------------------
 

@@ -18,7 +18,6 @@ metadata[[1]]$date_last_modified$tables$raw_SC_table8 <- date_table_last_modifie
 metadata[[1]]$date_last_modified$tables$raw_SC_table9a <- date_table_last_modified(raw_SC_table9a)
 metadata[[1]]$date_last_modified$tables$raw_SC_table9b <- date_table_last_modified(raw_SC_table9b)
 metadata[[1]]$date_last_modified$tables$raw_SC_table10a <- date_table_last_modified(raw_SC_table10a)
-metadata[[1]]$date_last_modified$tables$raw_SC_table10b <- date_table_last_modified(raw_SC_table10b)
 
 metadata[[1]]$date_last_modified$data_set <- metadata[[1]]$date_last_modified$tables %>% 
   unlist() %>% max() %>% as.Date(origin = "1970-01-01") %>% ymd()
