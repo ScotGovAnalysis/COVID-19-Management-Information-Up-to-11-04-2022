@@ -60,8 +60,7 @@ sc_table_10_b$variables$expected_names <- c(
   "% Vaccinated for residents in all care homes...32"
 )
 
-sc_table_10_b$variables$expected_count <- sc_table_10_b$variables$expected_names %>% 
-  length()
+sc_table_10_b$variables$expected_count <- length(sc_table_10_b$variables$expected_names)
 
 # Read data ---------------------------------------------------------------
 
@@ -95,13 +94,10 @@ sc_table_10_b$variables$actual_category_names <- sc_table_10_b$variables$actual_
   ] %>% 
   str_remove_all("\\r\\n")
 
-# Confirm variable names --------------------------------------------------
+# Quality assurance -------------------------------------------------------
 
-if(as.integer(sc_table_10_b$variables$expected_category_names != sc_table_10_b$variables$actual_category_names) %>% sum() > 0){
-  warning("Data frame sc_table_10_b does not have the expected variable categories / parents.")
-}
-
-sc_table_10_b$data$raw %>% test_variable_names(sc_table_10_b$variables$expected_names)
+test_variable_count(sc_table_10_b$data$raw, sc_table_10_b$variables$expected_count)
+test_variable_names(sc_table_10_b$data$raw, sc_table_10_b$variables$expected_names)
 
 # Drop variables ----------------------------------------------------------
 
