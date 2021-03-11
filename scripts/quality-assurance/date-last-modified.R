@@ -1,10 +1,3 @@
-# Fetch dates last modified for each dataset ------------------------------
-
-date_table_last_modified <- function(df) {
-  df[[1]] %>% max(na.rm = TRUE) %>% ymd() %>% 
-    return()
-}
-
 # Whole-of-Scotland data ------------------------------------------------ #
 
 metadata[[1]]$date_last_modified$tables$raw_SC_table1 <- date_table_last_modified(raw_SC_table1)
