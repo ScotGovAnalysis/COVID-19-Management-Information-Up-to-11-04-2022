@@ -202,10 +202,10 @@ raw_SC_table12b_2 <- read_excel(
   skip = raw_SC_table12b_2_skip
 )
 
-raw_SC_table12b <- bind_rows(
-  raw_SC_table12b_1,
-  raw_SC_table12b_2
-)
+# raw_SC_table12b <- bind_rows(
+#   raw_SC_table12b_1,
+#   raw_SC_table12b_2
+# )
 
 # Health board data ----------------------------------------------------- #
 
@@ -247,7 +247,7 @@ colnames(raw_HB_table2b_archived) <- c("Date",
                                        "NHS Western Isles",              
                                        "Golden Jubilee National Hospital")
 
-raw_HB_table2  <- read_excel(tf2, "Table 2 - ICU patients", skip = 2)[, -17]
+raw_HB_table2  <- read_excel(tf2, "Table 2 - ICU patients", skip = 2)[, -c(17, 18)]
 
 raw_HB_table3a_archived <- read_excel(tf2, "Table 3- Hospital (Hist.)", skip = 2)[, -c(17:37)]
 colnames(raw_HB_table3a_archived) <- c("Date",
@@ -503,13 +503,13 @@ SC_table12a <- raw_SC_table12a %>%
     "Students - Universities - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
   )
 
-SC_table12b <- raw_SC_table12b %>% 
-  rename(
-    "Date" = "Date",
-    "Students - Colleges - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive",
-    "Students - Colleges - Positive tests reported - Weekly increase" = "New cases reported since last return",
-    "Students - Colleges - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
-  )
+# SC_table12b <- raw_SC_table12b %>% 
+#   rename(
+#     "Date" = "Date",
+#     "Students - Colleges - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive",
+#     "Students - Colleges - Positive tests reported - Weekly increase" = "New cases reported since last return",
+#     "Students - Colleges - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
+#   )
 
 # Health board data ----------------------------------------------------- #
 
@@ -675,15 +675,15 @@ tidy_SC_table12a <- SC_table12a %>%
     Measurement = "Count"
   )
 
-tidy_SC_table12b <- SC_table12b %>%
-  gather(
-    key = "Variable",
-    value = "Value",
-    -Date
-  ) %>%
-  mutate(
-    Measurement = "Count"
-  )
+# tidy_SC_table12b <- SC_table12b %>%
+#   gather(
+#     key = "Variable",
+#     value = "Value",
+#     -Date
+#   ) %>%
+#   mutate(
+#     Measurement = "Count"
+#   )
 
 # Health board data ----------------------------------------------------- #
 
@@ -743,8 +743,7 @@ SC_output_dataset <- bind_rows(
   tidy_SC_table10b,
   tidy_SC_table10c,
   tidy_SC_table11,
-  tidy_SC_table12a,
-  tidy_SC_table12b,
+  tidy_SC_table12a
   ) %>%
   # Creating required variables
   mutate(GeographyCode = "S92000003",
@@ -813,7 +812,7 @@ write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - V
 write.csv(SC_table10c,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By age.csv", quote = FALSE, row.names = F)
 write.csv(SC_table11,  "./COVID19 - Daily Management Information - Scotland - Vaccine supply.csv", quote = FALSE, row.names = F)
 write.csv(SC_table12a,  "./COVID19 - Daily Management Information - Scotland - Students - Universities.csv", quote = FALSE, row.names = F)
-write.csv(SC_table12b,  "./COVID19 - Daily Management Information - Scotland - Students - Colleges.csv", quote = FALSE, row.names = F)
+# write.csv(SC_table12b,  "./COVID19 - Daily Management Information - Scotland - Students - Colleges.csv", quote = FALSE, row.names = F)
 
 # Health board data ----------------------------------------------------- #
 
