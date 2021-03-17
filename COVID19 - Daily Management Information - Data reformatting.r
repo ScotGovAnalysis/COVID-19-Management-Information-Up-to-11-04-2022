@@ -156,52 +156,52 @@ raw_SC_table11  <- read_excel(tf1, "Table 11 - Vac supply", skip = 2)
 
 ## Table 12: Students at universities and colleges ---------------------- #
 
-raw_SC_table12x_n_max <- (interval(ymd("2021-01-15"), today$iso) / weeks()) + 1
-raw_SC_table12x_n_max <- as.integer(raw_SC_table12x_n_max)
+# raw_SC_table12x_n_max <- (interval(ymd("2021-01-15"), today$iso) / weeks()) + 1
+# raw_SC_table12x_n_max <- as.integer(raw_SC_table12x_n_max)
 
 # Table 12a - University COVID data - Positive cases amongst students in Scotland
-raw_SC_table12a_1 <- read_excel(
-  path = tf1,
-  sheet = "Table 12 - Uni and College",
-  skip = 2,
-  n_max = 11
-)
-
-raw_SC_table12a_2 <- read_excel(
-  path = tf1,
-  sheet = "Table 12 - Uni and College",
-  col_names = names(raw_SC_table12a_1),
-  col_types = c("date", "numeric", "numeric", "numeric"),
-  na = "-",
-  skip = 15,
-  n_max = raw_SC_table12x_n_max
-)
-
-raw_SC_table12a <- bind_rows(
-  raw_SC_table12a_1,
-  raw_SC_table12a_2
-)
+# raw_SC_table12a_1 <- read_excel(
+#   path = tf1,
+#   sheet = "Table 12 - Uni and College",
+#   skip = 2,
+#   n_max = 11
+# )
+# 
+# raw_SC_table12a_2 <- read_excel(
+#   path = tf1,
+#   sheet = "Table 12 - Uni and College",
+#   col_names = names(raw_SC_table12a_1),
+#   col_types = c("date", "numeric", "numeric", "numeric"),
+#   na = "-",
+#   skip = 15,
+#   n_max = raw_SC_table12x_n_max
+# )
+# 
+# raw_SC_table12a <- bind_rows(
+#   raw_SC_table12a_1,
+#   raw_SC_table12a_2
+# )
 
 # Table 12b - Colleges COVID data - Positive cases amongst students in Scotland
-raw_SC_table12b_1_skip <- length(raw_SC_table12a[[1]]) + (2 + 1 + 1 + 2)
-raw_SC_table12b_2_skip <- raw_SC_table12b_1_skip + (1 + 7 + 1)
-
-raw_SC_table12b_1 <- read_excel(
-  path = tf1,
-  sheet = "Table 12 - Uni and College",
-  skip = raw_SC_table12b_1_skip,
-  n_max = 7
-)
-
-raw_SC_table12b_2 <- read_excel(
-  path = tf1,
-  sheet = "Table 12 - Uni and College",
-  col_names = names(raw_SC_table12b_1),
-  col_types = c("date", "numeric", "numeric", "numeric"),
-  na = "-",
-  skip = raw_SC_table12b_2_skip
-)
-
+# raw_SC_table12b_1_skip <- length(raw_SC_table12a[[1]]) + (2 + 1 + 1 + 2)
+# raw_SC_table12b_2_skip <- raw_SC_table12b_1_skip + (1 + 7 + 1)
+# 
+# raw_SC_table12b_1 <- read_excel(
+#   path = tf1,
+#   sheet = "Table 12 - Uni and College",
+#   skip = raw_SC_table12b_1_skip,
+#   n_max = 7
+# )
+# 
+# raw_SC_table12b_2 <- read_excel(
+#   path = tf1,
+#   sheet = "Table 12 - Uni and College",
+#   col_names = names(raw_SC_table12b_1),
+#   col_types = c("date", "numeric", "numeric", "numeric"),
+#   na = "-",
+#   skip = raw_SC_table12b_2_skip
+# )
+# 
 # raw_SC_table12b <- bind_rows(
 #   raw_SC_table12b_1,
 #   raw_SC_table12b_2
@@ -495,13 +495,13 @@ SC_table11 <- raw_SC_table11 %>%
     "Vaccine supply - Doses delivered - Cumulative total" = "Total number of doses delivered"
   )
 
-SC_table12a <- raw_SC_table12a %>% 
-  rename(
-    "Date" = "Date",
-    "Students - Universities - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive this semester",
-    "Students - Universities - Positive tests reported - Weekly increase" = "New cases reported since last week",
-    "Students - Universities - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
-  )
+# SC_table12a <- raw_SC_table12a %>% 
+#   rename(
+#     "Date" = "Date",
+#     "Students - Universities - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive this semester",
+#     "Students - Universities - Positive tests reported - Weekly increase" = "New cases reported since last week",
+#     "Students - Universities - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
+#   )
 
 # SC_table12b <- raw_SC_table12b %>% 
 #   rename(
@@ -665,15 +665,15 @@ tidy_SC_table11 <- SC_table11 %>%
     Measurement = "Count"
   )
 
-tidy_SC_table12a <- SC_table12a %>%
-  gather(
-    key = "Variable",
-    value = "Value",
-    -Date
-  ) %>%
-  mutate(
-    Measurement = "Count"
-  )
+# tidy_SC_table12a <- SC_table12a %>%
+#   gather(
+#     key = "Variable",
+#     value = "Value",
+#     -Date
+#   ) %>%
+#   mutate(
+#     Measurement = "Count"
+#   )
 
 # tidy_SC_table12b <- SC_table12b %>%
 #   gather(
@@ -742,8 +742,7 @@ SC_output_dataset <- bind_rows(
   tidy_SC_table10a,
   tidy_SC_table10b,
   tidy_SC_table10c,
-  tidy_SC_table11,
-  tidy_SC_table12a
+  tidy_SC_table11
   ) %>%
   # Creating required variables
   mutate(GeographyCode = "S92000003",
@@ -811,7 +810,7 @@ write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - V
 # write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
 write.csv(SC_table10c,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By age.csv", quote = FALSE, row.names = F)
 write.csv(SC_table11,  "./COVID19 - Daily Management Information - Scotland - Vaccine supply.csv", quote = FALSE, row.names = F)
-write.csv(SC_table12a,  "./COVID19 - Daily Management Information - Scotland - Students - Universities.csv", quote = FALSE, row.names = F)
+# write.csv(SC_table12a,  "./COVID19 - Daily Management Information - Scotland - Students - Universities.csv", quote = FALSE, row.names = F)
 # write.csv(SC_table12b,  "./COVID19 - Daily Management Information - Scotland - Students - Colleges.csv", quote = FALSE, row.names = F)
 
 # Health board data ----------------------------------------------------- #

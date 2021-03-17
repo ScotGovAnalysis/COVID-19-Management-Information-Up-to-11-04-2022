@@ -10188,64 +10188,6 @@ S92000003,2021-02-22,Count,Vaccine supply - Doses delivered - Cumulative total,1
 S92000003,2021-03-01,Count,Vaccine supply - Doses delivered - Cumulative total,1886160,Vaccine supply - Doses delivered - Cumulative total
 S92000003,2021-03-08,Count,Vaccine supply - Doses delivered - Cumulative total,2189030,Vaccine supply - Doses delivered - Cumulative total
 S92000003,2021-03-15,Count,Vaccine supply - Doses delivered - Cumulative total,2673640,Vaccine supply - Doses delivered - Cumulative total
-S92000003,2020-10-16,Count,Students - Universities - Positive tests reported - Cumulative total,2330,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-10-23,Count,Students - Universities - Positive tests reported - Cumulative total,2620,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-10-30,Count,Students - Universities - Positive tests reported - Cumulative total,2860,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-11-06,Count,Students - Universities - Positive tests reported - Cumulative total,3090,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-11-10,Count,Students - Universities - Positive tests reported - Cumulative total,3160,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-11-13,Count,Students - Universities - Positive tests reported - Cumulative total,3270,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-11-17,Count,Students - Universities - Positive tests reported - Cumulative total,3360,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-11-20,Count,Students - Universities - Positive tests reported - Cumulative total,3450,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-11-27,Count,Students - Universities - Positive tests reported - Cumulative total,3680,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-12-04,Count,Students - Universities - Positive tests reported - Cumulative total,3800,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-12-11,Count,Students - Universities - Positive tests reported - Cumulative total,3890,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2021-01-15,Count,Students - Universities - Positive tests reported - Cumulative total,4180,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2021-01-22,Count,Students - Universities - Positive tests reported - Cumulative total,4290,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2021-01-29,Count,Students - Universities - Positive tests reported - Cumulative total,4370,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2021-02-05,Count,Students - Universities - Positive tests reported - Cumulative total,4440,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2021-02-12,Count,Students - Universities - Positive tests reported - Cumulative total,4520,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2021-02-19,Count,Students - Universities - Positive tests reported - Cumulative total,4570,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2021-02-26,Count,Students - Universities - Positive tests reported - Cumulative total,4610,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2021-03-05,Count,Students - Universities - Positive tests reported - Cumulative total,4650,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2021-03-12,Count,Students - Universities - Positive tests reported - Cumulative total,4690,Students - Universities - Positive tests reported - Cumulative total
-S92000003,2020-10-16,Count,Students - Universities - Positive tests reported - Weekly increase,480,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-10-23,Count,Students - Universities - Positive tests reported - Weekly increase,250,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-10-30,Count,Students - Universities - Positive tests reported - Weekly increase,180,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-11-06,Count,Students - Universities - Positive tests reported - Weekly increase,190,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-11-10,Count,Students - Universities - Positive tests reported - Weekly increase,160,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-11-13,Count,Students - Universities - Positive tests reported - Weekly increase,170,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-11-17,Count,Students - Universities - Positive tests reported - Weekly increase,190,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-11-20,Count,Students - Universities - Positive tests reported - Weekly increase,200,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-11-27,Count,Students - Universities - Positive tests reported - Weekly increase,210,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-12-04,Count,Students - Universities - Positive tests reported - Weekly increase,120,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-12-11,Count,Students - Universities - Positive tests reported - Weekly increase,90,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2021-01-22,Count,Students - Universities - Positive tests reported - Weekly increase,90,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2021-01-29,Count,Students - Universities - Positive tests reported - Weekly increase,80,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2021-02-05,Count,Students - Universities - Positive tests reported - Weekly increase,70,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2021-02-12,Count,Students - Universities - Positive tests reported - Weekly increase,70,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2021-02-19,Count,Students - Universities - Positive tests reported - Weekly increase,40,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2021-02-26,Count,Students - Universities - Positive tests reported - Weekly increase,50,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2021-03-05,Count,Students - Universities - Positive tests reported - Weekly increase,30,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2021-03-12,Count,Students - Universities - Positive tests reported - Weekly increase,50,Students - Universities - Positive tests reported - Weekly increase
-S92000003,2020-10-16,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),70,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2020-10-23,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),35,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2020-10-30,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),25,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2020-11-06,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),25,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2020-11-10,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),20,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2020-11-13,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),25,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2020-11-17,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),30,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2020-11-20,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),30,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2020-11-27,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),30,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2020-12-04,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),15,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2020-12-11,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),15,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2021-01-22,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),15,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2021-01-29,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),10,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2021-02-05,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),10,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2021-02-12,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),10,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2021-02-19,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),5,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2021-02-26,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),5,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2021-03-05,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),5,Students - Universities - Positive tests reported - Average daily increase (7-day average)
-S92000003,2021-03-12,Count,Students - Universities - Positive tests reported - Average daily increase (7-day average),5,Students - Universities - Positive tests reported - Average daily increase (7-day average)
 S08000015,2020-03-07,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000015,2020-03-08,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
 S08000015,2020-03-09,Count,Testing - Cumulative people tested for COVID-19 - Positive,*,Testing - Cumulative people tested for COVID-19 - Positive
