@@ -1,4 +1,4 @@
-# Read data ---------------------------------------------------------------
+# Rename variables --------------------------------------------------------
 
 for(x in names(data_sets)){
   
@@ -21,7 +21,7 @@ for(x in names(data_sets)){
 
 rm(x, table_name)
 
-# QA: New variable names --------------------------------------------------
+# QA: Confirm new variable names ------------------------------------------
 
 for(x in names(data_sets)){
   
