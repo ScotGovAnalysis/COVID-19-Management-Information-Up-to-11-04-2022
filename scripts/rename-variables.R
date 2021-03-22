@@ -40,6 +40,10 @@ for(x in names(data_sets)){
       warning("After renaming, the data set ", x, " does not have the expected variable names.")
     }
     
+    if(variable_names_actual[1] != "Date"){
+      warning("After renaming, the data set ", x, " does not have 'Date' as its first column.")
+    }
+    
   }
   
 }
