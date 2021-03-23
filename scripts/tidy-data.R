@@ -15,7 +15,7 @@ data_sets$sc_07a$data$new <- data_sets$sc_07a$data$new %>%
 # Convert data frames into a tidy (long) data format
 # For use on https://statistics.gov.scot/
 
-ratio_dictionary_regex <- "( per )|( percent)|( rate)|( ratio)"
+ratio_dictionary_regex <- "( per )|(percent)|(rate)|(ratio)"
 
 for(x in names(data_sets)){
   
@@ -29,7 +29,7 @@ for(x in names(data_sets)){
       # Where the variable name contains a word that indicates that it is a ratio, multiply the value by 100
       mutate(
         across(
-          matches(ratio_dictionary_regex),
+          matches(ratio_dictionary_regex, ignore.case = TRUE),
           ~ . * 100
         )
       )
