@@ -123,18 +123,18 @@ raw_SC_table8  <- read_excel(tf1, "Table 8 - Deaths", skip = 2)[, 1:2]
 # Table 9 / 9a: Daily attendance and absence in schools in Scotland
 raw_SC_table9a  <- read_excel(tf1, "Table 9 - School education", skip = 2, n_max = 93)[, 1:5]
 # Table 9b: Percentage of pupils in attendance at school (2021)
-raw_SC_table9b  <- read_excel(tf1, "Table 9 - School education", skip = 98)[, 1:5]
+# raw_SC_table9b  <- read_excel(tf1, "Table 9 - School education", skip = 98)[, 1:5]
 
 ## Table 10: Vaccinations ----------------------------------------------- #
 
 # Table 10a: Daily COVID-19 vaccinations in Scotland
 # Number of people who have received the Covid vaccination
-raw_SC_table10a <- read_excel(
-  path = tf1,
-  sheet = "Table 10a - Vaccinations",
-  col_types = c("date", rep("numeric", times = 2)),
-  skip = 2
-)
+# raw_SC_table10a <- read_excel(
+#   path = tf1,
+#   sheet = "Table 10a - Vaccinations",
+#   col_types = c("date", rep("numeric", times = 2)),
+#   skip = 2
+# )
 
 # Table 10b: Daily COVID-19 vaccinations in Scotland by JCVI Priority Group
 # Number of people who have received the Covid vaccination by JCVI priority group
@@ -202,10 +202,10 @@ raw_SC_table12b_2 <- read_excel(
   skip = raw_SC_table12b_2_skip
 )
 
-raw_SC_table12b <- bind_rows(
-  raw_SC_table12b_1,
-  raw_SC_table12b_2
-)
+# raw_SC_table12b <- bind_rows(
+#   raw_SC_table12b_1,
+#   raw_SC_table12b_2
+# )
 
 # Health board data ----------------------------------------------------- #
 
@@ -290,8 +290,8 @@ raw_HB_table3  <- read_excel(tf2, "Table 3 - Hospital patients", skip = 2)[, -c(
 
 # Quality assurance -------------------------------------------------------
 
-source("scripts/quality-assurance/date-last-modified.R")
-source("scripts/quality-assurance/variable-names.R")
+# source("scripts/quality-assurance/date-last-modified.R")
+# source("scripts/quality-assurance/variable-names.R")
 
 # Rename variables --------------------------------------------------------
 
@@ -393,26 +393,26 @@ SC_table9a <-SC_table9a %>%
          `School education - Percentage absence due to COVID-19 related reasons` = 100*`School education - Percentage absence due to COVID-19 related reasons`,
          `School education - Percentage absence for non COVID-19 related reasons` = 100*`School education - Percentage absence for non COVID-19 related reasons`)
 
-SC_table9b <- raw_SC_table9b %>% 
-  rename(
-    "Date" = "...1",
-    "School education - Percentage attendance" = "All...2",
-    "School education - Percentage attendance - Primary" = "Primary...3",
-    "School education - Percentage attendance - Secondary" = "Secondary...4",
-    "School education - Percentage attendance - Special" = "Special...5",
-  ) %>% 
-  mutate(
-    "School education - Percentage attendance" = 100 * `School education - Percentage attendance`,
-    "School education - Percentage attendance - Primary" = 100 * `School education - Percentage attendance - Primary`,
-    "School education - Percentage attendance - Secondary" = 100 * `School education - Percentage attendance - Secondary`,
-    "School education - Percentage attendance - Special" = 100 * `School education - Percentage attendance - Special`
-  )
+# SC_table9b <- raw_SC_table9b %>% 
+#   rename(
+#     "Date" = "...1",
+#     "School education - Percentage attendance" = "All...2",
+#     "School education - Percentage attendance - Primary" = "Primary...3",
+#     "School education - Percentage attendance - Secondary" = "Secondary...4",
+#     "School education - Percentage attendance - Special" = "Special...5",
+#   ) %>% 
+#   mutate(
+#     "School education - Percentage attendance" = 100 * `School education - Percentage attendance`,
+#     "School education - Percentage attendance - Primary" = 100 * `School education - Percentage attendance - Primary`,
+#     "School education - Percentage attendance - Secondary" = 100 * `School education - Percentage attendance - Secondary`,
+#     "School education - Percentage attendance - Special" = 100 * `School education - Percentage attendance - Special`
+#   )
 
-SC_table10a <- raw_SC_table10a %>% 
-  rename(
-    "Vaccinations - Number of people who have received first dose" = "Number of people who have received the first dose of the Covid vaccination",
-    "Vaccinations - Number of people who have received second dose" = "Number of people who have received the second dose of the Covid vaccination"
-  )
+# SC_table10a <- raw_SC_table10a %>% 
+#   rename(
+#     "Vaccinations - Number of people who have received first dose" = "Number of people who have received the first dose of the Covid vaccination",
+#     "Vaccinations - Number of people who have received second dose" = "Number of people who have received the second dose of the Covid vaccination"
+#   )
 
 ## Table 10c: vaccinations by age group --------------------------------- #
 
@@ -503,13 +503,13 @@ SC_table12a <- raw_SC_table12a %>%
     "Students - Universities - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
   )
 
-SC_table12b <- raw_SC_table12b %>% 
-  rename(
-    "Date" = "Date",
-    "Students - Colleges - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive",
-    "Students - Colleges - Positive tests reported - Weekly increase" = "New cases reported since last return",
-    "Students - Colleges - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
-  )
+# SC_table12b <- raw_SC_table12b %>% 
+#   rename(
+#     "Date" = "Date",
+#     "Students - Colleges - Positive tests reported - Cumulative total" = "Cumulative total of students who have tested positive",
+#     "Students - Colleges - Positive tests reported - Weekly increase" = "New cases reported since last return",
+#     "Students - Colleges - Positive tests reported - Average daily increase (7-day average)" = "Average daily increase (7-day average)"
+#   )
 
 # Health board data ----------------------------------------------------- #
 
@@ -634,13 +634,13 @@ tidy_SC_table9a <- SC_table9a %>%
                               "School education - Percentage absence due to COVID-19 related reasons" = "Ratio",
                               "School education - Percentage absence for non COVID-19 related reasons" = "Ratio"))
 
-tidy_SC_table9b <- SC_table9b %>% 
-  gather(key = "Variable", value = "Value", -Date) %>%
-  mutate(Measurement = "Ratio")
+# tidy_SC_table9b <- SC_table9b %>% 
+#   gather(key = "Variable", value = "Value", -Date) %>%
+#   mutate(Measurement = "Ratio")
 
-tidy_SC_table10a <- SC_table10a %>%
-  gather(key = "Variable", value = "Value", -Date) %>%
-  mutate(Measurement = "Count")
+# tidy_SC_table10a <- SC_table10a %>%
+#   gather(key = "Variable", value = "Value", -Date) %>%
+#   mutate(Measurement = "Count")
 
 tidy_SC_table10c <- SC_table10c %>%
   gather(
@@ -675,15 +675,15 @@ tidy_SC_table12a <- SC_table12a %>%
     Measurement = "Count"
   )
 
-tidy_SC_table12b <- SC_table12b %>%
-  gather(
-    key = "Variable",
-    value = "Value",
-    -Date
-  ) %>%
-  mutate(
-    Measurement = "Count"
-  )
+# tidy_SC_table12b <- SC_table12b %>%
+#   gather(
+#     key = "Variable",
+#     value = "Value",
+#     -Date
+#   ) %>%
+#   mutate(
+#     Measurement = "Count"
+#   )
 
 # Health board data ----------------------------------------------------- #
 
@@ -738,13 +738,12 @@ SC_output_dataset <- bind_rows(
   tidy_SC_table7b,
   tidy_SC_table8,
   tidy_SC_table9a,
-  tidy_SC_table9b,
-  tidy_SC_table10a,
+  # tidy_SC_table9b,
+  # tidy_SC_table10a,
   tidy_SC_table10b,
   tidy_SC_table10c,
   tidy_SC_table11,
   tidy_SC_table12a,
-  tidy_SC_table12b,
   ) %>%
   # Creating required variables
   mutate(GeographyCode = "S92000003",
@@ -807,13 +806,13 @@ write.csv(SC_table6,  "./COVID19 - Daily Management Information - Scotland - Wor
 write.csv(SC_table7b, "./COVID19 - Daily Management Information - Scotland - Care home workforce.csv", quote = FALSE, row.names = F)
 write.csv(SC_table8,  "./COVID19 - Daily Management Information - Scotland - Deaths.csv", quote = FALSE, row.names = F)
 write.csv(SC_table9a,  "./COVID19 - Daily Management Information - Scotland - School education.csv", quote = FALSE, row.names = F)
-write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - School education (2021).csv", quote = FALSE, row.names = F)
-write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
+# write.csv(SC_table9b,  "./COVID19 - Daily Management Information - Scotland - School education (2021).csv", quote = FALSE, row.names = F)
+# write.csv(SC_table10a,  "./COVID19 - Daily Management Information - Scotland - Vaccinations.csv", quote = FALSE, row.names = F)
 # write.csv(SC_table10b,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By JCVI priority group.csv", quote = FALSE, row.names = F)
 write.csv(SC_table10c,  "./COVID19 - Daily Management Information - Scotland - Vaccinations - By age.csv", quote = FALSE, row.names = F)
 write.csv(SC_table11,  "./COVID19 - Daily Management Information - Scotland - Vaccine supply.csv", quote = FALSE, row.names = F)
 write.csv(SC_table12a,  "./COVID19 - Daily Management Information - Scotland - Students - Universities.csv", quote = FALSE, row.names = F)
-write.csv(SC_table12b,  "./COVID19 - Daily Management Information - Scotland - Students - Colleges.csv", quote = FALSE, row.names = F)
+# write.csv(SC_table12b,  "./COVID19 - Daily Management Information - Scotland - Students - Colleges.csv", quote = FALSE, row.names = F)
 
 # Health board data ----------------------------------------------------- #
 

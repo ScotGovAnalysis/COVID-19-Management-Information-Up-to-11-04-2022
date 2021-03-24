@@ -25,6 +25,7 @@ for(x in names(data_sets)){
     
     data_sets[[x]]$data$new <- data_sets[[x]]$data$new %>% 
       # Drop rows where the date is NA
+      # NA values in other columns are treated as valid data
       filter(!is.na(Date)) %>% 
       # Where the variable name contains a word that indicates that it is a
       # ratio, multiply the value by 100
