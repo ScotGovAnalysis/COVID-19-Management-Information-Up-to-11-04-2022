@@ -60,7 +60,7 @@ for(x in import_metadata$data_set_id){
   
   data_sets[[x]]$export_rules <- import_metadata %>% 
     filter(data_set_id == x) %>% 
-    select(variable_name) %>% 
+    select(export_filename_new, export_filename_old, variable_name) %>% 
     as.list()
   
   # Table structure ----------------------------------------------------- #
