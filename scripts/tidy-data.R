@@ -26,7 +26,8 @@ for(x in names(data_sets)){
     data_sets[[x]]$data$new <- data_sets[[x]]$data$new %>% 
       # Drop rows where the date is NA
       filter(!is.na(Date)) %>% 
-      # Where the variable name contains a word that indicates that it is a ratio, multiply the value by 100
+      # Where the variable name contains a word that indicates that it is a
+      # ratio, multiply the value by 100
       mutate(
         across(
           matches(ratio_dictionary_regex, ignore.case = TRUE),
@@ -36,20 +37,44 @@ for(x in names(data_sets)){
     
     # Pivot data into tidy (long) format -------------------------------- #
     
-    data_sets[[x]]$data$tidy_long <- data_sets[[x]]$data$new %>% 
-      pivot_longer(
-        cols = -Date,
-        names_to = "Variable",
-        values_to = "Value"
-      ) %>% 
-      # Measurement type is "Count", unless the variable name contains a word that indicates that it is a ratio
-      mutate(
-        Measurement = if_else(
-          condition = str_detect(str_to_lower(Variable), ratio_dictionary_regex),
-          true = "Ratio",
-          false = "Count"
+    # Health board data needs special rules, because the column names
+    # indicate the health board rather than the variable being measured;
+    # instead, read the variable name from the metadata CSV file
+    
+    if(data_sets[[x]]$import_rules$source == "hb"){
+      
+      # Health board data
+      
+      data_sets[[x]]$data$tidy_long <- data_sets[[x]]$data$new %>% 
+        pivot_longer(
+          cols = -Date,
+          names_to = "HBname",
+          values_to = "Value"
+        ) %>% 
+        mutate(Units = "lol") %>% 
+        group_by(HBname) %>% 
+        arrange(Date, .by_group = TRUE)
+      
+    } else {
+      
+      # Whole-of-Scotland data
+      
+      data_sets[[x]]$data$tidy_long <- data_sets[[x]]$data$new %>% 
+        pivot_longer(
+          cols = -Date,
+          names_to = "Variable",
+          values_to = "Value"
+        ) %>% 
+        # Measurement type is "Count", unless the variable name contains a word that indicates that it is a ratio
+        mutate(
+          Measurement = if_else(
+            condition = str_detect(str_to_lower(Variable), ratio_dictionary_regex),
+            true = "Ratio",
+            false = "Count"
+          )
         )
-      )
+      
+    }
     
   }
   
