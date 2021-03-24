@@ -56,6 +56,13 @@ for(x in import_metadata$data_set_id){
     }
   }
   
+  # Export rules -------------------------------------------------------- #
+  
+  data_sets[[x]]$export_rules <- import_metadata %>% 
+    filter(data_set_id == x) %>% 
+    select(variable_name) %>% 
+    as.list()
+  
   # Table structure ----------------------------------------------------- #
   # Column names, column types, etc.
 

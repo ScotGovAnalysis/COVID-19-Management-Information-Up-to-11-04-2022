@@ -44,37 +44,62 @@ for(x in names(data_sets)){
     if(data_sets[[x]]$import_rules$source == "hb"){
       
       # Health board data
-      
       data_sets[[x]]$data$tidy_long <- data_sets[[x]]$data$new %>% 
         pivot_longer(
           cols = -Date,
           names_to = "HBname",
           values_to = "Value"
         ) %>% 
-        mutate(Units = "lol") %>% 
+        left_join(
+          HB_codes,
+          by = c(HBname = "HB2014Name")
+        ) %>% 
+        mutate(
+          Variable = data_sets[[x]]$export_rules$variable_name
+        )%>% 
         group_by(HBname) %>% 
-        arrange(Date, .by_group = TRUE)
+        arrange(Date, .by_group = TRUE) %>% 
+        ungroup()
       
     } else {
       
       # Whole-of-Scotland data
-      
       data_sets[[x]]$data$tidy_long <- data_sets[[x]]$data$new %>% 
         pivot_longer(
           cols = -Date,
           names_to = "Variable",
           values_to = "Value"
         ) %>% 
-        # Measurement type is "Count", unless the variable name contains a word that indicates that it is a ratio
         mutate(
-          Measurement = if_else(
-            condition = str_detect(str_to_lower(Variable), ratio_dictionary_regex),
-            true = "Ratio",
-            false = "Count"
-          )
+          HBname = NA,
+          HB2014Code = "S92000003"
         )
       
     }
+    
+    data_sets[[x]]$data$tidy_long <- data_sets[[x]]$data$tidy_long %>% 
+      mutate(
+        # Measurement type is "Count", unless the variable name contains a
+        # word that indicates that it is a ratio
+        Measurement = if_else(
+          condition = str_detect(str_to_lower(Variable), ratio_dictionary_regex),
+          true = "Ratio",
+          false = "Count"
+        ),
+        "Units" = Variable,
+        # Coerce Value to string, to support health board data's use of *
+        Value = as.character(Value)
+      ) %>% 
+      # Order variables appropriately, drop health board names, and name
+      # variables according to https://statistics.gov.scot/ standards
+      select(
+        GeographyCode = HB2014Code,
+        DateCode = Date,
+        Measurement, 
+        Units,
+        Value,
+        Variable
+      )
     
   }
   
