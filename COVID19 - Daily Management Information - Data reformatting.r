@@ -7,6 +7,7 @@
 # - Miles Drake (miles.drake@gov.scot)
 # Open Data Platform:
 # - https://statistics.opendata@gov.scot/
+# Written for R version 4.0.3 (2020-10-10)
 # ----------------------------------------------------------------------- #
 
 # Load required libraries -------------------------------------------------
