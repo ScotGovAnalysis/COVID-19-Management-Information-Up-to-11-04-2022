@@ -27,6 +27,10 @@ for(x in names(data_sets)){
       # Drop rows where the date is NA
       # NA values in other columns are treated as valid data
       filter(!is.na(Date)) %>% 
+      # Remove timezone information from date variable
+      mutate(
+        Date = ymd(Date)
+      ) %>% 
       # Where the variable name contains a word that indicates that it is a
       # ratio, multiply the value by 100
       mutate(
