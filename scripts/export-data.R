@@ -1,7 +1,5 @@
 # Export data -------------------------------------------------------------
 
-# Write whole data set for export to statistics.gov.scot ------------------
-
 whole_data_set <- NULL
 
 for(x in names(data_sets)){
@@ -17,7 +15,7 @@ for(x in names(data_sets)){
       "data/export/",
       case_when(
         data_sets[[x]]$import_rules$source == "hb" ~ "health-boards/",
-        data_sets[[x]]$import_rules$source == "sc" ~ "scotland/",
+        data_sets[[x]]$import_rules$source == "sc" ~ "scotland/"
       ),
       data_sets[[x]]$export_rules$export_filename_new,
       ".csv"
@@ -45,7 +43,8 @@ for(x in names(data_sets)){
   
 }
 
+# Export whole data set ---------------------------------------------------
+# Export whole data set in tidy format, for use on statistics.gov.scot
+
 whole_data_set %>% write_csv("data/export/upload-to-open-data-platform.csv")
 whole_data_set %>% write_csv("data/export/old-file-structure/COVID19 - Daily Management Information - Tidy dataset to upload to statistics.gov.scot.csv")
-
-print("Done.", quote = FALSE)
