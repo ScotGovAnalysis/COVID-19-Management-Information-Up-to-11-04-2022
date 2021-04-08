@@ -1,7 +1,7 @@
 # Read metadata -----------------------------------------------------------
 
-import_metadata <- read_csv("data/import/metadata.csv")
-import_table_structure <- read_csv("data/import/table-structure.csv")
+import_metadata <- read_csv("import/data-set-rules.csv")
+import_table_structure <- read_csv("data-set-structure.csv")
 
 # Create an empty list to populate with data
 data_sets <- NULL
