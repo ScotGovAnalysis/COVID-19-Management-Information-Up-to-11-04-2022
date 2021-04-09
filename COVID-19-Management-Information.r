@@ -20,9 +20,6 @@ library(readr)      # read_csv
 library(tidyr)      # gather, join, na_if
 library(stringr)    # str_c, str_remove, str_replace, bind_rows, left_join
 
-# Load required functions -------------------------------------------------
-source("scripts/functions.R")
-
 # Manual URL entry --------------------------------------------------------
 # If the URL for either data set has changed, replace NA with the new URL
 # Eg: metadata$daily_data_trends$url_manual <- "https://gov.scot/new.xlsx"
