@@ -106,16 +106,15 @@ sapply(1:length(metadata), function(i) {
 })
 
 # Read data sets ----------------------------------------------------------
-source("scripts/read-data.R")
+source("scripts/1-read-data.R")
 
 # Tidy data sets ----------------------------------------------------------
 # Rename variables, then convert data frames into a tidy (long) data format
 # Variable names are according to the statistics.gov.scot specification
-source("scripts/rename-variables.R")
-source("scripts/tidy-data.R")
-
+source("scripts/2-rename-variables.R")
+source("scripts/3-tidy-data.R")
 
 # Export data sets --------------------------------------------------------
-source("scripts/export-data.R")
+source("scripts/4-export-data.R")
 
 print("Done.", quote = FALSE)
