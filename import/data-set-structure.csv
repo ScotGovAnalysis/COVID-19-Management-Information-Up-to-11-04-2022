@@ -163,6 +163,7 @@ sc_06_archived,4,Other staff absences,NHS workforce COVID-19 absences - Other st
 sc_06_archived,5,All staff absences,NHS workforce COVID-19 absences - All staff,numeric,
 sc_07a,1,Week,Date,text,
 sc_07a,2,Number of resident confirmed positive cases in all Scottish care homes,Care homes - All care homes - Residents - Weekly positive cases,numeric,
+sc_07a,3,Number of staff confirmed positive cases in all Scottish care homes,Care homes - All care homes - Staff - Weekly positive cases,numeric,
 sc_07b,1,Date,Date,date,
 sc_07b,2,No. of staff reported as absent in adult care homes,Adult care homes - Number of staff reported as absent,numeric,
 sc_07b,3,Adult care homes which submitted a return,Adult care homes - Adult care homes which submitted a return,numeric,
