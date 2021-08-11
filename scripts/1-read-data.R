@@ -12,7 +12,7 @@ for(x in import_metadata$data_set_id){
   
   data_sets[[x]]$metadata <- import_metadata %>% 
     filter(data_set_id == x) %>% 
-    select(table_name, description, update_text) %>% 
+    select(table_name, table_name_old, description) %>% 
     as.list()
 
   # Flags --------------------------------------------------------------- #

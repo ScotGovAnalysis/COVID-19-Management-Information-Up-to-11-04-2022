@@ -1,9 +1,16 @@
 # Manually fix data for specific data sets --------------------------------
 
-# sc_07a ---------------------------------------------------------------- #
+## Convert string columns to dates ----------------------------------------
 
-# Convert date column that contains strings (because it is describing an interval) to a true date column
-# Use the end-of-week date as the reporting date
+# sc_06_2
+data_sets$sc_06_2$data$new <- data_sets$sc_06_2$data$new %>% 
+  mutate(
+    Date = Date %>% 
+      str_sub(start = -10L) %>% 
+      as.Date("%d/%m/%Y")
+  )
+
+# sc_07a
 data_sets$sc_07a$data$new <- data_sets$sc_07a$data$new %>% 
   mutate(
     Date = Date %>% 
