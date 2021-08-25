@@ -1,19 +1,42 @@
 # Read metadata -----------------------------------------------------------
 
+cat(
+  "Reading table importing rules from:",
+  "- import/data-set-rules.csv (table dimensions, and metadata).",
+  "- import/data-set-structure.csv (variable counts, names, and types).",
+  "",
+  sep = "\n"
+)
+
 import_metadata <- read_csv("import/data-set-rules.csv")
 import_table_structure <- read_csv("import/data-set-structure.csv")
 
 # Create an empty list to populate with data
 data_sets <- NULL
 
-for(x in import_metadata$data_set_id){
+cat(
+  "Reading rules for", length(import_metadata$data_set_id), "tables:\n"
+)
 
+for(it in 1:length(import_metadata$data_set_id)){
+  
+  it_max <- length(import_metadata$data_set_id)
+  x <- import_metadata$data_set_id[it]
+  
+  cat(
+    "  #", it, "/", it_max, " -- ",
+    yellow(x),
+    sep = ""
+  )
+  
   # Descriptive metadata ------------------------------------------------ #
   
   data_sets[[x]]$metadata <- import_metadata %>% 
     filter(data_set_id == x) %>% 
     select(table_name, table_name_old, description) %>% 
     as.list()
+  
+  cat(" --", data_sets[[x]]$metadata$table_name, "...\n")
 
   # Flags --------------------------------------------------------------- #
   # Used to simplify if statements, debugging, and for quality assurance
@@ -72,6 +95,10 @@ for(x in import_metadata$data_set_id){
     as.list()
   
 }
+
+cat(
+  "  ", crayon::green("Done."), "\n\n", sep = ""
+)
 
 # Read data ---------------------------------------------------------------
 
