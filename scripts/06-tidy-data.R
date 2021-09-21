@@ -1,3 +1,7 @@
+# Define variables --------------------------------------------------------
+
+na_count_total <- 0L
+
 # Manually fix data for specific data sets --------------------------------
 
 ## Convert string columns to dates ----------------------------------------
@@ -89,6 +93,38 @@ for(x in names(data_sets)){
       
     }
     
+    # Drop NA values ---------------------------------------------------- #
+    
+    # Now that the data is in tidy (long) format, and the Values variables
+    # all have the same name, this is a good time to easily drop NA values
+    
+    na_count <- data_sets[[x]]$data$tidy_long %>% 
+      select(Value) %>% 
+      filter(is.na(Value)) %>% 
+      unlist() %>% 
+      length()
+    
+    na_count_total <- na_count_total + na_count
+    
+    if(na_count > 0){
+      
+      cat(
+        "  Removing",
+        na_count,
+        "NA values from table",
+        yellow(x), "--", data_sets[[x]]$metadata$table_name,
+        "..."
+      )
+      
+      data_sets[[x]]$data$tidy_long <- data_sets[[x]]$data$tidy_long %>% 
+        filter(!is.na(Value))
+      
+      cat(green(" Done.\n"))
+      
+    }
+    
+    # Add Measurement and Unit variables -------------------------------- #
+    
     data_sets[[x]]$data$tidy_long <- data_sets[[x]]$data$tidy_long %>% 
       mutate(
         # Measurement type is "Count", unless the variable name contains a
@@ -116,3 +152,11 @@ for(x in names(data_sets)){
   }
   
 }
+
+# Feedback ----------------------------------------------------------------
+
+cat(
+  "\n  Removed a total of",
+  na_count_total,
+  "NA values from all tables.\n\n"
+)
