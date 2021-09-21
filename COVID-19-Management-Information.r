@@ -44,9 +44,3 @@ invisible(sapply(
     source(i, echo = FALSE)
   }
 ))
-
-# End of script -----------------------------------------------------------
-
-cat(
-  bold(green("Done.")), "End of script."
-)
