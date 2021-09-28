@@ -4,7 +4,7 @@ print_header("Import rules and script settings")
 
 cat(
   "Reading table importing rules from:\n",
-  "- `import/data-set-rules.csv` (table dimensions, and metadata) ...",
+  "- 'import/data-set-rules.csv' (table dimensions, and metadata) ...",
   sep = ""
 )
 
@@ -27,7 +27,7 @@ import_metadata <- read_csv(
 
 print_done()
 
-cat("- `import/data-set-structure.csv` (variable counts, names, and types) ...")
+cat("- 'import/data-set-structure.csv' (variable counts, names, and types) ...")
 
 import_table_structure <- read_csv(
   file = "import/data-set-structure.csv",

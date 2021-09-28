@@ -3,12 +3,15 @@
 print_header("Statistics")
 
 cat(
-  "The following statistics are intended to help with quality assurance.",
-  "They are given for the whole data set.\n\n"
+  "The following statistics are intended to help with quality assurance.\n",
+  "They are given for the whole data set.\n\n",
+  sep = ""
 )
 
 cat(
-  "Scripts found in \"scripts/\" folder: ", length(script_paths), "\n\n",
+  "Scripts found in 'scripts/' folder: ", length(script_paths), "\n\n",
+  "Tables defined: ", table_count, "\n",
+  "Tables flagged for import: ", table_import_count, "\n\n",
   "Today's date: ", today$iso %>% as.character(), "\n",
   "Latest date: ", whole_data_set$DateCode %>% max() %>% as.character(), "\n",
   "Time difference between today's date and latest date: ", as.integer(today$iso - max(whole_data_set$DateCode)), " days\n",

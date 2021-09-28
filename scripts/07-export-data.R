@@ -54,6 +54,7 @@ for(i in 1:table_import_count){
 # Export whole data set ---------------------------------------------------
 # Export in tidy format, for use on statistics.gov.scot
 
+print_break()
 cat("Exporting whole data set to:\n\n")
 
 whole_df_export_path <- as.list(NULL)
@@ -67,7 +68,7 @@ for(i in 1:length(whole_df_export_path)){
   
   path_name <- names(whole_df_export_path[i])
   path_print <- truncate_for_print(
-    x = paste0("\"", path, "\""),
+    x = paste0("'", path, "'"),
     max_length_delta = -2L
   )
   
