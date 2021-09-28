@@ -1,8 +1,12 @@
+print_header("Tidying data")
+
 # Define variables --------------------------------------------------------
 
 na_count_total <- 0L
 
 # Manually fix data for specific data sets --------------------------------
+
+cat("Applying fixes for specific tables ...")
 
 ## Convert string columns to dates ----------------------------------------
 
@@ -22,15 +26,23 @@ data_sets$sc_07a$data$new <- data_sets$sc_07a$data$new %>%
       as.Date("%d/%m/%y")
   )
 
+print_done()
+
 # Tidy data ---------------------------------------------------------------
 # Convert data frames into a tidy (long) data format
 # For use on https://statistics.gov.scot/
 
 ratio_dictionary_regex <- "( per )|(percent)|(rate)|(ratio)"
 
-for(x in names(data_sets)){
+print_table_action("Tidying")
+
+for(i in 1:table_import_count){
+  
+  x <- names(data_sets)[i]
   
   if(data_sets[[x]]$flags$import){
+    
+    print_table_working(i = i, i_max = table_import_count, x = x, short_description = data_sets[[x]]$metadata$table_name)
     
     # Fix common errors with data entry and formatting ------------------ #
     
@@ -109,17 +121,14 @@ for(x in names(data_sets)){
     if(na_count > 0){
       
       cat(
-        "  Removing",
+        "\n  - Removing",
         na_count,
-        "NA values from table",
-        yellow(x), "--", data_sets[[x]]$metadata$table_name,
+        "NA values",
         "..."
       )
       
       data_sets[[x]]$data$tidy_long <- data_sets[[x]]$data$tidy_long %>% 
         filter(!is.na(Value))
-      
-      cat(green(" Done.\n"))
       
     }
     
@@ -149,6 +158,8 @@ for(x in names(data_sets)){
         Variable
       )
     
+    print_done()
+    
   }
   
 }
@@ -156,7 +167,7 @@ for(x in names(data_sets)){
 # Feedback ----------------------------------------------------------------
 
 cat(
-  "\n  Removed a total of",
+  "\nRemoved a total of",
   na_count_total,
-  "NA values from all tables.\n\n"
+  "NA values from all tables.\n"
 )

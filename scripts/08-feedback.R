@@ -1,22 +1,6 @@
 # Table of statistics -----------------------------------------------------
 
-invisible(sapply("Statistics", function(title){
-  
-  spacer_width <- options()$width - (str_length(title) + 4)
-  
-  cat(
-    paste0(
-      "\n", cyan("--")
-    ),
-    bold(title),
-    paste0(
-      cyan(rep("-", spacer_width)),
-      collapse = ""
-    ),
-    "\n\n"
-  )
-  
-}))
+print_header("Statistics")
 
 cat(
   "The following statistics are intended to help with quality assurance.",
@@ -24,6 +8,7 @@ cat(
 )
 
 cat(
+  "Scripts found in \"scripts/\" folder: ", length(script_paths), "\n\n",
   "Today's date: ", today$iso %>% as.character(), "\n",
   "Latest date: ", whole_data_set$DateCode %>% max() %>% as.character(), "\n",
   "Time difference between today's date and latest date: ", as.integer(today$iso - max(whole_data_set$DateCode)), " days\n",
@@ -35,8 +20,4 @@ cat(
 
 # End of script -----------------------------------------------------------
 
-cat(
-  bold(green("Done.")), "\n",
-  "End of script.\n",
-  sep = ""
-)
+print_done(bold = TRUE)

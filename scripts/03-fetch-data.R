@@ -34,6 +34,10 @@ metadata[[2]]$url_auto <- str_c(
 
 # Generate temporary file paths -------------------------------------------
 
+print_header("Fetch data sets")
+
+cat("Generating temporary file paths ...")
+
 sapply(1:length(metadata), function(i) {
   
   temporary_file_path <- tempfile(fileext = ".xlsx")
@@ -47,9 +51,15 @@ sapply(1:length(metadata), function(i) {
   
 })
 
+print_done()
+
 # Fetch data sets ---------------------------------------------------------
 
+cat("Fetching data sets from remote source, and copying them to temporary local files:\n\n")
+
 sapply(1:length(metadata), function(i) {
+  
+  i_max <- length(metadata)
   
   temporary_file_path <- metadata[[i]]$temporary_file_path
   url_auto <- metadata[[i]]$url_auto
@@ -63,8 +73,19 @@ sapply(1:length(metadata), function(i) {
     url <- url_auto
   }
   
+  cat(
+    "- #", i, "/", i_max, " -- ", yellow(names(metadata[i])), "\n",
+    "  Using ", if_else(is.na(url_manual), "automatically generated", "manually entered"), " URL\n",
+    "  Remote: ", truncate_for_print(url, max_length_delta = -10L), "\n",
+    "  Local: ", truncate_for_print(temporary_file_path, max_length_delta = -9L), "\n",
+    "  ...",
+    sep = ""
+  )
+  
   # Save data set as a temporary file
   GET(url, write_disk(temporary_file_path))
+  
+  print_done()
   
   return()
   
