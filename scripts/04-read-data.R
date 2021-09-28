@@ -1,31 +1,65 @@
-# Read metadata -----------------------------------------------------------
+# Import rules and settings -----------------------------------------------
+
+print_header("Import rules and script settings")
 
 cat(
-  "Reading table importing rules from:",
-  "- import/data-set-rules.csv (table dimensions, and metadata).",
-  "- import/data-set-structure.csv (variable counts, names, and types).",
-  "",
-  sep = "\n"
+  "Reading table importing rules from:\n",
+  "- 'import/data-set-rules.csv' (table dimensions, and metadata) ...",
+  sep = ""
 )
 
-import_metadata <- read_csv("import/data-set-rules.csv")
-import_table_structure <- read_csv("import/data-set-structure.csv")
+import_metadata <- read_csv(
+  file = "import/data-set-rules.csv",
+  col_types = cols(
+    .default = col_character(),
+    import = col_logical(),
+    export = col_logical(),
+    archived = col_logical(),
+    partial = col_logical(),
+    row_min = col_integer(),
+    col_min = col_integer(),
+    row_max = col_integer(),
+    col_max = col_integer(),
+    skip = col_integer(),
+    n_max = col_integer()
+  )
+)
+
+print_done()
+
+cat("- 'import/data-set-structure.csv' (variable counts, names, and types) ...")
+
+import_table_structure <- read_csv(
+  file = "import/data-set-structure.csv",
+  col_types = cols(
+    .default = col_character(),
+    col_id = col_integer()
+  )
+)
+
+print_done()
+
+# Import metadata ---------------------------------------------------------
+
+print_header("Import table metadata")
 
 # Create an empty list to populate with data
 data_sets <- NULL
 
+table_count <- length(import_metadata$data_set_id)
+
 cat(
-  "Reading rules for", length(import_metadata$data_set_id), "tables:\n"
+  "Reading metadata for", table_count, "tables:\n\n"
 )
 
-for(it in 1:length(import_metadata$data_set_id)){
+for(i in 1:table_count){
   
-  it_max <- length(import_metadata$data_set_id)
-  x <- import_metadata$data_set_id[it]
+  x <- import_metadata$data_set_id[i]
   
   cat(
-    "  #", it, "/", it_max, " -- ",
+    "  #", i, "/", table_count, " -- ",
     yellow(x),
+    " -- ",
     sep = ""
   )
   
@@ -36,7 +70,7 @@ for(it in 1:length(import_metadata$data_set_id)){
     select(table_name, table_name_old, description) %>% 
     as.list()
   
-  cat(" --", data_sets[[x]]$metadata$table_name, "...\n")
+  cat(data_sets[[x]]$metadata$table_name, "...")
 
   # Flags --------------------------------------------------------------- #
   # Used to simplify if statements, debugging, and for quality assurance
@@ -94,22 +128,31 @@ for(it in 1:length(import_metadata$data_set_id)){
     select(-data_set_id) %>% 
     as.list()
   
+  print_done()
+  
 }
-
-cat(
-  "  ", crayon::green("Done."), "\n\n", sep = ""
-)
 
 # Read data ---------------------------------------------------------------
 
-for(x in names(data_sets)){
+print_header("Read data")
+
+table_import_count <- 0L
+
+for(i in 1:table_count){
+  if(data_sets[[i]]$flags$import){
+    table_import_count <- table_import_count + 1L
+  }
+}
+
+print_table_action("Reading")
+
+for(i in 1:table_count){
+  
+  x <- names(data_sets)[i]
   
   if(data_sets[[x]]$flags$import){
     
-    print(
-      paste("Importing table", x, "--", data_sets[[x]]$metadata$table_name, "..."),
-      quote = FALSE
-    )
+    print_table_working(i = i, i_max = table_import_count, x = x, short_description = data_sets[[x]]$metadata$table_name)
 
     data_sets[[x]]$data$raw <- read_excel(
       
@@ -165,20 +208,24 @@ for(x in names(data_sets)){
     names(data_sets[[x]]$data$raw) <- names(data_sets[[x]]$data$raw) %>% 
       str_remove_all("\\r\\n")
     
+    print_done()
+    
   }
   
 }
 
 # QA: Variable names ------------------------------------------------------
 
-for(x in names(data_sets)){
+print_break()
+print_table_action("Confirming raw variable names for")
+
+for(i in 1:table_import_count){
+  
+  x <- names(data_sets)[i]
   
   if(data_sets[[x]]$flags$import){
     
-    print(
-      paste("Confirming raw variable names for table", x, "--", data_sets[[x]]$metadata$table_name, "..."),
-      quote = FALSE
-    )
+    print_table_working(i = i, i_max = table_import_count, x = x, short_description = data_sets[[x]]$metadata$table_name)
     
     data_sets[[x]]$table_structure$variables$actual <- names(data_sets[[x]]$data$raw)
     data_sets[[x]]$table_structure$variables$expected <- data_sets[[x]]$table_structure$col_name_old[data_sets[[x]]$table_structure$col_type != "skip"] %>% 
@@ -187,6 +234,8 @@ for(x in names(data_sets)){
     if(sum(data_sets[[x]]$table_structure$variables$actual != data_sets[[x]]$table_structure$variables$expected) > 0){
       warning("Data set ", x, " does not have the expected (raw) variable names.")
     }
+    
+    print_done()
     
   }
   

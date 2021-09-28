@@ -1,12 +1,14 @@
 # ----------------------------------------------------------------------- #
-# SG Covid-19 Weekly Update (Management Information)
-# Reformats COVID-19 daily update data for simultaneous upload to
-#   https://statistics.gov.scot/ and https://github.com/DataScienceScotland/
+# Scottish Government COVID-19 Management Information Weekly Update
+# Reformats COVID-19 daily update data for simultaneous upload to both
+#   GitHub and the Open Data Platform
 # Authors:
 # - Victoria Avila (victoria.avila@gov.scot)
 # - Miles Drake (miles.drake@gov.scot)
 # Open Data Platform:
 # - https://statistics.opendata@gov.scot/
+# The latest version of this script can be found at:
+# - https://github.com/DataScienceScotland/COVID-19-Management-Information
 # Written with R version 4.0.3 (2020-10-10)
 # ----------------------------------------------------------------------- #
 
