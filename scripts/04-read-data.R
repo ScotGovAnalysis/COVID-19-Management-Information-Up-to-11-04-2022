@@ -4,7 +4,7 @@ print_header("Import rules and script settings")
 
 cat(
   "Reading table importing rules from:\n",
-  "- 'import/data-set-rules.csv' (table dimensions, and metadata) ...",
+  "- 'import/data-set-rules.csv' (table dimensions and metadata) ...",
   sep = ""
 )
 
@@ -56,13 +56,6 @@ for(i in 1:table_count){
   
   x <- import_metadata$data_set_id[i]
   
-  cat(
-    "  #", i, "/", table_count, " -- ",
-    yellow(x),
-    " -- ",
-    sep = ""
-  )
-  
   # Descriptive metadata ------------------------------------------------ #
   
   data_sets[[x]]$metadata <- import_metadata %>% 
@@ -70,7 +63,7 @@ for(i in 1:table_count){
     select(table_name, table_name_old, description) %>% 
     as.list()
   
-  cat(data_sets[[x]]$metadata$table_name, "...")
+  print_table_working(i = i, i_max = table_count, x = x, short_description = data_sets[[x]]$metadata$table_name)
 
   # Flags --------------------------------------------------------------- #
   # Used to simplify if statements, debugging, and for quality assurance

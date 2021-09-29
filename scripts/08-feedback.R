@@ -23,4 +23,4 @@ cat(
 
 # End of script -----------------------------------------------------------
 
-print_done(bold = TRUE)
+print_done(bold = TRUE, spaces = 0L)

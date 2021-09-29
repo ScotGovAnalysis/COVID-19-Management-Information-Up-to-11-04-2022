@@ -52,7 +52,11 @@ print_table_action <- function(x){
 
 print_table_working <- function(i, i_max, x, short_description = NULL){
   cat(
-    "  #", i, "/", i_max, " -- ",
+    "  #",
+    formatC(i, width = 2, format = "d", flag = "0"),
+    "/",
+    formatC(i_max, width = 2, format = "d", flag = "0"),
+    " -- ",
     yellow(x),
     if(!is.null(short_description)){
       paste0(" -- ", data_sets[[x]]$metadata$table_name)
