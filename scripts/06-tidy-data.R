@@ -121,7 +121,8 @@ for(i in 1:table_import_count){
     if(na_count > 0){
       
       cat(
-        "\n    Removing",
+        "\n         --",
+        "Removing",
         na_count,
         "NA values",
         "..."
