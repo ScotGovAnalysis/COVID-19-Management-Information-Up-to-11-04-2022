@@ -138,7 +138,7 @@ sc_03_archived,4,Number of suspected COVID-19 patients taken to hospital,Ambulan
 sc_04,1,Date,Date,date,
 sc_04,2,Number of delayed discharges,Delayed discharges,numeric,
 sc_05a,1,,Date,date,"""col_name_old"" intentionally left blank."
-sc_05a,2,PCR Only ,Testing (PCR & LFD) - New cases reported daily - PCR only,numeric,
+sc_05a,2,PCR only,Testing (PCR & LFD) - New cases reported daily - PCR only,numeric,
 sc_05a,3,LFD followed by PCR,Testing (PCR & LFD) - New cases reported daily - LFD followed by PCR,numeric,
 sc_05a,4,LFD only,Testing (PCR & LFD) - New cases reported daily - LFD only,numeric,
 sc_05a,5,(either PCR or LFD),Testing (PCR & LFD) - Total number of positive cases (either PCR or LFD),numeric,
