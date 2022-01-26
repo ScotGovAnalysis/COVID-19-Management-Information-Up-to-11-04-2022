@@ -1,4 +1,4 @@
-Date,Testing (PCR & LFD) - New cases reported daily - PCR only,Testing (PCR & LFD) - New cases reported daily - LFD followed by PCR,Testing (PCR & LFD) - New cases reported daily - LFD only,Testing (PCR & LFD) - Total number of positive cases (either PCR or LFD),Testing (PCR & LFD) - Total unmber of positive cases in the last 7 days (either PCR or LFD)
+Date,Testing (PCR & LFD) - New cases reported daily - PCR only,Testing (PCR & LFD) - New cases reported daily - LFD followed by PCR,Testing (PCR & LFD) - New cases reported daily - LFD only,Testing (PCR & LFD) - Total number of positive cases (either PCR or LFD),Testing (PCR & LFD) - Total number of positive cases in the last 7 days (either PCR or LFD)
 2022-01-06,10974,2112,1108,14194,NA
 2022-01-07,13618,2165,2512,18295,NA
 2022-01-08,10911,1791,2944,15646,NA
@@ -14,3 +14,9 @@ Date,Testing (PCR & LFD) - New cases reported daily - PCR only,Testing (PCR & LF
 2022-01-18,2680,113,4959,7752,52530
 2022-01-19,3734,86,4675,8495,51517
 2022-01-20,3694,132,4436,8262,52638
+2022-01-21,2971,85,4106,7162,51047
+2022-01-22,2671,66,4031,6768,50955
+2022-01-23,2611,87,3631,6329,50966
+2022-01-24,2213,84,4637,6934,51702
+2022-01-25,2272,124,5626,8022,51972
+2022-01-26,3467,103,4946,8516,51993
