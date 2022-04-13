@@ -1,61 +1,116 @@
-# COVID-19-Management-Information
+METADATA FROM 13 APRIL 2022 ONWARDS
 
-Since spring 2020, the Scottish Government has been publishing daily COVID-19 management information on the Scottish government website. These include figures for daily data and past data and trend charts for the daily updates on COVID-19. Both of these webpages are updated every day 7 days a week, with latest available information.
+ABOUT THE DATASET
 
-* Daily data: https://www.gov.scot/publications/coronavirus-covid-19-daily-data-for-scotland/
-* Past data: https://www.gov.scot/publications/coronavirus-covid-19-trends-in-daily-data/
+Contact
+phs.opendata@phs.scot
 
-The data here provide past data for the daily updates provided for information and re-use in a high quality, well described technical form. This platform is distinct from the Public Health Scotland open data website. 
+Publisher
+Scottish Government
 
-These datasets contain historic trend data, which have been kept as published open data for transparency purposes. The currently published datasets as open data include:
+Creator
+Scottish Government
 
-* The daily number of people in hospital with recently confirmed in Scotland
-* Daily delayed discharges
-* Reported number of COVID-19 tests and number of new cases reported in Scotland.
-* Cumulative number of COVID-19 confirmed deaths registered to date
-* Daily attendance and absence in schools in Scotland.
+In folders
+•	Scottish Government
+•	Management Information
 
-It is Management Information, which is collected and distributed each day in order to support understanding of the progress of the outbreak in Scotland. The information comes from different administrative systems and as such there may be variations in the quality of the data and is subject to revision if new information becomes available.
+License
+http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
-More information on the individual data sources can be found at: https://www.gov.scot/publications/coronavirus-covid-19-data-definitions-and-sources/
+Issued
+23/04/2020
 
- 
+Modified
+13/04/2022
 
-**Confidentiality Policy**
+Next update due
+Data no longer updated on www.statistics.gov.scot 
 
+Description
+
+The information on this page applies to the COVID-19 daily data published on the Scottish Government website and www.statistics.gov.scot from spring 2020 until April 2022, which is no longer being updated. Since March 2020, the Scottish Government has been publishing daily COVID-19 management information on the Scottish Government website. These include figures for daily data and past data and trend charts for the daily updates on COVID-19. There is more information available on the individual data sources.
+
+The latest headline COVID-19 data can now be sourced from Public Health Scotland’s (PHS) COVID-19 Daily Dashboard and underlying data on their open data platform. Further information on the measures shown on the PHS dashboard can be found on the notes page.  
+
+
+
+
+DETAILS
+
+Confidentiality Policy
+This dataset does not contain any sensitive or personal information. Individual people’s details are not named.
+Quality Management
+The Scottish Government has published the following documentation which provides relevant information: Coronavirus (COVID-19): daily data for Scotland quality statement
+Accuracy and Reliability
+The Scottish Government has published the following documentation which provides relevant information: Coronavirus (COVID-19): daily data for Scotland quality statement
+
+Coherence and Comparability
+The Department of Health and Social Care publishes UK figures on behalf of all UK Chief Medical Officers. Test results from Scotland are included in the overall UK figure. Public Health Scotland (PHS) publish daily data on their open data platform.   National Records of Scotland publish open data on www.statistics.gov.scot every week on the weekly, and year to date, provisional number of deaths associated with coronavirus (COVID-19) registered in Scotland, for every council area and health board in Scotland.  Further information can be found in Coronavirus (COVID-19) data: definitions and sources
+Accessibility and Clarity
+This information relates to the COVID-19 daily data published by the Scottish Government (SG) from March 2020 until April 2022, which is no longer being updated. The latest headline COVID-19 data can now be sourced from Public Health Scotland’s (PHS) COVID-19 Daily Dashboard and underlying data from their open data platform.  Further information can be found in Coronavirus (COVID-19) data: definitions and sources
+
+Relevance
+These data are vital for informing health services and other public and private sector organisations, and the general public as a whole as to the spread of the COVID-19 disease across Scotland.
+Timeliness and Punctuality
+This information relates to the COVID-19 daily data published by the Scottish Government (SG) from March 2020 until April 2022, which is no longer being updated. The latest headline COVID-19 data can now be sourced from Public Health Scotland’s (PHS) COVID-19 Daily Dashboard and underlying data from their open data platform.  
+
+Revisions
+This dataset is no longer updated.  Details of the revisions to indicators over time can be found within the following documentation: Coronavirus (COVID-19) data: definitions and sources.   Details of the revisions policy for this dataset can be found within Coronavirus (COVID-19): daily data for Scotland quality statement
+
+
+
+METADATA FROM 13 APRIL 2022 ONWARDS
+
+ABOUT THE DATASET
+Contact
+phs.opendata@phs.scot
+Publisher
+Scottish Government
+Creator
+Scottish Government
+In folders
+•	Scottish Government
+•	Management Information
+License
+http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+Issued
+23/04/2020
+Modified
+13/04/2022
+Next update due
+Data no longer updated on www.statistics.gov.scot 
+Description
+
+The information on this page applies to the COVID-19 daily data published on the Scottish Government website and www.statistics.gov.scot from spring 2020 until April 2022, which is no longer being updated. Since March 2020, the Scottish Government has been publishing daily COVID-19 management information on the Scottish Government website. These include figures for daily data and past data and trend charts for the daily updates on COVID-19. There is more information available on the individual data sources.
+
+The latest headline COVID-19 data can now be sourced from Public Health Scotland’s (PHS) COVID-19 Daily Dashboard and underlying data on their open data platform. Further information on the measures shown on the PHS dashboard can be found on the notes page.  
+
+
+DETAILS
+
+Confidentiality Policy
 This dataset does not contain any sensitive or personal information. Individual people’s details are not named.
 
+Quality Management
+The Scottish Government has published the following documentation which provides relevant information: Coronavirus (COVID-19): daily data for Scotland quality statement
 
-**Quality Management**
+Accuracy and Reliability
+The Scottish Government has published the following documentation which provides relevant information: Coronavirus (COVID-19): daily data for Scotland quality statement
 
-The data are management information which are collected and distributed each day in order to support understanding of the progress of the outbreak in Scotland. The information comes from different administrative systems and as such there may be variations in the quality of the data and is subject to revision if new information becomes available.    These issues are largely a reflection of the continually developing response to the pandemic. 
+Coherence and Comparability
+The Department of Health and Social Care publishes UK figures on behalf of all UK Chief Medical Officers. Test results from Scotland are included in the overall UK figure. Public Health Scotland (PHS) publish daily data on their open data platform.   National Records of Scotland publish open data on www.statistics.gov.scot every week on the weekly, and year to date, provisional number of deaths associated with coronavirus (COVID-19) registered in Scotland, for every council area and health board in Scotland.  Further information can be found in Coronavirus (COVID-19) data: definitions and sources
+Accessibility and Clarity
+This information relates to the COVID-19 daily data published by the Scottish Government (SG) from March 2020 until April 2022, which is no longer being updated. The latest headline COVID-19 data can now be sourced from Public Health Scotland’s (PHS) COVID-19 Daily Dashboard and underlying data from their open data platform.  Further information can be found in Coronavirus (COVID-19) data: definitions and sources
 
+Relevance
+These data are vital for informing health services and other public and private sector organisations, and the general public as a whole as to the spread of the COVID-19 disease across Scotland.
+Timeliness and Punctuality
+This information relates to the COVID-19 daily data published by the Scottish Government (SG) from March 2020 until April 2022, which is no longer being updated. The latest headline COVID-19 data can now be sourced from Public Health Scotland’s (PHS) COVID-19 Daily Dashboard and underlying data from their open data platform.  
 
-**Accuracy and Reliability**
-
-This dataset gathers together information as published on https://www.gov.scot/publications/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/.
-
-
-**Coherence and Comparability**
-
-The Department of Health and Social Care publishes UK figures on behalf of all UK Chief Medical Officers. Test results from Scotland are included in the overall UK figure.  Public Health Scotland publish daily data on their open data platform. https://www.opendata.nhs.scot/dataset/covid-19-in-scotland
-
-
-**Accessibility and Clarity**
-
-This information around COVID-19 is published each day on the Scottish Government website https://www.gov.scot/publications/trends-in-number-of-people-in-hospital-with-confirmed-or-suspected-covid-19/.
-
-
-**Relevance**
-
-These data are important for informing health services and other public and private sector organisations, and the general public as a whole as to the spread of the COVID-19 disease across Scotland.
+Revisions
+This dataset is no longer updated.  Details of the revisions to indicators over time can be found within the following documentation: Coronavirus (COVID-19) data: definitions and sources.   Details of the revisions policy for this dataset can be found within Coronavirus (COVID-19): daily data for Scotland quality statement
 
 
-**Timeliness and Punctuality**
-
-The latest numbers will be published shortly on the Scottish Government website  after 2pm each day, 7 days a week, up to 23 December 2020, these data will be also published as open data on github every weekday. From 23 December, these data will be published every Wednesday on github and will contain daily data for the preceding days. These data will continue to be published on a daily basis on the Scottish Government website at 2pm. We will review the frequency of the open data publication as required in response to ongoing user needs.
 
 
-**Revisions**
-
-The data are management information which are collected and distributed each day in order to support understanding of the progress of the outbreak in Scotland. The information comes from different administrative systems and as such is subject to revision if new information becomes available. These issues are largely a reflection of the continually developing response to the pandemic. 
